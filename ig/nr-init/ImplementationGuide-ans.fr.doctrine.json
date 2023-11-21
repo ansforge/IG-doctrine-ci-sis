@@ -10,7 +10,7 @@
   "name" : "DoctrineCISIS",
   "title" : "Doctrine du CI-SIS",
   "status" : "draft",
-  "date" : "2023-11-21T14:34:54+00:00",
+  "date" : "2023-11-21T14:37:19+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -749,6 +749,24 @@
         }],
         "nameUrl" : "index.html",
         "title" : "Accueil",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "doctrine-cisis.html"
+        }],
+        "nameUrl" : "doctrine-cisis.html",
+        "title" : "Doctrine du CI-SIS",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "impacts.html"
+        }],
+        "nameUrl" : "impacts.html",
+        "title" : "Impacts sur la gouvernance du CI-SIS",
         "generation" : "markdown"
       }]
     },

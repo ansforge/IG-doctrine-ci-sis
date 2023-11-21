@@ -17,12 +17,16 @@ jurisdiction: urn:iso:std:iso:3166#FR "FRANCE"
 parameters:
     shownav: 'true'
 
-
-
 pages:
     index.md:
         title: Accueil
+    doctrine-cisis.md:
+        title: Doctrine du CI-SIS
+    impacts.md:
+        title: Impacts sur la gouvernance du CI-SIS
 
 menu:
     Accueil: index.html
+    Doctrine du CI-SIS: doctrine-cisis.html
+    Impacts sur la gouvernance du CI-SIS: impacts.html
     Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/

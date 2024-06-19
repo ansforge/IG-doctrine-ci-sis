@@ -22,11 +22,26 @@ pages:
         title: Accueil
     doctrine-cisis.md:
         title: Doctrine du CI-SIS
-    impacts.md:
-        title: Impacts sur la gouvernance du CI-SIS
+    cycle-de-vie.md:
+        title: Cycle de vie
+    trajectoire-interop.md:
+        title: Trajectoire interopérabilité
+    interactions-ecosysteme.md:
+        title: Interactions avec l'écosystème
+    gestion-cp.md:
+        title: Gestion des changements
+    gestion-ebe.md:
+        title: Expression des besoins 
 
 menu:
     Accueil: index.html
-    Doctrine du CI-SIS: doctrine-cisis.html
-    Impacts sur la gouvernance du CI-SIS: impacts.html
+    Doctrine: 
+        Doctrine du ci-sis: doctrine-cisis.html
+        Cycle de vie: cycle-de-vie.html
+        Trajectoire interopérabilité: trajectoire-interop.html
+    Gouvernance:
+        Interactions avec l'écosystème: interactions-ecosysteme.html
+        Gestion des changements: gestion-cp.html
+        Expression des besoins : gestion-ebe.html
+
     Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/

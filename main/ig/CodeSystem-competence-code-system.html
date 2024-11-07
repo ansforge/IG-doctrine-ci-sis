@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"4.7"}
-    h3,h4,h5,h6{--heading-prefix:"4.7"}</style>
+    <style type="text/css">h2{--heading-prefix:"8.7"}
+    h3,h4,h5,h6{--heading-prefix:"8.7"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -90,11 +90,37 @@
   <li>
     <a href="index.html">Accueil</a>
   </li>
-  <li>
-    <a href="doctrine-cisis.html">Doctrine du CI-SIS</a>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Doctrine
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="doctrine-cisis.html">Doctrine du ci-sis</a>
+      </li>
+      <li>
+        <a href="cycle-de-vie.html">Cycle de vie</a>
+      </li>
+      <li>
+        <a href="trajectoire-interop.html">Trajectoire interopérabilité</a>
+      </li>
+    </ul>
   </li>
-  <li>
-    <a href="impacts.html">Impacts sur la gouvernance du CI-SIS</a>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Gouvernance
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="interactions-ecosysteme.html">Interactions avec l&apos;écosystème</a>
+      </li>
+      <li>
+        <a href="gestion-cp.html">Gestion des changements</a>
+      </li>
+      <li>
+        <a href="gestion-ebe.html">Expression des besoins</a>
+      </li>
+    </ul>
   </li>
   <li>
     <a target="_blank" href="https://interop.esante.gouv.fr/ig/documentation/">Documentation des IGs</a>
@@ -203,7 +229,7 @@
         
           Draft
           
-            as of 2024-06-19
+            as of 2024-11-07
           
         
       </td>
@@ -238,7 +264,7 @@
 </ul>
 
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://interop.esante.gouv.fr/ig/doctrine/CodeSystem/competence-code-system</code> defines the following codes:</p>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem competence-code-system</b></p><a name="competence-code-system"> </a><a name="hccompetence-code-system"> </a><a name="competence-code-system-und"> </a><p>This  code system <code>https://interop.esante.gouv.fr/ig/doctrine/CodeSystem/competence-code-system</code> defines the following codes:</p>
 <table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr>
 <tr><td style="white-space:nowrap">C01<a name="competence-code-system-C01"> </a></td>
 <td>Anatomie et Cytologie pathologiques humaines</td>
@@ -417,7 +443,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 19, 2024 08:45+0000">2024-06-19</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Nov 7, 2024 14:16+0000">2024-11-07</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

@@ -1,10 +1,10 @@
 DoctrineCISIS : Validation Results
 =========================================
 
-err = 0, warn = 14, info = 3
+err = 1, warn = 14, info = 3
 $--
 Generated $--. FHIR version $-- for ans.fr.doctrine#$-- (canonical = https://interop.esante.gouv.fr/ig/doctrine)
- Build Errors : 0 / 4 / 0
+ Build Errors : 1 / 4 / 0
  /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/CodeSystem-competence-code-system : 0 / 2 / 2
  /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/CodeSystem-type-carte-code-system : 0 / 2 / 2
  /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.doctrine : 0 / 0 / 1
@@ -17,6 +17,7 @@ Generated $--. FHIR version $-- for ans.fr.doctrine#$-- (canonical = https://int
  /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/ValueSet-TypeCarteVS : 0 / 1 / 1
 </table>
 == n/a ==
+ERROR: ImplementationGuide.definition.parameter[24].value: Supressed messages file not found
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide

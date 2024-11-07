@@ -13,10 +13,9 @@
 </blockquote>
 </div>
 
-
 L’Agence du Numérique en Santé (ANS) accompagne la transformation numérique du système de santé aux côtés de tous les acteurs concernés des secteurs sanitaire, social et médico-social, privés comme publics, professionnels ou usagers.  Elle met en œuvre les orientations dédiées au secteur de la santé et du médico-social, à travers trois ambitions.
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li><b>Régulatrice</b> : elle améliore la performance numérique grâce à des règles communes de régulation et d’échanges ; </li>
         <li><b>Opératrice</b> : elle conçoit les grands e-programmes nationaux pour un service public de santé efficace et solidaire ; </li>
@@ -27,7 +26,7 @@ L’Agence du Numérique en Santé (ANS) accompagne la transformation numérique
 Dans le rôle de **régulateur** ayant pour ambition de développer la capacité des systèmes d’information en santé à partager et échanger des données de santé de manière fluide, efficace et sécurisée, l’Agence porte la construction d’un cadre commun comprenant l’interopérabilité, la sécurité et l’éthique, permettant ainsi le développement de la e-santé entre l’ensemble des acteurs, et en particulier avec les solutions de la puissance publique, dans le cadre retenu de l’Etat-plateforme.
 Ce cadre commun sur l’interopérabilité :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Soutient la dématérialisation des processus en santé, en permettant d’apporter de la valeur ajoutée via le numérique en santé</li>
         <li>Est au profit des patients, de leur prise en charge, des parcours de soin</li>
@@ -38,7 +37,7 @@ Ce cadre commun sur l’interopérabilité :
 
 Ce cadre commun d’interopérabilité, le CI-SIS (Cadre d’Interopérabilité des Systèmes d’Information de Santé) :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>comprend l’ensemble des spécifications définissant les informations à échanger ou partager entre les systèmes d’information de santé et identifie la norme ou le standard le plus approprié à utiliser pour cet échange ou partage : c’est ce qu’on appelle « l’interopérabilité technique »</li>
         <li>via la définition de la structuration du contenu médical, il identifie le langage adéquat pour présenter des informations selon les standards et les normes reconnus ainsi que le vocabulaire à utiliser pour coder l’information. Ceci permet de faciliter le traitement automatique de l’information et permet la mise en œuvre de services à valeur ajoutée. C’est ce qu’on appelle « l’interopérabilité syntaxique et sémantique »</li>
@@ -50,7 +49,7 @@ Ce cadre commun d’interopérabilité, le CI-SIS (Cadre d’Interopérabilité 
 Afin de répondre à ces ambitions, la construction de ce cadre comme d’interopérabilité, le CI-SIS doit relever plusieurs enjeux, dont tout particulièrement :
 
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>S’assurer de répondre à des <b>cas d’usage prioritaires</b> (feuille de route du numérique en santé, etc), avec l’identification de ces cas d’usage, leur priorisation et un contrôle de la pertinence de la réponse technique au besoin ;</li>
         <li>S’inscrire dans un <b>cadre résolument international</b>, en particulier avec les travaux IHE, HL7, DICOM, de façon à bénéficier des travaux réalisés de ces communautés et de limiter ainsi le coût d’implémentation de la déclinaison française de l’interopérabilité. En complément, avec la mise en œuvre de l’EEDS (Espace Européen des Données de Santé), le cadre européen d’interopérabilité s’imposera aussi aux Etats membres, qui sera donc évidemment repris dans le CI-SIS</li>
@@ -67,7 +66,7 @@ Afin de répondre à ces ambitions, la construction de ce cadre comme d’intero
 
 Les différentes réponses à ces enjeux du cadre commun CI-SIS sont ainsi portées par :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li><b>Une doctrine du CI-SIS</b> qui formalise les règles régissant la constitution et l’évolution du contenu du CI-SIS : trajectoire générale de l’interopérabilité, choix des normes et standards, cycle de vie des référentiels, modalités de contribution et concertation de l’écosystème, formalisation du contenu des référentiels</li>
         <li><b>Une gouvernance du CI-SIS</b> qui favorise la co-construction, instruit et arbitre les priorités des travaux et évolutions du CI-SIS par rapport aux cas d’usage et donne de la visibilité aux différents acteurs sur les orientations stratégiques du CI-SIS.</li>
@@ -78,7 +77,7 @@ Les différentes réponses à ces enjeux du cadre commun CI-SIS sont ainsi port�
 
 Sous l’impulsion de la première feuille de route du numérique en santé (masanté 2022), du Ségur numérique, et d’évolutions réglementaires récentes au niveau français et européen, l’interopérabilité et le rôle de régulation de l’Agence évoluent fortement :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>A travers le <b>Ségur numérique</b> Vague 1 ont été mis en place de manière massive les « canaux » de partage et d’échange de données de santé via MES/DMP et la MSSanté. Si la consultation du DMP dans les logiciels des PS sera développée / améliorée avec la Vague 2, le focus devrait ainsi se porter <b>à court terme sur le développement de cas d’usage</b> via le numérique en santé (et moins sur des sujets technique de mise en place de ces canaux) ;</li>
         <li>Le rôle de l’Agence <b>en tant que régulateur</b> du numérique en santé sur les champs de l’interopérabilité, de la sécurité et de l’éthique a été confirmé, en particulier dans la mission de contrôle de conformité des solutions aux référentiels, ayant vocation à être complété à court terme par un dispositif de sanction ;</li>
@@ -90,7 +89,7 @@ Sous l’impulsion de la première feuille de route du numérique en santé (mas
 
 Alors que le CI-SIS existe depuis de nombreuses années, que la gouvernance a déjà été revue, il apparait ainsi important de s’engager dans une évolution de la doctrine du CI-SIS et de sa gouvernance via des propositions d’adaptation et de renforcement, dans une approche :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>résolument volontariste, afin de répondre concrètement aux enjeux et fortes attentes des prochains mois et années du numérique en santé</li>
         <li>dans la continuité, en capitalisant sur les efforts déjà consentis et les réussites du CI-SIS.</li>
@@ -101,8 +100,7 @@ Alors que le CI-SIS existe depuis de nombreuses années, que la gouvernance a d�
 
 Les termes suivants sont utilisés dans ce document et peuvent nécessiter des besoins de précisions :
 
-
-<div class="wysiwyg">
+<div>
     <ul>
         <li>CGTS : Centre de Gestion des Terminologies de Santé. C’est le guichet national de diffusion des terminologies en usage en France.</li>
         <li>Terminologies : Ensemble des ressources sémantiques telles que les terminologies, classifications, nomenclatures, ontologies, jeux de valeurs, alignements sémantiques etc.</li>

@@ -197,22 +197,13 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#le-cycle-de-vie-et-les-statuts-associés" id="markdown-toc-le-cycle-de-vie-et-les-statuts-associés">Le cycle de vie et les statuts associés</a>    <ul>
-      <li><a href="#le-statut--draft-ou--version-de-travail" id="markdown-toc-le-statut--draft-ou--version-de-travail">Le statut « draft » ou « version-de-travail »</a></li>
-      <li><a href="#le-statut--public-comment-ou--en-concertation" id="markdown-toc-le-statut--public-comment-ou--en-concertation">Le statut « public-comment » ou « en-concertation »</a></li>
-      <li><a href="#le-statut--trial-implementation-ou--pour-implémentation" id="markdown-toc-le-statut--trial-implementation-ou--pour-implémentation">Le statut « trial-implementation » ou « pour-implémentation »</a></li>
-      <li><a href="#le-statut--final-text-ou--final" id="markdown-toc-le-statut--final-text-ou--final">Le statut « final-text » ou « final »</a></li>
-      <li><a href="#les-autres-statuts" id="markdown-toc-les-autres-statuts">Les autres statuts</a></li>
-      <li><a href="#le-cycle-de-vie-dune-spécification" id="markdown-toc-le-cycle-de-vie-dune-spécification">Le cycle de vie d’une spécification</a></li>
-    </ul>
-  </li>
+  <li><a href="#le-cycle-de-vie-et-les-statuts-associés" id="markdown-toc-le-cycle-de-vie-et-les-statuts-associés">Le cycle de vie et les statuts associés</a></li>
   <li><a href="#définition-des-critères-de-maturité" id="markdown-toc-définition-des-critères-de-maturité">Définition des critères de maturité</a></li>
   <li><a href="#définition-des-critères-de-qualité" id="markdown-toc-définition-des-critères-de-qualité">Définition des critères de qualité</a></li>
   <li><a href="#définition-des-métadonnées-associées-à-une-spécification-dinteropérabilité" id="markdown-toc-définition-des-métadonnées-associées-à-une-spécification-dinteropérabilité">Définition des métadonnées associées à une spécification d’interopérabilité</a></li>
 </ul>
 
 </div>
-
 <div style="
     background-color: #fff5f5; 
     color: #e57373; 
@@ -231,7 +222,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Le statut de maturité est une information indicative. Il est toujours préférable de se baser sur des spécifications standards, même si celles-ci sont peu matures. Les standards étant développés par une communauté d’experts, il est plus facile et plus sécurisant de faire évoluer des spécifications en parallèle des évolutions d’un standard plutôt de maintenir un standard propriétaire.</p>
 
-<h2 id="le-cycle-de-vie-et-les-statuts-associés">Le cycle de vie et les statuts associés</h2>
+<h3 id="le-cycle-de-vie-et-les-statuts-associés">Le cycle de vie et les statuts associés</h3>
 
 <p>Le cycle de vie défini pour les des volets du CI-SIS s’appuie sur les pratiques internationales d’<a href="https://wiki.ihe.net/index.php/Process">IHE</a> et de <a href="https://confluence.hl7.org/display/FHIR/FHIR+Maturity+Model">HL7</a> adaptées aux besoins nationaux.</p>
 
@@ -239,32 +230,32 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Les statuts « trial-implementation » et « final-text » reflètent la maturité des spécifications dans l’ordre indiqué.</p>
 
-<h3 id="le-statut--draft-ou--version-de-travail">Le statut « draft » ou « version-de-travail »</h3>
+<h4 id="le-statut--draft-ou--version-de-travail">Le statut « draft » ou « version-de-travail »</h4>
 
 <p>Le statut « draft » correspond à une spécification <strong>en cours de cours de création ou de modification</strong>.
 Ce statut est particulièrement important pour les spécifications développées sur GitHub car tous les travaux sont publics et donc accessibles à tout moment : de la création du répertoire GitHub à la publication. C’est le statut d’une spécification publiée en mode intégration continue (ci-build).</p>
 
-<h3 id="le-statut--public-comment-ou--en-concertation">Le statut « public-comment » ou « en-concertation »</h3>
+<h4 id="le-statut--public-comment-ou--en-concertation">Le statut « public-comment » ou « en-concertation »</h4>
 
 <p>La spécification est publiée au statut <strong>en concertation</strong> lors de ses phases de consultations publiques. La spécification en mode « public comment » risque d’évoluer suite aux commentaires des concertations et n’est pas faite pour être implémentée : elle est en attente de la validation de l’écosystème pour publication.
 Une spécification en « final-text » ou en « trial-implementation » peut repasser en « public-comment » en cas d’évolution majeure (des cas d’usage, du standard sous-jacent …)..</p>
 
-<h3 id="le-statut--trial-implementation-ou--pour-implémentation">Le statut « trial-implementation » ou « pour-implémentation »</h3>
+<h4 id="le-statut--trial-implementation-ou--pour-implémentation">Le statut « trial-implementation » ou « pour-implémentation »</h4>
 
 <p>La spécification est passée par une ou plusieurs phases de concertation et est <strong>prête pour être mise en oeuvre</strong> en situation réelle.
 Ce statut est un reflet de la maturité : selon l’auteur, la spécification est prète pour une première mise en situation réelle.</p>
 
-<h3 id="le-statut--final-text-ou--final">Le statut « final-text » ou « final »</h3>
+<h4 id="le-statut--final-text-ou--final">Le statut « final-text » ou « final »</h4>
 
 <p>Les auteurs de la spécification ont estimé qu’elle avait atteint le <strong>stade de maturité le plus élevé</strong>.
 Ce stade est atteint lorsque la spécification a déjà été mise en œuvre dans au moins un projet national ou testée lors d’un projectathon. La spécification a pu avoir des retours post-concertation, post-projectathon ou post-mise en oeuvre et a été corrigée. Ce statut indique également que les critères de maturité et de qualité définis ci-dessous ont été respectés.
 Ce statut n’empèche pas de repasser au statut « trial-implementation », qui peut arriver dans le cas de changement majeur tel que la migration d’un nouveau standard, ou l’expression de nouveaux besoins.</p>
 
-<h3 id="les-autres-statuts">Les autres statuts</h3>
+<h4 id="les-autres-statuts">Les autres statuts</h4>
 
 <p>Une spécification peut également être « deprecated » ou « dépréciée » si celle-ci a été remplacée par une autre spécification ou « withdrawn » ou « retirée » après avoir été dépréciée depuis un moment.</p>
 
-<h3 id="le-cycle-de-vie-dune-spécification">Le cycle de vie d’une spécification</h3>
+<h4 id="le-cycle-de-vie-dune-spécification">Le cycle de vie d’une spécification</h4>
 
 <p>Durant la vie d’une spécification, celle-ci passe par différents statuts exprimés dans le schéma ci-dessus.</p>
 
@@ -294,7 +285,7 @@ Pour passer au statut « final-text », la spécification doit :</p>
     </ul>
 </div>
 
-<h2 id="définition-des-critères-de-maturité">Définition des critères de maturité</h2>
+<h3 id="définition-des-critères-de-maturité">Définition des critères de maturité</h3>
 
 <p>Une spécification avec la majorité des critères de maturité respectés indiquent sa clarté et sa facilité de mise en oeuvre. C’est le signe d’une plus grande pérennité de la spécification. Cependant, la pérennité d’une spécification ne peut jamais être garantie. Les spécifications jugées matures ont néanmoins une plus faible probabilité de subir des évolutions non rétrocompatibles.</p>
 
@@ -310,7 +301,7 @@ Pour passer au statut « final-text », la spécification doit :</p>
     </ul>
 </div>
 
-<h2 id="définition-des-critères-de-qualité">Définition des critères de qualité</h2>
+<h3 id="définition-des-critères-de-qualité">Définition des critères de qualité</h3>
 
 <p>Les critères de qualité représentent un ensemble de règles à respecter pour produire des spécifications de niveau de qualité conforme aux attentes nationales. Outre le respect à la doctrine (structuration d’une spécification d’interopérabilité, respect de la trajectoire nationale, du choix du standard, …), les critères de qualité sont spécifiques à chaque standard.</p>
 
@@ -393,7 +384,7 @@ Pour passer au statut « final-text », la spécification doit :</p>
 
 <p><strong>A remplir par l’équipe CDA</strong></p>
 
-<h2 id="définition-des-métadonnées-associées-à-une-spécification-dinteropérabilité">Définition des métadonnées associées à une spécification d’interopérabilité</h2>
+<h3 id="définition-des-métadonnées-associées-à-une-spécification-dinteropérabilité">Définition des métadonnées associées à une spécification d’interopérabilité</h3>
 
 <p>Les métadonnées correspondent aux données annexées aux spécifications. Elles sont utiles à des fins de recherche notamment.</p>
 
@@ -535,7 +526,7 @@ Pour passer au statut « final-text », la spécification doit :</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 8, 2024 16:03+0000">2024-11-08</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 8, 2024 16:15+0000">2024-11-08</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

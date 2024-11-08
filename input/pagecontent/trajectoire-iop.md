@@ -32,7 +32,7 @@ L'interopérabilité est souvent confondue avec référencement, mais ces termes
 
 Le déploiement de la e-Santé en France s'appuie sur trois piliers : la sécurité, l'éthique et l'interopérabilité. Du côté de l'interopérabilité, de nombreuses actions sont menées pour promouvoir celle-ci afin de faciliter son déploiement.
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li><b>La <a href="https://interop.esante.gouv.fr/evs/home.seam">plateforme de tests gazelle</a></b> permet à chaque concepteur de logiciels de tester sa conformité aux spécifications d'interopérabilité du CI-SIS.</li>
         <li><b>Le Serveur Multi Terminologique (SMT)</b> est un portail web permettant l'accès à l'ensemble des terminologies, jeux de valeurs et alignements à utiliser en France. Il dispose d'un site web et d'une API pour accéder informatiquement à ces informations. Le SMT est accessible à l’adresse <a href="https://smt.esante.gouv.fr/">(format rdf)</a>  ou <a href="https://smt.esante.gouv.fr/FHIR">(format FHIR)</a></li>
@@ -89,7 +89,7 @@ De nombreux travaux ont été menés en 2023 pour mettre en qualité les spécif
 
 Les priorités des prochaines années sont de continuer dans cette direction :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>La montée en compétences et l’acculturation des développeurs et des chefs de projets aux bonnes pratiques d’usages de FHIR, notamment en organisant des évènements par l'ANS et InteropSanté : projectathon, webinaires, formations, ...</li>
         <li>S’assurer de la faisabilité d’implémentation des IGs existants (amélioration du contenu narratif pour expliquer comment utiliser les ressources, s’assurer de la facilité d’accès au contenu, s'assurer que les IGs soient bien connus …).</li>
@@ -122,7 +122,7 @@ Du côté de l'Union Européenne, le projet EEDS ayant fait une étude de normes
 
 En plus de la trajectoire internationale semblant mener vers l'usage du FHIR document, des avantages non négligeables sont à noter sur l'usage de ce nouveau standard.
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Au même titre que les sections et entrées CDA, les FHIR Document sont composés d'une multitude de briques, appelées ressources (ex : Observation, Patient, Encounter, ...). La différence est que ces mêmes ressources peuvent également être utilisées au sein d'API REST spécifiées par le standard.</li>
         <li>Il existe de nombreux outils facilitant l'usage de FHIR, développés par une communauté très active à l'internationale. Ces outils permettent de :</li>
@@ -179,7 +179,7 @@ Du point de vue sémantique, les échanges dématérialisés de données nécess
 
 Il existe une large gamme de standards sémantiques répandus ou imposés en France et largement en usage :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Les terminologies de l’assurance maladie (NGAP, NABM, CCAM, LAHN, LPPR) pour les cas d’usage de remboursement.</li>
         <li>Les terminologies de l’OMS (ex : CIM largement utilisée dans le SNDS pour des cas d’usage de production de soins, coordination de soignants, pilotage et exploitation des données) .</li>
@@ -193,7 +193,7 @@ Ces standards sémantiques généraux sont complétés par des vocabulaires plus
 
 Au niveau mondial, la démultiplication des échanges numériques en santé transforme profondément le secteur médical et médicosocial :  
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>avec un accès facilité aux informations Médicales,</li>
         <li>le développement des téléconsultations, télésurveillance, téléexpertise,</li>
@@ -208,7 +208,7 @@ Ces normes sémantiques ou Terminologies sont des ensembles de termes spécifié
 
 Au sein du parcours patient, les éléments communs incontournables sont les suivants :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Motif de contact avec le système de soins (symptômes, accident, orientation préventive, etc…)</li>
         <li>L’évaluation du patient (capacité fonctionnelle, relationnelle, signes vitaux, etc…)</li>
@@ -225,7 +225,7 @@ Dans tous les cas le choix de nouvelles normes se fait par la concertation des p
 
 Il existe de nombreux défis au niveau de la trajectoire sémantique française
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Réduire le nombre de terminologies pour un domaine de connaissance</li>
         <li>Fournir un méta modèle d’organisation sémantique commun à toutes les terminologies  pour faciliter leur traitement</li>
@@ -242,7 +242,7 @@ La réponse à ces défis est multiple
 
 Sur le plan technique
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Développer des outils de traduction automatique pour utiliser les terminologies internationales en Anglais.</li>
         <li>Développer les capacités d’alignements pour utiliser des terminologies différentes appliquées à un même domaine de connaissance pour des cas d’usages différents (ex ICHI et CCAM, SNOMED CT et NCBI Taxonomy).</li>
@@ -254,7 +254,7 @@ Sur le plan technique
 
 Sur le plan accompagnement
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Faciliter l’acculturation des développeurs et des professionnels de santé aux bonnes pratiques de l’utilisation /intégration de ressources sémantiques.</li>
         <li>S’assurer de la bonne compréhension des usages et de l’intégration des ressources sémantiques dans des volets d’interopérabilité.</li>
@@ -265,7 +265,7 @@ Sur le plan accompagnement
 
 La trajectoire de l’interopérabilité sémantique est fondée sur la constitution d’un corpus sémantique permettant de répondre au besoin :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>de décrire  le parcours de soins/ santé d’un patient/usager avec le vocabulaire en usage en France ou choisi par une concertation des parties prenantes (professionnels de santé, institutions et éditeurs).</li>
         <li>de répondre aux différents cas d’usage de l’interopérabilité (production et coordination de soins, pilotage des parcours de soins/santé, exploitation des données de santé des Français.</li>
@@ -288,7 +288,7 @@ Les priorités 2025 - 2027 :
 
 Sur le plan outillage et publication
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Développement des fonctionnalités du SMT (interface graphique de requêtage, ergonomie de navigation, mise à disposition des alignements, plateforme de traduction). </li>
         <li>Faisabilité d’un processus de mise à jour hebdomadaire (la plus haute fréquence actuelle est mensuelle)</li>
@@ -298,7 +298,7 @@ Sur le plan outillage et publication
 
 Sur le plan du développement et de l’amélioration du catalogue de terminologies
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Déploiement de SNOMED CT sous une version française pour des nouveaux cas d’usage non couverts par les terminologies en usage en France</li>
         <li>Déploiement de la CIM 11  sur les cas d’usage de la CIM  (pathologies dans les dossiers patients, description des séjours hospitaliers, déclaration des affections chroniques, codage des causes médicales de décès) et extension vers les dosiers patients associés (dossier patient en EHPAD, dossier médecine santé au travail).</li>

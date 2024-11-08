@@ -22,7 +22,7 @@ description:
 
 En tant qu’opérateur public au service de la santé numérique, l’ANS assure trois missions complémentaires :
 
-<div class="wysiwyg">
+<div>
     <ul>
 <li>Créer les conditions de l’essor de la e-santé ;</li>
 <li>Conduire des projets d’envergure nationale ;</li>
@@ -40,7 +40,7 @@ En ce qui concerne l’interopérabilité, il repose sur l’identification et l
 
 Publié initialement par l’ANS en 2009 et régulièrement mis à jour depuis, le CI-SIS est destiné aux opérateurs de maîtrise d’œuvre au sens large (éditeurs de logiciel, intégrateurs…) ainsi qu’aux opérateurs de maitrise d’ouvrage. Il a été basé sur des normes et standards internationaux d’échange utilisés dans le secteur de la santé de manière à assurer :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li> Une adéquation avec les besoins du secteur : les normes et standards utilisés ont été conçus pour la mise en œuvre de cas d’usage relatifs à la prise en charge des usagers ;</li>
         <li> Une réutilisabilité des développements avec un minimum d’efforts d’adaptation pour différents cas d’usage que ce soit au niveau national ou au-delà du marché français.</li>
@@ -61,7 +61,7 @@ La dématérialisation des processus est un enjeu décisif pour les secteurs san
 
 Afin de rentabiliser ces investissements, il est important que les spécifications des échanges entre SI :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li> Soient adaptées aux cas d’usage métier initiaux ;</li>
         <li> Puissent être réutilisées dans d’autres cas d’usage pour le même contexte ou dans d’autres contextes (par exemple pour des mises en œuvre en dehors du contexte français) ;</li>
@@ -89,7 +89,7 @@ Le CI-SIS est également en cohérence avec les orientations du RGI et du [cadre
 
 Par exemple :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li> Pour le cas d’usage de partage de document de santé, le CI-SIS constitue le profil français du profil IHE XDS (Cross Enterprise Document Sharing) qui est lui-même une adaptation du standard ebXML d’OASIS pour les cas d’usage de partage de documents dans le domaine de la santé ;</li>
         <li> Pour le cas d’usage de la transmission des données d’identité pour la mise en œuvre de droits d’accès, le VIHF (Vecteur d’Identification et d’Habilitation Formelles) du CI-SIS est basé sur le profil IHE XUA (Cross Enterprise User Assertion) lui-même basé sur le token profile pour le standard SAML d’OASIS ;</li>

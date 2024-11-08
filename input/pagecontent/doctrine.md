@@ -25,7 +25,7 @@ La doctrine du CI-SIS a pour objectif de formaliser les orientations suivies par
 
 La doctrine d’interopérabilité technique et syntaxique du CI-SIS peut être synthétisée par les règles suivantes :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li> Utilisation d'un profil IHE ou d'un guide d'implémentation FHIR adapté et stable ;</li>
         <li> A défaut, réutilisation des normes et standards déjà utilisés dans le CI-SIS pour des cas d'usage similaires ;</li>
@@ -35,7 +35,7 @@ La doctrine d’interopérabilité technique et syntaxique du CI-SIS peut être 
 
 La doctrine d’interopérabilité sémantique du CGTS s’inscrit dans la doctrine d’interopérabilité du CI-SIS en termes de terminologies de référence à retenir :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li> Utilisation d'une terminologie de référence déjà utilisée en France et alignement, le cas échéant avec la terminologie de référence retenue par le niveau européen ;</li>
         <li> A défaut, recherche d'une terminologie européenne ;</li>
@@ -68,7 +68,7 @@ Cette adéquation est également reconnue au niveau européen. En effet, le 28 j
 
 Ces éléments ont amené à considérer les profils IHE ainsi que les guides d’implémentation FHIR comme base de la doctrine du CI-SIS. Pour autant, toutes ces spécifications n’ont pas un niveau de maturité suffisant pour constituer une base solide :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li> Certains profils IHE ne sont plus utilisés sur le terrain et pas encore retirés des spécifications IHE (ex. le profil Patient Synchronized Application basé sur le standard CCOW) ;</li>
         <li> Certains profils IHE en trial implementation ne sont pas encore tout à fait stables (ex. les profils qui n’ont pas encore eu l’occasion d’être testés lors d’un Connectathon).</li>
@@ -77,7 +77,7 @@ Ces éléments ont amené à considérer les profils IHE ainsi que les guides d�
 
 Les profils et les guides d’implémentation FHIR choisis pour constituer la base de la doctrine du CI-SIS sont donc :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li> Les profils IHE en final text régulièrement testés au connectathon et/ou bénéficiant d’une communauté active ;</li>
         <li> Les profils IHE en trial implementation depuis plusieurs années, régulièrement testés au connectathon  et/ou bénéficiant d’une communauté active, et ne faisant pas l’objet de change proposals (CP)  structurant et dont l’intégration en final text est prévue à court terme (ex. en attente d’outils de test automatisés).</li>
@@ -88,7 +88,7 @@ Les profils et les guides d’implémentation FHIR choisis pour constituer la ba
 D’autre part, dans le cadre du règlement relatif à l’espace Européen des données de santé (EHDS), le réseau eHealth Network, sous l’égide de la Commission Européenne, définit des normes et standards internationaux et des spécifications techniques s’adressant aux entreprises du numérique en santé des états membres, précisant l’implémentation de ces normes et standards au fur et à mesure de la construction de cet espace Européen des données de santé. En particulier, EHDS est basé sur un format d’échange des données de santé (EEHRxF) constitué à ce jour des guidelines suivantes :
 
 <!-- Insérer le lien sur les guidelines -->
-<div class="wysiwyg">
+<div>
     <ul>
         <li>ePrescription and eDispensation,</li>
         <li>Patient Summary,</li>
@@ -106,7 +106,7 @@ Afin de répondre aux enjeux de stabilité et de réutilisation, lorsqu’il n�
 
 Par exemple, la norme CDA a été initialement utilisée dans les spécifications de plusieurs volets tels que :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Structuration Minimale de Documents Médicaux (basé sur le profil IHE XDS-SD) ;</li>
         <li>Compte rendu d’Examens de Biologie Médicale (basé sur le profil IHE XD-Lab) ;</li>
@@ -124,7 +124,7 @@ La liste des normes et standards utilisés dans le CI-SIS évolue constamment à
 
 La doctrine du CI-SIS ne peut pas couvrir l’ensemble des cas d’usage faisant l’objet d’une spécification d’interopérabilité. Quand il est nécessaire de sélectionner une norme ou un standard (syntaxique, sémantique ou technique) cible qui n’est pas encore utilisé dans le CI-SIS, il est indispensable que l’ensemble des parties prenantes qui pourraient être affectées par ce choix :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Soient informées sur les normes et standards utilisables pour la mise en œuvre du cas d’usage ;</li>
         <li>Aient la possibilité de détailler les impacts de ces normes et standards en ce qui les concernent (ex. standard non conforme avec les politiques industrielles des éditeurs) ;</li>
@@ -136,7 +136,7 @@ Dans ce cas, la doctrine est donc complétée par une procédure de consultation
 
 Cette consultation s’organise en 6 étapes :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li> Recensement des normes et standards utilisables pour la mise en œuvre du cas d’usage par les experts du CI-SIS ;</li>
         <li> Analyse comparative des normes et standards utilisables par les experts du CI-SIS ;</li>
@@ -160,7 +160,7 @@ La doctrine est complètement intégrée à la gouvernance du CI-SIS. Elle vient
 
 En y intégrant les éléments de la doctrine syntaxique et sémantique, la phase d’évolution du CI-SIS (phase 4) se décompose en 5 sous-phases :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>A. Analyse métier du cas d’usage, modélisation des échanges entre SI conformément à la [méthodologie d’élaboration des spécifications fonctionnelles des échanges](./elaboration.html), et choix de terminologie(s) de référence répondant au cas d’usage étudié selon les principes de la doctrine sémantique ;</li>
         <li>B. Concertation publique sur la spécification fonctionnelle des échanges (intégrant les choix de terminologies) ;</li>

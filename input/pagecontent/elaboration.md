@@ -27,7 +27,7 @@ La méthode d'élaboration des spécifications fonctionnelles des échanges est 
 
 A partir des exigences recueillies auprès des parties prenantes du métier, le but de la méthode est de modéliser les échanges de données en réalisant les actions suivantes :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Identifier ces interactions et les décrire sous la forme de processus métier collaboratifs en y incluant les partenaires qui interagissent, acteurs de ces processus ; </li>
         <li>Identifier, au sein de chaque processus, les échanges d'informations entre ces partenaires et décrire sémantiquement ces informations ainsi que les nomenclatures portées par ces échanges.</li>
@@ -40,7 +40,7 @@ Pour rappel, les processus métier collaboratifs sont ceux dans lesquels il y a 
 
 Un volet du cadre d'interopérabilité des systèmes d'information de santé (CI-SIS) est composé des documents suivants :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Spécifications fonctionnelles des échanges,</li>
         <li>Etude des normes et standards (si nécessaire),</li>
@@ -55,7 +55,7 @@ Un volet du cadre d'interopérabilité des systèmes d'information de santé (CI
 
 Cette méthode est constituée de six étapes. Le résultat de chacune de ces étapes est consigné dans le dossier des spécifications fonctionnelles des échanges. Ces étapes, détaillées dans la suite du document, sont les suivantes :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Etape 0 : Cadre juridique et orientations organisationnelles ;</li>
         <li>Etape 1 : organisation du contexte métier ;</li>
@@ -118,7 +118,7 @@ Le paquetage **<<Processus>>** représente le processus métier collaboratif qui
 
 Les règles applicables dans cette étape sont les suivantes :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Les noms du domaine d'activité, groupes de processus et processus sont libres ; pour les processus, le nom donné doit être constitué d'une phrase infinitive, comme "Commander un DMI » ;</li>
         <li>Les domaines d'activité et les groupes de processus doivent comporter une description ; pour les processus, leur description est donnée à l'étape 2 ;</li>
@@ -142,7 +142,7 @@ Cette modélisation est une vue macroscopique des processus qui sont représent�
 
 D’éventuelles dépendances entre les processus peuvent être formalisées par des :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Notions de spécialisation sur ces processus, héritage UML ;</li>
         <li>Relations d'inclusion, pour factoriser dans un même processus des enchainements identiques dans plusieurs processus ;</li>
@@ -181,7 +181,7 @@ Exemple du cercle de soins :
 
 Chaque processus collaboratif possède les caractéristiques suivantes :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li> Le service attendu du processus métier collaboratif ; une partie narrative peut très bien compléter cette description ; dans ce cas, cette narration doit se dérouler dans le contexte du cas d’utilisation, avoir un début, une fin et des acteurs qui interagissent en s'échangeant de l’information ; la description du service attendu est obligatoire ;</li>
         <li> Une ou des pré-conditions; ce sont les conditions qui doivent être vérifiées pour le déclenchement du processus métier collaboratif; les pré-conditions sont facultatives ;</li>
@@ -204,7 +204,7 @@ Exemple de définition d’un processus collaboratif extrait du volet « Cercle 
 
 **Pré-conditions** : le créateur du cercle de soins doit au préalable :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li> Être habilité ;</li>
         <li> Vérifier l’absence du cercle de soins de la personne par le gestionnaire du cercle de soins via une demande de consultation ;</li>
@@ -222,7 +222,7 @@ Exemple de définition d’un processus collaboratif extrait du volet « Cercle 
 
 Les règles applicables à cette étape sont les suivantes :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Les noms des cas d'utilisation doivent reprendre les noms des processus collaboratifs décrits à l'étape 1 ; pour rappel, ils doivent être constitués d'une phrase infinitive, comme par exemple "Création du cercle de soins » ;</li>
         <li>Les noms des acteurs, sauf cas particulier, doivent être au singulier.</li>
@@ -291,7 +291,7 @@ L'exemple présenté ci-dessous illustre la représentation du processus métier
 
 Les règles applicables à cette étape sont les suivantes :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Les noms des flux doivent être écrits au singulier et respecter la convention de nommage [UpperCamelCase](https://fr.wikipedia.org/wiki/CamelCase) ;</li>
         <li>Les articles, propositions, etc. ainsi que les accents doivent être retirés des noms des flux ;</li>
@@ -316,7 +316,7 @@ Exemple de diagramme des acteurs/transactions dans le contexte du volet « Cercl
 
 Un tableau récapitulatif permet de décrire chaque flux d’information identifié avec les caractéristiques suivantes :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Nom ;</li>
         <li>Processus collaboratif ;</li>
@@ -518,7 +518,7 @@ Les étapes 1, 2, 3 et 4 font l’objet d’une harmonisation du contenu d’une
 
 Tout volet du CI-SIS, quel que soit son format doit contenir les sections suivantes (sous forme de parties dans le cas d’une spécification PDF ou d’onglets dans le cas d’un guide d’implémentation) :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Généralités ;</li>
         <li>Volume 1 (Etude fonctionnelle des échanges) ;</li>
@@ -555,7 +555,7 @@ Les flux d’informations échangés par les acteurs dans les processus métier 
 
 Cette étape est découpée en deux sous-étapes :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Sous-étape 4.1 : Identification des concepts métier véhiculés dans les flux ;</li>
         <li>Sous-étape 4.2 : Correspondance entre les concepts métier identifiés et les concepts du MOS.</li>
@@ -589,7 +589,7 @@ Il n’y a pas de règle pour la mise en correspondance entre un concept métier
 
 Dans le MOS, le concept métier peut correspondre à :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Une ou plusieurs classes du MOS à restreindre ou à étendre, la correspondance peut être de type :</li>
         <ul>
@@ -608,7 +608,7 @@ Dans le MOS, le concept métier peut correspondre à :
 
 Par la suite, les extensions sont instruites pour déterminer si elles sont :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Suffisamment génériques pour être utilisées par d'autres projets et donc être intégrées au MOS dans le cadre des mises à jour mensuelles ;</li>
         <li>Spécifiques au projet.</li>
@@ -621,7 +621,7 @@ La démarche s’applique pour chacun des concepts métier identifiés, que ce c
 
 Ce tableau contient les éléments suivants :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Concept métier identifié à l’étape 4.1;</li>
         <li>Concept(s) MOS correspondant avec la relation liant le concept métier au concept MOS. La relation peut être de trois types : " extension ", " restriction " ou " équivalence " ; si la relation entre les concepts est une extension, les attributs supplémentaires déjà connus doivent être consignés.</li>
@@ -652,7 +652,7 @@ Tableau : Correspondance « concepts métier/MOS » pour les flux du volet « Ce
 Les concepts véhiculés par les flux d’informations ont été identifiés à l’étape 4. Le but de cette étape est d'élaborer le modèle sous tendu par chaque flux à partir des concepts métier et des classes et attributs existants dans le MOS.
 Le modèle sous tendu par chaque flux d’information est modélisé par un diagramme de classes UML. Cette représentation formalisée du flux doit prendre en compte les deux exigences suivantes :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Réutilisation des classes génériques, mutualisées et mises à disposition dans le MOS ; </li>
         <li>Définition des associations, y compris leur cardinalité, entre les classes en respectant les besoins.</li>
@@ -669,7 +669,7 @@ Remarque : Le cas particulier des flux de recherche est traité à la suite de l
 Le modèle du flux a toujours comme point de départ une classe unique, appelée la classe racine. Elle reprend le nom du flux identifié à l'étape 3. Elle n'a pas d'attribut.
 Les noms des éléments du modèle respectent les conventions de nommage du MOS, à savoir :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Les articles, propositions et les accents sont retirés ;</li>
         <li>Les noms des classes, attributs, types de données sont, autant que possible, au singulier ;</li>
@@ -684,7 +684,7 @@ Dans l'exemple, la classe racine s'appelle " CercleSoins ".
 
 Pour chaque flux de l’étape 4, il faut identifier les concepts métier qui deviennent des classes.
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Pour tout concept ayant une équivalence avec une classe du MOS dans l’étape 4.2, il faut reprendre la classe du MOS ; </li>
         <li>Pour tout concept n’ayant pas d’équivalence avec une classe du MOS dans l’étape 4.2, il faut créer la classe correspondant à ce concept métier.</li>
@@ -844,7 +844,7 @@ Avant toute modification, il convient de s’assurer qu’il n’y a pas de nouv
 
 Quel que soit le type de mise à jour à réaliser, les actions suivantes sont à mener :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Etape 1 : Mettre à jour le diagramme de paquetage en fonction des autres volets créés ou mis à jour depuis la dernière version de la spécification. </li>
         <li>Etape 4 : Vérifier la cohérence des équivalences avec le MOS dans sa dernière version. </li>
@@ -862,7 +862,7 @@ L’ajout d’un processus dans une spécification doit entrainer la revue des a
 
 L’ajout d’un processus va se traduire par les actions suivantes :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Etape 1 : Ajout du processus dans le diagramme de paquetage. </li>
         <li>Etape 2 : Création du cas d’utilisation du processus pouvant entrainer l’ajout ou la modification d’acteurs « rôle » : </li>
@@ -886,7 +886,7 @@ La modification d’un processus dans une spécification doit entrainer la revue
 
 La modification d’un processus va se traduire par les actions suivantes :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Etape 1 : Modification du processus dans le diagramme de paquetage. </li>
         <li>Etape 2 : Modification du cas d’utilisation du processus pouvant entrainer l’ajout, la modification ou la suppression d’acteurs « rôle » : </li>
@@ -915,7 +915,7 @@ La suppression d’un processus dans une spécification doit entrainer la revue 
 
 La suppression d’un processus va obligatoirement se traduire par les actions suivantes :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Etape 1 : Suppression du processus dans le diagramme de paquetage. </li>
         <li>Etape 2 : Suppression du cas d’utilisation du processus. La suppression d’un processus à l’étape 2, peut entrainer la modification ou la suppression d’acteurs « rôle ». La définition de chaque acteur intervenant dans le processus doit être revue pour être mise à jour si nécessaire. Si l’acteur intervient uniquement dans ce processus, alors l’acteur sera supprimé. </li>

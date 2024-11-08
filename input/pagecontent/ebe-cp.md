@@ -54,7 +54,7 @@ Le Comité de pilotage s'appuie à son tour sur cette recommandation du Comité 
 
 Le traitement d'une demande d'évolution majeure du CI-SIS requière un passage obligatoire en concertation publique afin de :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>partager et communiquer sur les évolutions du CI-SIS</li>
         <li>permettre aux parties-prenantes du CI-SIS et à l'ensemble de l'écosystème de réagir sur ces évolutions et remonter les impacts sur l'existant</li>
@@ -66,7 +66,7 @@ Le traitement d'une demande d'évolution majeure du CI-SIS requière un passage 
 
 Les procédures de consultation et de concertation:
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>débutent avec la diffusion de l'étude métier ou des spécifications</li>
         <li>elles sont annoncées au moyen d'une actualités sur le site esante.gouv.fr et d'un courriel d'information aux acteurs concernés</li>
@@ -85,7 +85,7 @@ Les suivi des demandes de CP est visible grâce à ce [tableau de bord](https://
 
 Les CP sont identifiées en 2 catégories par le(s) analyste(s) :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>les CP majeures : problème majeur à résoudre avec impact</li>
         <li>les CP mineures :  typo ou reformulation ou autre modification sans impact</li>

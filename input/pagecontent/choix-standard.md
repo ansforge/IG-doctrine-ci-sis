@@ -26,7 +26,7 @@ Au cours de cette étude, chaque solution technique et sémantique est analysée
 
 Le contenu de l’étude des normes et standards est le suivant :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Introduction</li>
         <li>Présentation des solutions envisagées. </li>
@@ -43,7 +43,7 @@ Les solutions pressenties (norme/standard, profil IHE ou guide d’implémentati
 
 Chacune des solutions proposées en introduction fait l’objet d’une étude détaillée. Les points suivants peuvent être analysés :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Présentation de l’organisation en charge du développement de la solution envisagée ;</li>
         <li>Présentation et périmètre de la solution envisagée ;</li>
@@ -86,7 +86,7 @@ Le tableau de maturité précédant peut être complété par une analyse SWOT q
 
 A ce niveau, on cherchera à évaluer les points clés suivants :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li>Réutilisation et intégration : mesure la capacité des composants et des éléments sémantiques choisis à être réutilisés dans d’autres contextes.</li>
         <li>Scalabilité et adaptabilité : capacité du standard et de ses éléments sémantiques à s’étendre et à s’adapter aux exigences d’évolution futures.</li>

@@ -65,7 +65,7 @@ Durant la vie d'une spécification, celle-ci passe par différents statuts expri
 A l'issue d'une concertation, une spécification peut passer au statut « final-text » ou « trial-implementation ». Ce choix dépend du respect de critère de qualité, de maturité, et de la décision de l'auteur.
 Pour passer au statut « final-text », la spécification doit :
 
-<div class="wysiwyg">
+<div>
     <ol>
         <li> Avoir été publiée au moins une fois en « trial-implementation » </li>
         <li> Avoir été mise en oeuvre au niveau national ou testée lors de projectathons avec des retours mineurs </li>
@@ -76,7 +76,7 @@ Pour passer au statut « final-text », la spécification doit :
 
 Notes :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li> Une spécification au statut « final-text » peut repasser au statut « trial-implementation », par exemple en cas de changement majeur comme une refactorisation de la spécification (passage au format guide d'implémentation FHIR, à une version supérieure du standard sous-jacent, à un changement de standard, ...). Cela signifie que l'ancienne version en « final-text » ne doit plus être utilisée pour diverses raisons, comme une situation internationale nécessitant de grandes évolutions. Dans ce cas, une note explicative sera associée à la publication de la nouvelle spécification. </li>
         <li> Lorsqu'une nouvelle version d'une spécification est publiée, il est recommandé aux éditeurs de l'adopter dans les 1 à 2 ans suivant sa publication. </li>
@@ -90,7 +90,7 @@ Une spécification avec la majorité des critères de maturité respectés indiq
 
 Les critères de maturité identifiés :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li> Respect de l'ensemble des critères de qualité mentionnés ci-dessous </li>
         <li> (Etude en cours) Nombre d'implémentations obtenu par déclaration (par convergence ou par les DSI). Idéalement avec des retours d'expérience sur l'implémentation des spécifications </li>
@@ -108,7 +108,7 @@ Il n'est pas toujours possible de respecter strictement ces critères de qualit�
 
 Les critères de qualité **FHIR** sont :
 
-<div class="wysiwyg">
+<div>
     <ul>
         <li> Respect des règles de nommages indiquées ci-dessous </li>
         <li> Respect des <a href="https://build.fhir.org/ig/FHIR/ig-guidance/best-practice.html">bonnes pratiques internationales</a></li>

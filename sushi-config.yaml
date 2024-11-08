@@ -20,31 +20,39 @@ parameters:
 pages:
     index.md:
         title: Accueil
-    doctrine-cisis.md:
-        title: Doctrine du CI-SIS
+    generalites.md:
+        title: Généralités
+    doctrine.md:
+        title: Doctrine d’interopérabilité syntaxique et doctrine d’interopérabilité sémantique
+    elaboration.md:
+        title: Méthode d'élaboration des échanges fonctionnels
+    choix-standard.md:
+        title: Choix des normes et standard
     cycle-de-vie.md:
-        title: Cycle de vie
-    trajectoire-interop.md:
+        title: Cycle de vie des spécifications
+    ebe-cp.md:
+        title: Expression des besoins (EBE) et gestion des Change Proposals (CP)
+    trajectoire-iop.md:
         title: Trajectoire interopérabilité
+    up-externe.md:
+        title: Unité de production externe
     interactions-ecosysteme.md:
         title: Interactions avec l'écosystème
-    gestion-cp.md:
-        title: Gestion des changements
-    gestion-ebe.md:
-        title: Expression des besoin
     connaissance-medicale.md:
         title: Connaissance médicale
 
 menu:
     Accueil: index.html
-    Doctrine du CI-SIS: 
-        Doctrine du ci-sis: doctrine-cisis.html
+    Doctrine: 
+        Généralités: generalites.html
+        Doctrine du ci-sis: doctrine.html
+        Méthode d'élaboration des échanges fonctionnels: elaboration.html
+        Choix des normes et standard: choix-standard.html
         Cycle de vie: cycle-de-vie.html
-        Trajectoire interopérabilité: trajectoire-interop.html
-    Gouvernance du CI-SIS:
+        Expression des besoins et Change Proposals: ebe-cp.html
+        Trajectoire interopérabilité: trajectoire-iop.html
+        Unité de production externe: up-externe.html
+    Gouvernance:
         Interactions avec l'écosystème: interactions-ecosysteme.html
-        Gestion des changements: gestion-cp.html
-        Expression des besoins : gestion-ebe.html
     Connaissance médicale: connaissance-medicale.html
-
     Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/

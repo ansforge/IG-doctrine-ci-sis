@@ -20,12 +20,22 @@ parameters:
 pages:
     index.md:
         title: Accueil
-    doctrine-cisis.md:
+    generalites.md:
+        title: Généralités
+    doctrine.md:
         title: Doctrine du CI-SIS
+    elaboration.md:
+        title: Méthode d'élaboration des échanges fonctionnels
+    choix-standard.md:
+        title: Choix des normes et standard
     cycle-de-vie.md:
-        title: Cycle de vie
+        title: Cycle de vie des spécifications
+    ebe-cp.md:
+        title: Expression des besoins (EBE) et gestion des Change Proposals (CP)
     trajectoire-interop.md:
         title: Trajectoire interopérabilité
+    up-externe.md:
+        title: Unité de production externe
     interactions-ecosysteme.md:
         title: Interactions avec l'écosystème
     gestion-cp.md:
@@ -36,9 +46,14 @@ pages:
 menu:
     Accueil: index.html
     Doctrine: 
-        Doctrine du ci-sis: doctrine-cisis.html
+        Généralités: generalites.html
+        Doctrine du ci-sis: doctrine.html
+        Méthode d'élaboration des échanges fonctionnels: elaboration.html
+        Choix des normes et standard: choix-standard.html
         Cycle de vie: cycle-de-vie.html
+        Expression des besoins et Change Proposals: ebe-cp.html
         Trajectoire interopérabilité: trajectoire-interop.html
+        Unité de production externe: up-externe.html
     Gouvernance:
         Interactions avec l'écosystème: interactions-ecosysteme.html
         Gestion des changements: gestion-cp.html

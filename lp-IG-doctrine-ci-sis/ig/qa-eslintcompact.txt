@@ -1,7 +1,8 @@
 DoctrineCISIS
 =========================================
 
-Generic: line 0, col 0, Error - The image source 'Tableau 1 les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al.png' cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - Supressed messages file not found (NOTFOUND)
+Generic: line 0, col 0, Error - The image source 'ci-sis-logo.png' cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
@@ -20,5 +21,5 @@ Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not
 /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/ValueSet-ModifiedAdministrativeGender.json: line 1, col 1889, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/ValueSet-TypeCarteVS.json: line 1, col 1049, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
 
-err = 0, warn = 14, info = 3
+err = 1, warn = 14, info = 3
 IG Publisher Version: 1.7.1

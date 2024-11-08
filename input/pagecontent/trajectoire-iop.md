@@ -108,11 +108,15 @@ Aujourd'hui en France, l'ensemble des documents médicaux sont stockés en CDA, 
 
 Selon l'étude [2024 State of FHIR](2024 StateofFHIRSurveyResults_final.pdf), l'utilisation du standard FHIR augmente dans la majorité des pays.
 
-![](fhir-adoption-rate-change.png)
+<div class="figure" style="width:65%;">
+    <img style="height: auto; width: 100%;" src="fhir-adoption-rate-change.png" alt="CI-SIS" title="Logo du CI-SIS">
+</div>
 
 Cette même étude dévoile un nombre important de pays utilisant le FHIR document.
 
-![](fhir-documents.png)
+<div class="figure" style="width:65%;">
+    <img style="height: auto; width: 100%;" src="fhir-documents.png" alt="CI-SIS" title="Logo du CI-SIS">
+</div>
 
 Aux Etats-Unis par exemple, les spécifications CDA ont fait leur premier pas vers FHIR, celles-ci sont publiées sont forme de guide d'implémentation en modèle logique, permettant ainsi de valider les CDA avec le FHIR Validator en abandonnant les schematrons ([source](https://build.fhir.org/ig/HL7/CDA-ccda/validation.html#:~:text=Validation%20Note-,What%20happened%20to%20the%20Schematron%3F,of%20the%20C%2DCDA%20document.)).
 
@@ -277,7 +281,9 @@ Ce catalogue est complété par les Nomenclatures des objets de santé qui sont 
 14 761 téléchargements ont été opéré entre octobre 2023 et septembre 2024, soit un rythme de 1315 téléchargements mensuels.
 Le graphique ci-après présente les terminologies les plus téléchargées.
 
-![](semantique.png)
+<div class="figure" style="width:65%;">
+    <img style="height: auto; width: 100%;" src="semantique.png" alt="CI-SIS" title="Logo du CI-SIS">
+</div>
 
 Les terminologies du médicaments (référentiels d’interopérabilité du médicament et classification ATC ) arrivent en tête. Le référentiel des unités communes de dispensation arrive en 5eme position.
 Elles sont suivies par les terminologies médicales de l’OMS (CIM 11 en déploiement et CIM10 en usage)

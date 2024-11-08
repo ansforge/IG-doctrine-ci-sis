@@ -60,7 +60,10 @@ Une spécification peut également être « deprecated » ou « dépréciée �
 
 Durant la vie d'une spécification, celle-ci passe par différents statuts exprimés dans le schéma ci-dessus.
 
-![](cycle-de-vie.png)
+
+<div class="figure" style="width:65%;">
+    <img style="height: auto; width: 100%;" src="cycle-de-vie.png" alt="CI-SIS" title="Logo du CI-SIS">
+</div>
 
 A l'issue d'une concertation, une spécification peut passer au statut « final-text » ou « trial-implementation ». Ce choix dépend du respect de critère de qualité, de maturité, et de la décision de l'auteur.
 Pour passer au statut « final-text », la spécification doit :

@@ -106,7 +106,7 @@ Aujourd'hui en France, l'ensemble des documents médicaux sont stockés en CDA, 
 
 #### Etude internationale
 
-Selon l'étude [2024 State of FHIR](assets-docs-to-update/2024 StateofFHIRSurveyResults_final.pdf), l'utilisation du standard FHIR augmente dans la majorité des pays.
+Selon l'étude [2024 State of FHIR](2024 StateofFHIRSurveyResults_final.pdf), l'utilisation du standard FHIR augmente dans la majorité des pays.
 
 ![](fhir-adoption-rate-change.png)
 

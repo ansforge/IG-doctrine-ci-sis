@@ -19,7 +19,7 @@ Generated $--. FHIR version $-- for ans.fr.doctrine#$-- (canonical = https://int
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[24].value: Supressed messages file not found
 ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/p/a at Line 261, column 306: The link 'assets-docs-to-update/Liste_Profils_IHE_Standards.xls' for "dans ce tableau" cannot be resolved
-ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/p/a at Line 315, column 253: The link 'assets-docs-to-update/Liste_Profils_IHE_Standards.zip' for "ici" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/p/a at Line 315, column 253: The link 'assets-docs-to-update/Liste_Profils_IHE_Standards.xls' for "ici" cannot be resolved
 ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/div/img at Line 368, column 6: The image source 'Sous-phase-evo.png' cannot be resolved
 ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/ebe-cp.html#/html/body/div/div/div/div/div/p/a at Line 231, column 406: The link 'gouvernance.html' for "nouvelle gouvernance" cannot be resolved
 ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/ebe-cp.html#/html/body/div/div/div/div/div/p/a at Line 235, column 69: The link 'assets-docs-to-update/CI-SIS_FORMULAIRE_EXPRESSION%20DE%20BESOINS.docx' for "ici" cannot be resolved

@@ -118,7 +118,7 @@ Ainsi, afin de capitaliser l’expérience acquise par les parties prenantes et 
 
 Cependant, l’ANS a défini une [trajectoire d’interopérabilité](./trajectoire-iop.html) qui tient compte des orientations retenues par la Commission Européenne dans le cadre de la construction de l’espace de données de santé européen (European Health Data Space - EHDS). Une de ces orientations concerne l’utilisation du standard FHIR en remplacement ou en complément de CDA pour les documents structurés.
 
-La liste des normes et standards utilisés dans le CI-SIS évolue constamment à la faveur de la production de nouveaux volets du CI-SIS. A titre d’information, les normes et standards qui sont utilisés dans le CI-SIS en septembre 2024 sont présentés [ici](assets-docs-to-update/Liste_Profils_IHE_Standards.zip).
+La liste des normes et standards utilisés dans le CI-SIS évolue constamment à la faveur de la production de nouveaux volets du CI-SIS. A titre d’information, les normes et standards qui sont utilisés dans le CI-SIS en septembre 2024 sont présentés [ici](assets-docs-to-update/Liste_Profils_IHE_Standards.xls).
 
 ## Choix des normes et standards non encore utilisés dans le CI-SIS
 

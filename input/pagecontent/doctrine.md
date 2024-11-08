@@ -171,7 +171,7 @@ En y intégrant les éléments de la doctrine syntaxique et sémantique, la phas
 </div>
 
 <div class="figure" style='text-align: center;'>
-    <img src="Sous-phase-evo.png" alt="CP" title="Sous phases de la phase d’évolution du CI-SIS" style="width:80%;">
+    <img src="sous-phase-evo.png" alt="CP" title="Sous phases de la phase d’évolution du CI-SIS" style="width:80%;">
     <figcaption><b>Sous phases de la phase d’évolution du CI-SIS</b></figcaption>
 </div>
 

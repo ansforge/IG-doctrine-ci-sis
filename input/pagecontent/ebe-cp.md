@@ -22,7 +22,7 @@ Le CI-SIS, permettant de standardiser un échange d’informations et constitué
 Cette gouvernance garantit un moyen transparent pour la prise en compte des « besoins » terrain dans le CI-SIS.
 
 ### Formulaire pour l'expression de vos besoins
-Afin de nous remonter vos besoins une formulaire est disponible [ici](../../assets/docs/CI-SIS_FORMULAIRE_EXPRESSION%20DE%20BESOINS.docx).
+Afin de nous remonter vos besoins une formulaire est disponible [ici](assets-docs-to-update/CI-SIS_FORMULAIRE_EXPRESSION%20DE%20BESOINS.docx).
 Ce formulaire fait partie du corpus documentaire associé à cette gouvernance. Il constitue le support permettant de formaliser une expression de besoins d’interopérabilité susceptible de donner lieu à un enrichissement du CI-SIS. Il s’adresse à tout acteur des domaines sanitaire, médico-social et médico-administratif identifiant des besoins d’interopérabilité entre au moins deux systèmes.
 
 ### Suivi du traitement des expressions de besoins
@@ -77,7 +77,7 @@ Les procédures de consultation et de concertation:
 ## Gestion des Changes Proposals (CP)
 
 ### Formulaire et suivi
-Une demande de Change Proposal (CP) peut être réalisée via ce [formulaire](../../assets/docs/CI-SIS_FORMULAIRE_Change_Proposal.docx).
+Une demande de Change Proposal (CP) peut être réalisée via ce [formulaire](assets-docs-to-update/CI-SIS_FORMULAIRE_Change_Proposal.docx).
 
 Les suivi des demandes de CP est visible grâce à ce [tableau de bord](https://github.com/orgs/ansforge/projects/39/views/1)(**outil en cours d'élaboration**).
 

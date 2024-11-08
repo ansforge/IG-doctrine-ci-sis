@@ -32,16 +32,20 @@ pages:
         title: Gestion des changements
     gestion-ebe.md:
         title: Expression des besoins 
+    standardisation-med.md:
+        title: Strandardisation de la connaissance médicale
 
 menu:
     Accueil: index.html
     Doctrine: 
         Doctrine du ci-sis: doctrine-cisis.html
         Cycle de vie: cycle-de-vie.html
-        Trajectoire interopérabilité: trajectoire-interop.html
+        Trajectoire interopérabilité: trajectoire-interop.html 
     Gouvernance:
         Interactions avec l'écosystème: interactions-ecosysteme.html
         Gestion des changements: gestion-cp.html
         Expression des besoins : gestion-ebe.html
+    Connaissance:
+        Standardisation de la connaissance médicale: standardisation-med.html
 
     Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/

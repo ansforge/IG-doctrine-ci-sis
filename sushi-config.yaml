@@ -23,7 +23,7 @@ pages:
     generalites.md:
         title: Généralités
     doctrine.md:
-        title: Doctrine du CI-SIS
+        title: Doctrine d’interopérabilité syntaxique et doctrine d’interopérabilité sémantique
     elaboration.md:
         title: Méthode d'élaboration des échanges fonctionnels
     choix-standard.md:

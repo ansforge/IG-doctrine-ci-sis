@@ -32,8 +32,8 @@ pages:
         title: Gestion des changements
     gestion-ebe.md:
         title: Expression des besoin
-    standardisation-med.md:
-        title: Standardisation de la connaissance médicale
+    connaissance-medicale.md:
+        title: Connaissance médicale
 
 menu:
     Accueil: index.html
@@ -45,6 +45,6 @@ menu:
         Interactions avec l'écosystème: interactions-ecosysteme.html
         Gestion des changements: gestion-cp.html
         Expression des besoins : gestion-ebe.html
-    Connaissance médicale: standardisation-med.html
+    Connaissance médicale: connaissance-medicale.html
 
     Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/

@@ -2,6 +2,7 @@ DoctrineCISIS
 =========================================
 
 Generic: line 0, col 0, Error - Supressed messages file not found (NOTFOUND)
+Generic: line 0, col 0, Error - The image source 'FIGURE 1 ENONCE SIMPLIFIE DES PRINCIPES FIVE STARS.png' cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The image source 'ci-sis-logo.png' cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)

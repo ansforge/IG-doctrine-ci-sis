@@ -49,7 +49,7 @@ Un volet du cadre d'interopérabilité des systèmes d'information de santé (CI
 </div>
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/docs-volet-cisis.png" alt="CP" title="Figure 4: Documents constituant un volet du CI-SIS" style="width:80%;">
+    <img src="docs-volet-cisis.png" alt="CP" title="Figure 4: Documents constituant un volet du CI-SIS" style="width:80%;">
     <figcaption><b>Figure 4: Documents constituant un volet du CI-SIS</b></figcaption>
 </div>
 
@@ -71,14 +71,14 @@ L'élaboration de ces étapes repose sur la notation UML (Unified Modeling Langu
 ## Niveaux d’interopérabilité et spécifications fonctionnelles des échanges
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/niveaux-interop.png" alt="CP" title="Niveaux d’interopérabilité" style="width:80%;">
+    <img src="niveaux-interop.png" alt="CP" title="Niveaux d’interopérabilité" style="width:80%;">
     <figcaption><b>Niveaux d’interopérabilité définis dans le cadre d’interopérabilité européen (European Interoperability framework - EIF)</b></figcaption>
 </div>
 
 Les spécifications fonctionnelles des échanges font partie du niveau sémantique de l'interopérabilité. Elles peuvent intégrer également les niveaux juridique et organisationnel en citant le cadre juridique de ces échanges ainsi que les orientations organisationnelles choisies (voir figure ci-dessous). Toute évolution fonctionnelle doit générer la mise à jour de ces spécifications. Ces spécifications fonctionnelles sont neutres vis-à-vis de la syntaxe des échanges. La transformation dans la syntaxe choisie est effectuée dans la phase de spécifications techniques.
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/niveaux-interop-sf.png" alt="CP" title="Niveaux d’interopérabilité couverts par les spécifications fonctionnelles des échanges" style="width:20%;">
+    <img src="niveaux-interop-sf.png" alt="CP" title="Niveaux d’interopérabilité couverts par les spécifications fonctionnelles des échanges" style="width:20%;">
     <figcaption><b>Niveaux d’interopérabilité couverts par les spécifications fonctionnelles des échanges</b></figcaption>
 </div>
 
@@ -131,7 +131,7 @@ Les règles applicables dans cette étape sont les suivantes :
 Le diagramme de paquetages de la ci-dessous est extrait de l’étude "Cercle de soins". Le processus collaboratif faisant partie du périmètre de l’étude est indiqué en bleu sur ce diagramme.
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/ex-cds.png" alt="CP" title="Organisation du contexte métier de l’étude « Cercle de soins »" style="width:50%;">
+    <img src="ex-cds.png" alt="CP" title="Organisation du contexte métier de l’étude « Cercle de soins »" style="width:50%;">
     <figcaption><b>Organisation du contexte métier de l’étude « Cercle de soins »</b></figcaption>
 </div>
 
@@ -194,7 +194,7 @@ Chaque processus collaboratif possède les caractéristiques suivantes :
 Exemple d’un diagramme de cas d’utilisation extrait du volet « Cercle de soins » :
 
  <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/cds-ex-2.png" alt="CP" title="Diagramme du cas d’utilisation « Création du cercle de soins »" style="width:80%;">
+    <img src="cds-ex-2.png" alt="CP" title="Diagramme du cas d’utilisation « Création du cercle de soins »" style="width:80%;">
     <figcaption><b>Diagramme du cas d’utilisation « Création du cercle de soins »</b></figcaption>
 </div>
 
@@ -253,14 +253,14 @@ Dans cette analyse ciblée sur les échanges, il n’est pas utile de chercher �
 
 Les actions sont représentées par des nœuds d’activité UML sur le diagramme et doivent être décrites (voir les différents nœuds d’activité ci-dessous).
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/Noeud-activité.png" alt="CP" title="Différents nœuds d’activité" style="width:80%;">
+    <img src="Noeud-activité.png" alt="CP" title="Différents nœuds d’activité" style="width:80%;">
     <figcaption><b>Différents nœuds d’activité</b></figcaption>
 </div>
 
 Il existe également des nœuds de contrôle qui permettent d’organiser les flux entre les actions (voir les différents nœuds de contrôle ci-dessous).
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/noeuds-controle.png" alt="CP" title="Différents nœuds de contrôle" style="width:80%;">
+    <img src="noeuds-controle.png" alt="CP" title="Différents nœuds de contrôle" style="width:80%;">
     <figcaption><b>Différents nœuds de contrôle</b></figcaption>
 </div>
 
@@ -277,7 +277,7 @@ Seuls les flux d’information doivent être décrits.
 L'exemple présenté ci-dessous illustre la représentation du processus métier collaboratif "Création du cercle de soins" par un diagramme d'activité accompagné de la description des actions.
 
  <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/collab-cds-identification-flux.png" alt="CP" title="Processus collaboratif « Création du cercle de soins » et identification des flux" style="width:40%;">
+    <img src="collab-cds-identification-flux.png" alt="CP" title="Processus collaboratif « Création du cercle de soins » et identification des flux" style="width:40%;">
     <figcaption><b>Processus collaboratif « Création du cercle de soins » et identification des flux</b></figcaption>
 </div>
 
@@ -310,7 +310,7 @@ Le diagramme des acteurs/transactions regroupe l’ensemble des acteurs impliqu�
 Exemple de diagramme des acteurs/transactions dans le contexte du volet « Cercle de soins » :
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/diagramme-acteurs-transaction.png" alt="CP" title="Diagramme des acteurs/transactions dans le contexte du volet « Cercle de soins »" style="width:80%;">
+    <img src="diagramme-acteurs-transaction.png" alt="CP" title="Diagramme des acteurs/transactions dans le contexte du volet « Cercle de soins »" style="width:80%;">
     <figcaption><b>Diagramme des acteurs/transactions dans le contexte du volet « Cercle de soins »</b></figcaption>
 </div>
 
@@ -742,7 +742,7 @@ L'exemple du diagramme de classe "Flux 1 - CreationCercleSoins" illustre la cons
 Le diagramme de classes n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir Figure ci-dessous).
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/flux1-creation-cds.png" alt="CP" title="Flux 1 - création CDS" style="width:80%;">
+    <img src="flux1-creation-cds.png" alt="CP" title="Flux 1 - création CDS" style="width:80%;">
     <figcaption><b>Flux 1 - création CDS</b></figcaption>
 </div>
 
@@ -826,7 +826,7 @@ Tableau des critères de recherche du « Flux de recherche : Flux 2 – Recherch
 **Diagramme d’objet du flux 1 – CreationCercleSoins**
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/diagramme-cds.png" alt="CP" title="Diagramme d’objet du flux 1 – CreationCercleSoins**" style="width:80%;">
+    <img src="diagramme-cds.png" alt="CP" title="Diagramme d’objet du flux 1 – CreationCercleSoins**" style="width:80%;">
     <figcaption><b>Diagramme d’objet du flux 1 – CreationCercleSoins**</b></figcaption>
 </div>
 

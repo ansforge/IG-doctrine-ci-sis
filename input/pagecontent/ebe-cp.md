@@ -35,7 +35,7 @@ Il vous est possible de visualiser vos demandes en cours traitement, mais égale
 L'expression des besoins s'inscrit dans le [processus d’élaboration des spécifications d’interopérabilité](elaboration.html) qui sont à l’origine du développement des conditions favorables à l’interopérabilité des systèmes.
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/processus-ebe.png" alt="CP" title="Processus d’élaboration des spécifications d’interopérabilité" style="width:80%;">
+    <img src="processus-ebe.png" alt="CP" title="Processus d’élaboration des spécifications d’interopérabilité" style="width:80%;">
     <figcaption><b>Processus d’élaboration des spécifications d’interopérabilité</b></figcaption>
 </div>
 
@@ -46,7 +46,7 @@ L'expression des besoins s'inscrit dans le [processus d’élaboration des spéc
 Le processus de traitement d'une expression de besoins peut être schématisé ainsi :
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/processus-ttt-ebe.png" alt="process-EBE" title="Procédure de traitement d'une demande d'évolution majeure du CI-SIS" border="2" style="width:100%;">
+    <img src="processus-ttt-ebe.png" alt="process-EBE" title="Procédure de traitement d'une demande d'évolution majeure du CI-SIS" border="2" style="width:100%;">
     <figcaption><b>Procédure de traitement d'une expression de besoins d'évolution majeure du CI-SIS</b></figcaption>
 </div>
 Après analyse et qualification du besoin, les demandes sont inscrites dans la file active, afin de recueillir l'avis du Comité de concertation qui s'appuie sur le Comité d'instruction  et **propose une priorisation** au Comité de pilotage.
@@ -108,6 +108,6 @@ Les CP mineures sont traitées au fil de l'eau et sont intégrées dans les vole
 
 Le schéma ci-dessous décrit le cycle de vie d'une CP durant son traitement.
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/ttt-cp.png" alt="CP" title="Traitment d'une CP : son cycle de vie" style="width:70%;">
+    <img src="ttt-cp.png" alt="CP" title="Traitment d'une CP : son cycle de vie" style="width:70%;">
     <figcaption><b>Traitement d'une CP : son cycle de vie</b></figcaption>
 </div>

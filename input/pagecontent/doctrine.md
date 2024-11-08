@@ -48,7 +48,7 @@ Dans un futur proche, une doctrine d’interopérabilité pour les cas d’usage
 L’ensemble des spécifications d’interopérabilité (au sein du Cadre d’Interopérabilité des Systèmes d’Information de Santé (CI-SIS)) et des terminologies constitue un bien commun, qui respecte les principes de transparence, de collaboration, de participation et d’éthique.
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/doctrine.png" alt="CP" title="Principes généraux de la doctrine d’interopérabilité" style="width:80%;">
+    <img src="doctrine.png" alt="CP" title="Principes généraux de la doctrine d’interopérabilité" style="width:80%;">
     <figcaption><b>Principes généraux de la doctrine d’interopérabilité</b></figcaption>
 </div>
 
@@ -154,7 +154,7 @@ Ces différentes étapes sont détaillées dans les schémas de la section suiva
 La doctrine est complètement intégrée à la gouvernance du CI-SIS. Elle vient se positionner en entrée de la phase 4 de l’instruction de la gouvernance lors du choix de la syntaxe et de la sémantique cibles à utiliser dans les spécifications d’interopérabilité.
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/phase-gouv.png" alt="CP" title="Niveaux Rappel des phases de la gouvernance du CI-SIS" style="width:80%;">
+    <img src="phase-gouv.png" alt="CP" title="Niveaux Rappel des phases de la gouvernance du CI-SIS" style="width:80%;">
     <figcaption><b>Niveaux Rappel des phases de la gouvernance du CI-SIS</b></figcaption>
 </div>
 
@@ -171,7 +171,7 @@ En y intégrant les éléments de la doctrine syntaxique et sémantique, la phas
 </div>
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/Sous-phase-evo.png" alt="CP" title="Sous phases de la phase d’évolution du CI-SIS" style="width:80%;">
+    <img src="Sous-phase-evo.png" alt="CP" title="Sous phases de la phase d’évolution du CI-SIS" style="width:80%;">
     <figcaption><b>Sous phases de la phase d’évolution du CI-SIS</b></figcaption>
 </div>
 

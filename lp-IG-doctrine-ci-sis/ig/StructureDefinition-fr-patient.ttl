@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "FrPatient"] ; # 
   fhir:title [ fhir:v "Patient français"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-11-08T09:29:33+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-08T12:39:52+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

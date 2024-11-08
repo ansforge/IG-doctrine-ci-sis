@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "DoctrineCISIS"] ; # 
   fhir:title [ fhir:v "Doctrine du CI-SIS"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-11-08T09:29:33+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-08T12:39:52+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -708,7 +708,7 @@
            fhir:value [ fhir:v "gestion-ebe.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "gestion-ebe.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Expression des besoins" ] ;
+         fhir:title [ fhir:v "Expression des besoin" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -716,7 +716,7 @@
            fhir:value [ fhir:v "standardisation-med.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "standardisation-med.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Strandardisation de la connaissance médicale" ] ;
+         fhir:title [ fhir:v "Standardisation de la connaissance médicale" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;

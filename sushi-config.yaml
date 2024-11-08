@@ -32,16 +32,12 @@ pages:
         title: Cycle de vie des spécifications
     ebe-cp.md:
         title: Expression des besoins (EBE) et gestion des Change Proposals (CP)
-    trajectoire-interop.md:
+    trajectoire-iop.md:
         title: Trajectoire interopérabilité
     up-externe.md:
         title: Unité de production externe
     interactions-ecosysteme.md:
         title: Interactions avec l'écosystème
-    gestion-cp.md:
-        title: Gestion des changements
-    gestion-ebe.md:
-        title: Expression des besoin
 
 menu:
     Accueil: index.html
@@ -52,11 +48,9 @@ menu:
         Choix des normes et standard: choix-standard.html
         Cycle de vie: cycle-de-vie.html
         Expression des besoins et Change Proposals: ebe-cp.html
-        Trajectoire interopérabilité: trajectoire-interop.html
+        Trajectoire interopérabilité: trajectoire-iop.html
         Unité de production externe: up-externe.html
     Gouvernance:
         Interactions avec l'écosystème: interactions-ecosysteme.html
-        Gestion des changements: gestion-cp.html
-        Expression des besoins : gestion-ebe.html
 
     Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/

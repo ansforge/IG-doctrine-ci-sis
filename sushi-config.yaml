@@ -26,14 +26,15 @@ pages:
         title: Cycle de vie
     trajectoire-interop.md:
         title: Trajectoire interopérabilité
+    connaissance-medicale.md:
+        title: Connaissance médicale
     interactions-ecosysteme.md:
         title: Interactions avec l'écosystème
     gestion-cp.md:
         title: Gestion des changements
     gestion-ebe.md:
         title: Expression des besoin
-    connaissance-medicale.md:
-        title: Connaissance médicale
+
 
 menu:
     Accueil: index.html

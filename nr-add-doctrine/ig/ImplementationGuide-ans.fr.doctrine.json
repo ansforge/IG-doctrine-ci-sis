@@ -10,7 +10,7 @@
   "name" : "DoctrineCISIS",
   "title" : "Doctrine du CI-SIS",
   "status" : "draft",
-  "date" : "2024-11-08T08:40:37+00:00",
+  "date" : "2024-11-08T09:19:42+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -754,10 +754,37 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "doctrine-cisis.html"
+          "valueUrl" : "generalites.html"
         }],
-        "nameUrl" : "doctrine-cisis.html",
+        "nameUrl" : "generalites.html",
+        "title" : "Généralités",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "doctrine.html"
+        }],
+        "nameUrl" : "doctrine.html",
         "title" : "Doctrine du CI-SIS",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "elaboration.html"
+        }],
+        "nameUrl" : "elaboration.html",
+        "title" : "Méthode d'élaboration des échanges fonctionnels",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "choix-standard.html"
+        }],
+        "nameUrl" : "choix-standard.html",
+        "title" : "Choix des normes et standard",
         "generation" : "markdown"
       },
       {
@@ -766,16 +793,34 @@
           "valueUrl" : "cycle-de-vie.html"
         }],
         "nameUrl" : "cycle-de-vie.html",
-        "title" : "Cycle de vie",
+        "title" : "Cycle de vie des spécifications",
         "generation" : "markdown"
       },
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "trajectoire-interop.html"
+          "valueUrl" : "ebe-cp.html"
         }],
-        "nameUrl" : "trajectoire-interop.html",
+        "nameUrl" : "ebe-cp.html",
+        "title" : "Expression des besoins (EBE) et gestion des Change Proposals (CP)",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "trajectoire-iop.html"
+        }],
+        "nameUrl" : "trajectoire-iop.html",
         "title" : "Trajectoire interopérabilité",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "up-externe.html"
+        }],
+        "nameUrl" : "up-externe.html",
+        "title" : "Unité de production externe",
         "generation" : "markdown"
       },
       {
@@ -785,24 +830,6 @@
         }],
         "nameUrl" : "interactions-ecosysteme.html",
         "title" : "Interactions avec l'écosystème",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "gestion-cp.html"
-        }],
-        "nameUrl" : "gestion-cp.html",
-        "title" : "Gestion des changements",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "gestion-ebe.html"
-        }],
-        "nameUrl" : "gestion-ebe.html",
-        "title" : "Expression des besoin",
         "generation" : "markdown"
       }]
     },

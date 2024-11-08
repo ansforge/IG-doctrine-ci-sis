@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "DoctrineCISIS"] ; # 
   fhir:title [ fhir:v "Doctrine du CI-SIS"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-11-08T08:40:37+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-08T09:19:42+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -665,10 +665,34 @@
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "doctrine-cisis.html"^^xsd:anyURI ]
+           fhir:value [ fhir:v "generalites.html"^^xsd:anyURI ]
          ] ) ;
-         fhir:name [ fhir:v "doctrine-cisis.html"^^xsd:anyURI ] ;
+         fhir:name [ fhir:v "generalites.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Généralités" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "doctrine.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "doctrine.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Doctrine du CI-SIS" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "elaboration.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "elaboration.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Méthode d'élaboration des échanges fonctionnels" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "choix-standard.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "choix-standard.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Choix des normes et standard" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -676,15 +700,31 @@
            fhir:value [ fhir:v "cycle-de-vie.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "cycle-de-vie.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Cycle de vie" ] ;
+         fhir:title [ fhir:v "Cycle de vie des spécifications" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "trajectoire-interop.html"^^xsd:anyURI ]
+           fhir:value [ fhir:v "ebe-cp.html"^^xsd:anyURI ]
          ] ) ;
-         fhir:name [ fhir:v "trajectoire-interop.html"^^xsd:anyURI ] ;
+         fhir:name [ fhir:v "ebe-cp.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Expression des besoins (EBE) et gestion des Change Proposals (CP)" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "trajectoire-iop.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "trajectoire-iop.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Trajectoire interopérabilité" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "up-externe.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "up-externe.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Unité de production externe" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -693,22 +733,6 @@
          ] ) ;
          fhir:name [ fhir:v "interactions-ecosysteme.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Interactions avec l'écosystème" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "gestion-cp.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "gestion-cp.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Gestion des changements" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "gestion-ebe.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "gestion-ebe.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Expression des besoin" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;

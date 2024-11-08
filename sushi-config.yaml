@@ -31,7 +31,7 @@ pages:
     gestion-cp.md:
         title: Gestion des changements
     gestion-ebe.md:
-        title: Expression des besoins
+        title: Expression des besoin
     connaissance-medicale.md:
         title: Connaissance médicale
 

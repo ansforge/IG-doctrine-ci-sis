@@ -191,7 +191,7 @@ Le processus de conception adopté dans le cadre de la gestion des artéfacts de
 
 En ingénierie des connaissances et plus particulièrement dans le cadre défini en paragraphe 2 de cette doctrine, nous avons identifié 3 designs patterns que le SI-CM doit respecter dans la gestion des artéfacts de connaissances médicales
 
-####### L'architecture tri-dimentionnel de Rector et al. (15)
+###### # L'architecture tri-dimentionnel de Rector et al. (15)
 
 La standardisation des GBPC dans le cadre du SI-CM doit combiner et interfacer trois types de modèles (Figure 2) 
 
@@ -210,7 +210,7 @@ La standardisation des GBPC dans le cadre du SI-CM doit combiner et interfacer t
 </div>
 
 
-####### La représentation multi couches de la connaissance médicale de Boxwala et al (16)
+###### # La représentation multi couches de la connaissance médicale de Boxwala et al (16)
 
 La standardisation des GBPC dans le cadre du SI-CM doit respecter les différents niveaux de structuration de la connaissance décrits dans (16) (Tableau 1) Les documents de spécifications pour chaque volet du SI-CM doivent pouvoir décrire la structuration de la connaissance médicale du GBPC cible suivant ces quatre formats de représentation  
 
@@ -258,11 +258,11 @@ La standardisation des GBPC dans le cadre du SI-CM doit respecter les différent
 </div>
 
 
-####### L'intégration standardisée des SADC basés sur les GBPC dans un SI de santé
+###### # L'intégration standardisée des SADC basés sur les GBPC dans un SI de santé
 
 La connaissance médicale issue des GBPC standardisée dans le cadre du SI-CM n’aura de valeur que si elle est déployée et exploitée par l’écosystème. Une des stratégies préconisées dans la littérature pour faciliter l’adoption de cette connaissance par les professionnels de santé est son déploiement sous forme de SADCs (17). Une des principales barrières décrites dans la littérature à l’adoption des SADC (basés ou non sur une connaissance médicale standardisée) par l’écosystème est la mauvaise scalabilité de ces systèmes. Adopter un standard d’intégration et d’exposition des SADCs est une des solutions architecturales préconisées dans la littérature pour améliorer la scalabilité des SADCs (18). La connaissance médicale standardisée dans le cadre du SI-CM doit pouvoir s’intégrer dans un SI de santé sous forme d’un SADC en adoptant un standard d’intégration.
 
-####### Se positionner par rapport aux Design Patterns architecturaux génériques
+###### # Se positionner par rapport aux Design Patterns architecturaux génériques
 
 Les solutions logicielles conçues dans le cadre des problématiques posées par l’interopérabilité en santé doivent être réfléchies à un niveau d’abstraction qui permet d’instancier ces solutions de façons différentes autant de fois qu’elles seront utilisées sur le terrain pour un cas d’usage. C’est là, la définition même d’un Design Pattern. Les Design Patterns produits par les différentes sociétés savantes : HL7, IHE, IEEE,…peuvent être de trois catégories 
 
@@ -324,7 +324,7 @@ Dans ce qui suit nous justifions nos choix d’outils et/ou standards pour le ch
 
 ##### Relations entre les principes de la doctrine du SI-CM et les activités du chemin nominal instancié
 
-####### Choisir un langage de modélisation
+###### # Choisir un langage de modélisation
 
 Cette activité est en relation avec le principe #4, chapitre 3.4.2 énoncé en amont. Le langage de modélisation standard choisi pour illustrer les étapes de conception et de structuration des artéfacts de connaissances médicales issues des GBPC dans la doctrine du SI-CM est le langage standard UML version 2.0 (22). 
 
@@ -338,7 +338,7 @@ Ce choix est justifié pour plusieurs raisons
     </ul>
 </div>
 
-####### Choisir un processus de modélisation
+###### # Choisir un processus de modélisation
 
 Cette activité est en relation avec le principe #4, chapitre 3.4.3 énoncé en amont. Le processus choisi pour encadrer le travail de conception et de structuration des artéfacts de connaissances médicales issues des GBPC dans la doctrine du SI-CM est le processus Agile décrit dans le FHIR IG CPG-on-FHIR (23). 
 
@@ -351,7 +351,7 @@ Ce choix est justifié pour plusieurs raisons :
     </ul>
 </div>
 
-####### Choisir un modèle d'information standard
+###### # Choisir un modèle d'information standard
 
 Cette activité est en relation avec le principe #4, chapitre 3.4.4.1 et les principes #1, #2, #3 et #5 énoncés en amont. Le modèle d’information standard choisi pour standardiser les informations issues du dossier patient est FHIR en version R4 (24). 
 
@@ -366,7 +366,7 @@ Ce choix est justifié pour plusieurs raisons :
     </ul>
 </div>
 
-####### Choisir un modèle de connaissances statiques standard
+###### # Choisir un modèle de connaissances statiques standard
 
 Cette activité est en relation avec le principe #4, chapitre 3.4.4.1 et les principes #1, #2, #3 et #5 énoncés en amont. La ou les terminologies médicales choisies pour structurer les artéfacts de connaissances issus de la standardisation des GBPC sont celles recommandées par la doctrine du CGTS. 
 
@@ -381,7 +381,7 @@ Ce choix est justifié pour plusieurs raisons :
     </ul>
 </div>
 
-####### Choisir un modèle de connaissances dynamiques standard
+###### # Choisir un modèle de connaissances dynamiques standard
 
 Cette activité est en relation avec le principe #4, chapitre 3.4.4.1 et les principes #1, #2, #3 et #5 énoncés en amont. Le modèle de connaissances dynamiques choisie pour standardiser l’écriture des artéfacts de connaissances médicales issues des GBPC est CQL (25).  
 
@@ -403,7 +403,7 @@ Ce choix est justifié pour plusieurs raisons :
 </div>
 
 
-####### Choisir un standard d'intégration 
+###### # Choisir un standard d'intégration 
 
 Cette activité est en relation avec le principe #4, chapitre 3.4.4.3. Le standard d’intégration de la connaissance médicale sous forme de SDAC choisi par l’ANS est le standard CDS Hooks (19).  
 
@@ -416,7 +416,7 @@ Ce choix est justifié pour plusieurs raisons :
     </ul>
 </div>
 
-####### Choisir une licence de publication
+###### # Choisir une licence de publication
 
 Cette activité est en relation avec le principe #3 et le principe #5 de la présente doctrine. Tous les artéfacts de connaissances médicales publiés dans le cadre du SI-CM doivent l’être sous la licence « Licence Ouverte Version 2.0 » (Lov2) d’Etalab (26). 
 
@@ -428,7 +428,7 @@ Ce choix est justifié pour plusieurs raisons :
     </ul>
 </div>
 
-####### Choisir un format de publication standard
+###### # Choisir un format de publication standard
 
 Cette activité est en relation avec le principe #1, #2, #3 et #5 de la présente doctrine. Les artéfacts de connaissances médicales définis et / ou exposés dans le cadre du SI-CM doivent être publiés suivant le format FHIR ImplementationGuide (IG). 
 

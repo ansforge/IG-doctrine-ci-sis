@@ -28,6 +28,8 @@ pages:
         title: Trajectoire interopérabilité
     connaissance-medicale.md:
         title: Connaissance médicale
+    comitologie.md:
+        title: Comitologie du CI-SIS
     interactions-ecosysteme.md:
         title: Interactions avec l'écosystème
     gestion-cp.md:
@@ -44,9 +46,9 @@ menu:
         Trajectoire interopérabilité: trajectoire-interop.html
         Connaissance médicale: connaissance-medicale.html
     Gouvernance du CI-SIS:
+        Comitologie : comitologie.html
         Interactions avec l'écosystème: interactions-ecosysteme.html
-        Gestion des changements: gestion-cp.html
-        Expression des besoins : gestion-ebe.html
+
     
 
     Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/

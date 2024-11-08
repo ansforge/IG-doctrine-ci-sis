@@ -442,7 +442,7 @@ Ce choix est justifié pour plusieurs raisons :
     </ul>
 </div> 
 
-![](<../../assets/images/diagramme activite uml.svg>)
+![](<../../assets/images/Figure 4 Diagramme d’activité UML pour illustrer les choix du chemin nominal de la doctrine du SI-CM et les possibles chemins secondaires.svg>)
 
 
 <div align="center">Figure 4 : Diagramme d’activité UML pour illustrer les choix du chemin nominal de la doctrine du SI-CM et les possibles chemins secondaires</div>

@@ -17,7 +17,7 @@ Generated $--. FHIR version $-- for ans.fr.doctrine#$-- (canonical = https://int
  /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/ValueSet-TypeCarteVS : 0 / 1 / 1
 </table>
 == n/a ==
-ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/div/img at Line 470, column 6: The image source 'Tableau 1 les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al.png' cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/div/img at Line 467, column 6: The image source 'Tableau 1 les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al.png' cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide

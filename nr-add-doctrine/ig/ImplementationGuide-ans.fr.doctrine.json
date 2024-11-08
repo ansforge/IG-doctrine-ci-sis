@@ -10,7 +10,7 @@
   "name" : "DoctrineCISIS",
   "title" : "Doctrine du CI-SIS",
   "status" : "draft",
-  "date" : "2024-11-08T14:49:06+00:00",
+  "date" : "2024-11-08T16:03:57+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -766,7 +766,7 @@
           "valueUrl" : "doctrine.html"
         }],
         "nameUrl" : "doctrine.html",
-        "title" : "Doctrine du CI-SIS",
+        "title" : "Doctrine d’interopérabilité syntaxique et doctrine d’interopérabilité sémantique",
         "generation" : "markdown"
       },
       {

@@ -1,9 +1,3 @@
----
-title: Méthode d'élaboration des échanges fonctionnels
-nav_order: 3
-description:
----
-
 <div style="
     background-color: #fff5f5; 
     color: #e57373; 
@@ -36,7 +30,7 @@ A partir des exigences recueillies auprès des parties prenantes du métier, le 
 
 Pour rappel, les processus métier collaboratifs sont ceux dans lesquels il y a des échanges d'informations entre partenaires.
 
-## Description de la méthode
+### Description de la méthode
 
 Un volet du cadre d'interopérabilité des systèmes d'information de santé (CI-SIS) est composé des documents suivants :
 
@@ -68,7 +62,7 @@ Cette méthode est constituée de six étapes. Le résultat de chacune de ces é
 
 L'élaboration de ces étapes repose sur la notation UML (Unified Modeling Language). La notation BPMN (Business Process Model Notation) peut également être utilisée pour décrire les processus à l’étape 3. L'application de cette méthode nécessite des connaissances de base dans ces techniques de modélisation.
 
-## Niveaux d’interopérabilité et spécifications fonctionnelles des échanges
+### Niveaux d’interopérabilité et spécifications fonctionnelles des échanges
 
 <div class="figure" style='text-align: center;'>
     <img src="niveaux-interop.png" alt="CP" title="Niveaux d’interopérabilité" style="width:80%;">
@@ -82,11 +76,11 @@ Les spécifications fonctionnelles des échanges font partie du niveau sémantiq
     <figcaption><b>Niveaux d’interopérabilité couverts par les spécifications fonctionnelles des échanges</b></figcaption>
 </div>
 
-## Déroulement de la méthode
+### Déroulement de la méthode
 
 **La méthode par l'exemple** : cette méthode est illustrée par un exemple extrait de la phase préparatoire des spécifications fonctionnelles de l'étude "Cercle de soins".
 
-### Etape 0 : Cadre juridique et orientations organisationnelles
+#### Etape 0 : Cadre juridique et orientations organisationnelles
 
 Le cadre juridique de l’étude doit être cité à cette étape afin de le prendre en considération à toutes les étapes de la méthode.
 
@@ -94,7 +88,7 @@ Les orientations organisationnelles et les moyens mis en œuvre pour rationalise
 
 Les cas d’usage sont décrits à ce niveau. Il s’agit de détailler, à l’aide de diagrammes de séquences et de parties textuelles, les acteurs et les transactions entre ces acteurs supports à l’échange ou au partage de l’information médicale dans le contexte d’un workflow réalisé par différents systèmes.
 
-### Etape 1 : Organisation du contexte métier
+#### Etape 1 : Organisation du contexte métier
 
 Le but de cette étape est de placer l'étude dans son contexte et d'identifier le ou les processus collaboratifs du périmètre de cette étude.
 
@@ -104,7 +98,7 @@ Une fois identifiés, les processus sont représentés dans un diagramme de paqu
 
 **Remarque pratique sur les diagrammes de paquetages :** un paquetage peut être un regroupement d'une grande variété d’éléments, comme des processus, des acteurs, d'autres paquetages imbriqués, des interactions, etc. Cette diversité implique que la représentation graphique des paquetages dans un outil UML peut être obtenue par un diagramme de paquetages mais aussi par d’autres diagrammes, notamment un diagramme de classes, un diagramme de cas d'utilisation, etc.
 
-#### Description des paquetages
+##### Description des paquetages
 
 Les paquetages doivent être décrits et stéréotypés. La granularité des paquetages dépend du contexte de l'étude.
 
@@ -114,7 +108,7 @@ Le paquetage **<<GroupeProcessus>>** est composé d'un ou plusieurs processus m�
 
 Le paquetage **<<Processus>>** représente le processus métier collaboratif qui est décrit à partir de l'étape 2. A noter que le périmètre de l'étude concerne des processus qui peuvent être présents dans un seul groupe de processus ou répartis dans plusieurs groupes de processus.
 
-#### Règles applicables
+##### Règles applicables
 
 Les règles applicables dans cette étape sont les suivantes :
 
@@ -126,7 +120,7 @@ Les règles applicables dans cette étape sont les suivantes :
     </ul>
 </div>
 
-#### Exemple
+##### Exemple
 
 Le diagramme de paquetages de la ci-dessous est extrait de l’étude "Cercle de soins". Le processus collaboratif faisant partie du périmètre de l’étude est indiqué en bleu sur ce diagramme.
 
@@ -135,7 +129,7 @@ Le diagramme de paquetages de la ci-dessous est extrait de l’étude "Cercle de
     <figcaption><b>Organisation du contexte métier de l’étude « Cercle de soins »</b></figcaption>
 </div>
 
-### Etape 2 : définition des processus collaboratifs
+#### Etape 2 : définition des processus collaboratifs
 
 Les processus métier collaboratifs ont été identifiés à l'étape 1 "Organisation du contexte métier". Le but de l'étape 2 est de les décrire.
 Cette modélisation est une vue macroscopique des processus qui sont représentés au moyen de diagrammes de cas d’utilisation UML. Dans cette étape, l'action la plus importante consiste à identifier, définir et relier les acteurs aux processus.
@@ -153,7 +147,7 @@ D’éventuelles dépendances entre les processus peuvent être formalisées par
 Toutefois, l’exercice ne doit pas être poussé trop loin. Si ces notions d’héritage, d'inclusion et d'extension semblent incontournables, il faut néanmoins avant d’y recourir, revoir la liste des processus et vérifier qu’elle est pertinente.
 Un diagramme de cas d’utilisation contient un à plusieurs cas d'utilisation ainsi que les acteurs impliqués. Chaque cas d’utilisation correspond à un processus métier collaboratif. Les caractéristiques du cas d’utilisation sont détaillées à la suite du diagramme.
 
-#### Description des acteurs
+##### Description des acteurs
 
 Les acteurs doivent être décrits et stéréotypés.
 
@@ -177,7 +171,7 @@ Exemple du cercle de soins :
 | Gestionnaire | Le rôle de gestionnaire incarné par un système est de gérer et stocker le cercle de soins ainsi que donner accès aux informations en cas de consultation. Exemples de gestionnaire : dossier patient informatisé, service numérique de partage de données |
 | Consommateur | Le rôle de consommateur incarné par un système est de consulter un cercle de soins.Exemples de consommateur : un dossier patient informatisé, un système de gestion de laboratoire, un système d’information radiologique, un logiciel de gestion de cabinet, un service numérique d’appui à la coordination |
 
-#### Caractéristiques des processus collaboratifs
+##### Caractéristiques des processus collaboratifs
 
 Chaque processus collaboratif possède les caractéristiques suivantes :
 
@@ -218,7 +212,7 @@ Exemple de définition d’un processus collaboratif extrait du volet « Cercle 
 
 **Scénario nominal** : N/A
 
-#### Règles applicables
+##### Règles applicables
 
 Les règles applicables à cette étape sont les suivantes :
 
@@ -229,7 +223,7 @@ Les règles applicables à cette étape sont les suivantes :
     </ul>
 </div>
 
-### Etape 3 : identification des flux
+#### Etape 3 : identification des flux
 
 Les processus métier collaboratifs ont été identifiés à l'étape 1 "Organisation du contexte métier", puis définis à l'étape 2 "Définition des processus collaboratifs". Le but de l'étape 3 est de décrire le comportement des acteurs stéréotypés **<<Rôle>>** identifiés à l’étape 2 et de préciser les flux échangés par ces acteurs **<<Rôle>>**.
 
@@ -241,13 +235,13 @@ Le diagramme de séquence UML offre moins d'options de modélisation que le diag
 
 Il est possible, afin d’offrir une vue globale, de représenter en annexe des scénarios qui montrent des exemples d'enchainement des différents processus décrits à cette étape. Une étude peut décrire un à plusieurs scénarios. Cependant, il n’est pas nécessaire de lister exhaustivement l’ensemble des scénarios couverts par l’étude.
 
-#### Description des acteurs
+##### Description des acteurs
 
 Chaque acteur est représenté sur le diagramme par une travée appelée aussi partition, couloir ou ligne d’eau. Une travée rassemble les actions, nœuds de contrôle et flux sous la responsabilité de cet acteur.
 
 Les acteurs représentés sont ceux décrits sous le stéréotype " Rôle ", à l’étape 2.
 
-#### Description des actions
+##### Description des actions
 
 Dans cette analyse ciblée sur les échanges, il n’est pas utile de chercher à trop détailler les actions internes aux acteurs. Sur le diagramme, cela se traduit par un nombre raisonnable d'actions dans les travées. Les actions qui ne génèrent pas de flux d’informations, peuvent être présentes pour améliorer la compréhension du processus.
 
@@ -264,7 +258,7 @@ Il existe également des nœuds de contrôle qui permettent d’organiser les fl
     <figcaption><b>Différents nœuds de contrôle</b></figcaption>
 </div>
 
-#### Description des flux
+##### Description des flux
 
 Un flux de contrôle décrit le séquencement entre deux nœuds d’activité ou entre un nœud de contrôle et un nœud d’activité.
 
@@ -287,7 +281,7 @@ L'exemple présenté ci-dessous illustre la représentation du processus métier
 | Envoyer la demande | Après validation de la saisie, le créateur du cercle de soins soumet au gestionnaire du cercle de soins, une demande de création du cercle de soins |
 | Créer le cercle de soins | Le cercle de soins est créé par le gestionnaire du cercle de soins |
 
-#### Règles applicables
+##### Règles applicables
 
 Les règles applicables à cette étape sont les suivantes :
 
@@ -302,7 +296,7 @@ Les règles applicables à cette étape sont les suivantes :
 
 Pour plus de commodités, il est possible de numéroter les flux.
 
-#### Synthèse
+##### Synthèse
 
 Cette synthèse regroupe sur le diagramme des acteurs/transactions l’ensemble des acteurs et des flux d’information échangés entre ces acteurs.
 Le diagramme des acteurs/transactions regroupe l’ensemble des acteurs impliqués dans les échanges et l’ensemble des flux d’informations échangés entre ces acteurs.
@@ -549,7 +543,7 @@ Tout volet du CI-SIS, quel que soit son format doit contenir les sections suivan
     </ul>
 </div>
 
-### Etape 4 : identification des concepts véhiculés dans les flux d’information
+#### Etape 4 : identification des concepts véhiculés dans les flux d’information
 
 Les flux d’informations échangés par les acteurs dans les processus métier collaboratifs ont été identifiés et décrits à l’étape 3. Le but de l’étape 4 est d’identifier les concepts métier véhiculés dans les flux et de les associer aux concepts du modèle des objets de santé (MOS). Le MOS est un ensemble de concepts, décrits de manière homogène et neutre vis-à-vis des technologies. Il offre une description commune et mutualisée des informations traitées dans les systèmes d’information et les échanges.
 
@@ -561,7 +555,7 @@ Cette étape est découpée en deux sous-étapes :
         <li>Sous-étape 4.2 : Correspondance entre les concepts métier identifiés et les concepts du MOS.</li>
     </ul>
 </div>
-#### Identification des concepts
+##### Identification des concepts
 
 L’identification des concepts métier véhiculés dans chacun des flux est un exercice d’inventaire qui nécessite une collecte des informations auprès du métier, flux par flux.
 D’un point de vue pratique dans cette étape, les concepts métier sont tous identifiés à des classes UML, quel que soit leur devenir, classe ou attribut, dans les étapes suivantes de l’étude. Ils respectent les conventions de nommage des classes du MOS, définies à l’étape 5.
@@ -577,7 +571,7 @@ Exemple :
 
 Tableau : Extrait des concepts métier présents dans l’étude « Cercle de soins »
 
-#### Identification des classes génériques
+##### Identification des classes génériques
 
 Une des principales difficultés lors de la modélisation des informations d'un échange est de ne pas réinventer à chaque fois une modélisation différente pour ces mêmes informations. Il faut, par exemple, veiller à représenter les informations relatives à "une personne physique" de la même façon dans chaque projet.
 Le but de cette partie est d'identifier, pour chaque concept métier, les composants du MOS les plus pertinents à réutiliser lors de la modélisation du flux, à partir des tableaux des concepts métier définis lors de la sous-étape 4.1.
@@ -647,7 +641,7 @@ Remarque : Tous les concepts métier doivent être listés dans le tableau, y co
 
 Tableau : Correspondance « concepts métier/MOS » pour les flux du volet « Cercle de soins »
 
-### Etape 5 : modélisation des flux d’information
+#### Etape 5 : modélisation des flux d’information
 
 Les concepts véhiculés par les flux d’informations ont été identifiés à l’étape 4. Le but de cette étape est d'élaborer le modèle sous tendu par chaque flux à partir des concepts métier et des classes et attributs existants dans le MOS.
 Le modèle sous tendu par chaque flux d’information est modélisé par un diagramme de classes UML. Cette représentation formalisée du flux doit prendre en compte les deux exigences suivantes :
@@ -659,7 +653,7 @@ Le modèle sous tendu par chaque flux d’information est modélisé par un diag
     </ul>
 </div>
 
-#### Modélisation des flux
+##### Modélisation des flux
 
 Le but de cette étape est d’établir la modélisation de chaque flux en utilisant les concepts identifiés à l'étape précédente. Cette modélisation est le résultat de cinq opérations.
 Remarque : Le cas particulier des flux de recherche est traité à la suite de la modélisation des flux afin de lier les critères de recherche aux classes et attributs identifiés.
@@ -830,7 +824,7 @@ Tableau des critères de recherche du « Flux de recherche : Flux 2 – Recherch
     <figcaption><b>Diagramme d’objet du flux 1 – CreationCercleSoins**</b></figcaption>
 </div>
 
-## CAS SPECIFIQUE DES MISES A JOUR DES SPECIFICATIONS
+### CAS SPECIFIQUE DES MISES A JOUR DES SPECIFICATIONS
 
 La mise à jour des spécifications est déclenchée lorsqu’un événement nouveau impacte une ou plusieurs étapes de ces spécifications.
 
@@ -838,7 +832,7 @@ Par exemple, une nouvelle contrainte réglementaire, l’ajout d’un cas d’us
 
 Dès qu’une étape est modifiée, il faut réaliser une étude d’impacts sur toutes les étapes suivantes. Un arbitrage de ces impacts doit être réalisé afin de savoir si des évolutions sont à considérer ou pas sur les spécifications existantes.
 
-### Pour toutes mises à jour
+#### Pour toutes mises à jour
 
 Avant toute modification, il convient de s’assurer qu’il n’y a pas de nouvelles contraintes réglementaires et organisationnelles ou que celles qui sont spécifiées sont toujours valides.
 
@@ -854,7 +848,7 @@ Quel que soit le type de mise à jour à réaliser, les actions suivantes sont �
 
 Les modifications apportées sur les spécifications fonctionnelles peuvent impacter l’étude des normes et standards ainsi que les spécifications techniques. Bien souvent la mise à jour des spécifications ne se limite pas au fonctionnel.
 
-### Ajout d’un processus
+#### Ajout d’un processus
 
 Avant d’ajouter un processus dans une spécification, il est important de s’assurer que le besoin n’est pas couvert par ailleurs et que le processus s’intègre au cas d’usage couvert par la spécification.
 
@@ -880,7 +874,7 @@ L’ajout d’un processus va se traduire par les actions suivantes :
     </ul>
 </div>
 
-### Modification d’un processus
+#### Modification d’un processus
 
 La modification d’un processus dans une spécification doit entrainer la revue des autres processus. Certains processus peuvent être impactés par cette modification.
 
@@ -909,7 +903,7 @@ La modification d’un processus va se traduire par les actions suivantes :
     </ul>
 </div>
 
-### Suppression d’un processus
+#### Suppression d’un processus
 
 La suppression d’un processus dans une spécification doit entrainer la revue des autres processus. Certains processus peuvent être impactés par cette suppression. Dans ce cas, se référer à la partie 0.
 

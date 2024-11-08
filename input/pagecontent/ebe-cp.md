@@ -1,8 +1,3 @@
----
-title: Expression des besoins et gestion des Change Proposals (CP)
-nav_order: 6
-description: 
----
 <div style="
     background-color: #fff5f5; 
     color: #e57373; 
@@ -17,20 +12,20 @@ description:
     ⚠️ Work in Progress
 </div>
 
-## Expressions de besoins d'intéropérabilité
+### Expressions de besoins d'intéropérabilité
 Le CI-SIS, permettant de standardiser un échange d’informations et constitué de spécifications d’interopérabilité, du modèle des objets de Santé (MOS) ainsi que des nomenclatures des objets de santé (NOS), facilite le développement harmonieux et pérenne de la e-Santé. Pour le faire évoluer au plus près des besoins et décider collectivement des priorités d’interopérabilité, l’ANS a mis en place une [nouvelle gouvernance](gouvernance.html).
 Cette gouvernance garantit un moyen transparent pour la prise en compte des « besoins » terrain dans le CI-SIS.
 
-### Formulaire pour l'expression de vos besoins
+#### Formulaire pour l'expression de vos besoins
 Afin de nous remonter vos besoins une formulaire est disponible [ici](CI-SIS_FORMULAIRE_EXPRESSION%20DE%20BESOINS.docx).
 Ce formulaire fait partie du corpus documentaire associé à cette gouvernance. Il constitue le support permettant de formaliser une expression de besoins d’interopérabilité susceptible de donner lieu à un enrichissement du CI-SIS. Il s’adresse à tout acteur des domaines sanitaire, médico-social et médico-administratif identifiant des besoins d’interopérabilité entre au moins deux systèmes.
 
-### Suivi du traitement des expressions de besoins
+#### Suivi du traitement des expressions de besoins
 
 Il vous est possible de visualiser vos demandes en cours traitement, mais également celles émises par les autres acteurs en accédant au [tableau de bord](https://github.com/orgs/ansforge/projects/39/views/2) (**outil en cours d'élaboration**).
 **Il est fortement recommandé de prendre connaissance des demandes en cours avant de nous soumettre votre propre demande.**
 
-### Gestion des expressions de besoins
+#### Gestion des expressions de besoins
 
 L'expression des besoins s'inscrit dans le [processus d’élaboration des spécifications d’interopérabilité](elaboration.html) qui sont à l’origine du développement des conditions favorables à l’interopérabilité des systèmes.
 
@@ -62,7 +57,7 @@ Le traitement d'une demande d'évolution majeure du CI-SIS requière un passage 
     </ul>
 </div>
 
-### Consultation et concertation
+#### Consultation et concertation
 
 Les procédures de consultation et de concertation:
 
@@ -74,14 +69,14 @@ Les procédures de consultation et de concertation:
     </ul>
 </div>
 
-## Gestion des Changes Proposals (CP)
+### Gestion des Changes Proposals (CP)
 
-### Formulaire et suivi
+#### Formulaire et suivi
 Une demande de Change Proposal (CP) peut être réalisée via ce [formulaire](CI-SIS_FORMULAIRE_Change_Proposal.docx).
 
 Les suivi des demandes de CP est visible grâce à ce [tableau de bord](https://github.com/orgs/ansforge/projects/39/views/1)(**outil en cours d'élaboration**).
 
-### Description du processus de traitement des CP
+#### Description du processus de traitement des CP
 
 Les CP sont identifiées en 2 catégories par le(s) analyste(s) :
 
@@ -92,7 +87,7 @@ Les CP sont identifiées en 2 catégories par le(s) analyste(s) :
     </ul>
 </div>
 
-#### CP majeures
+##### CP majeures
 Les CP majeures sont traitées au fil de l'eau et sont publiées par "batch" tous les 6 mois **sauf exception** (exemple : obligation réglementaire, demande dans le cadre du  Ségur).
 
 **Les CP 'majeures" sont obligatoirement soumis à concertation avant intégration dans les volets concernés.**
@@ -100,11 +95,11 @@ Les CP majeures sont traitées au fil de l'eau et sont publiées par "batch" tou
 Les mises en concertation sont annoncées au moyen d'une actualités sur le site esante.gouv.fr et d'un courriel d'information aux acteurs concernés.
 Les parties-prenantes et l'écosystème formulent leurs commentaires dans un délai de trois (3) mois après le démarrage des procédures. Ce délai peut être prolongé d'un (1) mois si nécesssaire (en période de congé estivale par exemple).
 
-#### CP mineures
+##### CP mineures
 Les CP mineures sont traitées au fil de l'eau et sont intégrées dans les volets dans des versions mineures sur décision de(s) auteur(s).
 **Il n'y pas de phase de concertation nécessaire.**
 
-#### Traitement d'une CP
+##### Traitement d'une CP
 
 Le schéma ci-dessous décrit le cycle de vie d'une CP durant son traitement.
 <div class="figure" style='text-align: center;'>

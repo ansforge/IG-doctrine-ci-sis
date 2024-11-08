@@ -1,9 +1,3 @@
----
-title: La doctrine du cadre d'interopérabilité
-nav_order: 2
-description:
----
-
 <div style="
     background-color: #fff5f5; 
     color: #e57373; 
@@ -49,15 +43,7 @@ L’ensemble des spécifications d’interopérabilité (au sein du Cadre d’In
     <figcaption><b>Principes généraux de la doctrine d’interopérabilité</b></figcaption>
 </div>
 
-<!-- 
-## Doctrine d'open semantique
-
-TODO - Faut-il l’intégrer à la doctrine du CI-SIS ? Si oui, à reprendre du document constitutif du CGTS. 
-A noter qu'il manque la partie doctrine d'open semantique ici.
-
--->
-
-## Choix des profils IHE et des guides d’implémentation FHIR comme base de la doctrine d’interopérabilité syntaxique
+### Choix des profils IHE et des guides d’implémentation FHIR comme base de la doctrine d’interopérabilité syntaxique
 
 Les profils IHE  et les guides d’implémentation FHIR d’HL7 sont des spécifications opérationnelles d’interopérabilité qui indiquent comment utiliser des normes/standards stables et « vivants » dans le cadre de cas d’usage des domaines sanitaire, medico-social et social. Ce travail d’analyse et de sélection des normes/standards ainsi que la prise en compte des spécificités des cas d’usage de ces domaines en font une base de départ adaptée pour les spécifications du CI-SIS, qui n’ont plus qu’à contraindre ces profils et ces guides d’implémentation en fonction du contexte français.
 
@@ -97,7 +83,7 @@ D’autre part, dans le cadre du règlement relatif à l’espace Européen des 
 
 Les dernières guidelines publiées dans ce cadre introduisent en particulier le standard Fast Health Interoperable Resources (FHIR) d’HL7. Ces guidelines sont ensuite déclinées en guides d’implémentation FHIR qui précisent l’implémentation opérationnelle des cas d’usage adressés.
 
-## Réutilisation des normes et standards déjà utilisés dans le CI-SIS
+### Réutilisation des normes et standards déjà utilisés dans le CI-SIS
 
 Afin de répondre aux enjeux de stabilité et de réutilisation, lorsqu’il n’existe pas de profil IHE ou de guide d’implémentation FHIR adapté à un cas d’usage, les normes et standards déjà utilisés dans le CI-SIS pour d’autres cas d’usage sont réutilisés s’ils sont adaptés.
 
@@ -117,7 +103,7 @@ Cependant, l’ANS a défini une [trajectoire d’interopérabilité](./trajecto
 
 La liste des normes et standards utilisés dans le CI-SIS évolue constamment à la faveur de la production de nouveaux volets du CI-SIS. A titre d’information, les normes et standards qui sont utilisés dans le CI-SIS en septembre 2024 sont présentés [ici](iste_Profils_IHE_Standards.xls).
 
-## Choix des normes et standards non encore utilisés dans le CI-SIS
+### Choix des normes et standards non encore utilisés dans le CI-SIS
 
 La doctrine du CI-SIS ne peut pas couvrir l’ensemble des cas d’usage faisant l’objet d’une spécification d’interopérabilité. Quand il est nécessaire de sélectionner une norme ou un standard (syntaxique, sémantique ou technique) cible qui n’est pas encore utilisé dans le CI-SIS, il est indispensable que l’ensemble des parties prenantes qui pourraient être affectées par ce choix :
 
@@ -146,7 +132,7 @@ Cette consultation s’organise en 6 étapes :
 
 Ces différentes étapes sont détaillées dans les schémas de la section suivante.
 
-## Articulation de la doctrine d’interopérabilité avec la gouvernance du CI-SIS
+### Articulation de la doctrine d’interopérabilité avec la gouvernance du CI-SIS
 
 La doctrine est complètement intégrée à la gouvernance du CI-SIS. Elle vient se positionner en entrée de la phase 4 de l’instruction de la gouvernance lors du choix de la syntaxe et de la sémantique cibles à utiliser dans les spécifications d’interopérabilité.
 

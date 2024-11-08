@@ -1,9 +1,3 @@
----
-title: 🔁 Choix des normes et standard
-nav_order: 4
-description:
----
-
 <div style="
     background-color: #fff5f5; 
     color: #e57373; 
@@ -57,7 +51,7 @@ Chacune des solutions proposées en introduction fait l’objet d’une étude d
     </ul>
 </div>
 
-## Comparaison des solutions
+### Comparaison des solutions
 
 Les normes/standards ou solutions envisagées sont comparées à l’aide d’un tableau selon différents critères.
 
@@ -78,11 +72,11 @@ Exemple de tableau de comparaison :
 | **Mise en œuvre existantes du cas d’usage** |  |  |
 | **Adoption par le marché et utilisation**  |  |  |
 
-## Analyse SWOT
+### Analyse SWOT
 
 Le tableau de maturité précédant peut être complété par une analyse SWOT qui permet d’évaluer plus finement les forces (Strengths), les faiblesses (Weaknesses), les opportunités (Opportunities) et les menaces (Threats) de chacune des options envisagées dans les étapes précédentes.
 
-### Forces : caractéristiques de la solution qui lui donnent un avantage sur les autres
+#### Forces : caractéristiques de la solution qui lui donnent un avantage sur les autres
 
 A ce niveau, on cherchera à évaluer les points clés suivants :
 
@@ -97,15 +91,15 @@ A ce niveau, on cherchera à évaluer les points clés suivants :
     </ul>
 </div>
 
-### Faiblesses : caractéristiques de la solution qui désavantagent cette solution par rapport aux autres
+#### Faiblesses : caractéristiques de la solution qui désavantagent cette solution par rapport aux autres
 
 chacun des points clés cités précédemment peut faire l’objet d’une faiblesse. A ces axes d’analyse s’ajoute par exemple le manque de support, la dynamique de l’organisation en charge de la solution ou du standard, la courbe d’apprentissage, les coûts élevés de développement et de maintenance, etc.
 
-### Opportunités : éléments de l'environnement que la solution pourrait exploiter à son avantage
+#### Opportunités : éléments de l'environnement que la solution pourrait exploiter à son avantage
 
 A ce niveau, on cherchera à évaluer les tendances du marché. Il s’agit de déterminer si la solution envisagée fait partie d’un marché émergent et permet de gagner en compétitivité et en innovation. L’évaluation des aspects d’évolutivité et de généralisation de la solution est primordiale.
 
-### Menaces : éléments de l'environnement qui pourraient causer des problèmes concernant le choix de la solution. On cherchera à évaluer les risques externes susceptibles de menacer le choix réalisé, tels que la saturation du marché, l’évolution de la règlementation qui pourrait remettre en cause ce choix, l’obsolescence technologique, la dépendance trop forte à une technologie ou à un éditeur, l’incapacité à migrer vers une autre technologie, etc
+#### Menaces : éléments de l'environnement qui pourraient causer des problèmes concernant le choix de la solution. On cherchera à évaluer les risques externes susceptibles de menacer le choix réalisé, tels que la saturation du marché, l’évolution de la règlementation qui pourrait remettre en cause ce choix, l’obsolescence technologique, la dépendance trop forte à une technologie ou à un éditeur, l’incapacité à migrer vers une autre technologie, etc
 
 Cette analyse SWOT est ensuite représentée sous la forme d’un tableau qui permet de visualiser comment les risques internes (Forces et faiblesses) et externes (Opportunités et Menaces) à la solution interagissent et affectent la stratégie du choix de la solution envisagée.
 
@@ -172,11 +166,11 @@ Cette analyse SWOT est ensuite représentée sous la forme d’un tableau qui pe
     </tbody>
 </table>
 
-## RESULTAT DE SONDAGE
+### RESULTAT DE SONDAGE
 
 Dans certains cas, il peut être envisagé de réaliser un sondage préalable auprès d’un groupe restreint préalable à la phase de concertation publique. Dans ce cas, les résultats de ce sondage sont consignés au niveau de ce chapitre.
 
-## CONCLUSION ET PROPOSITION D’UNE SOLUTION
+### CONCLUSION ET PROPOSITION D’UNE SOLUTION
 
 Justification de la solution (norme/standard, profil IHE, guide d’implémentation FHIR, etc.)
 Mise en concertation publique de l’étude des normes et standards.

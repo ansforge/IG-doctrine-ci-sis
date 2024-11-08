@@ -1,9 +1,3 @@
----
-title: 🔁 Cycle de vie des spécifications
-nav_order: 5
-description: 
----
-
 <div style="
     background-color: #fff5f5; 
     color: #e57373; 
@@ -23,7 +17,7 @@ Le niveau de qualité et la maturité des volets du CI-SIS sont des informations
 
 Le statut de maturité est une information indicative. Il est toujours préférable de se baser sur des spécifications standards, même si celles-ci sont peu matures. Les standards étant développés par une communauté d’experts, il est plus facile et plus sécurisant de faire évoluer des spécifications en parallèle des évolutions d’un standard plutôt de maintenir un standard propriétaire.
 
-## Le cycle de vie et les statuts associés
+### Le cycle de vie et les statuts associés
 
 Le cycle de vie défini pour les des volets du CI-SIS s'appuie sur les pratiques internationales d'[IHE](https://wiki.ihe.net/index.php/Process) et de [HL7](https://confluence.hl7.org/display/FHIR/FHIR+Maturity+Model) adaptées aux besoins nationaux.
 
@@ -31,32 +25,32 @@ Quatre statuts sont définis pour les spécifications d'interopérabilité de l'
 
 Les statuts « trial-implementation » et « final-text » reflètent la maturité des spécifications dans l'ordre indiqué.
 
-### Le statut « draft » ou « version-de-travail »
+#### Le statut « draft » ou « version-de-travail »
 
 Le statut « draft » correspond à une spécification **en cours de cours de création ou de modification**.
 Ce statut est particulièrement important pour les spécifications développées sur GitHub car tous les travaux sont publics et donc accessibles à tout moment : de la création du répertoire GitHub à la publication. C'est le statut d'une spécification publiée en mode intégration continue (ci-build).
 
-### Le statut « public-comment » ou « en-concertation »
+#### Le statut « public-comment » ou « en-concertation »
 
 La spécification est publiée au statut **en concertation** lors de ses phases de consultations publiques. La spécification en mode « public comment » risque d'évoluer suite aux commentaires des concertations et n'est pas faite pour être implémentée : elle est en attente de la validation de l'écosystème pour publication.
 Une spécification en « final-text » ou en « trial-implementation » peut repasser en « public-comment » en cas d'évolution majeure (des cas d'usage, du standard sous-jacent ...)..
 
-### Le statut « trial-implementation » ou « pour-implémentation »
+#### Le statut « trial-implementation » ou « pour-implémentation »
 
 La spécification est passée par une ou plusieurs phases de concertation et est **prête pour être mise en oeuvre** en situation réelle.
 Ce statut est un reflet de la maturité : selon l'auteur, la spécification est prète pour une première mise en situation réelle.
 
-### Le statut « final-text » ou « final »
+#### Le statut « final-text » ou « final »
 
 Les auteurs de la spécification ont estimé qu'elle avait atteint le **stade de maturité le plus élevé**.
 Ce stade est atteint lorsque la spécification a déjà été mise en œuvre dans au moins un projet national ou testée lors d'un projectathon. La spécification a pu avoir des retours post-concertation, post-projectathon ou post-mise en oeuvre et a été corrigée. Ce statut indique également que les critères de maturité et de qualité définis ci-dessous ont été respectés.
 Ce statut n'empèche pas de repasser au statut « trial-implementation », qui peut arriver dans le cas de changement majeur tel que la migration d'un nouveau standard, ou l'expression de nouveaux besoins.
 
-### Les autres statuts
+#### Les autres statuts
 
 Une spécification peut également être « deprecated » ou « dépréciée » si celle-ci a été remplacée par une autre spécification ou « withdrawn » ou « retirée » après avoir été dépréciée depuis un moment.
 
-### Le cycle de vie d'une spécification
+#### Le cycle de vie d'une spécification
 
 Durant la vie d'une spécification, celle-ci passe par différents statuts exprimés dans le schéma ci-dessus.
 
@@ -87,7 +81,7 @@ Notes :
     </ul>
 </div>
 
-## Définition des critères de maturité
+### Définition des critères de maturité
 
 Une spécification avec la majorité des critères de maturité respectés indiquent sa clarté et sa facilité de mise en oeuvre. C'est le signe d'une plus grande pérennité de la spécification. Cependant, la pérennité d'une spécification ne peut jamais être garantie. Les spécifications jugées matures ont néanmoins une plus faible probabilité de subir des évolutions non rétrocompatibles.
 
@@ -103,7 +97,7 @@ Les critères de maturité identifiés :
     </ul>
 </div>
 
-## Définition des critères de qualité
+### Définition des critères de qualité
 
 Les critères de qualité représentent un ensemble de règles à respecter pour produire des spécifications de niveau de qualité conforme aux attentes nationales. Outre le respect à la doctrine (structuration d'une spécification d'interopérabilité, respect de la trajectoire nationale, du choix du standard, ...), les critères de qualité sont spécifiques à chaque standard.
 
@@ -141,7 +135,7 @@ Les critères de qualité **CDA** sont :
 
 **A remplir par l'équipe CDA**
 
-## Définition des métadonnées associées à une spécification d'interopérabilité
+### Définition des métadonnées associées à une spécification d'interopérabilité
 
 Les métadonnées correspondent aux données annexées aux spécifications. Elles sont utiles à des fins de recherche notamment.
 

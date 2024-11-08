@@ -1,9 +1,3 @@
----
-title: Généralités sur la doctrine du CI-SIS
-nav_order: 1
-description: 
----
-
 <div style="
     background-color: #fff5f5; 
     color: #e57373; 
@@ -18,7 +12,7 @@ description:
     ⚠️ Work in Progress
 </div>
 
-## Objet du document
+### Objet du document
 
 En tant qu’opérateur public au service de la santé numérique, l’ANS assure trois missions complémentaires :
 
@@ -55,7 +49,7 @@ Cette gouvernance est conçue pour faciliter et maîtriser la multiplication des
 
 Ce document a pour objectif de présenter cette doctrine ainsi que son articulation avec la gouvernance du CI-SIS. Après un rappel des enjeux de l’interopérabilité pour les concepteurs et les utilisateurs de systèmes d’information, ce document présente les composants de la doctrine en indiquant en quoi ceux-ci répondent aux enjeux, avant de détailler l’articulation avec la gouvernance du CI-SIS.
 
-## Enjeux de l'interopérabilité et du CI-SIS
+### Enjeux de l'interopérabilité et du CI-SIS
 
 La dématérialisation des processus est un enjeu décisif pour les secteurs sanitaire, médico-administratif, médico-social et social. Vecteur d’optimisation de la prise en charge tant au niveau organisationnel qu’au niveau économique, cette dématérialisation nécessite des investissements souvent importants aussi bien de la part des opérateurs de maîtrise d’œuvre que de la part des opérateurs de maitrise d’ouvrage, non seulement en termes de spécifications et de développement mais également en termes de formation sur les technologies, ainsi que sur les normes et standards d’échange utilisés.
 

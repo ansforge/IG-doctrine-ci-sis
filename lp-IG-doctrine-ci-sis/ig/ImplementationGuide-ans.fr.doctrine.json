@@ -10,7 +10,7 @@
   "name" : "DoctrineCISIS",
   "title" : "Doctrine du CI-SIS",
   "status" : "draft",
-  "date" : "2024-11-08T17:59:26+00:00",
+  "date" : "2024-11-08T18:28:24+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -785,6 +785,15 @@
         }],
         "nameUrl" : "connaissance-medicale.html",
         "title" : "Connaissance médicale",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "comitologie.html"
+        }],
+        "nameUrl" : "comitologie.html",
+        "title" : "Comitologie du CI-SIS",
         "generation" : "markdown"
       },
       {

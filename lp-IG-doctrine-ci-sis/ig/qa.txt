@@ -3,7 +3,7 @@ DoctrineCISIS : Validation Results
 
 err = 1, warn = 14, info = 3
 IG Publisher Version: 1.7.1
-Generated Fri Nov 08 17:59:49 UTC 2024. FHIR version 4.0.1 for ans.fr.doctrine#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/doctrine)
+Generated Fri Nov 08 18:28:47 UTC 2024. FHIR version 4.0.1 for ans.fr.doctrine#0.1.0 (canonical = https://interop.esante.gouv.fr/ig/doctrine)
  Build Errors : 3 / 4 / 0
  /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/CodeSystem-competence-code-system : 0 / 2 / 2
  /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/CodeSystem-type-carte-code-system : 0 / 2 / 2
@@ -18,8 +18,8 @@ Generated Fri Nov 08 17:59:49 UTC 2024. FHIR version 4.0.1 for ans.fr.doctrine#0
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[24].value: Supressed messages file not found
-ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/div/img at Line 320, column 6: The image source 'FIGURE 1 ENONCE SIMPLIFIE DES PRINCIPES FIVE STARS.png' cannot be resolved
-ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/index.html#/html/body/div/div/div/div/div/div/img at Line 237, column 6: The image source 'ci-sis-logo.png' cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/div/img at Line 317, column 6: The image source 'FIGURE 1 ENONCE SIMPLIFIE DES PRINCIPES FIVE STARS.png' cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/index.html#/html/body/div/div/div/div/div/div/img at Line 234, column 6: The image source 'ci-sis-logo.png' cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide

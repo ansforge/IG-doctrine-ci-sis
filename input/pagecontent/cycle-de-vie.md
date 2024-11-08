@@ -61,7 +61,7 @@ Une spécification peut également être « deprecated » ou « dépréciée �
 Durant la vie d'une spécification, celle-ci passe par différents statuts exprimés dans le schéma ci-dessus.
 
 
-<div class="figure" style="width:65%;">
+<div class="figure" style="width:100%;">
     <img style="height: auto; width: 100%;" src="cycle-de-vie.png" alt="CI-SIS" title="Logo du CI-SIS">
 </div>
 

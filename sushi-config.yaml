@@ -31,17 +31,17 @@ pages:
     gestion-cp.md:
         title: Gestion des changements
     gestion-ebe.md:
-        title: Expression des besoins 
+        title: Expression des besoins
     connaissance-medicale.md:
         title: Connaissance médicale
 
 menu:
     Accueil: index.html
-    Doctrine: 
+    Doctrine du CI-SIS: 
         Doctrine du ci-sis: doctrine-cisis.html
         Cycle de vie: cycle-de-vie.html
-        Trajectoire interopérabilité: trajectoire-interop.html 
-    Gouvernance:
+        Trajectoire interopérabilité: trajectoire-interop.html
+    Gouvernance du CI-SIS:
         Interactions avec l'écosystème: interactions-ecosysteme.html
         Gestion des changements: gestion-cp.html
         Expression des besoins : gestion-ebe.html

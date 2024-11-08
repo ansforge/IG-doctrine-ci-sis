@@ -32,16 +32,19 @@ pages:
         title: Gestion des changements
     gestion-ebe.md:
         title: Expression des besoin
+    connaissance-medicale.md:
+        title: Connaissance médicale
 
 menu:
     Accueil: index.html
-    Doctrine: 
+    Doctrine du CI-SIS: 
         Doctrine du ci-sis: doctrine-cisis.html
         Cycle de vie: cycle-de-vie.html
         Trajectoire interopérabilité: trajectoire-interop.html
-    Gouvernance:
+    Gouvernance du CI-SIS:
         Interactions avec l'écosystème: interactions-ecosysteme.html
         Gestion des changements: gestion-cp.html
         Expression des besoins : gestion-ebe.html
+    Connaissance médicale: connaissance-medicale.html
 
     Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/

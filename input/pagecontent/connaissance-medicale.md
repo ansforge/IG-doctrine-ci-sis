@@ -1,0 +1,1 @@
+A compléter avec la connaissance médicale

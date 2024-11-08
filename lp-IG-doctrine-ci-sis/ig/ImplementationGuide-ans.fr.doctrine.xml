@@ -10,7 +10,7 @@
   <name value="DoctrineCISIS"/>
   <title value="Doctrine du CI-SIS"/>
   <status value="draft"/>
-  <date value="2024-11-08T07:36:09+00:00"/>
+  <date value="2024-11-08T09:29:33+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -625,6 +625,14 @@
         </extension>
         <nameUrl value="gestion-ebe.html"/>
         <title value="Expression des besoins"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="standardisation-med.html"/>
+        </extension>
+        <nameUrl value="standardisation-med.html"/>
+        <title value="Strandardisation de la connaissance médicale"/>
         <generation value="markdown"/>
       </page>
     </page>

@@ -38,6 +38,8 @@ pages:
         title: Unité de production externe
     interactions-ecosysteme.md:
         title: Interactions avec l'écosystème
+    connaissance-medicale.md:
+        title: Connaissance médicale
 
 menu:
     Accueil: index.html

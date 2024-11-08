@@ -1,39 +1,39 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Méthode d'élaboration des échanges fonctionnels - Doctrine du CI-SIS v0.1.0</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Méthode d&#39;élaboration des échanges fonctionnels - Doctrine du CI-SIS v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link rel="stylesheet" href="fhir.css"/>
+    <link href="fhir.css" rel="stylesheet"/>
 
-      <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
 
-      <!-- Project extras -->
-    <link rel="stylesheet" href="assets/css/project.css"/>
-    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
-    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
-  	<link rel="stylesheet" href="assets/css/prism.css"/>
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style-ans.css"/>
     <link rel="stylesheet" href="assets/css/style-add-ans.css"/>
-      <!-- Placeholder for child template CSS declarations -->
+    <!-- Placeholder for child template CSS declarations -->
 
-    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
 
-      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-      <!-- [if lt IE 9]>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif] -->
+    <![endif]-->
 
-      <!-- Favicons -->
-    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
-    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
-    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
     <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
@@ -43,14 +43,14 @@
 
     <style type="text/css">h2{--heading-prefix:"4"}
     h3,h4,h5,h6{--heading-prefix:"4"}</style>
-    <div id="segment-header" class="segment">    <!-- segment-header -->
-      <div class="container">    <!-- container -->
-          <!-- Placeholder for child template header declarations -->
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
 <div id="family-nav">
-    <a no-external="true" id="hl7-search-lnk" href="http://hl7.org/fhir"><img src="assets/images/fhir-logo-www.png" alt="Visit the FHIR website" height="50"/> </a>
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
   </div>
-  <div style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; " id="ans-nav">
-    <a no-external="true" id="hl7-logo" href="https://esante.gouv.fr/"><img src="assets/images/logo-ANS.svg" alt="ANS Logo" height="50"/></a>
+  <div id="ans-nav" style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; ">
+    <a id="hl7-logo" no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
   </div>
 
         <div id="ig-status">
@@ -60,33 +60,33 @@
 
 
 
-  <img src="assets/images/fra.svg" alt="France flag" title="France" height="16"/>
+  <img alt="France flag" src="assets/images/fra.svg" height="16" title="France"/>
 
 
             </span>
           </p>
         </div>
-      </div>   <!-- /container -->
-    </div>    <!-- /segment-header -->
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
       <div id="stripe"> </div>
-      <div class="container">    <!-- container -->
-          <!-- HEADER CONTENT -->
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
 
         <nav class="navbar navbar-inverse">
-            <!-- status-bar -->
+          <!--status-bar-->
           <div class="container">
-            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-                <!-- menu.xml -->
+              <!-- menu.xml  -->
 
-<ul class="nav navbar-nav">
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li>
     <a href="index.html">Accueil</a>
   </li>
@@ -102,7 +102,7 @@
         <a href="doctrine.html">Doctrine du ci-sis</a>
       </li>
       <li>
-        <a href="elaboration.html">Méthode d'élaboration des échanges fonctionnels</a>
+        <a href="elaboration.html">Méthode d&apos;élaboration des échanges fonctionnels</a>
       </li>
       <li>
         <a href="choix-standard.html">Choix des normes et standard</a>
@@ -127,29 +127,29 @@
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="interactions-ecosysteme.html">Interactions avec l'écosystème</a>
+        <a href="interactions-ecosysteme.html">Interactions avec l&apos;écosystème</a>
       </li>
     </ul>
   </li>
-  <li><a name="l232">​</a>
+  <li>
     <a href="connaissance-medicale.html">Connaissance médicale</a>
   </li>
   <li>
-    <a href="https://interop.esante.gouv.fr/ig/documentation/" target="_blank">Documentation des IGs</a>
+    <a target="_blank" href="https://interop.esante.gouv.fr/ig/documentation/">Documentation des IGs</a>
   </li>
 </ul>
-            </div>    <!-- /.nav-collapse -->
-          </div>    <!-- /.container -->
-        </nav>    <!-- /.navbar -->
-        <!-- /HEADER CONTENT -->
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-navbar -->
-      <!-- status-bar -->
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
 
-    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
-      <div class="container">    <!-- container -->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Méthode d'élaboration des échanges fonctionnels</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Méthode d'élaboration des échanges fonctionnels</b></li>
 
           <span style="float:right;">
 
@@ -162,12 +162,12 @@
           </span>
 
         </ul>
-      </div>    <!-- /container -->
-    </div>    <!-- /segment-breadcrumb -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">    <!-- segment-content -->
-      <div class="container">    <!-- container -->
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
@@ -179,8 +179,8 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">Doctrine du CI-SIS - Local Development build (v0.1.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://interop.esante.gouv.fr/ig/doctrine/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
-  <h2>Méthode d'élaboration des échanges fonctionnels</h2>
+  <!--ReleaseHeader--><p id="publish-box">Doctrine du CI-SIS - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://interop.esante.gouv.fr/ig/doctrine/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Méthode d&#39;élaboration des échanges fonctionnels</h2>
   
 
 
@@ -194,7 +194,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
 
-    <p>  <!-- white space is critical inside of capture --></p>
+    <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
   <li><a href="#description-de-la-méthode" id="markdown-toc-description-de-la-méthode">Description de la méthode</a></li>
@@ -262,8 +262,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </ul>
 </div>
 
-<div style="text-align: center;" class="figure">
-    <img src="docs-volet-cisis.png" alt="CP" style="width:80%;" title="Figure 4: Documents constituant un volet du CI-SIS"/>
+<div class="figure" style="text-align: center;">
+    <img src="docs-volet-cisis.png" alt="CP" title="Figure 4: Documents constituant un volet du CI-SIS" style="width:80%;" />
     <figcaption><b>Figure 4: Documents constituant un volet du CI-SIS</b></figcaption>
 </div>
 
@@ -284,15 +284,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h2 id="niveaux-dinteropérabilité-et-spécifications-fonctionnelles-des-échanges">Niveaux d’interopérabilité et spécifications fonctionnelles des échanges</h2>
 
-<div style="text-align: center;" class="figure">
-    <img src="niveaux-interop.png" alt="CP" style="width:80%;" title="Niveaux d’interopérabilité"/>
+<div class="figure" style="text-align: center;">
+    <img src="niveaux-interop.png" alt="CP" title="Niveaux d’interopérabilité" style="width:80%;" />
     <figcaption><b>Niveaux d’interopérabilité définis dans le cadre d’interopérabilité européen (European Interoperability framework - EIF)</b></figcaption>
 </div>
 
 <p>Les spécifications fonctionnelles des échanges font partie du niveau sémantique de l’interopérabilité. Elles peuvent intégrer également les niveaux juridique et organisationnel en citant le cadre juridique de ces échanges ainsi que les orientations organisationnelles choisies (voir figure ci-dessous). Toute évolution fonctionnelle doit générer la mise à jour de ces spécifications. Ces spécifications fonctionnelles sont neutres vis-à-vis de la syntaxe des échanges. La transformation dans la syntaxe choisie est effectuée dans la phase de spécifications techniques.</p>
 
-<div style="text-align: center;" class="figure">
-    <img src="niveaux-interop-sf.png" alt="CP" style="width:20%;" title="Niveaux d’interopérabilité couverts par les spécifications fonctionnelles des échanges"/>
+<div class="figure" style="text-align: center;">
+    <img src="niveaux-interop-sf.png" alt="CP" title="Niveaux d’interopérabilité couverts par les spécifications fonctionnelles des échanges" style="width:20%;" />
     <figcaption><b>Niveaux d’interopérabilité couverts par les spécifications fonctionnelles des échanges</b></figcaption>
 </div>
 
@@ -344,8 +344,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Le diagramme de paquetages de la ci-dessous est extrait de l’étude “Cercle de soins”. Le processus collaboratif faisant partie du périmètre de l’étude est indiqué en bleu sur ce diagramme.</p>
 
-<div style="text-align: center;" class="figure">
-    <img src="ex-cds.png" alt="CP" style="width:50%;" title="Organisation du contexte métier de l’étude « Cercle de soins »"/>
+<div class="figure" style="text-align: center;">
+    <img src="ex-cds.png" alt="CP" title="Organisation du contexte métier de l’étude « Cercle de soins »" style="width:50%;" />
     <figcaption><b>Organisation du contexte métier de l’étude « Cercle de soins »</b></figcaption>
 </div>
 
@@ -388,21 +388,21 @@ Un diagramme de cas d’utilisation contient un à plusieurs cas d’utilisation
 <table>
   <thead>
     <tr>
-      <th>Acteur&nbsp;</th>
+      <th>Acteur </th>
       <th>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>&nbsp;Créateur&nbsp;</td>
+      <td> Créateur </td>
       <td>Le rôle de créateur incarné par un système est de créer ou mettre à jour le cercle de soins d’une personne. Exemples de créateur : service numérique d’appui à la coordination, dossier patient informatisé</td>
     </tr>
     <tr>
-      <td>Gestionnaire&nbsp;</td>
+      <td>Gestionnaire </td>
       <td>Le rôle de gestionnaire incarné par un système est de gérer et stocker le cercle de soins ainsi que donner accès aux informations en cas de consultation. Exemples de gestionnaire : dossier patient informatisé, service numérique de partage de données</td>
     </tr>
     <tr>
-      <td>Consommateur&nbsp;</td>
+      <td>Consommateur </td>
       <td>Le rôle de consommateur incarné par un système est de consulter un cercle de soins.Exemples de consommateur : un dossier patient informatisé, un système de gestion de laboratoire, un système d’information radiologique, un logiciel de gestion de cabinet, un service numérique d’appui à la coordination</td>
     </tr>
   </tbody>
@@ -424,8 +424,8 @@ Un diagramme de cas d’utilisation contient un à plusieurs cas d’utilisation
 
 <p>Exemple d’un diagramme de cas d’utilisation extrait du volet « Cercle de soins » :</p>
 
-<div style="text-align: center;" class="figure">
-    <img src="cds-ex-2.png" alt="CP" style="width:80%;" title="Diagramme du cas d’utilisation « Création du cercle de soins »"/>
+<div class="figure" style="text-align: center;">
+    <img src="cds-ex-2.png" alt="CP" title="Diagramme du cas d’utilisation « Création du cercle de soins »" style="width:80%;" />
     <figcaption><b>Diagramme du cas d’utilisation « Création du cercle de soins »</b></figcaption>
 </div>
 
@@ -483,15 +483,15 @@ Un diagramme de cas d’utilisation contient un à plusieurs cas d’utilisation
 <p>Dans cette analyse ciblée sur les échanges, il n’est pas utile de chercher à trop détailler les actions internes aux acteurs. Sur le diagramme, cela se traduit par un nombre raisonnable d’actions dans les travées. Les actions qui ne génèrent pas de flux d’informations, peuvent être présentes pour améliorer la compréhension du processus.</p>
 
 <p>Les actions sont représentées par des nœuds d’activité UML sur le diagramme et doivent être décrites (voir les différents nœuds d’activité ci-dessous).</p>
-<div style="text-align: center;" class="figure">
-    <img src="Noeud-activité.png" alt="CP" style="width:80%;" title="Différents nœuds d’activité"/>
+<div class="figure" style="text-align: center;">
+    <img src="Noeud-activité.png" alt="CP" title="Différents nœuds d’activité" style="width:80%;" />
     <figcaption><b>Différents nœuds d’activité</b></figcaption>
 </div>
 
 <p>Il existe également des nœuds de contrôle qui permettent d’organiser les flux entre les actions (voir les différents nœuds de contrôle ci-dessous).</p>
 
-<div style="text-align: center;" class="figure">
-    <img src="noeuds-controle.png" alt="CP" style="width:80%;" title="Différents nœuds de contrôle"/>
+<div class="figure" style="text-align: center;">
+    <img src="noeuds-controle.png" alt="CP" title="Différents nœuds de contrôle" style="width:80%;" />
     <figcaption><b>Différents nœuds de contrôle</b></figcaption>
 </div>
 
@@ -507,8 +507,8 @@ Un diagramme de cas d’utilisation contient un à plusieurs cas d’utilisation
 
 <p>L’exemple présenté ci-dessous illustre la représentation du processus métier collaboratif “Création du cercle de soins” par un diagramme d’activité accompagné de la description des actions.</p>
 
-<div style="text-align: center;" class="figure">
-    <img src="collab-cds-identification-flux.png" alt="CP" style="width:40%;" title="Processus collaboratif « Création du cercle de soins » et identification des flux"/>
+<div class="figure" style="text-align: center;">
+    <img src="collab-cds-identification-flux.png" alt="CP" title="Processus collaboratif « Création du cercle de soins » et identification des flux" style="width:40%;" />
     <figcaption><b>Processus collaboratif « Création du cercle de soins » et identification des flux</b></figcaption>
 </div>
 
@@ -516,21 +516,21 @@ Un diagramme de cas d’utilisation contient un à plusieurs cas d’utilisation
   <thead>
     <tr>
       <th>Action</th>
-      <th>&nbsp;Description</th>
+      <th> Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Saisir le cercle de soins</td>
-      <td>&nbsp;Le créateur du cercle de soins saisit les informations relatives au cercle de soins qui ont vocation à être partagées.</td>
+      <td> Le créateur du cercle de soins saisit les informations relatives au cercle de soins qui ont vocation à être partagées.</td>
     </tr>
     <tr>
-      <td>&nbsp;Envoyer la demande</td>
-      <td>&nbsp;Après validation de la saisie, le créateur du cercle de soins soumet au gestionnaire du cercle de soins, une demande de création du cercle de soins</td>
+      <td> Envoyer la demande</td>
+      <td> Après validation de la saisie, le créateur du cercle de soins soumet au gestionnaire du cercle de soins, une demande de création du cercle de soins</td>
     </tr>
     <tr>
-      <td>&nbsp;Créer le cercle de soins</td>
-      <td>&nbsp;Le cercle de soins est créé par le gestionnaire du cercle de soins</td>
+      <td> Créer le cercle de soins</td>
+      <td> Le cercle de soins est créé par le gestionnaire du cercle de soins</td>
     </tr>
   </tbody>
 </table>
@@ -557,8 +557,8 @@ Le diagramme des acteurs/transactions regroupe l’ensemble des acteurs impliqu�
 
 <p>Exemple de diagramme des acteurs/transactions dans le contexte du volet « Cercle de soins » :</p>
 
-<div style="text-align: center;" class="figure">
-    <img src="diagramme-acteurs-transaction.png" alt="CP" style="width:80%;" title="Diagramme des acteurs/transactions dans le contexte du volet « Cercle de soins »"/>
+<div class="figure" style="text-align: center;">
+    <img src="diagramme-acteurs-transaction.png" alt="CP" title="Diagramme des acteurs/transactions dans le contexte du volet « Cercle de soins »" style="width:80%;" />
     <figcaption><b>Diagramme des acteurs/transactions dans le contexte du volet « Cercle de soins »</b></figcaption>
 </div>
 
@@ -643,7 +643,7 @@ Remarque : Un même flux d’informations évoluant dans le temps peut être con
         </tr>
         <tr>
             <td rowspan="2" style="width: 73.7pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;color:#4F81BD;font-weight:bold;"><span style="color:windowtext;font-weight:normal;">Créateur</span></p>
+                <p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;color:#4F81BD;font-weight:bold;"><span style="color:windowtext;font-weight:normal;">Cr&eacute;ateur</span></p>
             </td>
             <td style="width: 174.15pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
                 <p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;color:#4F81BD;font-weight:bold;"><span style="color:windowtext;font-weight:normal;">Flux 1&nbsp;: CreationCercleSoins</span></p>
@@ -652,7 +652,7 @@ Remarque : Un même flux d’informations évoluant dans le temps peut être con
                 <p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;color:#4F81BD;font-weight:bold;"><span style="color:windowtext;font-weight:normal;">Requis</span></p>
             </td>
             <td style="width: 116.95pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;color:#4F81BD;font-weight:bold;"><span style="color:windowtext;font-weight:normal;">Lien sur la section dans le volume des spécifications techniques (Volume 2)</span></p>
+                <p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;color:#4F81BD;font-weight:bold;"><span style="color:windowtext;font-weight:normal;">Lien sur la section dans le volume des sp&eacute;cifications techniques (Volume 2)</span></p>
             </td>
         </tr>
         <tr>
@@ -760,32 +760,32 @@ Remarque : Un même flux d’informations évoluant dans le temps peut être con
                 <p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;color:#4F81BD;font-weight:bold;"><span style="color:windowtext;font-weight:normal;">Createur</span></p>
             </td>
             <td style="width: 366.05pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;color:#4F81BD;font-weight:bold;"><span style="color:windowtext;font-weight:normal;">Création simultanée du cercle de soins et de ses acteurs</span></p>
+                <p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;color:#4F81BD;font-weight:bold;"><span style="color:windowtext;font-weight:normal;">Cr&eacute;ation simultan&eacute;e du cercle de soins et de ses acteurs</span></p>
             </td>
         </tr>
         <tr>
             <td style="width: 366.05pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 9pt;vertical-align: top;">
-                <p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;color:#4F81BD;font-weight:bold;"><span style="color:windowtext;font-weight:normal;">Création du cercle de soins&nbsp;</span></p>
+                <p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;color:#4F81BD;font-weight:bold;"><span style="color:windowtext;font-weight:normal;">Cr&eacute;ation du cercle de soins&nbsp;</span></p>
             </td>
         </tr>
         <tr>
             <td style="width: 366.05pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 9pt;vertical-align: top;">
-                <p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;color:#4F81BD;font-weight:bold;"><span style="color:windowtext;font-weight:normal;">Création des acteurs du cercle de soins (Note1)</span></p>
+                <p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;color:#4F81BD;font-weight:bold;"><span style="color:windowtext;font-weight:normal;">Cr&eacute;ation des acteurs du cercle de soins (Note1)</span></p>
             </td>
         </tr>
         <tr>
             <td style="width: 366.05pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 9pt;vertical-align: top;">
-                <p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;color:#4F81BD;font-weight:bold;"><span style="color:windowtext;font-weight:normal;">Mise à jour simultanée du cercle de soins et de ses acteurs</span></p>
+                <p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;color:#4F81BD;font-weight:bold;"><span style="color:windowtext;font-weight:normal;">Mise &agrave; jour simultan&eacute;e du cercle de soins et de ses acteurs</span></p>
             </td>
         </tr>
         <tr>
             <td style="width: 366.05pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 9pt;vertical-align: top;">
-                <p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;color:#4F81BD;font-weight:bold;"><span style="color:windowtext;font-weight:normal;">Mise à jour du cercle de soins&nbsp;</span></p>
+                <p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;color:#4F81BD;font-weight:bold;"><span style="color:windowtext;font-weight:normal;">Mise &agrave; jour du cercle de soins&nbsp;</span></p>
             </td>
         </tr>
         <tr>
             <td style="width: 366.05pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 9pt;vertical-align: top;">
-                <p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;color:#4F81BD;font-weight:bold;"><span style="color:windowtext;font-weight:normal;">Mise à jour des acteurs du cercle de soins (Note1)</span></p>
+                <p style="margin-top:3.0pt;margin-right:0cm;margin-bottom:3.0pt;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;color:#4F81BD;font-weight:bold;"><span style="color:windowtext;font-weight:normal;">Mise &agrave; jour des acteurs du cercle de soins (Note1)</span></p>
             </td>
         </tr>
     </tbody>
@@ -856,12 +856,12 @@ Le résultat de cette approche est consigné dans des tableaux qui listent, pour
   <tbody>
     <tr>
       <td>Nom</td>
-      <td>&nbsp;Description</td>
-      <td>&nbsp;Flux</td>
+      <td> Description</td>
+      <td> Flux</td>
     </tr>
     <tr>
       <td>CercleSoins</td>
-      <td>&nbsp;Le Cercle de Soins est l’agrégation de membres qui participent à la prise en charge et aux actions de coordination du parcours de santé d’une personne. Le Cercle de Soins possède un identifiant, une date de début, une date de fin et une date de mise à jour.</td>
+      <td> Le Cercle de Soins est l’agrégation de membres qui participent à la prise en charge et aux actions de coordination du parcours de santé d’une personne. Le Cercle de Soins possède un identifiant, une date de début, une date de fin et une date de mise à jour.</td>
       <td>Flux 1 - CreationCercleSoins, Flux 2 - RechercheCercleSoins, Flux 3 - ResultatRechercheCercleSoins, Flux 4 - MiseJourCercleSoins</td>
     </tr>
     <tr>
@@ -871,12 +871,12 @@ Le résultat de cette approche est consigné dans des tableaux qui listent, pour
     </tr>
     <tr>
       <td>PersonnePriseCharge</td>
-      <td>Personne physique bénéficiaire de soins, d’examens, d’actes de prévention ou de services.&nbsp;</td>
+      <td>Personne physique bénéficiaire de soins, d’examens, d’actes de prévention ou de services. </td>
       <td>Flux 1 - CreationCercleSoins, Flux 2 - RechercheCercleSoins, Flux 3 - ResultatRechercheCercleSoins, Flux 4 - MiseJourCercleSoins</td>
     </tr>
     <tr>
       <td>Professionnel</td>
-      <td>&nbsp;Un Professionnel est une personne qui participe à la prise en charge d’une personne. Le professionnel peut être du domaine sanitaire, médico-administratif, médico-social et social.</td>
+      <td> Un Professionnel est une personne qui participe à la prise en charge d’une personne. Le professionnel peut être du domaine sanitaire, médico-administratif, médico-social et social.</td>
       <td>Flux 1 - CreationCercleSoins, Flux 2 - RechercheCercleSoins, Flux 3 - ResultatRechercheCercleSoins, Flux 4 - MiseJourCercleSoins</td>
     </tr>
   </tbody>
@@ -951,77 +951,77 @@ Il n’y a pas de règle pour la mise en correspondance entre un concept métier
     <tr>
       <td>CercleSoins</td>
       <td>X</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
       <td>MembreCercleSoins</td>
       <td>X</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
       <td>PersonnePriseCharge</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td> </td>
+      <td> </td>
       <td>X</td>
-      <td>&nbsp;</td>
+      <td> </td>
     </tr>
     <tr>
       <td>Professionnel</td>
-      <td>&nbsp;</td>
+      <td> </td>
       <td>X</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
       <td>Aidant</td>
-      <td>&nbsp;</td>
+      <td> </td>
       <td>X</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
       <td>ResponsableLegal</td>
-      <td>&nbsp;</td>
+      <td> </td>
       <td>X</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
       <td>PersonneConfiance</td>
-      <td>&nbsp;</td>
+      <td> </td>
       <td>X</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
       <td>Role</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td> </td>
+      <td> </td>
       <td>X</td>
-      <td>&nbsp;</td>
+      <td> </td>
     </tr>
     <tr>
       <td>Entite</td>
-      <td>&nbsp;</td>
+      <td> </td>
       <td>X</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
       <td>UniteSoin</td>
-      <td>&nbsp;</td>
+      <td> </td>
       <td>X</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td> </td>
+      <td> </td>
     </tr>
   </tbody>
 </table>
 
-  <!-- Commentaire IG : Je ne suis pas convaincue de l’utilité de ce type d’analyse en particulier dans les conditions dans lesquels nous travaillons où les délais sont souvent très serrés. -->
+<!-- Commentaire IG : Je ne suis pas convaincue de l’utilité de ce type d’analyse en particulier dans les conditions dans lesquels nous travaillons où les délais sont souvent très serrés. -->
 
 <p>Tableau : Correspondance « concepts métier/MOS » pour les flux du volet « Cercle de soins »</p>
 
@@ -1119,8 +1119,8 @@ Les noms des éléments du modèle respectent les conventions de nommage du MOS,
 
 <p>Le diagramme de classes n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir Figure ci-dessous).</p>
 
-<div style="text-align: center;" class="figure">
-    <img src="flux1-creation-cds.png" alt="CP" style="width:80%;" title="Flux 1 - création CDS"/>
+<div class="figure" style="text-align: center;">
+    <img src="flux1-creation-cds.png" alt="CP" title="Flux 1 - création CDS" style="width:80%;" />
     <figcaption><b>Flux 1 - création CDS</b></figcaption>
 </div>
 
@@ -1182,7 +1182,7 @@ Les noms des éléments du modèle respectent les conventions de nommage du MOS,
                 <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">idPersonnePriseCharge : [1..1] Identifiant&nbsp;</span></p>
             </td>
             <td style="width: 226.55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">Identifiant(s) de la personne prise en charge (identifiants de santé, identifiants locaux, etc.).&nbsp;</span></p>
+                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">Identifiant(s) de la personne prise en charge (identifiants de sant&eacute;, identifiants locaux, etc.).&nbsp;</span></p>
             </td>
         </tr>
         <tr>
@@ -1198,7 +1198,7 @@ Les noms des éléments du modèle respectent les conventions de nommage du MOS,
                 <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">telecommunication : [1..*] Telecommunication&nbsp;</span></p>
             </td>
             <td style="width: 226.55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">Adresse(s) de télécommunication de la personne prise en charge (numéro de téléphone, adresse email, URL, etc.).&nbsp;</span></p>
+                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">Adresse(s) de t&eacute;l&eacute;communication de la personne prise en charge (num&eacute;ro de t&eacute;l&eacute;phone, adresse email, URL, etc.).&nbsp;</span></p>
             </td>
         </tr>
         <tr>
@@ -1206,7 +1206,7 @@ Les noms des éléments du modèle respectent les conventions de nommage du MOS,
                 <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">metadonnee : [1..1] Metadonnee&nbsp;</span></p>
             </td>
             <td style="width: 226.55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">Informations relatives à la gestion des classes et des données.&nbsp;</span></p>
+                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">Informations relatives &agrave; la gestion des classes et des donn&eacute;es.&nbsp;</span></p>
             </td>
         </tr>
     </tbody>
@@ -1262,8 +1262,8 @@ Les noms des éléments du modèle respectent les conventions de nommage du MOS,
 
 <p><strong>Diagramme d’objet du flux 1 – CreationCercleSoins</strong></p>
 
-<div style="text-align: center;" class="figure">
-    <img src="diagramme-cds.png" alt="CP" style="width:80%;" title="Diagramme d’objet du flux 1 – CreationCercleSoins**"/>
+<div class="figure" style="text-align: center;">
+    <img src="diagramme-cds.png" alt="CP" title="Diagramme d’objet du flux 1 – CreationCercleSoins**" style="width:80%;" />
     <figcaption><b>Diagramme d’objet du flux 1 – CreationCercleSoins**</b></figcaption>
 </div>
 
@@ -1366,24 +1366,24 @@ Les noms des éléments du modèle respectent les conventions de nommage du MOS,
 
 
 </div>
-        </div>    <!-- /inner-wrapper -->
-      </div>    <!-- /row -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-content -->
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
 
-  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-<script src="assets/js/window-hash.js" type="text/javascript"> </script>
+<script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
-  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
-    <div class="container">    <!-- container -->
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
 
       <div style="background-color:var(--footer-nav-bg-color)">
         <table style="width:100%">
           <tbody>
             <tr>
-              <td style="text-align:left">&nbsp;
+              <td style="text-align:left">&#xA0;
 
                 <a href="doctrine.html">&lt;prev</a>
 
@@ -1391,7 +1391,7 @@ Les noms des éléments du modèle respectent les conventions de nommage du MOS,
               <td style="text-align:center">
                 <a href="#top">top</a>
               </td>
-              <td style="text-align:right">&nbsp;
+              <td style="text-align:right">&#xA0;
 
                 <a href="choix-standard.html">next&gt;</a>
 
@@ -1403,50 +1403,50 @@ Les noms des éléments du modèle respectent les conventions de nommage du MOS,
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 8, 2024 09:19+0000">2024-11-08</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 8, 2024 09:23+0000">2024-11-08</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA </a> |
-<a style="color: var(--footer-hyperlink-text-color)" href="https://interop.esante.gouv.fr/ig/doctrine/history.html" target="_blank">Historique des versions </a>
- | <a style="color: var(--footer-hyperlink-text-color)" href="https://github.com/ansforge/FIG_ans-ig-sample/issues/new" target="_blank">New Issue</a>
+<a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/ig/doctrine/history.html">Historique des versions </a>
+ | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/ansforge/FIG_ans-ig-sample/issues/new">New Issue</a>
 
-          
+          </span>
         </p>
-      </div>    <!-- /inner-wrapper -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-footer -->
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
-    <div class="container">    <!-- container -->
-    </div>    <!-- /container -->
-  </div>    <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
   
-    <!-- JS and analytics only. -->
-    <!-- Bootstrap core JavaScript
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
   ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
-  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
-  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
-  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
 
-    <!-- Ajout ANS -->
+  <!-- Ajout ANS -->
   <script src="assets/js/app.js" type="text/javascript"> </script>
   <script src="assets/js/vendor.js" type="text/javascript"> </script>
-    <!-- Fin ajout ANS -->
+  <!-- Fin ajout ANS -->
 
-  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   
 
-    <!-- Analytics Below
+  <!-- Analytics Below
   ================================================== -->
 
 
-    <!-- AJOUT ANS -->
+  <!-- AJOUT ANS -->
 
-<footer role="contentinfo" class="footer footer-principal">
+<footer class="footer footer-principal" role="contentinfo">
   <div class="footer__region1">
     <div class="container">
       <div class="row">
@@ -1454,17 +1454,17 @@ Les noms des éléments du modèle respectent les conventions de nommage du MOS,
         <div class="col-md-6 col-lg-4 text-center text-md-left">
           <div class="logos">        
             <div class="logo logo--0">
-              <a rel="nofollow" href="https://solidarites-sante.gouv.fr" title="Ministère des Solidarités et de la Santé (nouvelle fenêtre)" target="_blank">
+              <a href="https://solidarites-sante.gouv.fr" title="Ministère des Solidarités et de la Santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
                 
-                <img src="assets/images/logo-ministere.svg" alt="Ministère des Solidarités et de la Santé" width="133" loading="lazy" height="77"/>
+                <img src="assets/images/logo-ministere.svg" alt="Ministère des Solidarités et de la Santé" width="133" height="77" loading="lazy" />
                 
               </a>
             </div>
         
             <div class="logo logo--1">
-              <a rel="nofollow" href="https://esante.gouv.fr/" title="Agence du numérique en santé (nouvelle fenêtre)" target="_blank">
+              <a href="https://esante.gouv.fr/" title="Agence du numérique en santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
                 
-                <img src="assets/images/logo-ANS-footer.svg" alt="Agence du numérique en santé" width="106" loading="lazy" height="74"/>
+                <img src="assets/images/logo-ANS-footer.svg" alt="Agence du numérique en santé" width="106" height="74" loading="lazy" />
               </a>
             </div>
           </div>
@@ -1474,7 +1474,7 @@ Les noms des éléments du modèle respectent les conventions de nommage du MOS,
           <p class="footer__title">Agence du Numérique en Santé</p>
           <p>2-10 Rue d'Oradour-sur-Glane 75015 Paris</p>
 
-            <!-- <div class="m-social">
+          <!-- <div class="m-social">
             <ul class="m-social__list">        
               <li class="m-social__item">
                 <a class="m-social__link" href="https://www.linkedin.com/company/agence-du-numerique-en-sante/" target="_blank" rel="nofollow">
@@ -1516,11 +1516,12 @@ Les noms des éléments du modèle respectent les conventions de nommage du MOS,
           <ul class="footer-list">
             <li class="footer-list__item footer-list__item--hasIcon">
               <a href="mailto:ci-sis@esante.gouv.fr" class="mailto-link">
-                <svg aria-hidden="true" focusable="false" class="svg-icon svg-angle-right"><use href="assets/images/icon-sprite.svg#angle-right"></use></svg>Contact</a>
+                <svg class="svg-icon svg-angle-right" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#angle-right"></use></svg>Contact</a>
               </li>
-                <!-- <li class="footer-list__item">
+              <!-- <li class="footer-list__item">
                 <a href="https://interop-pprod.esante.gouv.fr/ci-sis-specifications/wp-content/uploads/CGU_espace_de_tests_v1.1.pdf" class="file-link">Mentions légales</a>
-              </li> -->
+              </li>
+               -->
             </ul>
           </div>
 
@@ -1528,7 +1529,7 @@ Les noms des éléments du modèle respectent les conventions de nommage du MOS,
       </div>
     </div>
     
-      <!-- <div class="footer__region2">
+    <!-- <div class="footer__region2">
       <div class="container">
         <div class="footer-contentinfo">
           <ul class="footer-list footer-list--inline">
@@ -1540,3 +1541,4 @@ Les noms des éléments du modèle respectent les conventions de nommage du MOS,
   </footer>
   </body>
 </html>
+

@@ -10,7 +10,7 @@
   "name" : "DoctrineCISIS",
   "title" : "Doctrine du CI-SIS",
   "status" : "draft",
-  "date" : "2024-11-08T09:19:42+00:00",
+  "date" : "2024-11-08T09:23:40+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -830,6 +830,15 @@
         }],
         "nameUrl" : "interactions-ecosysteme.html",
         "title" : "Interactions avec l'écosystème",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "connaissance-medicale.html"
+        }],
+        "nameUrl" : "connaissance-medicale.html",
+        "title" : "Connaissance médicale",
         "generation" : "markdown"
       }]
     },

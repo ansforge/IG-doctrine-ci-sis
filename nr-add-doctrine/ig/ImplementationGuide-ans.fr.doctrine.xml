@@ -10,7 +10,7 @@
   <name value="DoctrineCISIS"/>
   <title value="Doctrine du CI-SIS"/>
   <status value="draft"/>
-  <date value="2024-11-08T09:19:42+00:00"/>
+  <date value="2024-11-08T09:23:40+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -649,6 +649,14 @@
         </extension>
         <nameUrl value="interactions-ecosysteme.html"/>
         <title value="Interactions avec l'écosystème"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="connaissance-medicale.html"/>
+        </extension>
+        <nameUrl value="connaissance-medicale.html"/>
+        <title value="Connaissance médicale"/>
         <generation value="markdown"/>
       </page>
     </page>

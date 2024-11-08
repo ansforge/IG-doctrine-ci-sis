@@ -26,14 +26,17 @@ pages:
         title: Cycle de vie
     trajectoire-interop.md:
         title: Trajectoire interopérabilité
+    connaissance-medicale.md:
+        title: Connaissance médicale
+    comitologie.md:
+        title: Comitologie du CI-SIS
     interactions-ecosysteme.md:
         title: Interactions avec l'écosystème
     gestion-cp.md:
         title: Gestion des changements
     gestion-ebe.md:
         title: Expression des besoin
-    connaissance-medicale.md:
-        title: Connaissance médicale
+
 
 menu:
     Accueil: index.html
@@ -41,10 +44,11 @@ menu:
         Doctrine du ci-sis: doctrine-cisis.html
         Cycle de vie: cycle-de-vie.html
         Trajectoire interopérabilité: trajectoire-interop.html
+        Connaissance médicale: connaissance-medicale.html
     Gouvernance du CI-SIS:
+        Comitologie : comitologie.html
         Interactions avec l'écosystème: interactions-ecosysteme.html
-        Gestion des changements: gestion-cp.html
-        Expression des besoins : gestion-ebe.html
-    Connaissance médicale: connaissance-medicale.html
+
+    
 
     Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/

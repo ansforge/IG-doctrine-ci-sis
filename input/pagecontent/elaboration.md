@@ -49,7 +49,7 @@ Un volet du cadre d'interopérabilité des systèmes d'information de santé (CI
 </div>
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/docs-volet-cisis-v2.png" alt="CP" title="Figure 4: Documents constituant un volet du CI-SIS" style="width:80%;">
+    <img src="../../assets/images/docs-volet-cisis.png" alt="CP" title="Figure 4: Documents constituant un volet du CI-SIS" style="width:80%;">
     <figcaption><b>Figure 4: Documents constituant un volet du CI-SIS</b></figcaption>
 </div>
 
@@ -253,14 +253,14 @@ Dans cette analyse ciblée sur les échanges, il n’est pas utile de chercher �
 
 Les actions sont représentées par des nœuds d’activité UML sur le diagramme et doivent être décrites (voir les différents nœuds d’activité ci-dessous).
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/Noeud-activité-v2.png" alt="CP" title="Différents nœuds d’activité" style="width:80%;">
+    <img src="../../assets/images/Noeud-activité.png" alt="CP" title="Différents nœuds d’activité" style="width:80%;">
     <figcaption><b>Différents nœuds d’activité</b></figcaption>
 </div>
 
 Il existe également des nœuds de contrôle qui permettent d’organiser les flux entre les actions (voir les différents nœuds de contrôle ci-dessous).
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/noeuds-controle-v2.png" alt="CP" title="Différents nœuds de contrôle" style="width:80%;">
+    <img src="../../assets/images/noeuds-controle.png" alt="CP" title="Différents nœuds de contrôle" style="width:80%;">
     <figcaption><b>Différents nœuds de contrôle</b></figcaption>
 </div>
 

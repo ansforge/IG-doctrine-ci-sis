@@ -154,7 +154,7 @@ Ces différentes étapes sont détaillées dans les schémas de la section suiva
 La doctrine est complètement intégrée à la gouvernance du CI-SIS. Elle vient se positionner en entrée de la phase 4 de l’instruction de la gouvernance lors du choix de la syntaxe et de la sémantique cibles à utiliser dans les spécifications d’interopérabilité.
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/phase-gouv-v2.png" alt="CP" title="Niveaux Rappel des phases de la gouvernance du CI-SIS" style="width:80%;">
+    <img src="../../assets/images/phase-gouv.png" alt="CP" title="Niveaux Rappel des phases de la gouvernance du CI-SIS" style="width:80%;">
     <figcaption><b>Niveaux Rappel des phases de la gouvernance du CI-SIS</b></figcaption>
 </div>
 
@@ -171,7 +171,7 @@ En y intégrant les éléments de la doctrine syntaxique et sémantique, la phas
 </div>
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/Sous-phase-evo-V2.png" alt="CP" title="Sous phases de la phase d’évolution du CI-SIS" style="width:80%;">
+    <img src="../../assets/images/Sous-phase-evo.png" alt="CP" title="Sous phases de la phase d’évolution du CI-SIS" style="width:80%;">
     <figcaption><b>Sous phases de la phase d’évolution du CI-SIS</b></figcaption>
 </div>
 

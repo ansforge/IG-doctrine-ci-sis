@@ -110,7 +110,7 @@ A ce niveau, on cherchera à évaluer les tendances du marché. Il s’agit de d
 Cette analyse SWOT est ensuite représentée sous la forme d’un tableau qui permet de visualiser comment les risques internes (Forces et faiblesses) et externes (Opportunités et Menaces) à la solution interagissent et affectent la stratégie du choix de la solution envisagée.
 
 <div class="figure" style='text-align: center;'>
-    <img src="../../assets/images/SWOT-V2.png" alt="swot" title="Matrice SWOT" style="width:40%;">
+    <img src="../../assets/images/swot.png" alt="swot" title="Matrice SWOT" style="width:40%;">
     <figcaption><b>Matrice SWOT</b></figcaption>
 </div>
 

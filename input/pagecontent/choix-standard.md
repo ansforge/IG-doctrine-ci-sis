@@ -1,17 +1,3 @@
-<div style="
-    background-color: #fff5f5; 
-    color: #e57373; 
-    border: 1px solid #e57373; 
-    padding: 10px; 
-    border-radius: 5px; 
-    font-size: 14px; 
-    text-align: center; 
-    max-width: 300px; 
-    margin: 20px auto;
-">
-    ⚠️ Work in Progress
-</div>
-
 <!-- Commentaire IGi - Il n’existe pas de document du CI-SIS décrivant la méthode à appliquer pour conduire l’étude de choix des normes/standards. Proposition d’un début de construction de ce type de document. A revoir sans doute par la suite. -->
 
 L’étude des normes et standards est optionnelle. Elle intervient lorsqu’il est nécessaire de sélectionner une norme ou un standard (syntaxique, sémantique ou technique) cible qui n’est pas encore utilisé dans le CI-SIS pour répondre aux cas d’usage identifiés par l’étude fonctionnelle des échanges.

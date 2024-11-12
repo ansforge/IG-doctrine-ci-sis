@@ -10,7 +10,7 @@
   <name value="DoctrineCISIS"/>
   <title value="Doctrine du CI-SIS"/>
   <status value="draft"/>
-  <date value="2024-11-12T09:39:38+00:00"/>
+  <date value="2024-11-12T14:39:40+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -581,10 +581,34 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="doctrine-cisis.html"/>
+          <valueUrl value="generalites.html"/>
         </extension>
-        <nameUrl value="doctrine-cisis.html"/>
-        <title value="Doctrine du CI-SIS"/>
+        <nameUrl value="generalites.html"/>
+        <title value="Généralités"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="doctrine.html"/>
+        </extension>
+        <nameUrl value="doctrine.html"/>
+        <title value="Doctrine d’interopérabilité syntaxique et doctrine d’interopérabilité sémantique"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="elaboration.html"/>
+        </extension>
+        <nameUrl value="elaboration.html"/>
+        <title value="Méthode d'élaboration des échanges fonctionnels"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="choix-standard.html"/>
+        </extension>
+        <nameUrl value="choix-standard.html"/>
+        <title value="Choix des normes et standard"/>
         <generation value="markdown"/>
       </page>
       <page>
@@ -592,15 +616,31 @@
           <valueUrl value="cycle-de-vie.html"/>
         </extension>
         <nameUrl value="cycle-de-vie.html"/>
-        <title value="Cycle de vie"/>
+        <title value="Cycle de vie des spécifications"/>
         <generation value="markdown"/>
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="trajectoire-interop.html"/>
+          <valueUrl value="ebe-cp.html"/>
         </extension>
-        <nameUrl value="trajectoire-interop.html"/>
+        <nameUrl value="ebe-cp.html"/>
+        <title value="Expression des besoins (EBE) et gestion des Change Proposals (CP)"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="trajectoire-iop.html"/>
+        </extension>
+        <nameUrl value="trajectoire-iop.html"/>
         <title value="Trajectoire interopérabilité"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="up-externe.html"/>
+        </extension>
+        <nameUrl value="up-externe.html"/>
+        <title value="Unité de production externe"/>
         <generation value="markdown"/>
       </page>
       <page>

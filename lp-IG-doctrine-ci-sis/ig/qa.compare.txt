@@ -18,7 +18,7 @@ Generated $--. FHIR version $-- for ans.fr.doctrine#$-- (canonical = https://int
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[24].value: Supressed messages file not found
-ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/div/img at Line 317, column 6: The image source 'FIGURE 1 ENONCE SIMPLIFIE DES PRINCIPES FIVE STARS.png' cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/div/img at Line 315, column 6: The image source 'FIGURE 1 ENONCE SIMPLIFIE DES PRINCIPES FIVE STARS.png' cannot be resolved
 ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/index.html#/html/body/div/div/div/div/div/div/img at Line 234, column 6: The image source 'ci-sis-logo.png' cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide

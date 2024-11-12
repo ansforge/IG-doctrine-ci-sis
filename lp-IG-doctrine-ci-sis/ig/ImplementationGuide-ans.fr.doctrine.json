@@ -10,7 +10,7 @@
   "name" : "DoctrineCISIS",
   "title" : "Doctrine du CI-SIS",
   "status" : "draft",
-  "date" : "2024-11-08T18:59:45+00:00",
+  "date" : "2024-11-12T08:43:57+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -803,24 +803,6 @@
         }],
         "nameUrl" : "interactions-ecosysteme.html",
         "title" : "Interactions avec l'écosystème",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "gestion-cp.html"
-        }],
-        "nameUrl" : "gestion-cp.html",
-        "title" : "Gestion des changements",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "gestion-ebe.html"
-        }],
-        "nameUrl" : "gestion-ebe.html",
-        "title" : "Expression des besoin",
         "generation" : "markdown"
       }]
     },

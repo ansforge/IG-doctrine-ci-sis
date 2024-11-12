@@ -44,7 +44,7 @@ Ce cadre commun d’interopérabilité, le CI-SIS (Cadre d’Interopérabilité 
     </ul>
 </div>
 
-## Les enjeux du développement du CI-SIS
+### Les enjeux du développement du CI-SIS
 
 Afin de répondre à ces ambitions, la construction de ce cadre comme d’interopérabilité, le CI-SIS doit relever plusieurs enjeux, dont tout particulièrement :
 
@@ -73,7 +73,7 @@ Les différentes réponses à ces enjeux du cadre commun CI-SIS sont ainsi port�
     </ul>
 </div>
 
-## Une évolution volontariste dans la continuité
+### Une évolution volontariste dans la continuité
 
 Sous l’impulsion de la première feuille de route du numérique en santé (masanté 2022), du Ségur numérique, et d’évolutions réglementaires récentes au niveau français et européen, l’interopérabilité et le rôle de régulation de l’Agence évoluent fortement :
 
@@ -96,7 +96,7 @@ Alors que le CI-SIS existe depuis de nombreuses années, que la gouvernance a d�
     </ul>
 </div>
 
-## Glossaire
+### Glossaire
 
 Les termes suivants sont utilisés dans ce document et peuvent nécessiter des besoins de précisions :
 

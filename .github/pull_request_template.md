@@ -6,4 +6,4 @@
 
 ## Preview
 
-https://ansforge.github.io/IG-doctrine-ci-sis/lp-IG-doctrine-ci-sis/ig
+https://ansforge.github.io/IG-doctrine-ci-sis/[nom-branche]/ig

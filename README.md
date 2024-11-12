@@ -23,7 +23,7 @@ Les workflows associés à ce repository (.github/workflows) permettent :
 
 * D'executer Sushi pour vérifier la grammaire
 * De faire les tests avec le validator_cli
-* De publier les pages : https://ansforge.github.io/IG-doctrine-ci-sis/ig/main
+* De publier les pages : https://ansforge.github.io/IG-doctrine-ci-sis/main/ig
 
 # Notes
 

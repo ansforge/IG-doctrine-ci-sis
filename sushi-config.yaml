@@ -46,17 +46,17 @@ pages:
 
 menu:
     Accueil: index.html
-    Doctrine: 
+    Doctrine du CI-SIS: 
         Généralités: generalites.html
         Doctrine du ci-sis: doctrine.html
         Méthode d'élaboration des échanges fonctionnels: elaboration.html
         Choix des normes et standard: choix-standard.html
         Cycle de vie: cycle-de-vie.html
+        Expression des besoins et Change Proposals: ebe-cp.html
         Trajectoire interopérabilité: trajectoire-iop.html
+        Unité de production externe: up-externe.html
         Connaissance médicale: connaissance-medicale.html
     Gouvernance du CI-SIS:
         Comitologie : comitologie.html
         Interactions avec l'écosystème: interactions-ecosysteme.html
-        Expression des besoins et Change Proposals: ebe-cp.html
-        Unité de production externe: up-externe.html
     Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/

@@ -32,10 +32,6 @@ pages:
         title: Comitologie du CI-SIS
     interactions-ecosysteme.md:
         title: Interactions avec l'écosystème
-    gestion-cp.md:
-        title: Gestion des changements
-    gestion-ebe.md:
-        title: Expression des besoin
 
 
 menu:

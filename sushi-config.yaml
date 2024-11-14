@@ -22,6 +22,8 @@ pages:
         title: Accueil
     doctrine.md:
         title: Doctrine générale
+    connaissance-medicale.md:
+        title: Doctrine de la connaissance médicale
     elaboration.md:
         title: Méthode d'élaboration des échanges fonctionnels
     choix-standard.md:
@@ -34,8 +36,6 @@ pages:
         title: Trajectoire interopérabilité
     up-externe.md:
         title: Unité de production externe
-    connaissance-medicale.md:
-        title: Connaissance médicale
     comitologie.md:
         title: Comitologie du CI-SIS
     interactions-ecosysteme.md:

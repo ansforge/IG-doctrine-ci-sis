@@ -1,6 +1,6 @@
 <p style="padding: 5px; border-radius: 5px; border: 2px solid maroon; background: #ffffe6; width: 65%">
 <b>Brief description of this Implementation Guide</b><br>
-[The interoperability framework for health information systems (CI-SIS) sets the rules for exchanging and sharing health data on the same standards. It is managed by the ANS in collaboration with the entire ecosystem. This implementation guide outlines the doctrine and governance that apply to this framework.]
+The interoperability framework for health information systems (CI-SIS) sets the rules for exchanging and sharing health data on the same standards. It is managed by the ANS in collaboration with the entire ecosystem. This implementation guide outlines the doctrine and governance that apply to this framework.
 </p>
 <!-- 
 <div class="figure" style="width:65%;">

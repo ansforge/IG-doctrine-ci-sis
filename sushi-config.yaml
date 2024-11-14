@@ -36,14 +36,17 @@ pages:
         title: Trajectoire interopérabilité
     up-externe.md:
         title: Unité de production externe
-    interactions-ecosysteme.md:
-        title: Interactions avec l'écosystème
     connaissance-medicale.md:
         title: Connaissance médicale
+    comitologie.md:
+        title: Comitologie du CI-SIS
+    interactions-ecosysteme.md:
+        title: Interactions avec l'écosystème
+
 
 menu:
     Accueil: index.html
-    Doctrine: 
+    Doctrine du CI-SIS: 
         Généralités: generalites.html
         Doctrine du ci-sis: doctrine.html
         Méthode d'élaboration des échanges fonctionnels: elaboration.html
@@ -52,7 +55,8 @@ menu:
         Expression des besoins et Change Proposals: ebe-cp.html
         Trajectoire interopérabilité: trajectoire-iop.html
         Unité de production externe: up-externe.html
-    Gouvernance:
+        Connaissance médicale: connaissance-medicale.html
+    Gouvernance du CI-SIS:
+        Comitologie : comitologie.html
         Interactions avec l'écosystème: interactions-ecosysteme.html
-    Connaissance médicale: connaissance-medicale.html
     Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/

@@ -1,11 +1,11 @@
 Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-ans.fr.doctrine.json	5029	-	0	0	0	0	0	0	4	156	0	0	0	0	0	0	0	1	0	0	97	186	0	0	0	3	0	1
-fsh-generated/resources/CodeSystem-competence-code-system.json	6317	11	1	0	1	0	0	0	1	26	0	0	0	0	0	0	0	0	0	0	54	1547	0	0	0	2	0	1
-fsh-generated/resources/CodeSystem-type-carte-code-system.json	1005	10	0	0	0	0	0	0	0	14	0	0	0	0	0	0	0	0	0	0	17	88	0	0	0	0	0	0
-fsh-generated/resources/Patient-frpatient-exemple.json	450	9	0	0	0	0	0	0	0	342	0	0	0	0	0	0	0	0	0	0	10	14	0	0	0	0	0	0
-fsh-generated/resources/StructureDefinition-EyeColor.json	1302	9	0	0	0	0	0	22	1	47	0	0	1	0	0	0	0	1	0	0	71	2824	0	0	0	3	0	0
-fsh-generated/resources/StructureDefinition-fr-patient.json	2341	9	0	0	0	0	0	81	0	50	0	0	0	0	0	0	0	1	0	0	337	1055	0	0	0	13	0	2
-fsh-generated/resources/ValueSet-EyeColorVS.json	666	11	0	0	0	0	0	0	0	220	0	0	0	0	0	0	0	0	0	0	15	3750	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-MeltingPotVS.json	872	15	0	0	0	0	0	0	0	83	0	0	0	0	0	0	0	0	0	0	16	181	0	0	0	0	0	0
-fsh-generated/resources/ValueSet-ModifiedAdministrativeGender.json	643	10	0	0	0	0	0	0	0	19	0	0	0	0	0	0	0	0	0	0	15	112	0	0	0	1	0	0
-fsh-generated/resources/ValueSet-TypeCarteVS.json	411	9	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	12	105	0	0	0	0	0	0
+/fsh-generated/resources/ImplementationGuide-ans.fr.doctrine.json	5029	-	0	0	0	0	0	0	6	191	0	0	0	0	0	0	0	0	0	0	93	165	0	0	0	3	0	2
+fsh-generated/resources/CodeSystem-competence-code-system.json	6317	12	1	0	0	0	0	0	0	32	0	0	0	0	0	0	0	1	0	0	47	1568	0	0	0	2	0	0
+fsh-generated/resources/CodeSystem-type-carte-code-system.json	1005	11	0	0	0	0	0	0	1	18	0	0	0	0	0	0	0	0	0	0	16	59	0	0	0	1	0	0
+fsh-generated/resources/Patient-frpatient-exemple.json	450	9	0	0	0	0	0	0	0	312	0	0	0	0	0	0	0	0	0	0	8	14	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-EyeColor.json	1302	16	0	0	0	0	0	25	0	49	0	0	1	0	0	0	0	0	0	0	54	521	0	0	0	2	0	1
+fsh-generated/resources/StructureDefinition-fr-patient.json	2341	14	0	0	0	0	0	111	0	55	0	0	0	0	0	0	0	1	0	0	282	1114	0	0	0	13	0	1
+fsh-generated/resources/ValueSet-EyeColorVS.json	666	9	0	0	0	0	0	0	0	229	0	0	0	0	0	0	0	0	0	0	16	4043	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-MeltingPotVS.json	872	11	1	0	0	0	0	0	0	71	0	0	0	0	0	0	0	0	0	0	28	173	0	0	0	0	0	0
+fsh-generated/resources/ValueSet-ModifiedAdministrativeGender.json	643	16	0	0	0	0	0	0	0	17	0	0	0	0	0	0	0	0	0	0	12	108	0	0	0	1	0	0
+fsh-generated/resources/ValueSet-TypeCarteVS.json	411	15	0	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	9	106	0	0	0	0	0	0

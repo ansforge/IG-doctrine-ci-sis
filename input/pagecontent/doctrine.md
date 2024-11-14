@@ -4,9 +4,9 @@ En tant qu’opérateur public au service de la santé numérique, l’ANS assur
 
 <div>
     <ul>
-<li>Créer les conditions de l’essor de la e-santé ;</li>
-<li>Conduire des projets d’envergure nationale ;</li>
-<li>Déployer les usages en soutenant l’innovation.</li>
+        <li>Créer les conditions de l’essor de la e-santé ;</li>
+        <li>Conduire des projets d’envergure nationale ;</li>
+        <li>Déployer les usages en soutenant l’innovation.</li>
     </ul>
 </div>
 
@@ -101,7 +101,7 @@ La doctrine d’interopérabilité technique et syntaxique du CI-SIS peut être 
     <ul>
         <li> Utilisation d'un profil IHE ou d'un guide d'implémentation FHIR adapté et stable ;</li>
         <li> A défaut, réutilisation des normes et standards déjà utilisés dans le CI-SIS pour des cas d'usage similaires ;</li>
-        <li> A défaut, consultation dse acteurs pour identification de la norme ou du standard à utiliser pour prendre en compte le besoin d'interopérabilité.</li>
+        <li> A défaut, consultation des acteurs pour identification de la norme ou du standard à utiliser pour prendre en compte le besoin d'interopérabilité.</li>
     </ul>
 </div>
 

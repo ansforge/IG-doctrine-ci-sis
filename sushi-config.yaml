@@ -3,7 +3,7 @@
 id: ans.fr.doctrine
 canonical: https://interop.esante.gouv.fr/ig/doctrine # the last part of canonical and id must be the same
 name: DoctrineCISIS # Should be an acronym
-title: Doctrine du CI-SIS
+title: Doctrine et gouvernance du CI-SIS
 publisher:
   name: ANS
   url: https://esante.gouv.fr
@@ -51,7 +51,7 @@ menu:
         Doctrine du ci-sis: doctrine.html
         Méthode d'élaboration des échanges fonctionnels: elaboration.html
         Choix des normes et standard: choix-standard.html
-        Cycle de vie: cycle-de-vie.html
+        Cycle de vie des spécifications: cycle-de-vie.html
         Expression des besoins et Change Proposals: ebe-cp.html
         Trajectoire interopérabilité: trajectoire-iop.html
         Unité de production externe: up-externe.html

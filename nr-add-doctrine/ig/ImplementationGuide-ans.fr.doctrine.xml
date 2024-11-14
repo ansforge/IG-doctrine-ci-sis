@@ -10,7 +10,7 @@
   <name value="DoctrineCISIS"/>
   <title value="Doctrine du CI-SIS"/>
   <status value="draft"/>
-  <date value="2024-11-14T08:48:58+00:00"/>
+  <date value="2024-11-14T08:50:09+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -645,18 +645,26 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="interactions-ecosysteme.html"/>
-        </extension>
-        <nameUrl value="interactions-ecosysteme.html"/>
-        <title value="Interactions avec l'écosystème"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="connaissance-medicale.html"/>
         </extension>
         <nameUrl value="connaissance-medicale.html"/>
         <title value="Connaissance médicale"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="comitologie.html"/>
+        </extension>
+        <nameUrl value="comitologie.html"/>
+        <title value="Comitologie du CI-SIS"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="interactions-ecosysteme.html"/>
+        </extension>
+        <nameUrl value="interactions-ecosysteme.html"/>
+        <title value="Interactions avec l'écosystème"/>
         <generation value="markdown"/>
       </page>
     </page>

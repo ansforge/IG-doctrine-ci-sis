@@ -2,6 +2,7 @@ DoctrineCISIS
 =========================================
 
 Generic: line 0, col 0, Error - Supressed messages file not found (NOTFOUND)
+Generic: line 0, col 0, Error - The image source 'FIGURE 1 ENONCE SIMPLIFIE DES PRINCIPES FIVE STARS.png' cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'iste_Profils_IHE_Standards.xls' for "dans ce tableau" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'iste_Profils_IHE_Standards.xls' for "ici" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'gouvernance.html' for "nouvelle gouvernance" cannot be resolved (NOTFOUND)

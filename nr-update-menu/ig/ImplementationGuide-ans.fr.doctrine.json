@@ -10,7 +10,7 @@
   "name" : "DoctrineCISIS",
   "title" : "Doctrine et gouvernance du CI-SIS",
   "status" : "draft",
-  "date" : "2024-11-14T14:11:27+00:00",
+  "date" : "2024-11-14T14:12:33+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -763,6 +763,15 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "connaissance-medicale.html"
+        }],
+        "nameUrl" : "connaissance-medicale.html",
+        "title" : "Doctrine de la connaissance médicale",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "elaboration.html"
         }],
         "nameUrl" : "elaboration.html",
@@ -812,15 +821,6 @@
         }],
         "nameUrl" : "up-externe.html",
         "title" : "Unité de production externe",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "connaissance-medicale.html"
-        }],
-        "nameUrl" : "connaissance-medicale.html",
-        "title" : "Connaissance médicale",
         "generation" : "markdown"
       },
       {

@@ -20,10 +20,8 @@ parameters:
 pages:
     index.md:
         title: Accueil
-    generalites.md:
-        title: Généralités
     doctrine.md:
-        title: Doctrine d’interopérabilité syntaxique et doctrine d’interopérabilité sémantique
+        title: Doctrine générale
     elaboration.md:
         title: Méthode d'élaboration des échanges fonctionnels
     choix-standard.md:
@@ -47,15 +45,14 @@ pages:
 menu:
     Accueil: index.html
     Doctrine du CI-SIS: 
-        Généralités: generalites.html
-        Doctrine du ci-sis: doctrine.html
+        Doctrine générale: doctrine.html
+        Doctrine de la connaissance médicale: connaissance-medicale.html
         Méthode d'élaboration des échanges fonctionnels: elaboration.html
         Choix des normes et standard: choix-standard.html
         Cycle de vie des spécifications: cycle-de-vie.html
         Expression des besoins et Change Proposals: ebe-cp.html
         Trajectoire interopérabilité: trajectoire-iop.html
         Unité de production externe: up-externe.html
-        Connaissance médicale: connaissance-medicale.html
     Gouvernance du CI-SIS:
         Comitologie : comitologie.html
         Interactions avec l'écosystème: interactions-ecosysteme.html

@@ -1,17 +1,3 @@
-<div style="
-    background-color: #fff5f5; 
-    color: #e57373; 
-    border: 1px solid #e57373; 
-    padding: 10px; 
-    border-radius: 5px; 
-    font-size: 14px; 
-    text-align: center; 
-    max-width: 300px; 
-    margin: 20px auto;
-">
-    ⚠️ Work in Progress
-</div>
-
 ### Rappel du processus
 
 Le CI-SIS est élaboré à partir des cas d’usage métier des secteurs sanitaire, médico-social, médico-administratif et social en s’appuyant en priorité sur des normes et standards internationaux matures et robustes utilisés dans le domaine de la santé. Il fait l’objet d’une concertation publique avant publication.

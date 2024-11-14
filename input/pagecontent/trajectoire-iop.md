@@ -1,14 +1,12 @@
-L'interopérabilité est la capacité des systèmes à communiquer entre eux, qu'il soit local (établissement, GHT), régional ou national. L'interopérabilité permet un partage et un accès facilité à une donnée, intégrable, réutilisable et exploitable, créant ainsi un intérêt stratégique indéniable, tant pour le patient que pour la recherche clinique.
+L'interopérabilité est la capacité des systèmes à communiquer entre eux, au niveau local (établissement, GHT), régional ou national. L'interopérabilité permet un partage et un accès facilité à une donnée, intégrable, réutilisable et exploitable, créant ainsi un intérêt stratégique indéniable, tant pour le patient que pour la recherche clinique.
 
 Pour faciliter le partage et l'accès de la donnée de santé, il est nécessaire de construire un langage de données informatique partagé par tous et adapté aux cas d’usage traités. Il faut s’appuyer à la fois sur les normes en usage dans la communauté, les besoins des professionnels de santé et les standards internationaux pour un réemploi large de la donnée.
 
-La construction d’un langage commun pertinent et opérationnel, et qui réponde efficacement aux besoins identifiés, nécessite une concertation large avec l’ensemble des acteurs de l’écosystème : professionnels de santé, acteurs techniques, décideurs politiques. Cette collaboration est nécessaire pour définir et prioriser une feuille de route, puis élaborer et promouvoir une spécification. L’objectif est, selon le cas d’usage, une plus-value pour le médecin et le patient, pour le chercheur ou pour l’efficience du système de santé.  
+La construction d’un langage commun pertinent et opérationnel, qui réponde efficacement aux besoins identifiés, nécessite une concertation large avec l’ensemble des acteurs de l’écosystème : professionnels de santé, acteurs techniques, décideurs politiques. Cette collaboration est nécessaire pour définir et prioriser une feuille de route, puis élaborer et promouvoir une spécification. La clé de la réussite de l'interopérabilité est de fédérer un maximum d'acteurs afin de valoriser et généraliser l'usage d'une spécification.
 
-Cette collaboration est nécessaire pour valoriser et prioriser une spécification afin d'atteindre le stade ultime de la plus-value pour le médecin et le patient. La clé de la réussite de l'interopérabilité est de fédérer un maximum d'acteurs.
-Par la suite, lors du développement d'un logiciel, l'interopérabilité doit être pensée au plus tôt, au moment de sa conception afin d'être "interoperable by design", car une fois des interfaces graphiques développées et corrélées aux flux propriétaires, il est bien plus coûteux de faire l'évolution dans l'autre sens.
-L'interopérabilité est souvent confondue avec référencement, mais ces termes ne sont pas synonymes. Bien que l'interopérabilité puisse être une exigence dans le cadre d'un référencement, elle se distingue principalement par sa capacité à faciliter le partage et la réutilisation des données.
+Au niveau du développement d'un logiciel, l'interopérabilité doit être pensée au plus tôt, au moment de sa conception afin d'être "interoperable by design", car une fois des interfaces graphiques développées et corrélées aux flux propriétaires, il est bien plus coûteux de faire l'évolution dans l'autre sens. A noter, l'interopérabilité est souvent confondue avec référencement, mais ces termes ne sont pas synonymes. Bien que l'interopérabilité puisse être une exigence dans le cadre d'un référencement, elle se distingue principalement par sa capacité à faciliter le partage et la réutilisation des données.
 
-Le déploiement de la e-Santé en France s'appuie sur trois piliers : la sécurité, l'éthique et l'interopérabilité. Du côté de l'interopérabilité, de nombreuses actions sont menées pour promouvoir celle-ci afin de faciliter son déploiement.
+Le déploiement de la e-Santé en France s'appuie sur trois piliers : la sécurité, l'éthique et l'interopérabilité. Du côté de l'interopérabilité, de nombreuses actions sont menées pour promouvoir celle-ci afin de faciliter son déploiement :
 
 <div>
     <ul>
@@ -19,6 +17,7 @@ Le déploiement de la e-Santé en France s'appuie sur trois piliers : la sécuri
         <li>L'ANS évangélise et sensibilise l'écosystème à travers de nombreux webinaires et interventions publiques ainsi qu'à travers sa page LinkedIn.</li>
     </ul>
 </div>
+
 
 L'objectif de cette page est de fournir à l'écosystème une vision sur l'évolution des standards d'interopérabilité déployés en France, notamment ceux utilisés par le CI-SIS, dans les programmes nationaux comme le Ségur du Numérique en Santé et les établissements. Cette trajectoire est vouée à évoluer car les travaux sont constants au niveau international et européen. On peut citer par exemple les actes d'exécution du règlement EEDS qui se baseront a priori sur le standard FHIR R4 dans un premier temps mais dont le choix pourrait évoluer.
 

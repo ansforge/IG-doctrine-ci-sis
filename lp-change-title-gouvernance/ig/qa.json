@@ -1,0 +1,19 @@
+{
+  "url" : "https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine",
+  "name" : "DoctrineCISIS",
+  "title" : "Doctrine du CI-SIS",
+  "description" : null,
+  "status" : "draft",
+  "package-id" : "ans.fr.doctrine",
+  "ig-ver" : "0.1.0",
+  "date" : "Thu, 14 Nov, 2024 10:38:17 +0000",
+  "dateISO8601" : "2024-11-14T10:38:17+00:00",
+  "errs" : 1,
+  "warnings" : 16,
+  "hints" : 3,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 2277628752
+}

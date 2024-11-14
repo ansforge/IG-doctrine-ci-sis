@@ -4,7 +4,7 @@ DoctrineCISIS : Validation Results
 err = 1, warn = 16, info = 3
 $--
 Generated $--. FHIR version $-- for ans.fr.doctrine#$-- (canonical = https://interop.esante.gouv.fr/ig/doctrine)
- Build Errors : 5 / 4 / 0
+ Build Errors : 4 / 4 / 0
  /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/CodeSystem-competence-code-system : 0 / 2 / 2
  /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/CodeSystem-type-carte-code-system : 0 / 2 / 2
  /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.doctrine : 0 / 0 / 1
@@ -18,7 +18,6 @@ Generated $--. FHIR version $-- for ans.fr.doctrine#$-- (canonical = https://int
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[24].value: Supressed messages file not found
-ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/div/img at Line 330, column 6: The image source 'FIGURE 1 ENONCE SIMPLIFIE DES PRINCIPES FIVE STARS.png' cannot be resolved
 ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/p/a at Line 245, column 306: The link 'iste_Profils_IHE_Standards.xls' for "dans ce tableau" cannot be resolved
 ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/p/a at Line 299, column 253: The link 'iste_Profils_IHE_Standards.xls' for "ici" cannot be resolved
 ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/ebe-cp.html#/html/body/div/div/div/div/div/p/a at Line 209, column 406: The link 'gouvernance.html' for "nouvelle gouvernance" cannot be resolved

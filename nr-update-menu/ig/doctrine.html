@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Doctrine d’interopérabilité syntaxique et doctrine d’interopérabilité sémantique - Doctrine et gouvernance du CI-SIS v0.1.0</title>
+    <title>Doctrine générale - Doctrine et gouvernance du CI-SIS v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"3"}
-    h3,h4,h5,h6{--heading-prefix:"3"}</style>
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
           <!-- Placeholder for child template header declarations -->
@@ -96,10 +96,10 @@
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="generalites.html">Généralités</a>
+        <a href="doctrine.html">Doctrine générale</a>
       </li>
       <li>
-        <a href="doctrine.html">Doctrine du ci-sis</a>
+        <a href="connaissance-medicale.html">Doctrine de la connaissance médicale</a>
       </li>
       <li>
         <a href="elaboration.html">Méthode d'élaboration des échanges fonctionnels</a>
@@ -118,9 +118,6 @@
       </li>
       <li>
         <a href="up-externe.html">Unité de production externe</a>
-      </li>
-      <li>
-        <a href="connaissance-medicale.html">Connaissance médicale</a>
       </li>
     </ul>
   </li>
@@ -152,11 +149,11 @@
     <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
       <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Doctrine d’interopérabilité syntaxique et doctrine d’interopérabilité sémantique</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Doctrine générale</b></li>
 
           <span style="float:right;">
 
-            <a href="generalites.html">&lt;prev</a> | 
+            <a href="index.html">&lt;prev</a> | 
 
             <a href="#bottom">bottom</a>
 
@@ -183,7 +180,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </style>
 <div class="col-12">
     <!-- ReleaseHeader --><p id="publish-box">Doctrine et gouvernance du CI-SIS - Local Development build (v0.1.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://interop.esante.gouv.fr/ig/doctrine/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
-  <h2>Doctrine d’interopérabilité syntaxique et doctrine d’interopérabilité sémantique</h2>
+  <h2>Doctrine générale</h2>
   
 
 
@@ -200,6 +197,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p>  <!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
+  <li><a href="#objet-du-document" id="markdown-toc-objet-du-document">Objet du document</a></li>
+  <li><a href="#enjeux-de-linteropérabilité-et-du-ci-sis" id="markdown-toc-enjeux-de-linteropérabilité-et-du-ci-sis">Enjeux de l’interopérabilité et du CI-SIS</a></li>
+  <li><a href="#la-doctrine-du-ci-sis" id="markdown-toc-la-doctrine-du-ci-sis">La doctrine du CI-SIS</a></li>
   <li><a href="#choix-des-profils-ihe-et-des-guides-dimplémentation-fhir-comme-base-de-la-doctrine-dinteropérabilité-syntaxique" id="markdown-toc-choix-des-profils-ihe-et-des-guides-dimplémentation-fhir-comme-base-de-la-doctrine-dinteropérabilité-syntaxique">Choix des profils IHE et des guides d’implémentation FHIR comme base de la doctrine d’interopérabilité syntaxique</a></li>
   <li><a href="#réutilisation-des-normes-et-standards-déjà-utilisés-dans-le-ci-sis" id="markdown-toc-réutilisation-des-normes-et-standards-déjà-utilisés-dans-le-ci-sis">Réutilisation des normes et standards déjà utilisés dans le CI-SIS</a></li>
   <li><a href="#choix-des-normes-et-standards-non-encore-utilisés-dans-le-ci-sis" id="markdown-toc-choix-des-normes-et-standards-non-encore-utilisés-dans-le-ci-sis">Choix des normes et standards non encore utilisés dans le CI-SIS</a></li>
@@ -220,6 +220,101 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 ">
     ⚠️ Work in Progress
 </div>
+
+<h3 id="objet-du-document">Objet du document</h3>
+
+<p>En tant qu’opérateur public au service de la santé numérique, l’ANS assure trois missions complémentaires :</p>
+
+<div>
+    <ul>
+<li>Créer les conditions de l’essor de la e-santé ;</li>
+<li>Conduire des projets d’envergure nationale ;</li>
+<li>Déployer les usages en soutenant l’innovation.</li>
+    </ul>
+</div>
+
+<p>La création des conditions de l’essor de la e-santé, objet de la première mission de l’ANS, repose sur la définition d’un cadre dans lequel les services de e-santé peuvent se développer librement avec la capacité d’interagir aisément, de manière sécurisée avec l’ensemble des systèmes d’information du secteur et de manière éthique.</p>
+
+<p>Du point de vue de la sécurité, ce cadre repose sur la mise en œuvre de règles et de bonnes pratiques identifiées dans la <a href="https://esante.gouv.fr/produits-services/pgssi-s">Politique Générale de Sécurité des Systèmes d’Information de Santé (PGSSI-S)</a> et sur l’agrément des hébergeurs de données de santé.</p>
+
+<p>Du point de vue de l’éthique, ce cadre repose sur la mise en œuvre de principes éthiques et humanistes identifiés dans le <a href="https://esante.gouv.fr/produits-services/referentiel-ethique">Cadre de l’éthique du numérique en santé (CENS)</a>.</p>
+
+<p>En ce qui concerne l’interopérabilité, il repose sur l’identification et la compréhension partagée des concepts « métier » (ou objets) correspondant aux informations manipulées par les systèmes d’information de santé (ex. acteurs de santé, qu’ils soient une personne physique ou personne morale, patients, offre de soins…). Ces concepts sont catalogués dans le <a href="https://mos.esante.gouv.fr/0.html">Modèle des Objets de Santé (MOS)</a>. Utile pour la conception des systèmes d’information, l’utilisation des objets de santé pour la modélisation des échanges entre systèmes d’information est également une étape préalable à leur spécification dans une logique d’urbanisation sectorielle. Le Cadre d’Interopérabilité des Systèmes d’Information de Santé (CI-SIS) traduit cette modélisation en spécifications d’interopérabilité sémantiques, syntaxiques et techniques.</p>
+
+<p>Publié initialement par l’ANS en 2009 et régulièrement mis à jour depuis, le CI-SIS est destiné aux opérateurs de maîtrise d’œuvre au sens large (éditeurs de logiciel, intégrateurs…) ainsi qu’aux opérateurs de maitrise d’ouvrage. Il a été basé sur des normes et standards internationaux d’échange utilisés dans le secteur de la santé de manière à assurer :</p>
+
+<div>
+    <ul>
+        <li> Une adéquation avec les besoins du secteur : les normes et standards utilisés ont été conçus pour la mise en œuvre de cas d’usage relatifs à la prise en charge des usagers ;</li>
+        <li> Une réutilisabilité des développements avec un minimum d’efforts d’adaptation pour différents cas d’usage que ce soit au niveau national ou au-delà du marché français.</li>
+    </ul>
+</div>
+
+<p>Initialement orienté sur les cas d’usage correspondant aux principaux projets numériques d’échange et de partage portés par l’agence lors de sa création en 2009, c’est-à-dire le DMP et MSSanté, le CI-SIS est longtemps resté cantonné à ces cas d’usage, pour lesquels les orientations suivies en termes de normes et standards avaient été définies avec l’ensemble des parties prenantes (représentants des industriels, utilisateurs, institutionnels…) lors d’une phase de conception qui a duré un peu plus d’un an.
+Arrivé à maturité sur son périmètre initial, le CI-SIS doit évoluer de façon constante de façon à être utile à l’ensemble du secteur sanitaire et medico-social. C’est le but de la nouvelle gouvernance mise en œuvre depuis fin 2024.</p>
+
+<p>La construction progressive du CI-SIS répond aux orientations stratégiques définies et mises à jour régulièrement par la gouvernance du CI-SIS et à la feuille de route d’interopérabilité résultant.
+Cette gouvernance est conçue pour faciliter et maîtriser la multiplication des cas d’usage pris en compte dans le CI-SIS. Il s’agit à la fois d’augmenter le nombre des cas d’usage couverts par le CI-SIS tout en assurant une stabilité des spécifications, et de donner aux acteurs de la visibilité à long terme. À cette fin, une stratégie globale doit être définie et intégrée dans une doctrine publique sur la méthode d’évolution et la méthodologie de choix des normes et standards internationaux applicables au développement du CI-SIS.</p>
+
+<p>Ce document a pour objectif de présenter cette doctrine ainsi que son articulation avec la gouvernance du CI-SIS. Après un rappel des enjeux de l’interopérabilité pour les concepteurs et les utilisateurs de systèmes d’information, ce document présente les composants de la doctrine en indiquant en quoi ceux-ci répondent aux enjeux, avant de détailler l’articulation avec la gouvernance du CI-SIS.</p>
+
+<h3 id="enjeux-de-linteropérabilité-et-du-ci-sis">Enjeux de l’interopérabilité et du CI-SIS</h3>
+
+<p>La dématérialisation des processus est un enjeu décisif pour les secteurs sanitaire, médico-administratif, médico-social et social. Vecteur d’optimisation de la prise en charge tant au niveau organisationnel qu’au niveau économique, cette dématérialisation nécessite des investissements souvent importants aussi bien de la part des opérateurs de maîtrise d’œuvre que de la part des opérateurs de maitrise d’ouvrage, non seulement en termes de spécifications et de développement mais également en termes de formation sur les technologies, ainsi que sur les normes et standards d’échange utilisés.</p>
+
+<p>Afin de rentabiliser ces investissements, il est important que les spécifications des échanges entre SI :</p>
+
+<div>
+    <ul>
+        <li> Soient adaptées aux cas d’usage métier initiaux ;</li>
+        <li> Puissent être réutilisées dans d’autres cas d’usage pour le même contexte ou dans d’autres contextes (par exemple pour des mises en œuvre en dehors du contexte français) ;</li>
+        <li> Bénéficient d’une certaine stabilité</li>
+    </ul>
+</div>
+
+<p>Les normes et standards internationaux utilisés dans les secteurs concernés peuvent constituer un premier niveau tendant vers l’atteinte de ces objectifs. Cependant, ils sont trop divers, trop larges et ont une couverture trop incomplète de l’ensemble des cas d’usage pour pouvoir donner la visibilité à long terme recherchée.</p>
+
+<p>Dans l’optique de réduire cette diversité, les profils internationaux ont pour vocation de guider la mise en œuvre des normes et standards généraux dans le contexte de cas d’usage identifiés. C’est le cas par exemple des profils WS ou SAML qui détaillent la mise en œuvre des standards correspondants pour des cas d’usage génériques d’échange entre systèmes d’information.
+Les profils internationaux peuvent également être plus détaillés pour être adaptés à un domaine en particulier. Les organisations internationales HL7, IHE et Continua Alliance, par exemple, produisent des profils adaptés aux cas d’usage du domaine de la santé.</p>
+
+<p>Enfin, les profils nationaux ont pour objectif d’adapter aux contextes nationaux les profils internationaux lorsqu’ils existent ou, à défaut, les normes et standards internationaux techniques et sémantiques. En France, le <a href="https://www.numerique.gouv.fr/publications/interoperabilite">Référentiel Général d’Interopérabilité (RGI)</a> constitue par exemple une adaptation nationale pour des cas d’usage génériques d’échange entre systèmes d’information. Il est censé être en adéquation avec le Cadre d’interopérabilité européen (European Interoperability Framework – EIF).</p>
+
+<p>Dans le domaine de la santé, le CI-SIS regroupe les profils opérationnels correspondant aux cas d’usage français. Il est basé sur des profils IHE ou des guides d’implémentation HL7 FHIR internationaux lorsqu’ils existent ou, à défaut, sur des normes et standards internationaux.</p>
+
+<p>Dans le futur, il est possible que le CI-SIS soit également basé sur des spécifications publiées par d’autres organisations qui font autorité au niveau international telles que l’OMS, les accélérateurs de projets européens/internationaux ou au niveau national avec des organisations telles que <a href="http://www.edess.org/joomla/index.php">EDESS</a> ou <a href="https://www.interopsante.org/">InteropSanté</a>. Cette dernière possibilité pourrait être envisagée uniquement pour des standards nationaux ouverts et libres de droits.</p>
+
+<p>Le CI-SIS est également en cohérence avec les orientations du RGI et du <a href="https://ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf">cadre d’interopérabilité européen</a> (European Interoperabilty Framework – EIF) et identifie formellement les cas où les spécificités des cas d’usage santé nécessitent de s’en écarter.</p>
+
+<div style="text-align: center;" class="figure">
+    <img src="positionnement-profil-fr.jpg" alt="CP" style="width:80%;" title="Exemple (non exhaustif) de positionnement de profils français et internationaux par rapport aux normes et standards"/>
+    <figcaption><b>Exemple (non exhaustif) de positionnement de profils français et internationaux par rapport aux normes et standards</b></figcaption>
+</div>
+
+<p>Par exemple :</p>
+
+<div>
+    <ul>
+        <li> Pour le cas d’usage de partage de document de santé, le CI-SIS constitue le profil français du profil IHE XDS (Cross Enterprise Document Sharing) qui est lui-même une adaptation du standard ebXML d’OASIS pour les cas d’usage de partage de documents dans le domaine de la santé ;</li>
+        <li> Pour le cas d’usage de la transmission des données d’identité pour la mise en œuvre de droits d’accès, le VIHF (Vecteur d’Identification et d’Habilitation Formelles) du CI-SIS est basé sur le profil IHE XUA (Cross Enterprise User Assertion) lui-même basé sur le token profile pour le standard SAML d’OASIS ;</li>
+        <li> Pour le cas d’usage du compte-rendu de rétinographie, en l’absence de profil international, le volet du CI-SIS est un profil français directement basé sur la norme CDA éditée par HL7 ;</li>
+        <li> Pour le cas d’usage du partage de données de santé en mobilité, le volet du CI-SIS est basé sur le profil IHE MHD (Mobile access to Health Documents).</li>
+    </ul>
+</div>
+
+<p>Ainsi, le Cadre d’Interopérabilité des systèmes d’information de santé (CI-SIS) a pour objectif clé de développer la capacité des systèmes d’information à échanger/partager des données de manière naturelle sans développements informatiques complexes et coûteux. 
+Il est constitué d’un ensemble de spécifications qui définit les informations à échanger/partager entre les systèmes d’information de santé et identifie la norme ou le standard le plus approprié à utiliser pour cet échange/partage.</p>
+
+<p>Par la définition des interactions entre les systèmes d’information, le CI–SIS décrit des mécanismes d’échanges et de partage ainsi que leurs contenus en utilisant des standards internationaux ouverts mis en cohérence avec le contexte français. C’est ce qu’on appelle « l’interopérabilité technique »</p>
+
+<p>Par la définition de la structuration du contenu médical, le CI–SIS permet d’identifier le langage adéquat pour présenter des informations selon les standards et les normes reconnus ainsi que le vocabulaire à utiliser pour coder l’information (interopérabilité sémantique). Ceci permet de faciliter le traitement automatique de l’information et permet la mise en œuvre de services à valeur ajoutée. C’est ce qu’on appelle « l’interopérabilité syntaxique et sémantique ».</p>
+
+<p>De nature à favoriser l’adéquation opérationnelle des profils français du domaine de la santé, du medico-social et social, aux cas d’usage métier, ce positionnement de fait nécessite une formalisation au sein d’une doctrine d’interopérabilité afin de fournir une meilleure visibilité aux parties prenantes sur les orientations du CI-SIS en termes de normes et standards techniques, syntaxiques et sémantiques.</p>
+
+  <!-- ## Guide de lecture pour novices -->
+
+  <!-- TODO -->
+
+<h3 id="la-doctrine-du-ci-sis">La doctrine du CI-SIS</h3>
 
 <p>La doctrine du CI-SIS a pour objectif de formaliser les orientations suivies par le CI-SIS en termes de normes et standards dans le cas général et de fournir un processus de détermination des normes et standards à suivre lorsque le cas d’usage considéré ne peut pas être mis en œuvre via ces orientations. Une fois validée par les acteurs du domaine, elle permet de s’affranchir d’une consultation préalable à l’élaboration des spécifications d’interopérabilité lorsqu’un besoin d’interopérabilité peut être pris en compte par une norme ou un standard déjà existant dans les orientations du CI-SIS. Elle ne change pas le processus d’élaboration des spécifications d’interopérabilité qui sont soumises à concertation publique, qu’il y ait eu une consultation préalable ou non sur les normes/standards.</p>
 
@@ -256,7 +351,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Les profils IHE  et les guides d’implémentation FHIR d’HL7 sont des spécifications opérationnelles d’interopérabilité qui indiquent comment utiliser des normes/standards stables et « vivants » dans le cadre de cas d’usage des domaines sanitaire, medico-social et social. Ce travail d’analyse et de sélection des normes/standards ainsi que la prise en compte des spécificités des cas d’usage de ces domaines en font une base de départ adaptée pour les spécifications du CI-SIS, qui n’ont plus qu’à contraindre ces profils et ces guides d’implémentation en fonction du contexte français.</p>
 
-<p><a name="l425">​</a>Cette adéquation est également reconnue au niveau européen. En effet, le 28 juillet 2015 la Commission Européenne a identifié 27 profils IHE pouvant servir de référence dans la passation de marchés publics, profils qui ont été intégrés au cadre d’interopérabilité européen. Ces profils sont présentés <a href="iste_Profils_IHE_Standards.xls">dans ce tableau</a>.</p>
+<p><a name="l600">​</a>Cette adéquation est également reconnue au niveau européen. En effet, le 28 juillet 2015 la Commission Européenne a identifié 27 profils IHE pouvant servir de référence dans la passation de marchés publics, profils qui ont été intégrés au cadre d’interopérabilité européen. Ces profils sont présentés <a href="iste_Profils_IHE_Standards.xls">dans ce tableau</a>.</p>
 
 <p>Ces éléments ont amené à considérer les profils IHE ainsi que les guides d’implémentation FHIR comme base de la doctrine du CI-SIS. Pour autant, toutes ces spécifications n’ont pas un niveau de maturité suffisant pour constituer une base solide :</p>
 
@@ -310,7 +405,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Cependant, l’ANS a défini une <a href="./trajectoire-iop.html">trajectoire d’interopérabilité</a> qui tient compte des orientations retenues par la Commission Européenne dans le cadre de la construction de l’espace de données de santé européen (European Health Data Space - EHDS). Une de ces orientations concerne l’utilisation du standard FHIR en remplacement ou en complément de CDA pour les documents structurés.</p>
 
-<p><a name="l526">​</a>La liste des normes et standards utilisés dans le CI-SIS évolue constamment à la faveur de la production de nouveaux volets du CI-SIS. A titre d’information, les normes et standards qui sont utilisés dans le CI-SIS en septembre 2024 sont présentés <a href="iste_Profils_IHE_Standards.xls">ici</a>.</p>
+<p><a name="l701">​</a>La liste des normes et standards utilisés dans le CI-SIS évolue constamment à la faveur de la production de nouveaux volets du CI-SIS. A titre d’information, les normes et standards qui sont utilisés dans le CI-SIS en septembre 2024 sont présentés <a href="iste_Profils_IHE_Standards.xls">ici</a>.</p>
 
 <h3 id="choix-des-normes-et-standards-non-encore-utilisés-dans-le-ci-sis">Choix des normes et standards non encore utilisés dans le CI-SIS</h3>
 
@@ -394,7 +489,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             <tr>
               <td style="text-align:left">&nbsp;
 
-                <a href="generalites.html">&lt;prev</a>
+                <a href="index.html">&lt;prev</a>
 
               </td>
               <td style="text-align:center">
@@ -412,7 +507,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Nov 14, 2024 14:07+0000">2024-11-14</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Nov 14, 2024 14:10+0000">2024-11-14</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

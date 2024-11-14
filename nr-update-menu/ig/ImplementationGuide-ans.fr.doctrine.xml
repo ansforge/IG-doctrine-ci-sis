@@ -10,7 +10,7 @@
   <name value="DoctrineCISIS"/>
   <title value="Doctrine et gouvernance du CI-SIS"/>
   <status value="draft"/>
-  <date value="2024-11-14T14:07:34+00:00"/>
+  <date value="2024-11-14T14:10:22+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -581,18 +581,10 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="generalites.html"/>
-        </extension>
-        <nameUrl value="generalites.html"/>
-        <title value="Généralités"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="doctrine.html"/>
         </extension>
         <nameUrl value="doctrine.html"/>
-        <title value="Doctrine d’interopérabilité syntaxique et doctrine d’interopérabilité sémantique"/>
+        <title value="Doctrine générale"/>
         <generation value="markdown"/>
       </page>
       <page>

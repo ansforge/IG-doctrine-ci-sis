@@ -1,8 +1,6 @@
-L'interopérabilité est la capacité des systèmes à communiquer entre eux, au niveau local (établissement, GHT), régional ou national. L'interopérabilité permet un partage et un accès facilité à une donnée, intégrable, réutilisable et exploitable, créant ainsi un intérêt stratégique indéniable, tant pour le patient que pour la recherche clinique.
+L'interopérabilité est la capacité des systèmes à communiquer entre eux, au niveau local (établissement, GHT), régional ou national. L'interopérabilité permet un partage et un accès facilité à une donnée intégrable, réutilisable et exploitable, créant ainsi un intérêt stratégique indéniable, tant pour le patient que pour la recherche clinique.
 
-Pour faciliter le partage et l'accès de la donnée de santé, il est nécessaire de construire un langage de données informatique partagé par tous et adapté aux cas d’usage traités. Il faut s’appuyer à la fois sur les normes en usage dans la communauté, les besoins des professionnels de santé et les standards internationaux pour un réemploi large de la donnée.
-
-La construction d’un langage commun pertinent et opérationnel, qui réponde efficacement aux besoins identifiés, nécessite une concertation large avec l’ensemble des acteurs de l’écosystème : professionnels de santé, acteurs techniques, décideurs politiques. Cette collaboration est nécessaire pour définir et prioriser une feuille de route, puis élaborer et promouvoir une spécification. La clé de la réussite de l'interopérabilité est de fédérer un maximum d'acteurs afin de valoriser et généraliser l'usage d'une spécification.
+Pour faciliter le partage et l'accès de la donnée de santé, il est nécessaire de construire un langage de données informatique partagé par tous et adapté aux cas d’usage traités. La construction d’un langage commun pertinent et opérationnel, qui réponde efficacement aux besoins identifiés, nécessite une concertation large avec l’ensemble des acteurs de l’écosystème : professionnels de santé, acteurs techniques, décideurs politiques. Cette collaboration est nécessaire pour définir et prioriser une feuille de route, puis élaborer et promouvoir une spécification. La clé de la réussite de l'interopérabilité est de fédérer un maximum d'acteurs afin de valoriser et généraliser l'usage d'une spécification tout en s'appuyant sur les travaux internationaux de standardisation pour une réutilisation maximale des travaux déjà effectués.
 
 Au niveau du développement d'un logiciel, l'interopérabilité doit être pensée au plus tôt, au moment de sa conception afin d'être "interoperable by design", car une fois des interfaces graphiques développées et corrélées aux flux propriétaires, il est bien plus coûteux de faire l'évolution dans l'autre sens. A noter, l'interopérabilité est souvent confondue avec référencement, mais ces termes ne sont pas synonymes. Bien que l'interopérabilité puisse être une exigence dans le cadre d'un référencement, elle se distingue principalement par sa capacité à faciliter le partage et la réutilisation des données.
 
@@ -305,7 +303,7 @@ Ministère de la santé, commission européenne, gouvernance EEDS
 
 ##### Les professionnels de santé
 
-il est nécessaire de consulter l les professionnels de santé pour évaluer des nomes techniques sémantiques ou syntaxiques et de spécifier des profils au plus près de leurs besoins en respectant leurs usages.
+il est nécessaire de consulter les professionnels de santé pour évaluer des nomes techniques sémantiques ou syntaxiques et de spécifier des profils au plus près de leurs besoins en respectant leurs usages.
 
 ##### Les éditeurs de logiciels
 

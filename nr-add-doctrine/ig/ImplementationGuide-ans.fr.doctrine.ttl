@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "DoctrineCISIS"] ; # 
   fhir:title [ fhir:v "Doctrine du CI-SIS"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-11-08T16:15:10+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-14T08:34:05+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -298,7 +298,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "hl7.fhir.uv.tools#0.2.0" ]
+       fhir:value [ fhir:v "hl7.fhir.uv.tools.r4#0.3.0" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;

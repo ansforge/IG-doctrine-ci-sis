@@ -1,18 +1,3 @@
-<div style="
-    background-color: #fff5f5; 
-    color: #e57373; 
-    border: 1px solid #e57373; 
-    padding: 10px; 
-    border-radius: 5px; 
-    font-size: 14px; 
-    text-align: center; 
-    max-width: 300px; 
-    margin: 20px auto;
-">
-    ⚠️ Work in Progress
-</div>
-
-
 Le niveau de qualité et la maturité des volets du CI-SIS sont des informations importantes pour inciter les éditeurs de solution à engager des développements sans craindre de futures évolutions majeures dans un avenir proche.
 
 Le statut de maturité est une information indicative. Il est toujours préférable de se baser sur des spécifications standards, même si celles-ci sont peu matures. Les standards étant développés par une communauté d’experts, il est plus facile et plus sécurisant de faire évoluer des spécifications en parallèle des évolutions d’un standard plutôt de maintenir un standard propriétaire.

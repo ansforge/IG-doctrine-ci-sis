@@ -1,19 +1,3 @@
-<div style="
-    background-color: #fff5f5; 
-    color: #e57373; 
-    border: 1px solid #e57373; 
-    padding: 10px; 
-    border-radius: 5px; 
-    font-size: 14px; 
-    text-align: center; 
-    max-width: 300px; 
-    margin: 20px auto;
-">
-    ⚠️ Work in Progress
-</div>
-
-### Introduction à l'interopérabilité
-
 L'interopérabilité est la capacité des systèmes à communiquer entre eux, qu'il soit local (établissement, GHT), régional ou national. L'interopérabilité permet un partage et un accès facilité à une donnée, intégrable, réutilisable et exploitable, créant ainsi un intérêt stratégique indéniable, tant pour le patient que pour la recherche clinique.
 
 Pour faciliter le partage et l'accès de la donnée de santé, il est nécessaire de construire un langage de données informatique partagé par tous et adapté aux cas d’usage traités. Il faut s’appuyer à la fois sur les normes en usage dans la communauté, les besoins des professionnels de santé et les standards internationaux pour un réemploi large de la donnée.

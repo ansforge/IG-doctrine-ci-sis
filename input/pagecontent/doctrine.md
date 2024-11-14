@@ -1,17 +1,3 @@
-<div style="
-    background-color: #fff5f5; 
-    color: #e57373; 
-    border: 1px solid #e57373; 
-    padding: 10px; 
-    border-radius: 5px; 
-    font-size: 14px; 
-    text-align: center; 
-    max-width: 300px; 
-    margin: 20px auto;
-">
-    ⚠️ Work in Progress
-</div>
-
 ### Objet du document
 
 En tant qu’opérateur public au service de la santé numérique, l’ANS assure trois missions complémentaires :

@@ -1,17 +1,3 @@
-<div style="
-    background-color: #fff5f5; 
-    color: #e57373; 
-    border: 1px solid #e57373; 
-    padding: 10px; 
-    border-radius: 5px; 
-    font-size: 14px; 
-    text-align: center; 
-    max-width: 300px; 
-    margin: 20px auto;
-">
-    ⚠️ Work in Progress
-</div>
-
 ### Expressions de besoins d'intéropérabilité
 Le CI-SIS, permettant de standardiser un échange d’informations et constitué de spécifications d’interopérabilité, du modèle des objets de Santé (MOS) ainsi que des nomenclatures des objets de santé (NOS), facilite le développement harmonieux et pérenne de la e-Santé. Pour le faire évoluer au plus près des besoins et décider collectivement des priorités d’interopérabilité, l’ANS a mis en place une [nouvelle gouvernance](gouvernance.html).
 Cette gouvernance garantit un moyen transparent pour la prise en compte des « besoins » terrain dans le CI-SIS.

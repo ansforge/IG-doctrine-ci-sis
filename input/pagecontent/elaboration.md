@@ -1,18 +1,3 @@
-<div style="
-    background-color: #fff5f5; 
-    color: #e57373; 
-    border: 1px solid #e57373; 
-    padding: 10px; 
-    border-radius: 5px; 
-    font-size: 14px; 
-    text-align: center; 
-    max-width: 300px; 
-    margin: 20px auto;
-">
-    ⚠️ Work in Progress
-</div>
-
-
 La vague actuelle de modernisation des systèmes d’information de santé (SIS) facilite les échanges d’information, sans pour autant nécessiter la refonte générale de ces systèmes. La voie privilégiée du progrès repose sur l’interopérabilité des systèmes d'information plutôt que sur leur homogénéité.
 
 Une des réponses à l'interopérabilité des systèmes d'information est basée sur la dématérialisation harmonisée des échanges de données entre ces systèmes.

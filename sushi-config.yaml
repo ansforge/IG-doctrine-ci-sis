@@ -22,8 +22,6 @@ pages:
         title: Accueil
     doctrine.md:
         title: Doctrine
-    connaissance-medicale.md:
-        title: Doctrine de la connaissance médicale
     elaboration.md:
         title: Méthode d'élaboration des échanges fonctionnels
     choix-standard.md:
@@ -46,7 +44,6 @@ menu:
     Accueil: index.html
     Doctrine du CI-SIS: 
         Doctrine: doctrine.html
-        # Doctrine de la connaissance médicale: connaissance-medicale.html
         Méthode d'élaboration des échanges fonctionnels: elaboration.html
         Choix des normes et standard: choix-standard.html
         Cycle de vie des spécifications: cycle-de-vie.html

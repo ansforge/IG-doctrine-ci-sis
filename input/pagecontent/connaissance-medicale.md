@@ -12,17 +12,17 @@ Ce document s'adresse principalement aux personnes et organismes qui veulent com
     <ul>
     <li>Comment les principes de la présente doctrine ont été élaborés </li>
         <ul>
-        <li>Cela concerne les chapitres 3 et 4 </li>
+        <li>Cela concerne les chapitres 10.1.2 et 10.1.3 </li>
         <li>Les profils de personnes potentiellement concernés sont : les responsables de l'ANS, les experts de l'ANS, les chercheurs en informatique médicale, les directeurs de projets </li>
         </ul>
     <li>Comment les principes de la présente doctrine ont été utilisés pour faire des choix de standards, de méthodes et d'outils pour concevoir et partager des artéfacts de connaissances médicales standardisés </li>
         <ul>
-        <li>Cela concerne le chapitre 5 </li>
+        <li>Cela concerne le chapitre 10.1.4 </li>
         <li>Les profils de personnes potentiellement concernés sont : les responsables de l'ANS, les experts de l'ANS, les chercheurs en informatique médicale, les directeurs de projets et les chefs de projet informatique </li>
         </ul>
     <li>Quels sont les standards, méthodes et outils choisis et préconisés par l’ANS si on veut standardiser des artéfacts de connaissances médicales et les intégrer sous forme d’aide à la décision cliniques </li>
          <ul>
-    <li>Cela concerne le chapitre 5 </li>
+    <li>Cela concerne le chapitre 10.1.4 </li>
     <li>Les profils de personnes potentiellement concernés sont : les responsables de l’ANS, les experts de l’ANS, les chercheurs en informatique médicale, les directeurs de projets, les chefs de projet informatique, les développeurs, les POs </li>
               </ul>
     </ul>
@@ -117,7 +117,7 @@ Le mouvement Open Data (données ouvertes) (5) est une initiative mondiale qui v
 La doctrine SI-CM - comme décrite plus en aval – vise à pousser l’éco système à adopter, autant que faire se peut, l’échelle maximale (5 étoiles) de conformité pour la publication des artéfacts de connaissances médicales.
 
 <div class="figure" style='text-align: center;'>
-    <img src="FIGURE 1 ENONCE SIMPLIFIE DES PRINCIPES FIVE STARS.png" alt="5stars" title="Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)" style="width:40%;">
+    <img src="FIGURE 1  ENONCE SIMPLIFIE DES PRINCIPES FIVE STARS.png" alt="5stars" title="Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)" style="width:50%;">
     <figcaption><b>Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)</b></figcaption>
 </div>
 
@@ -204,7 +204,7 @@ La standardisation des GBPC dans le cadre du SI-CM doit combiner et interfacer t
 </div>
 
 <div class="figure" style='text-align: center;'>
-    <img src="Figure 2  Les modèles de l’architecture tri dimensionnel de Rector et al. et leurs interfaces.png" alt="archi_tri_dim" title="Figure 2 : Les modèles de l’architecture tri-dimensionnel de Rector et al. (15) et leurs interfaces" style="width:40%;">
+    <img src="Figure 2  Les modèles de l’architecture tri dimensionnel de Rector et al. et leurs interfaces.png" alt="archi_tri_dim" title="Figure 2 : Les modèles de l’architecture tri-dimensionnel de Rector et al. (15) et leurs interfaces" style="width:50%;">
     <figcaption><b>Figure 2 : Les modèles de l’architecture tri-dimensionnel de Rector et al. (15) et leurs interfaces</b></figcaption>
 </div>
 
@@ -252,7 +252,7 @@ La standardisation des GBPC dans le cadre du SI-CM doit respecter les différent
 </div> 
 
 <div class="figure" style='text-align: center;'>
-    <img src="Tableau 1 les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al.png" alt="quatre_couche" title="Tableau 1 : les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al. (16)" style="width:40%;">
+    <img src="Tableau 1 les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al.png" alt="quatre_couche" title="Tableau 1 : les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al. (16)" style="width:50%;">
     <figcaption><b>Tableau 1 : les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al. (16)</b></figcaption>
 </div>
 
@@ -303,7 +303,7 @@ Les artéfacts produits et gérés par le SI-CM sont en étroites relation avec 
 
 Les volets produits et gérés dans le cadre du SI-CM doivent, autant que faire se peut, partager les mêmes principes que le CI-SIS dans leur doctrine respective ou à défaut des principes qui ne se contredisent pas. La doctrine du SI-CM doit s’inscrire dans la continuité et / ou la complémentarité de celle du CI-SIS et du CGTS et vis vers ça.  
 
-Les artéfacts de connaissances médicales qui suivent le principe de l’architecture tri-dimensionnelle de Rector et al. (15) (chapitre 3.4.4.1) doivent partager, autant que faire se peut, le même modèle d’information médicale que le CI-SIS et le même modèle de connaissance métier statique que le CGTS. 
+Les artéfacts de connaissances médicales qui suivent le principe de l’architecture tri-dimensionnelle de Rector et al. (15) (chapitre 10.1.3.4.4.1) doivent partager, autant que faire se peut, le même modèle d’information médicale que le CI-SIS et le même modèle de connaissance métier statique que le CGTS. 
 
 ###  Les chemins de la doctrine du SI-CM
 
@@ -315,7 +315,7 @@ Dans ce qui suit nous décrivons le chemin nominal ainsi que les possibles chemi
 
 #### Le chemin nominal de la doctrine du SI-CM
 
-Comme décrit en chapitre 2, la doctrine du SI-CM est un ensemble d’activités consistants à identifier et à choisir, en se basant sur les principes de la doctrine, les standards, outils et autres méthodes qui permettront à l’ANS de concevoir et gérer les artéfacts de connaissances médicales standardisés.  
+Comme décrit en chapitre 10.1.2, la doctrine du SI-CM est un ensemble d’activités consistants à identifier et à choisir, en se basant sur les principes de la doctrine, les standards, outils et autres méthodes qui permettront à l’ANS de concevoir et gérer les artéfacts de connaissances médicales standardisés.  
 
 La figure 4 décrit un diagramme d’activité UML qui montre les activités d’identification des standards et outils en question. Toutes les activités en couleur verte ou vert bleuté correspondent à des activités du chemin nominal i.e. les outils et standards que l’ANS utilisera par défaut quel que soit le cas d’usage. Ces outils seront également ceux que l’écosystème devra utiliser dans le cas où l’ANS est saisie pour travailler sur un cas d’usage proposé par l’écosystème. Toutes les activités en bleu et vert bleuté correspondent à des chemins secondaires pour cette doctrine i.e. les cas où l’outil ou le standard préconisés par l’ANS ne répond pas au besoin du cas d’usage et nécessite d’investiguer d’autres outils ou standards.  
 
@@ -325,7 +325,7 @@ Dans ce qui suit nous justifions nos choix d’outils et/ou standards pour le ch
 
 __Choisir un langage de modélisation__
 
-Cette activité est en relation avec le principe #4, chapitre 3.4.2 énoncé en amont. Le langage de modélisation standard choisi pour illustrer les étapes de conception et de structuration des artéfacts de connaissances médicales issues des GBPC dans la doctrine du SI-CM est le langage standard UML version 2.0 (22). 
+Cette activité est en relation avec le principe #4, chapitre 10.1.3.4.2 énoncé en amont. Le langage de modélisation standard choisi pour illustrer les étapes de conception et de structuration des artéfacts de connaissances médicales issues des GBPC dans la doctrine du SI-CM est le langage standard UML version 2.0 (22). 
 
 Ce choix est justifié pour plusieurs raisons 
 <div>
@@ -339,7 +339,7 @@ Ce choix est justifié pour plusieurs raisons
 
 __Choisir un processus de modélisation__
 
-Cette activité est en relation avec le principe #4, chapitre 3.4.3 énoncé en amont. Le processus choisi pour encadrer le travail de conception et de structuration des artéfacts de connaissances médicales issues des GBPC dans la doctrine du SI-CM est le processus Agile décrit dans le FHIR IG CPG-on-FHIR (23). 
+Cette activité est en relation avec le principe #4, chapitre 10.1.3.4.3 énoncé en amont. Le processus choisi pour encadrer le travail de conception et de structuration des artéfacts de connaissances médicales issues des GBPC dans la doctrine du SI-CM est le processus Agile décrit dans le FHIR IG CPG-on-FHIR (23). 
 
 Ce choix est justifié pour plusieurs raisons :
 <div>
@@ -352,7 +352,7 @@ Ce choix est justifié pour plusieurs raisons :
 
 __Choisir un modèle d'information standard__
 
-Cette activité est en relation avec le principe #4, chapitre 3.4.4.1 et les principes #1, #2, #3 et #5 énoncés en amont. Le modèle d’information standard choisi pour standardiser les informations issues du dossier patient est FHIR en version R4 (24). 
+Cette activité est en relation avec le principe #4, chapitre 10.1.3.4.4.1 et les principes #1, #2, #3 et #5 énoncés en amont. Le modèle d’information standard choisi pour standardiser les informations issues du dossier patient est FHIR en version R4 (24). 
 
 Ce choix est justifié pour plusieurs raisons :
 <div>
@@ -367,7 +367,7 @@ Ce choix est justifié pour plusieurs raisons :
 
 __Choisir un modèle de connaissances statiques standard__
 
-Cette activité est en relation avec le principe #4, chapitre 3.4.4.1 et les principes #1, #2, #3 et #5 énoncés en amont. La ou les terminologies médicales choisies pour structurer les artéfacts de connaissances issus de la standardisation des GBPC sont celles recommandées par la doctrine du CGTS. 
+Cette activité est en relation avec le principe #4, chapitre 10.1.3.4.4.1 et les principes #1, #2, #3 et #5 énoncés en amont. La ou les terminologies médicales choisies pour structurer les artéfacts de connaissances issus de la standardisation des GBPC sont celles recommandées par la doctrine du CGTS. 
 
 Ce choix est justifié pour plusieurs raisons :
 <div>
@@ -382,7 +382,7 @@ Ce choix est justifié pour plusieurs raisons :
 
 __Choisir un modèle de connaissances dynamiques standard__
 
-Cette activité est en relation avec le principe #4, chapitre 3.4.4.1 et les principes #1, #2, #3 et #5 énoncés en amont. Le modèle de connaissances dynamiques choisie pour standardiser l’écriture des artéfacts de connaissances médicales issues des GBPC est CQL (25).  
+Cette activité est en relation avec le principe #4, chapitre 10.1.3.4.4.1 et les principes #1, #2, #3 et #5 énoncés en amont. Le modèle de connaissances dynamiques choisie pour standardiser l’écriture des artéfacts de connaissances médicales issues des GBPC est CQL (25).  
 
 Ce choix est justifié pour plusieurs raisons :
 <div>
@@ -397,14 +397,14 @@ Ce choix est justifié pour plusieurs raisons :
 
 
 <div class="figure" style='text-align: center;'>
-    <img src="FIGURE 3  Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM.png" alt="rector_et_al" title="FIGURE 3 : Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM" style="width:40%;">
+    <img src="FIGURE 3  Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM.png" alt="rector_et_al" title="FIGURE 3 : Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM" style="width:50%;">
     <figcaption><b>FIGURE 3 : Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM</b></figcaption>
 </div>
 
 
 __Choisir un standard d'intégration__
 
-Cette activité est en relation avec le principe #4, chapitre 3.4.4.3. Le standard d’intégration de la connaissance médicale sous forme de SDAC choisi par l’ANS est le standard CDS Hooks (19).  
+Cette activité est en relation avec le principe #4, chapitre 10.1.3.4.4.3. Le standard d’intégration de la connaissance médicale sous forme de SDAC choisi par l’ANS est le standard CDS Hooks (19).  
 
 Ce choix est justifié pour plusieurs raisons :
 <div>
@@ -442,7 +442,7 @@ Ce choix est justifié pour plusieurs raisons :
 </div> 
 
 <div class="figure" style='text-align: center;'>
-    <img src="Figure 4 Diagramme d’activité UML pour illustrer les choix du chemin nominal de la doctrine du SI-CM et les possibles chemins secondaires.svg" alt="choix_nominal" title="Figure 4 : Diagramme d’activité UML pour illustrer les choix du chemin nominal de la doctrine du SI-CM et les possibles chemins secondaires" style="width:40%;">
+    <img src="Figure 4 Diagramme d’activité UML pour illustrer les choix du chemin nominal de la doctrine du SI-CM et les possibles chemins secondaires.svg" alt="choix_nominal" title="Figure 4 : Diagramme d’activité UML pour illustrer les choix du chemin nominal de la doctrine du SI-CM et les possibles chemins secondaires" style="width:100%;">
     <figcaption><b>Figure 4 : Diagramme d’activité UML pour illustrer les choix du chemin nominal de la doctrine du SI-CM et les possibles chemins secondaires</b></figcaption>
 </div>
 

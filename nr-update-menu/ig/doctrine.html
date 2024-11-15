@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Doctrine générale - Doctrine et gouvernance du CI-SIS v0.1.0</title>
+    <title>Doctrine générale - Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS) v0.1.0-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -54,9 +54,9 @@
   </div>
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Doctrine et gouvernance du CI-SIS</span>
+          <p><span style="font-size:12pt;font-weight:bold">Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS)</span>
             <br/>
-            <span style="display:inline-block;">0.1.0 - ci-build
+            <span style="display:inline-block;">0.1.0-ballot - ci-build
 
 
 
@@ -179,7 +179,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">Doctrine et gouvernance du CI-SIS - Local Development build (v0.1.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://interop.esante.gouv.fr/ig/doctrine/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS) - Local Development build (v0.1.0-ballot) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://interop.esante.gouv.fr/ig/doctrine/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <h2>Doctrine générale</h2>
   
 
@@ -197,7 +197,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p>  <!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#objet-du-document" id="markdown-toc-objet-du-document">Objet du document</a></li>
   <li><a href="#enjeux-de-linteropérabilité-et-du-ci-sis" id="markdown-toc-enjeux-de-linteropérabilité-et-du-ci-sis">Enjeux de l’interopérabilité et du CI-SIS</a></li>
   <li><a href="#la-doctrine-du-ci-sis" id="markdown-toc-la-doctrine-du-ci-sis">La doctrine du CI-SIS</a></li>
   <li><a href="#choix-des-profils-ihe-et-des-guides-dimplémentation-fhir-comme-base-de-la-doctrine-dinteropérabilité-syntaxique" id="markdown-toc-choix-des-profils-ihe-et-des-guides-dimplémentation-fhir-comme-base-de-la-doctrine-dinteropérabilité-syntaxique">Choix des profils IHE et des guides d’implémentation FHIR comme base de la doctrine d’interopérabilité syntaxique</a></li>
@@ -207,8 +206,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </ul>
 
 </div>
-<h3 id="objet-du-document">Objet du document</h3>
-
 <p>En tant qu’opérateur public au service de la santé numérique, l’ANS assure trois missions complémentaires :</p>
 
 <div>
@@ -337,7 +334,7 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
 
 <p>Les profils IHE  et les guides d’implémentation FHIR d’HL7 sont des spécifications opérationnelles d’interopérabilité qui indiquent comment utiliser des normes/standards stables et « vivants » dans le cadre de cas d’usage des domaines sanitaire, medico-social et social. Ce travail d’analyse et de sélection des normes/standards ainsi que la prise en compte des spécificités des cas d’usage de ces domaines en font une base de départ adaptée pour les spécifications du CI-SIS, qui n’ont plus qu’à contraindre ces profils et ces guides d’implémentation en fonction du contexte français.</p>
 
-<p><a name="l597">​</a>Cette adéquation est également reconnue au niveau européen. En effet, le 28 juillet 2015 la Commission Européenne a identifié 27 profils IHE pouvant servir de référence dans la passation de marchés publics, profils qui ont été intégrés au cadre d’interopérabilité européen. Ces profils sont présentés <a href="iste_Profils_IHE_Standards.xls">dans ce tableau</a>.</p>
+<p><a name="l590">​</a>Cette adéquation est également reconnue au niveau européen. En effet, le 28 juillet 2015 la Commission Européenne a identifié 27 profils IHE pouvant servir de référence dans la passation de marchés publics, profils qui ont été intégrés au cadre d’interopérabilité européen. Ces profils sont présentés <a href="iste_Profils_IHE_Standards.xls">dans ce tableau</a>.</p>
 
 <p>Ces éléments ont amené à considérer les profils IHE ainsi que les guides d’implémentation FHIR comme base de la doctrine du CI-SIS. Pour autant, toutes ces spécifications n’ont pas un niveau de maturité suffisant pour constituer une base solide :</p>
 
@@ -391,7 +388,7 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
 
 <p>Cependant, l’ANS a défini une <a href="./trajectoire-iop.html">trajectoire d’interopérabilité</a> qui tient compte des orientations retenues par la Commission Européenne dans le cadre de la construction de l’espace de données de santé européen (European Health Data Space - EHDS). Une de ces orientations concerne l’utilisation du standard FHIR en remplacement ou en complément de CDA pour les documents structurés.</p>
 
-<p><a name="l698">​</a>La liste des normes et standards utilisés dans le CI-SIS évolue constamment à la faveur de la production de nouveaux volets du CI-SIS. A titre d’information, les normes et standards qui sont utilisés dans le CI-SIS en septembre 2024 sont présentés <a href="iste_Profils_IHE_Standards.xls">ici</a>.</p>
+<p><a name="l691">​</a>La liste des normes et standards utilisés dans le CI-SIS évolue constamment à la faveur de la production de nouveaux volets du CI-SIS. A titre d’information, les normes et standards qui sont utilisés dans le CI-SIS en septembre 2024 sont présentés <a href="iste_Profils_IHE_Standards.xls">ici</a>.</p>
 
 <h3 id="choix-des-normes-et-standards-non-encore-utilisés-dans-le-ci-sis">Choix des normes et standards non encore utilisés dans le CI-SIS</h3>
 
@@ -493,7 +490,7 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Nov 14, 2024 14:16+0000">2024-11-14</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 15, 2024 13:53+0000">2024-11-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

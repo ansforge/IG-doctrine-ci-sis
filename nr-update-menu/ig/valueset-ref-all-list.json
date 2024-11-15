@@ -103,7 +103,7 @@
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/doctrine/ValueSet/EyeColorVS",
-      "version" : "0.1.0",
+      "version" : "0.1.0-ballot",
       "status" : "draft",
       "name" : "EyeColorVS",
       "title" : "EyeColor Value Set",
@@ -115,7 +115,7 @@
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/doctrine/ValueSet/MeltingPotVS",
-      "version" : "0.1.0",
+      "version" : "0.1.0-ballot",
       "status" : "draft",
       "name" : "MeltingPotVS",
       "title" : "Melting Pot Value Set",
@@ -128,7 +128,7 @@
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/doctrine/ValueSet/ModifiedAdministrativeGender",
-      "version" : "0.1.0",
+      "version" : "0.1.0-ballot",
       "status" : "draft",
       "name" : "ModifiedAdministrativeGender",
       "title" : "ModifiedAdministrativeGender",
@@ -140,7 +140,7 @@
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/doctrine/ValueSet/TypeCarteVS",
-      "version" : "0.1.0",
+      "version" : "0.1.0-ballot",
       "status" : "draft",
       "name" : "TypeCarteVS",
       "title" : "Type Carte Value Set",

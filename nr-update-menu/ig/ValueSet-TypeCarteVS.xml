@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet TypeCarteVS</b></p><a name="TypeCarteVS"> </a><a name="hcTypeCarteVS"> </a><a name="TypeCarteVS-fr-FR"> </a><ul><li>Include all codes defined in <a href="CodeSystem-type-carte-code-system.html"><code>https://interop.esante.gouv.fr/ig/doctrine/CodeSystem/type-carte-code-system</code></a></li></ul></div>
   </text>
   <url value="https://interop.esante.gouv.fr/ig/doctrine/ValueSet/TypeCarteVS"/>
-  <version value="0.1.0"/>
+  <version value="0.1.0-ballot"/>
   <name value="TypeCarteVS"/>
   <title value="Type Carte Value Set"/>
   <status value="draft"/>
-  <date value="2024-11-14T14:16:48+00:00"/>
+  <date value="2024-11-15T13:53:55+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>

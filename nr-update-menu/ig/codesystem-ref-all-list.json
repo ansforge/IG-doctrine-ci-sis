@@ -47,8 +47,8 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set",
-      "ValueSet-EyeColorVS.html" : "EyeColor Value Set"
+      "ValueSet-EyeColorVS.html" : "EyeColor Value Set",
+      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0131",
@@ -100,7 +100,7 @@
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/doctrine/CodeSystem/competence-code-system",
-      "version" : "0.1.0",
+      "version" : "0.1.0-ballot",
       "status" : "draft",
       "name" : "CompetenceCS",
       "title" : "Compétences CodeSystem",
@@ -111,15 +111,15 @@
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/doctrine/CodeSystem/type-carte-code-system",
-      "version" : "0.1.0",
+      "version" : "0.1.0-ballot",
       "status" : "draft",
       "name" : "TypeCarteCS",
       "title" : "Type de carte",
       "description" : "Type de carte professionnelle et personnelle.",
       "uses" : {
       },
-      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set",
-      "ValueSet-TypeCarteVS.html" : "Type Carte Value Set"
+      "ValueSet-TypeCarteVS.html" : "Type Carte Value Set",
+      "ValueSet-MeltingPotVS.html" : "Melting Pot Value Set"
     },
     {
       "url" : "urn:ietf:bcp:47",

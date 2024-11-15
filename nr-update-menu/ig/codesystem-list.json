@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "https://interop.esante.gouv.fr/ig/doctrine/CodeSystem/competence-code-system",
-      "version" : "0.1.0",
+      "version" : "0.1.0-ballot",
       "status" : "draft",
       "name" : "CompetenceCS",
       "title" : "Compétences CodeSystem",
@@ -10,7 +10,7 @@
     },
     {
       "url" : "https://interop.esante.gouv.fr/ig/doctrine/CodeSystem/type-carte-code-system",
-      "version" : "0.1.0",
+      "version" : "0.1.0-ballot",
       "status" : "draft",
       "name" : "TypeCarteCS",
       "title" : "Type de carte",

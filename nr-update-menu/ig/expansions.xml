@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="786468c8-3185-4dc6-930f-55142643a4ea"/>
+  <id value="bca3afa0-08e8-4ae8-94b3-2a95eb46fa9f"/>
   <meta>
-    <lastUpdated value="2024-11-14T14:16:48.079+00:00"/>
+    <lastUpdated value="2024-11-15T13:53:55.847+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -64,11 +64,11 @@
           </div>
         </text>
         <url value="https://interop.esante.gouv.fr/ig/doctrine/ValueSet/EyeColorVS"/>
-        <version value="0.1.0"/>
+        <version value="0.1.0-ballot"/>
         <name value="EyeColorVS"/>
         <title value="EyeColor Value Set"/>
         <status value="draft"/>
-        <date value="2024-11-14T14:16:48+00:00"/>
+        <date value="2024-11-15T13:53:55+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -77,8 +77,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:e5114745-a297-43aa-8b31-3208c9a80054"/>
-          <timestamp value="2024-11-14T14:17:00+00:00"/>
+          <identifier value="urn:uuid:82c4b99a-d389-4939-842a-59fa6009586e"/>
+          <timestamp value="2024-11-15T13:54:08+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -140,10 +140,10 @@
               <ul>
                 <li>SNOMED CT International edition 01-Aug 2024</li>
                 <li>
-                  <a href="CodeSystem-competence-code-system.html">codesystem Compétences CodeSystem v0.1.0 (CodeSystem)</a>
+                  <a href="CodeSystem-competence-code-system.html">codesystem Compétences CodeSystem v0.1.0-ballot (CodeSystem)</a>
                 </li>
                 <li>
-                  <a href="CodeSystem-type-carte-code-system.html">codesystem Type de carte v0.1.0 (CodeSystem)</a>
+                  <a href="CodeSystem-type-carte-code-system.html">codesystem Type de carte v0.1.0-ballot (CodeSystem)</a>
                 </li>
               </ul>
             </div>
@@ -259,11 +259,11 @@
           </div>
         </text>
         <url value="https://interop.esante.gouv.fr/ig/doctrine/ValueSet/MeltingPotVS"/>
-        <version value="0.1.0"/>
+        <version value="0.1.0-ballot"/>
         <name value="MeltingPotVS"/>
         <title value="Melting Pot Value Set"/>
         <status value="draft"/>
-        <date value="2024-11-14T14:16:48+00:00"/>
+        <date value="2024-11-15T13:53:55+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -272,8 +272,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:727b90ba-0b52-4762-aad4-92d7a018b5d6"/>
-          <timestamp value="2024-11-14T14:17:00+00:00"/>
+          <identifier value="urn:uuid:22b0ca8e-00db-4b41-82ed-75f81b83de56"/>
+          <timestamp value="2024-11-15T13:54:08+00:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -302,11 +302,11 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://interop.esante.gouv.fr/ig/doctrine/CodeSystem/competence-code-system|0.1.0"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/doctrine/CodeSystem/competence-code-system|0.1.0-ballot"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://interop.esante.gouv.fr/ig/doctrine/CodeSystem/type-carte-code-system|0.1.0"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/doctrine/CodeSystem/type-carte-code-system|0.1.0-ballot"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -422,11 +422,11 @@
           </div>
         </text>
         <url value="https://interop.esante.gouv.fr/ig/doctrine/ValueSet/ModifiedAdministrativeGender"/>
-        <version value="0.1.0"/>
+        <version value="0.1.0-ballot"/>
         <name value="ModifiedAdministrativeGender"/>
         <title value="ModifiedAdministrativeGender"/>
         <status value="draft"/>
-        <date value="2024-11-14T14:16:48+00:00"/>
+        <date value="2024-11-15T13:53:55+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -435,8 +435,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:584b667a-26f9-423a-8007-b881bae72f81"/>
-          <timestamp value="2024-11-14T14:17:00+00:00"/>
+          <identifier value="urn:uuid:fd6d277a-ccf8-456b-9d26-7df22d7e839f"/>
+          <timestamp value="2024-11-15T13:54:08+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -485,7 +485,7 @@
               <b>Generated Narrative: ValueSet </b>
             </p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-type-carte-code-system.html">codesystem Type de carte v0.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-type-carte-code-system.html">codesystem Type de carte v0.1.0-ballot (CodeSystem)</a>
             </p>
             <p>This value set contains 4 concepts</p>
             <table class="codes">
@@ -563,11 +563,11 @@
           </div>
         </text>
         <url value="https://interop.esante.gouv.fr/ig/doctrine/ValueSet/TypeCarteVS"/>
-        <version value="0.1.0"/>
+        <version value="0.1.0-ballot"/>
         <name value="TypeCarteVS"/>
         <title value="Type Carte Value Set"/>
         <status value="draft"/>
-        <date value="2024-11-14T14:16:48+00:00"/>
+        <date value="2024-11-15T13:53:55+00:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -576,8 +576,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:319a82fe-ffd5-4442-bc4a-fbd5eaa3f7a9"/>
-          <timestamp value="2024-11-14T14:17:00+00:00"/>
+          <identifier value="urn:uuid:722a2e8a-ee87-40e8-b403-a78f224abddd"/>
+          <timestamp value="2024-11-15T13:54:08+00:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -594,7 +594,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://interop.esante.gouv.fr/ig/doctrine/CodeSystem/type-carte-code-system|0.1.0"/>
+            <valueUri value="https://interop.esante.gouv.fr/ig/doctrine/CodeSystem/type-carte-code-system|0.1.0-ballot"/>
           </parameter>
           <contains>
             <system value="https://interop.esante.gouv.fr/ig/doctrine/CodeSystem/type-carte-code-system"/>

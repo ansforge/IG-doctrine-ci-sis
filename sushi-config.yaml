@@ -21,7 +21,7 @@ pages:
     index.md:
         title: Accueil
     doctrine.md:
-        title: Doctrine générale
+        title: Doctrine
     connaissance-medicale.md:
         title: Doctrine de la connaissance médicale
     elaboration.md:
@@ -45,7 +45,7 @@ pages:
 menu:
     Accueil: index.html
     Doctrine du CI-SIS: 
-        Doctrine générale: doctrine.html
+        Doctrine: doctrine.html
         # Doctrine de la connaissance médicale: connaissance-medicale.html
         Méthode d'élaboration des échanges fonctionnels: elaboration.html
         Choix des normes et standard: choix-standard.html

@@ -240,3 +240,8 @@ En y intégrant les éléments de la doctrine syntaxique et sémantique, la phas
 <!-- IGI - Schéma modifié par rapport à l’original pour insérer la phase de concertation publique de l’étude fonctionnelle des échanges -->
 
 Ces travaux peuvent être faits en collaboration avec l'écosystème via une contractualisation sous forme d'[Unité de Production externe](./up-externe.html).
+
+
+### Doctrine de la connaissance médicale
+
+{% include connaissance-medicale.html %}

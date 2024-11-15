@@ -1,0 +1,11 @@
+{
+    "package-id" : "ans.fr.doctrine",
+    "version" : "0.1.0-ballot",
+    "path" : "https://interop.esante.gouv.fr/ig/doctrine/0.1.0-ballot",
+    "mode" : "working",
+    "status" : "release",
+    "sequence" : "for-comment",
+    "desc" : "Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS).",
+    "descmd" : "@release-notes.md",
+    "ci-build" : "https://ansforge.github.io/IG-doctrine-ci-sis/main/ig/"
+  }

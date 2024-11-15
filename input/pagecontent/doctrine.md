@@ -1,5 +1,3 @@
-### Objet du document
-
 En tant qu’opérateur public au service de la santé numérique, l’ANS assure trois missions complémentaires :
 
 <div>

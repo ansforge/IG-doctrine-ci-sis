@@ -4,16 +4,15 @@ DoctrineCISIS : Validation Results
 err = 2, warn = 4, info = 0
 $--
 Generated $--. FHIR version $-- for ans.fr.doctrine#$-- (canonical = https://interop.esante.gouv.fr/ig/doctrine)
- Build Errors : 4 / 6 / 0
+ Build Errors : 3 / 6 / 0
  /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.doctrine : 1 / 0 / 1
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[24].value: Supressed messages file not found
 ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/p/a at Line 385, column 253: The link 'iste_Profils_IHE_Standards.xls' for "ici" cannot be resolved
-ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/h4/div/ul/ul/li/a at Line 466, column 40: The link '#Les-chemins-de-la-doctrine-du-SI-CM' for "les chemins de la doctrine du SI-CM" cannot be resolved (valid targets: 77 targets)
-ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/h4/div/ul/ul/li/a at Line 471, column 36: The link '#Les-chemins-de-la-doctrine-du-SI-CM' for "Les chemins de la doctrine du SI-CM" cannot be resolved (valid targets: 77 targets)
-WARNING: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/h4/h4/h4/h5/h5/h5/h5/h6/h6/p/a at Line 933, column 117: The link 'https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine' for "lien" is a canonical link and is therefore unsafe with regard to versions
-WARNING: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/h4/h4/h4/h5/h5/h5/h5/h6/h6/p/a at Line 985, column 111: The link 'https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine' for "lien" is a canonical link and is therefore unsafe with regard to versions
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/div/ol/li/a at Line 678, column 166: The link 'archi-tri-dim' for "Les modèles de l’architecture tri-dimensionnel de Rector et al." cannot be resolved
+WARNING: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/hè/h5/p/a at Line 929, column 117: The link 'https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine' for "lien" is a canonical link and is therefore unsafe with regard to versions
+WARNING: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/hè/h5/p/a at Line 981, column 111: The link 'https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine' for "lien" is a canonical link and is therefore unsafe with regard to versions
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide

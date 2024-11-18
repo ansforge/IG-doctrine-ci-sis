@@ -3,8 +3,7 @@ DoctrineCISIS
 
 Generic: line 0, col 0, Error - Supressed messages file not found (NOTFOUND)
 Generic: line 0, col 0, Error - The link 'iste_Profils_IHE_Standards.xls' for "ici" cannot be resolved (NOTFOUND)
-Generic: line 0, col 0, Error - The link '#Les-chemins-de-la-doctrine-du-SI-CM' for "les chemins de la doctrine du SI-CM" cannot be resolved (valid targets: 77 targets) (NOTFOUND)
-Generic: line 0, col 0, Error - The link '#Les-chemins-de-la-doctrine-du-SI-CM' for "Les chemins de la doctrine du SI-CM" cannot be resolved (valid targets: 77 targets) (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'archi-tri-dim' for "Les modèles de l’architecture tri-dimensionnel de Rector et al." cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Warning - The link 'https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine' for "lien" is a canonical link and is therefore unsafe with regard to versions (NOTFOUND)
 Generic: line 0, col 0, Warning - The link 'https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine' for "lien" is a canonical link and is therefore unsafe with regard to versions (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)

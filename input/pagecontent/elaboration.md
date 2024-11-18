@@ -809,7 +809,7 @@ Tableau des critères de recherche du « Flux de recherche : Flux 2 – Recherch
     <figcaption><b>Diagramme d’objet du flux 1 – CreationCercleSoins**</b></figcaption>
 </div>
 
-### CAS SPECIFIQUE DES MISES A JOUR DES SPECIFICATIONS
+### Cas spécifique des mises à jour des spécifications
 
 La mise à jour des spécifications est déclenchée lorsqu’un événement nouveau impacte une ou plusieurs étapes de ces spécifications.
 

@@ -73,3 +73,6 @@ La figure ci-dessous représente le calendrier des comités de pilotage, du comi
     <img src="gouvernance-4.png" alt="Calendrier des comités" title="Calendrier des comités" style="width:80%;">
     <figcaption><b>Calendrier des comités</b></figcaption>
 </div>
+
+### Unité de production externe
+{% include up-externe.md %}

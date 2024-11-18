@@ -126,7 +126,7 @@ Les métadonnées correspondent aux données annexées aux spécifications. Elle
 
 | Nom | Description | Cardinalité | Exemples |
 | --- | --- | --- | --- |
-| identifiant | Identifiant ou URL identifiante d’accès à la spécification | 1..1 | [PDSm Implementation Guide](https://interop.esante.gouv.fr/ig/fhir/pdsm) |
+| identifiant | Identifiant ou URL identifiante d’accès à la spécification | 1..1 | (https://interop.esante.gouv.fr/ig/fhir/pdsm) |
 | statut | Statut de la spécification selon les statuts définis par l’ANS. Les statuts peuvent être rédigés en anglais ou en français. | 1..1 | « draft », « public-comment », « trial-implementation », « final-text » |
 | version | Version au format semver | 1..1 | 1.0.0 |
 | code | Code qui définit la spécification | 1..1 | GAP, CR-BIO |

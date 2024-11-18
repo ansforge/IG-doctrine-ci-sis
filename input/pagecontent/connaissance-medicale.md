@@ -528,7 +528,7 @@ Cette doctrine respecte les étapes et les règles de gouvernance énoncés dans
 
 <p id="ref22"> 22. About the Unified Modeling Language Specification Version 2.0 [Internet]. [cited 2024 Aug 29]. Available from: <a href="https://www.omg.org/spec/UML/2.0/">lien</a></p>
 
-<p id="ref23"> 23. CPG Home - Clinical Practice Guidelines v2.0.0-ballot [Internet]. [cited 2024 Aug 30]. Available from: <a href="https://hl7.org/fhir/uv/cpg/2024Jan/)</p>
+<p id="ref23"> 23. CPG Home - Clinical Practice Guidelines v2.0.0-ballot [Internet]. [cited 2024 Aug 30]. Available from: <a href="https://hl7.org/fhir/uv/cpg/2024Jan/">lien</a></p>
 
 <p id="ref24"> 24. Http - FHIR v4.0.1 [Internet]. [cited 2021 Dec 1]. Available from: <a href="https://www.hl7.org/fhir/http.html">lien</a></p>
 

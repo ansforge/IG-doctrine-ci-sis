@@ -2,6 +2,8 @@ DoctrineCISIS
 =========================================
 
 Generic: line 0, col 0, Error - Supressed messages file not found (NOTFOUND)
+Generic: line 0, col 0, Error - The link '#Les-chemins-de-la-doctrine-du-SI-CM' for "les chemins de la doctrine du SI-CM" cannot be resolved (valid targets: 80 targets) - case is wrong ('les-chemins-de-la-doctrine-du-si-cm') (NOTFOUND)
+Generic: line 0, col 0, Error - The link '#Les-chemins-de-la-doctrine-du-SI-CM' for "Les chemins de la doctrine du SI-CM" cannot be resolved (valid targets: 80 targets) - case is wrong ('les-chemins-de-la-doctrine-du-si-cm') (NOTFOUND)
 Generic: line 0, col 0, Error - The link '#L-adoption-des-Designs-Patterns-en-ingénierie-des-connaissances-pour-la-standardisation-des-GBPC-et-leur-intégration-dans-un-SI-de-santé' for "l’architecture tri-dimensionnelle de Rector et al." cannot be resolved (valid targets: 80 targets) (NOTFOUND)
 Generic: line 0, col 0, Error - The link '#Le-cadre-de-la-doctrine-d-interopérabilité-du-SI-CM' for "le cadre de la doctrine d’interopérabilité du SI-CM" cannot be resolved (valid targets: 80 targets) - case is wrong ('le-cadre-de-la-doctrine-d-interopérabilité-du-si-cm') (NOTFOUND)
 Generic: line 0, col 0, Error - The link '#L-adoption-d-un-processus-de-conception-logiciel' for "l’adoption d’un processus de conception logiciel" cannot be resolved (valid targets: 80 targets) - case is wrong ('l-adoption-d-un-processus-de-conception-logiciel') (NOTFOUND)

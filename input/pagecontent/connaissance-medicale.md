@@ -12,17 +12,17 @@ Ce document s'adresse principalement aux personnes et organismes qui veulent com
     <ul>
     <li>Comment les principes de la présente doctrine ont été élaborés </li>
         <ul>
-        <li>Cela concerne les chapitres sur [Le cadre de la doctrine d'interopérabilité du SI-CM](#cadre-SI-CM) et [Les principes de la doctrine du SI-CM](#principes-SI-CM) </li>
+        <li>Cela concerne les chapitres sur <a href = "#cadre-SI-CM">le cadre de la doctrine d'interopérabilité du SI-CM</a> et <a href = #principes-SI-CM> les principes de la doctrine du SI-CM</a> </li>
         <li>Les profils de personnes potentiellement concernés sont : les responsables de l'ANS, les experts de l'ANS, les chercheurs en informatique médicale, les directeurs de projets </li>
         </ul>
     <li>Comment les principes de la présente doctrine ont été utilisés pour faire des choix de standards, de méthodes et d'outils pour concevoir et partager des artéfacts de connaissances médicales standardisés </li>
         <ul>
-        <li>Cela concerne le chapitre [Les chemins de la doctrine du SI-CM](#Les-chemins-de-la-doctrine-du-SI-CM) </li>
+        <li>Cela concerne le chapitre <a href ="#Les-chemins-de-la-doctrine-du-SI-CM"> les chemins de la doctrine du SI-CM</a> </li>
         <li>Les profils de personnes potentiellement concernés sont : les responsables de l'ANS, les experts de l'ANS, les chercheurs en informatique médicale, les directeurs de projets et les chefs de projet informatique </li>
         </ul>
     <li>Quels sont les standards, méthodes et outils choisis et préconisés par l’ANS si on veut standardiser des artéfacts de connaissances médicales et les intégrer sous forme d’aide à la décision cliniques </li>
          <ul>
-    <li>Cela concerne le chapitre [Les chemins de la doctrine du SI-CM](#Les-chemins-de-la-doctrine-du-SI-CM) </li>
+    <li>Cela concerne le chapitre <a href = "#Les-chemins-de-la-doctrine-du-SI-CM">Les chemins de la doctrine du SI-CM</a> </li>
     <li>Les profils de personnes potentiellement concernés sont : les responsables de l’ANS, les experts de l’ANS, les chercheurs en informatique médicale, les directeurs de projets, les chefs de projet informatique, les développeurs, les POs </li>
               </ul>
     </ul>

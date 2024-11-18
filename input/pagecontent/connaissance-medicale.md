@@ -12,7 +12,7 @@ Ce document s'adresse principalement aux personnes et organismes qui veulent com
     <ul>
     <li>Comment les principes de la présente doctrine ont été élaborés </li>
         <ul>
-        <li>Cela concerne les chapitres sur <a href = "#cadre-SI-CM">le cadre de la doctrine d'interopérabilité du SI-CM</a> et <a href = #principes-SI-CM> les principes de la doctrine du SI-CM</a> </li>
+        <li>Cela concerne les chapitres sur <a href = "#cadre-SI-CM">le cadre de la doctrine d'interopérabilité du SI-CM</a> et <a href = "#principes-SI-CM"> les principes de la doctrine du SI-CM</a> </li>
         <li>Les profils de personnes potentiellement concernés sont : les responsables de l'ANS, les experts de l'ANS, les chercheurs en informatique médicale, les directeurs de projets </li>
         </ul>
     <li>Comment les principes de la présente doctrine ont été utilisés pour faire des choix de standards, de méthodes et d'outils pour concevoir et partager des artéfacts de connaissances médicales standardisés </li>
@@ -111,7 +111,7 @@ Le SI-CM et les volets qui vont être publiés dans le CI-SIS doivent, entre aut
 
 <h5 id = "principe-3">Principes #3 : Principes du mouvement de l'Open Data</h5>
 
-Le mouvement Open Data (données ouvertes) [5](#ref5) est une initiative mondiale qui vise à rendre les données publiques librement accessibles à tous, sans restriction légales, financières ou techniques. Plusieurs des principes de ce mouvement sont partagés avec le mouvement FAIR Data. La version Five [5](#ref5) Star du mouvement Open Data [6](#ref6) apporte plus de précision sur les principes du mouvement Open Data. Le mouvement Five [5](#ref5) Star définit une échelle et des étapes pour atteindre le niveau maximal de conformité à ces principes (Figure 1).  
+Le mouvement Open Data (données ouvertes) [5](#ref5) est une initiative mondiale qui vise à rendre les données publiques librement accessibles à tous, sans restriction légales, financières ou techniques. Plusieurs des principes de ce mouvement sont partagés avec le mouvement FAIR Data. La version Five Star [5](#ref5) du mouvement Open Data [6](#ref6) apporte plus de précision sur les principes du mouvement Open Data. Le mouvement Five Star [5](#ref5) définit une échelle et des étapes pour atteindre le niveau maximal de conformité à ces principes (Figure 1).  
 
 La doctrine SI-CM - comme décrite plus en aval – vise à pousser l’éco système à adopter, autant que faire se peut, l’échelle maximale (5 étoiles) de conformité pour la publication des artéfacts de connaissances médicales.
 
@@ -230,7 +230,7 @@ La standardisation des GBPC dans le cadre du SI-CM doit respecter les différent
         <li>Ce format doit être co écrit par un expert du domaine métier ainsi que par un expert informatique en ingénierie des connaissances</li>
         <li>Ce format a pour but de structurer le texte brut de la recommandation en vue de sa standardisation et implémentation sous forme d’aide à la décision clinique</li>
         </ul>
-    <li><strong>Structuré</strong> : Ce format doit impérativement correspondre au modèle appelé : Guideline dependent dynamic knowledge model décrit en paragraphe <a href="archi-tri-dim">Les modèles de l’architecture tri-dimensionnel de Rector et al.</a></li>
+    <li><strong>Structuré</strong> : Ce format doit impérativement correspondre au modèle appelé : Guideline dependent dynamic knowledge model décrit dans le paragraphe précédent</li>
         <ul>
         <li>Ce format est interprétable par la machine</li> 
         <li>Ce format doit être lisible et partageable par tous</li> 
@@ -296,7 +296,7 @@ Les bibliothèques standards de connaissances médicales publiées ou exposées 
     </ul>
 </div>
 
-<h5 id = principe-5> Principes #5 : Définir la relation avec les doctrines du CI-SIS et CGTS</h5>
+<h5 id = "principe-5">Principes #5 : Définir la relation avec les doctrines du CI-SIS et CGTS</h5>
 
 Les artéfacts produits et gérés par le SI-CM sont en étroites relation avec ceux produits et gérés par le CI-SIS et le CGTS (voir chapitre précédent). Les artéfacts produits et gérés par le SI-CM peuvent réutiliser, tout ou partie des artéfacts produits et gérés par le CI-SIS et le CGTS.  
 
@@ -343,9 +343,9 @@ Cette activité est en relation avec le principe #4 sur [l'adoption d'un langage
 Ce choix est justifié pour plusieurs raisons :
 <div>
     <ul>
-    <li>FHIR IG CPG-on-FHIR [23](#ref23) s’articule avec les principes #4 de la présente doctrine</li> 
-    <li>FHIR IG CPG-on-FHIR [23](#ref23) s’articule avec l’ensemble des autres standards choisis. FHIR IG CPG-on-FHIR  [23](#ref23) permet de mettre en œuvre ensemble les différents modèles préconisés par l’architecture tri-dimensionnelle de Rector et al. [15](#ref15) il permet de mettre en œuvre le standard UML pour illustrer les différentes étapes de conception. Il permet de mettre en œuvre la représentation multi couches de la connaissance médicale de Boxwala et al. [16](#ref16).</li> 
-    <li>FHIR IG CPG-on-FHIR [23](#ref23) est actuellement utilisé par de nombreux projets de standardisation de la connaissance médicale</li>  
+    <li>FHIR IG CPG-on-FHIR <a href ="#ref23">23</a> s’articule avec les principes #4 de la présente doctrine</li> 
+    <li>FHIR IG CPG-on-FHIR <a href ="#ref23">23</a> s’articule avec l’ensemble des autres standards choisis. FHIR IG CPG-on-FHIR <a href ="#ref23">23</a> permet de mettre en œuvre ensemble les différents modèles préconisés par l’architecture tri-dimensionnelle de Rector et al.<a href ="#ref15">15</a> il permet de mettre en œuvre le standard UML pour illustrer les différentes étapes de conception. Il permet de mettre en œuvre la représentation multi couches de la connaissance médicale de Boxwala et al. <a href ="#ref16">16</a>.</li> 
+    <li>FHIR IG CPG-on-FHIR <a href ="#ref23">23</a> est actuellement utilisé par de nombreux projets de standardisation de la connaissance médicale</li>  
     </ul>
 </div>
 
@@ -426,7 +426,7 @@ Ce choix est justifié pour plusieurs raisons :
     </ul>
 </div>
 
-<hè id ="format-publication">Choisir un format de publication standard</h7>
+<h7 id ="format-publication">Choisir un format de publication standard</h7>
 
 Cette activité est en relation avec le principe #1, #2, #3 et #5 de la présente doctrine. Les artéfacts de connaissances médicales définis et / ou exposés dans le cadre du SI-CM doivent être publiés suivant le format FHIR ImplementationGuide (IG). 
 
@@ -447,7 +447,7 @@ Ce choix est justifié pour plusieurs raisons :
 
 
 
-<h5 id ="chemins-secondaires">Les chemins secondaires de la doctrine du SI-CM</h7>
+<h5 id ="chemins-secondaires">Les chemins secondaires de la doctrine du SI-CM</h5>
 
 Les choix effectués dans le chemin nominal de la présente doctrine ne sont pas et ne doivent pas être définitifs. Ces choix peuvent être remis en question pour de nombreuse raisons 
 <div>

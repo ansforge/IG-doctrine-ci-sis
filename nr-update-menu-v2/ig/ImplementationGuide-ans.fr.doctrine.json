@@ -10,7 +10,7 @@
   "name" : "DoctrineCISIS",
   "title" : "Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS)",
   "status" : "draft",
-  "date" : "2024-11-18T14:19:18+00:00",
+  "date" : "2024-11-18T14:24:54+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -655,6 +655,15 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "trajectoire-iop.html"
+        }],
+        "nameUrl" : "trajectoire-iop.html",
+        "title" : "Trajectoire interopérabilité",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "elaboration.html"
         }],
         "nameUrl" : "elaboration.html",
@@ -677,15 +686,6 @@
         }],
         "nameUrl" : "cycle-de-vie.html",
         "title" : "Cycle de vie des spécifications",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "trajectoire-iop.html"
-        }],
-        "nameUrl" : "trajectoire-iop.html",
-        "title" : "Trajectoire interopérabilité",
         "generation" : "markdown"
       },
       {

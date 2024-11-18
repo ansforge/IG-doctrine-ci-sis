@@ -5,14 +5,14 @@ Deux événements majeurs ont poussé les responsables et les experts de l’ANS
 
 Ce document vient donc s’inscrire dans le cadre des travaux de mise à jour de la doctrine et de la gouvernance du CI-SIS. Ce document complète la doctrine du CI-SIS mise à jour en y introduisant les principes de base que doivent suivre les projets d’interopérabilités en lien avec la standardisation de la connaissance médicale apportés par le SI-CM. 
 
-###  Publics concernés
+<h3 id="public-concerné">Publics concernés </h3>
 
 Ce document s'adresse principalement aux personnes et organismes qui veulent comprendre
 <div>
     <ul>
     <li>Comment les principes de la présente doctrine ont été élaborés </li>
         <ul>
-        <li>Cela concerne les chapitres sur [Le cadre de la doctrine d'interopérabilité du SI-CM](#Le-cadre-de-la-doctrine-d-interoperabilite du-SI-CM) et [Les principes de la doctrine du SI-CM](#Les-principes-de-la-doctrine-du-SI-CM) </li>
+        <li>Cela concerne les chapitres sur [Le cadre de la doctrine d'interopérabilité du SI-CM](#cadre-SI-CM) et [Les principes de la doctrine du SI-CM](#principes-SI-CM) </li>
         <li>Les profils de personnes potentiellement concernés sont : les responsables de l'ANS, les experts de l'ANS, les chercheurs en informatique médicale, les directeurs de projets </li>
         </ul>
     <li>Comment les principes de la présente doctrine ont été utilisés pour faire des choix de standards, de méthodes et d'outils pour concevoir et partager des artéfacts de connaissances médicales standardisés </li>
@@ -28,7 +28,7 @@ Ce document s'adresse principalement aux personnes et organismes qui veulent com
     </ul>
 </div>
 
-###  Le cadre de la doctrine d'interopérabilité du SI-CM
+<h3 id="cadre-SI-CM">Le cadre de la doctrine d'interopérabilité du SI-CM </h3>
 
 La doctrine d’interopérabilité du SI-CM s’inscrit dans les orientations suivies par la nouvelle version de la doctrine du  CI-SIS décrite ici [1](#ref1). 
 La doctrine du SI-CM peut-être synthétisée ainsi 
@@ -53,7 +53,7 @@ La doctrine d’interopérabilité du SI-CM décrite dans ce document couvre
     </ol>
 </div>
 
-###  Les principes de la doctrine du SI-CM
+<h3 id ="principes-SI-CM">Les principes de la doctrine du SI-CM</h3>
 
 Une doctrine est par définition : un ensemble de principes génériques de base sur lequel s'appuie une stratégie et des plans d'actions [2](#ref2). Dans ce qui suit, nous décrivons les principes sur lesquels la doctrine du SI-CM s’appuiera pour gérer les artéfacts de connaissances médicales que le SI-CM produira / exposera. Ces principes nous permettront d’instancier un chemin nominal pour la gestion des artéfacts produits / exposés par le SI-CM et un ou plusieurs chemins secondaires. Ces chemins décriront les outils de modélisation, de conception et de mise en œuvre qui devront être utilisés et/ou promus (à destination de l’écosystème) par le SI-CM pour la gestion des artéfacts de connaissances médicales en France.
 
@@ -65,7 +65,7 @@ Dans ce qui suit nous énoncerons
     </ul>
 </div>    
 
-#### Principes #1 : Principes issus du cadre juridique
+<h4 id ="principe-1">Principes #1 : Principes issus du cadre juridique</h4>
 
 La loi du 7 octobre 2016 [3](#ref3) pour une république numérique, souvent appelée "Loi république numérique", est une législation française visant à adapter le cadre juridique aux enjeux de la transformation numérique. Cette loi est une source de « règles » pour la doctrine du SI-CM. Le SI-CM et les volets qui vont être publiés dans le CI-SIS doivent, entre autres, souscrire  
 
@@ -78,7 +78,7 @@ La loi du 7 octobre 2016 [3](#ref3) pour une république numérique, souvent app
 </div>
 Plusieurs de ces principes ont été directement ou partiellement inspirés des principes FAIR et de la mouvance Open Data que nous prenons également comme base de réflexion pour la doctrine du SI-CM.
 
-#### Principes #2 : Principes FAIR
+<h4 id ="principe-2">Principes #2 : Principes FAIR</h4>
 
 Les principes FAIR (Findable, Accessible, Interoperable, Reusable) [4](#ref4) visent à améliorer la gestion et le partage des données scientifiques. Ils sont conçus pour faciliter la découverte, l'accès, l'interopérabilité et la réutilisation des données de recherche. Ces principes peuvent être adaptés et adoptés pour la doctrine du SI-CM.  
 
@@ -110,7 +110,7 @@ Le SI-CM et les volets qui vont être publiés dans le CI-SIS doivent, entre aut
     </ul>
 </div>
 
-####  Principes #3 : Principes du mouvement de l'Open Data
+<h4 id = "principe-3">Principes #3 : Principes du mouvement de l'Open Data</h4>
 
 Le mouvement Open Data (données ouvertes) [5](#ref5) est une initiative mondiale qui vise à rendre les données publiques librement accessibles à tous, sans restriction légales, financières ou techniques. Plusieurs des principes de ce mouvement sont partagés avec le mouvement FAIR Data. La version Five [5](#ref5) Star du mouvement Open Data [6](#ref6) apporte plus de précision sur les principes du mouvement Open Data. Le mouvement Five [5](#ref5) Star définit une échelle et des étapes pour atteindre le niveau maximal de conformité à ces principes (Figure 1).  
 
@@ -121,7 +121,7 @@ La doctrine SI-CM - comme décrite plus en aval – vise à pousser l’éco sys
     <figcaption><b>Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)</b></figcaption>
 </div>
 
-#### Princpes #4 : Principes en lien avec les bonnes pratiques d'ingénierie logicielle et de recherche
+<h4 id = "principe-4">Princpes #4 : Principes en lien avec les bonnes pratiques d'ingénierie logicielle et de recherche</h4>
 
 Un projet informatique quel qu’il soit doit se conformer aux principes de base de conception, d’architecture et de développement logiciel. Il en va de même pour les projets d’interopérabilité de façon générale et pour les projets d’interopérabilité des artéfacts de connaissances médicales.  
 
@@ -129,7 +129,7 @@ Les projets d’interopérabilité des artéfacts de connaissances médicales do
 
 Dans ce qui suit nous listons les principes d’ingénierie que la présente doctrine doit respecter et par définition les volets du CI-SIS en lien avec le SI-CM.  
 
-##### L’utilisation des Design Patterns  
+<h5 id = "utilisation-design-patterns">L’utilisation des Design Patterns</h5>  
 
 Les artéfacts de connaissances médicales publiés, développés ou partagés par le SI-CM doivent se conformer aux principes architecturaux énoncés dans la littérature et adoptés par l’écosystème des ingénieurs informatiques. Dans ce qui suit nous citons succinctement quelqu’un de ces principes. 
 
@@ -164,13 +164,13 @@ Les artéfacts de connaissances médicales publiés, développés ou partagés p
 
 Il existe bien évidemment beaucoup plus de bonnes pratiques de conception logiciel énoncés dans la littérature, voici quelques références de base [7](#ref7) [8](#ref8) [9](#ref9) [10](#ref10). 
 
-##### L'adoption d'un processus de conception logiciel
+<h5 id = "processus-conception-logiciel">L'adoption d'un processus de conception logiciel</h5>
 
 Un projet en lien avec la standardisation et/ou l’interopérabilité des données de santé est un projet informatique à part entier. Il est donc nécessaire d’adopter un processus de conception logiciel adéquat pour structurer et organiser la conception et le développement des artéfacts produits par le projet en question. Les processus de conception doivent à minima inclure les étapes : collecte des exigences, la modélisation, la création de prototypes, et la validation des concepts avant la phase de développement. 
 
 Les processus de conception logiciels les plus utilisés en ingénierie des logiciels à l’heure actuelle sont ceux issus du mouvement Agile. De nombreux « framework Agiles » existe, tels que : Scrum, Kanban, XP, Lean, Scaled Agile Framework,… 
 
-__L’ingénierie des connaissances__
+<h6 id ="ingenierie-connaissances">L’ingénierie des connaissances</h6>
 
 Les projets en lien avec la connaissance sont également gérés suivant des processus de conception en lien avec une discipline appelée : l’ingénierie des connaissances [11](#ref11) [12](#ref12). L’ingénierie des connaissances se concentre sur la création, la gestion et l’utilisation de la connaissance dans les systèmes informatiques. Elle implique la collecte, la structuration, la formalisation et la mise en œuvre des connaissances pour développer des systèmes intelligents capables de résoudre des problèmes complexes. Cette discipline est essentielle dans des domaines tels que  l'intelligence artificielle, les bases de connaissances et bien évidemment la structuration et la standardisation de la connaissance (médicale).  
 

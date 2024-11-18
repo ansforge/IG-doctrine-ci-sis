@@ -109,7 +109,7 @@ Ces règles de nommage ont été établies en s'inspirant des ressources [us-cor
 | id | Ressources de conformité | Utiliser le format kebab-case, ex : fr-core-patient.. Lors de la création d'un IG pour un projet en particulier, il est possible de préfixer l'ensemble des ressources de conformité par le trigramme du projet (ex : « ror-... ») | us-core-patient |
 | title | Ressources de conformité | Similaire au nom, avec espaces. Ex : Fr Core Patient | US Core Patient Profile |
 | name | Ressources de conformité |  Utiliser le format PascalCase sans espace. Ex : FrCorePatient | USCorePatientProfile |
-| url | Ressources de conformité |  [base]/[ResourceType]/[id] (généré automatiquement par [SUSHI - SUSHI Unshortens Short Hand Inputs](https://fshschool.org/docs/sushi/)). A noter que [ResourceType] doit respecter le nom et la casse des ressources définies dans FHIR core (ex: StructureDefinition). | http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient |
+| url | Ressources de conformité |  [base]/[ResourceType]/[id] (généré automatiquement par [SUSHI - SUSHI Unshortens Short Hand Inputs](https://fshschool.org/docs/sushi/)). A noter que [ResourceType] doit respecter le nom et la casse des ressources définies dans FHIR core (ex: StructureDefinition). | [http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient](http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient) |
 | code  | SearchParameter |  Toujours en minuscule, mots séparés par des tirets « - » | gender-identity |
 | name | Slice | S'il s'agit d'une extension, utiliser son id, sinon utiliser le format lowerCamelCase | us-core-genderIdentity |
 | id | Package | Utiliser des minuscules | hl7.fhir.us.core [lien vers la documentation](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) |
@@ -126,7 +126,7 @@ Les métadonnées correspondent aux données annexées aux spécifications. Elle
 
 | Nom | Description | Cardinalité | Exemples |
 | --- | --- | --- | --- |
-| identifiant | Identifiant ou URL identifiante d’accès à la spécification | 1..1 | https://interop.esante.gouv.fr/ig/fhir/pdsm |
+| identifiant | Identifiant ou URL identifiante d’accès à la spécification | 1..1 | [https://interop.esante.gouv.fr/ig/fhir/pdsm](https://interop.esante.gouv.fr/ig/fhir/pdsm) |
 | statut | Statut de la spécification selon les statuts définis par l’ANS. Les statuts peuvent être rédigés en anglais ou en français. | 1..1 | « draft », « public-comment », « trial-implementation », « final-text » |
 | version | Version au format semver | 1..1 | 1.0.0 |
 | code | Code qui définit la spécification | 1..1 | GAP, CR-BIO |

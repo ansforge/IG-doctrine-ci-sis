@@ -4,7 +4,7 @@ DoctrineCISIS : Validation Results
 err = 1, warn = 16, info = 3
 $--
 Generated $--. FHIR version $-- for ans.fr.doctrine#$-- (canonical = https://interop.esante.gouv.fr/ig/doctrine)
- Build Errors : 5 / 4 / 0
+ Build Errors : 37 / 4 / 0
  /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/CodeSystem-competence-code-system : 0 / 2 / 2
  /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/CodeSystem-type-carte-code-system : 0 / 2 / 2
  /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.doctrine : 0 / 0 / 1
@@ -18,6 +18,38 @@ Generated $--. FHIR version $-- for ans.fr.doctrine#$-- (canonical = https://int
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[24].value: Supressed messages file not found
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 243, column 147: The link '1' for "1" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 268, column 140: The link '2' for "2" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 280, column 30: The link '3' for "3" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 293, column 72: The link '4' for "4" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 325, column 47: The link '5' for "5" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 325, column 315: The link '5' for "5" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 325, column 361: The link '6' for "6" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 325, column 465: The link '5' for "5" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 375, column 151: The link '7' for "7" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 375, column 169: The link '8' for "8" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 375, column 187: The link '9' for "9" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 375, column 205: The link '10' for "10" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 385, column 172: The link '11' for "11" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 385, column 192: The link '12' for "12" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 395, column 796: The link '13' for "13" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 395, column 828: The link '14' for "14" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/strong/a at Line 403, column 62: The link '15' for "15" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/strong/a at Line 421, column 90: The link '16' for "16" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 423, column 143: The link '16' for "16" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 470, column 325: The link '17' for "17" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 470, column 717: The link '18' for "18" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 492, column 509: The link '19' for "19" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 514, column 124: The link '15' for "15" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 536, column 320: The link '22' for "22" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 550, column 314: The link '23' for "23" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 563, column 255: The link '24' for "24" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 593, column 271: The link '25' for "25" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 613, column 196: The link '19' for "19" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 626, column 255: The link '26' for "26" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 676, column 298: The link '1' for "1" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 682, column 177: The link '1' for "1" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 684, column 112: The link '27' for "27" cannot be resolved
 ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/p/a at Line 688, column 107: The link '27' for "27" cannot be resolved
 ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/p/a at Line 245, column 306: The link 'iste_Profils_IHE_Standards.xls' for "dans ce tableau" cannot be resolved
 ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/p/a at Line 299, column 253: The link 'iste_Profils_IHE_Standards.xls' for "ici" cannot be resolved

@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fr.doctrine</b></p><a name=\"ans.fr.doctrine\"> </a><a name=\"hcans.fr.doctrine\"> </a><a name=\"ans.fr.doctrine-fr-FR\"> </a><h2>DoctrineCISIS</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine</pre></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine",
-  "version" : "0.1.0",
+  "version" : "0.1.0-ballot",
   "name" : "DoctrineCISIS",
-  "title" : "Doctrine du CI-SIS",
+  "title" : "Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS)",
   "status" : "draft",
-  "date" : "2024-11-18T10:52:01+00:00",
+  "date" : "2024-11-18T10:55:54+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -626,114 +626,6 @@
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
-    "resource" : [{
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/competence-code-system"
-      },
-      "name" : "Compétences CodeSystem",
-      "description" : "Compétences des professionnels de santé.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/EyeColor"
-      },
-      "name" : "EyeColor",
-      "description" : "Eye color extension",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/EyeColorVS"
-      },
-      "name" : "EyeColor Value Set",
-      "description" : "Different eye colors.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/frpatient-exemple"
-      },
-      "name" : "frpatient-exemple",
-      "description" : "Exemple d'un patient français",
-      "exampleCanonical" : "https://interop.esante.gouv.fr/ig/doctrine/StructureDefinition/fr-patient"
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/MeltingPotVS"
-      },
-      "name" : "Melting Pot Value Set",
-      "description" : "Melting Pot Value Set.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/ModifiedAdministrativeGender"
-      },
-      "name" : "ModifiedAdministrativeGender",
-      "description" : "AdministrativeGender without unknown code",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/fr-patient"
-      },
-      "name" : "Patient français",
-      "description" : "Description du patient français",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/TypeCarteVS"
-      },
-      "name" : "Type Carte Value Set",
-      "description" : "Type Carte Value Set.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/type-carte-code-system"
-      },
-      "name" : "Type de carte",
-      "description" : "Type de carte professionnelle et personnelle.",
-      "exampleBoolean" : false
-    }],
     "page" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
@@ -754,19 +646,10 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "generalites.html"
-        }],
-        "nameUrl" : "generalites.html",
-        "title" : "Généralités",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "doctrine.html"
         }],
         "nameUrl" : "doctrine.html",
-        "title" : "Doctrine d’interopérabilité syntaxique et doctrine d’interopérabilité sémantique",
+        "title" : "Doctrine",
         "generation" : "markdown"
       },
       {
@@ -821,15 +704,6 @@
         }],
         "nameUrl" : "up-externe.html",
         "title" : "Unité de production externe",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "connaissance-medicale.html"
-        }],
-        "nameUrl" : "connaissance-medicale.html",
-        "title" : "Connaissance médicale",
         "generation" : "markdown"
       },
       {

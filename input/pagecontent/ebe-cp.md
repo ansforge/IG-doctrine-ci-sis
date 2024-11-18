@@ -11,6 +11,10 @@ Ce formulaire fait partie du corpus documentaire associé à cette gouvernance. 
 Il vous est possible de visualiser vos demandes en cours traitement, mais également celles émises par les autres acteurs en accédant au [tableau de bord](https://github.com/orgs/ansforge/projects/39/views/2) (**outil en cours d'élaboration**).
 **Il est fortement recommandé de prendre connaissance des demandes en cours avant de nous soumettre votre propre demande.**
 
+<p style="background-color: #ffd733; border:1px solid grey; padding: 5px; max-width: 790px;">
+Une étude est en cours, afin de définir et mettre en place un outil pour le recueil des expressions de besoins. Cet outil devra alimenter un tableau de bord pour donner de la visiblité sur le traitement des expressions de besoins.
+</p>
+
 #### Gestion des expressions de besoins
 
 L'expression des besoins s'inscrit dans le [processus d’élaboration des spécifications d’interopérabilité](elaboration.html) qui sont à l’origine du développement des conditions favorables à l’interopérabilité des systèmes.
@@ -30,6 +34,13 @@ Le processus de traitement d'une expression de besoins peut être schématisé a
     <img src="processus-ttt-ebe.png" alt="process-EBE" title="Procédure de traitement d'une demande d'évolution majeure du CI-SIS" border="2" style="width:100%;">
     <figcaption><b>Procédure de traitement d'une expression de besoins d'évolution majeure du CI-SIS</b></figcaption>
 </div>
+
+<blockquote class="stu-note">
+	<p>Au cours du processus de traitement d'une expression de besoins, des échanges (communications/atelier(s)...) avec le demandeur et les parties prenantes seront réalisés.<br>
+    Même si ces actions ne sont pas représentées dans le diagramme.
+    </p>
+</blockquote>
+
 Après analyse et qualification du besoin, les demandes sont inscrites dans la file active, afin de recueillir l'avis du Comité de concertation qui s'appuie sur le Comité d'instruction  et **propose une priorisation** au Comité de pilotage.
 Le Comité de pilotage s'appuie à son tour sur cette recommandation du Comité de concertation pour **décider** de la suite à donner concernant le traitement des demandes reçues.
 
@@ -62,6 +73,10 @@ Une demande de Change Proposal (CP) peut être réalisée via ce [formulaire](CI
 
 Les suivi des demandes de CP est visible grâce à ce [tableau de bord](https://github.com/orgs/ansforge/projects/39/views/1)(**outil en cours d'élaboration**).
 
+<p style="background-color: #ffd733; border:1px solid grey; padding: 5px; max-width: 790px;">
+Une étude est en cours, afin de définir et mettre en place un outil pour le recueil des CP et pour permettre les échanges. Cet outil devra alimenter un tableau de bord pour donner de la visiblité sur les CP.
+</p>
+
 #### Description du processus de traitement des CP
 
 Les CP sont identifiées en 2 catégories par le(s) analyste(s) :
@@ -92,3 +107,4 @@ Le schéma ci-dessous décrit le cycle de vie d'une CP durant son traitement.
     <img src="ttt-cp.png" alt="CP" title="Traitment d'une CP : son cycle de vie" style="width:70%;">
     <figcaption><b>Traitement d'une CP : son cycle de vie</b></figcaption>
 </div>
+

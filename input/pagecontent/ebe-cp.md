@@ -12,7 +12,7 @@ Il vous est possible de visualiser vos demandes en cours traitement, mais égale
 **Il est fortement recommandé de prendre connaissance des demandes en cours avant de nous soumettre votre propre demande.**
 
 <p style="background-color: #ffd733; border:1px solid grey; padding: 5px; max-width: 790px;">
-A noter qu'une étude est en cours, afin de définir et mettre en place un outil pour le recueil des expressions de besoins. Cet outil devra alimenter un tableau de bord pour donner de la visiblité sur le traitement des expressions de besoins.
+Une étude est en cours, afin de définir et mettre en place un outil pour le recueil des expressions de besoins. Cet outil devra alimenter un tableau de bord pour donner de la visiblité sur le traitement des expressions de besoins.
 </p>
 
 #### Gestion des expressions de besoins
@@ -74,7 +74,7 @@ Une demande de Change Proposal (CP) peut être réalisée via ce [formulaire](CI
 Les suivi des demandes de CP est visible grâce à ce [tableau de bord](https://github.com/orgs/ansforge/projects/39/views/1)(**outil en cours d'élaboration**).
 
 <p style="background-color: #ffd733; border:1px solid grey; padding: 5px; max-width: 790px;">
-A noter qu'une étude est en cours, afin de définir et mettre en place un outil pour le recueil des CP et pour permettre les échanges. Cet outil devra alimenter un tableau de bord pour donner de la visiblité sur les CP.
+Une étude est en cours, afin de définir et mettre en place un outil pour le recueil des CP et pour permettre les échanges. Cet outil devra alimenter un tableau de bord pour donner de la visiblité sur les CP.
 </p>
 
 #### Description du processus de traitement des CP

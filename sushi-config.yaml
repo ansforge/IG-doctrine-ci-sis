@@ -28,16 +28,16 @@ pages:
         title: Choix des normes et standard
     cycle-de-vie.md:
         title: Cycle de vie des spécifications
-    ebe-cp.md:
-        title: Expression des besoins (EBE) et gestion des Change Proposals (CP)
     trajectoire-iop.md:
         title: Trajectoire interopérabilité
-    up-externe.md:
-        title: Unité de production externe
     comitologie.md:
         title: Comitologie du CI-SIS
     interactions-ecosysteme.md:
         title: Interactions avec l'écosystème
+    ebe-cp.md:
+        title: Expression des besoins (EBE) et gestion des Change Proposals (CP)
+    up-externe.md:
+        title: Unité de production externe
 
 
 menu:

@@ -152,11 +152,10 @@ Cette analyse SWOT est ensuite représentée sous la forme d’un tableau qui pe
     </tbody>
 </table>
 
-### RESULTAT DE SONDAGE
+### Résultat de sondage
 
 Dans certains cas, il peut être envisagé de réaliser un sondage préalable auprès d’un groupe restreint préalable à la phase de concertation publique. Dans ce cas, les résultats de ce sondage sont consignés au niveau de ce chapitre.
 
-### CONCLUSION ET PROPOSITION D’UNE SOLUTION
+### Conclusion et proposition d'une solution
 
-Justification de la solution (norme/standard, profil IHE, guide d’implémentation FHIR, etc.)
-Mise en concertation publique de l’étude des normes et standards.
+Dans certains cas, il peut y avoir une mise en concertation publique de l’étude des normes et standards, qui justifie la solution envisagée (norme/standard, profil IHE, guide d’implémentation FHIR, etc.).

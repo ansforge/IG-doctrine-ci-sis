@@ -22,14 +22,14 @@ pages:
         title: Accueil
     doctrine.md:
         title: Doctrine
+    trajectoire-iop.md:
+        title: Trajectoire interopérabilité
     elaboration.md:
         title: Méthode d'élaboration des échanges fonctionnels
     choix-standard.md:
         title: Choix des normes et standard
     cycle-de-vie.md:
         title: Cycle de vie des spécifications
-    trajectoire-iop.md:
-        title: Trajectoire interopérabilité
     comitologie.md:
         title: Comitologie du CI-SIS
     interactions-ecosysteme.md:
@@ -44,10 +44,10 @@ menu:
     Accueil: index.html
     Doctrine du CI-SIS: 
         Doctrine: doctrine.html
+        Trajectoire interopérabilité: trajectoire-iop.html
         Méthode d'élaboration des échanges fonctionnels: elaboration.html
         Choix des normes et standard: choix-standard.html
         Cycle de vie des spécifications: cycle-de-vie.html
-        Trajectoire interopérabilité: trajectoire-iop.html
     Gouvernance du CI-SIS:
         Comitologie : comitologie.html
         Interactions avec l'écosystème: interactions-ecosysteme.html

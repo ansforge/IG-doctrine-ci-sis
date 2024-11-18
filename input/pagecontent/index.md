@@ -9,7 +9,7 @@ The interoperability framework for health information systems (CI-SIS) sets the 
 
 <div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/xhtml ../../schema/fhir-xhtml.xsd" xmlns="http://www.w3.org/1999/xhtml">
 <blockquote class="stu-note">
-	<strong>En travaux.</strong> La doctrine est en cours de mise à jour. La version actuelle de la doctrine est accessible dans la page <a href="https://esante.gouv.fr/offres-services/ci-sis/demarche-elaboration">démarche d'élaboration</a>.
+	Guide d'implémentation de la gouvernance et de la doctrine du CI-SIS <strong>en concertation</strong>. La version actuelle de la doctrine est accessible dans la page <a href="https://esante.gouv.fr/offres-services/ci-sis/demarche-elaboration">démarche d'élaboration</a>.
 </blockquote>
 </div>
 

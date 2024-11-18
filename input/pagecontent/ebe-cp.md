@@ -11,7 +11,7 @@ Ce formulaire fait partie du corpus documentaire associé à cette gouvernance. 
 Il vous est possible de visualiser vos demandes en cours traitement, mais également celles émises par les autres acteurs en accédant au [tableau de bord](https://github.com/orgs/ansforge/projects/39/views/2) (**outil en cours d'élaboration**).
 **Il est fortement recommandé de prendre connaissance des demandes en cours avant de nous soumettre votre propre demande.**
 
-<p style="background-color: #ff5733; border:1px solid grey; padding: 5px; max-width: 790px;">
+<p style="background-color: #ffd733; border:1px solid grey; padding: 5px; max-width: 790px;">
 A noter qu'une étude est en cours, afin de définir et mettre en place un outil pour le recueil des expressions de besoins. Cet outil devra alimenter un tableau de bord pour donner de la visiblité sur le traitement des expressions de besoins.
 </p>
 
@@ -36,7 +36,7 @@ Le processus de traitement d'une expression de besoins peut être schématisé a
 </div>
 
 <blockquote class="stu-note">
-	<p>Au cours du processus du traitement d'une expression de besoins, des échanges (communications/atelier(s)...) avec le demandeur et les parties prenantes seront réalisés.<br>
+	<p>Au cours du processus de traitement d'une expression de besoins, des échanges (communications/atelier(s)...) avec le demandeur et les parties prenantes seront réalisés.<br>
     Même si ces actions ne sont pas représentées dans le diagramme.
     </p>
 </blockquote>
@@ -73,7 +73,7 @@ Une demande de Change Proposal (CP) peut être réalisée via ce [formulaire](CI
 
 Les suivi des demandes de CP est visible grâce à ce [tableau de bord](https://github.com/orgs/ansforge/projects/39/views/1)(**outil en cours d'élaboration**).
 
-<p style="background-color: #ff5733; border:1px solid grey; padding: 5px; max-width: 790px;">
+<p style="background-color: #ffd733; border:1px solid grey; padding: 5px; max-width: 790px;">
 A noter qu'une étude est en cours, afin de définir et mettre en place un outil pour le recueil des CP et pour permettre les échanges. Cet outil devra alimenter un tableau de bord pour donner de la visiblité sur les CP.
 </p>
 

@@ -484,34 +484,32 @@ La notion d’UP et de conventions entre l’ANS et les UPs sont celles définie
 Cette doctrine respecte les étapes et les règles de gouvernance énoncés dans la gouvernance du CI-SIS (27). 
 
 __Références__
-<div>
-    <ol>
-    <li>Le CI-SIS au cœur du développement de la e-santé [Internet]. [cited 2024 Aug 29]. Available from: https://ansforge.github.io/CISIS-doctrine-gouvernance/</li> 
-    <li>Doctrine. In: Wikipédia [Internet]. 2024 [cited 2024 Aug 29]. Available from: https://fr.wikipedia.org/w/index.php?title=Doctrine&oldid=212118223</li> 
-    <li>LOI n° 2016-1321 du 7 octobre 2016 pour une République numérique (1). 2016-1321 Oct 7, 2016.</li>  
-    <li>GO FAIR [Internet]. [cited 2024 Aug 29]. FAIR Principles. Available from: https://www.go-fair.org/fair-principles/</li> 
-    <li>Open data. In: Wikipedia [Internet]. 2024 [cited 2024 Aug 29]. Available from: https://en.wikipedia.org/w/index.php?title=Open_data&oldid=1238576109</li> 
-    <li>Open Data 5 étoiles [Internet]. [cited 2024 Aug 29]. Available from: http://5stardata.info/fr/ </li>
-    <li>Gamma E, Helm R, Johnson R, Vlissides J. Design Patterns: Elements of Reusable Object-Oriented Software. 1er édition. Boston, Mass. Munich: Addison Wesley; 1994. 416 p.</li>  
-    <li>Martin R. Clean Code: A Handbook of Agile Software Craftsmanship. 1er édition. Upper Saddle River, NJ: Pearson; 2008. 464 p.</li>  
-    <li>The Pragmatic Programmer: your journey to mastery, 20th Anniversary Edition, 2nd Edition[Book] [Internet]. [cited 2024 Aug 29]. Available from: https://www.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/ </li>
-    <li>Martin RC. Agile Software Development: Principles, Patterns, and Practices. USA: Prentice Hall PTR; 2003. 710 p.</li>  
-    <li>Schreiber GT, Akkermans H. Knowledge engineering and management: the CommonKADS methodology. Cambridge, MA, USA: MIT Press; 2000. </li> 
-    <li>giantchair.com. Artificial Intelligence: A Modern Approach - Pearson France [Internet]. [cited 2024 Aug 29]. Available from: https://www.pearson.fr/fr/book/?GCOI=27440100705580 </li>
-    <li>Ambler SW. The Object Primer: Agile Model-Driven Development With Uml 2.0. 3e édition. Cambridge, UK : New York: Cambridge University Press; 2004. 572 p.</li>  
-    <li>Rumbaugh J, Jacobson I, Booch G. Unified Modeling Language Reference Manual, The (2nd Edition). Pearson Higher Education; 2004. </li> 
-    <li>Rector AL, Johnson PD, Tu SW, Wroe C, Rogers J. Interface of Inference Models with Concept and Medical Record Models. In: Quaglini S, Barahona P, Andreassen S, editors. Artificial Intelligence Medicine, 8th Conference on AI in Medicine in Europe, AIME 2001, Cascais, Portugal, July 1-4, 2001, Proceedings [Internet]. Springer; 2001 [cited 2024 Aug 29]. p. 314–23. (Lecture Notes in Computer Science; vol. 2101). Available from: https://doi.org/10.1007/3-540-48229-6\_43 </li>
-    <li>Boxwala AA, Rocha BH, Maviglia S, Kashyap V, Meltzer S, Kim J, et al. A multi-layered framework for disseminating knowledge for computer-based decision support. Journal of the American Medical Informatics Association. 2011 Dec 1;18(Supplement_1):i132–9.</li>  
-    <li>Graham ID, Logan J, Harrison MB, Straus SE, Tetroe J, Caswell W, et al. Lost in knowledge translation: Time for a map? Journal of Continuing Education in the Health Professions. 2006;26(1):13–24.</li>  
-    <li>Marcial LH, Blumenfeld B, Harle C, Jing X, Keller MS, Lee V, et al. Barriers, Facilitators, and Potential Solutions to Advancing Interoperable Clinical Decision Support: Multi-Stakeholder Consensus Recommendations for the Opioid Use Case. AMIA Annu Symp Proc. 2019;2019:637–46.</li>  
-    <li>CDS Hooks [Internet]. [cited 2018 Apr 12]. Available from: http://cds-hooks.org/</li> 
-    <li>Boussadi A, Caruba T, Zapletal E, Sabatier B, Durieux P, Degoulet P. A clinical data warehouse-based process for refining medication orders alerts. Journal of the American Medical Informatics Association. 2012 Sep 1;19(5):782–5. </li>
-    <li>Harris AD, McGregor JC, Perencevich EN, Furuno JP, Zhu J, Peterson DE, et al. The Use and Interpretation of Quasi-Experimental Studies in Medical Informatics. Journal of the American Medical Informatics Association. 2006 Jan 1;13(1):16–23</li>
-    <li>About the Unified Modeling Language Specification Version 2.0 [Internet]. [cited 2024 Aug 29]. Available from: https://www.omg.org/spec/UML/2.0/</li> 
-    <li>CPG Home - Clinical Practice Guidelines v2.0.0-ballot [Internet]. [cited 2024 Aug 30]. Available from: https://hl7.org/fhir/uv/cpg/2024Jan/</li> 
-    <li>Http - FHIR v4.0.1 [Internet]. [cited 2021 Dec 1]. Available from: https://www.hl7.org/fhir/http.html</li> 
-    <li>Clinical Quality Language (CQL) [Internet]. [cited 2024 Aug 30]. Available from: https://cql.hl7.org/</li> 
-    <li>Etalab Licence Ouverte V2.0 [Internet]. 2017. Available from: https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf</li>
-    <li>Généralités sur la Gouvernance du CI-SIS [Internet]. [cited 2024 Aug 30]. Available from: https://ansforge.github.io/CISIS-doctrine-gouvernance/pages/docs/generalites-gouv.html</li> 
-    </ol>
-</div>  
+
+    1. Le CI-SIS au cœur du développement de la e-santé [Internet]. [cited 2024 Aug 29]. Available from: [lien](https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine)
+    2. Doctrine. In: Wikipédia [Internet]. 2024 [cited 2024 Aug 29]. Available from:[lien](https://fr.wikipedia.org/w/index.php?title=Doctrine&oldid=212118223) 
+    3. LOI n° 2016-1321 du 7 octobre 2016 pour une République numérique. 2016-1321 Oct 7, 2016.
+    4. GO FAIR [Internet]. [cited 2024 Aug 29]. FAIR Principles. Available from: [lien](https://www.go-fair.org/fair-principles/)
+    5. Open data. In: Wikipedia [Internet]. 2024 [cited 2024 Aug 29]. Available from: [lien](https://en.wikipedia.org/w/index.php?title=Open_data&oldid=1238576109)
+    6. Open Data 5 étoiles [Internet]. [cited 2024 Aug 29]. Available from: [lien](http://5stardata.info/fr/) 
+    7. Gamma E, Helm R, Johnson R, Vlissides J. Design Patterns: Elements of Reusable Object-Oriented Software. 1er édition. Boston, Mass. Munich: Addison Wesley; 1994. 416 p. 
+    8. Martin R. Clean Code: A Handbook of Agile Software Craftsmanship. 1er édition. Upper Saddle River, NJ: Pearson; 2008. 464 p.
+    9. The Pragmatic Programmer: your journey to mastery, 20th Anniversary Edition, 2nd Edition[Book] [Internet]. [cited 2024 Aug 29]. Available from: [lien](https://www.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/) 
+    10. Martin RC. Agile Software Development: Principles, Patterns, and Practices. USA: Prentice Hall PTR; 2003. 710 p.
+    11. Schreiber GT, Akkermans H. Knowledge engineering and management: the CommonKADS methodology. Cambridge, MA, USA: MIT Press; 2000. 
+    12. giantchair.com. Artificial Intelligence: A Modern Approach - Pearson France [Internet]. [cited 2024 Aug 29]. Available from: [lien](https://www.pearson.fr/fr/book/?GCOI=27440100705580) 
+    13. Ambler SW. The Object Primer: Agile Model-Driven Development With Uml 2.0. 3e édition. Cambridge, UK : New York: Cambridge University Press; 2004. 572 p.  
+    14. Rumbaugh J, Jacobson I, Booch G. Unified Modeling Language Reference Manual, The (2nd Edition). Pearson Higher Education; 2004. 
+    15. Rector AL, Johnson PD, Tu SW, Wroe C, Rogers J. Interface of Inference Models with Concept and Medical Record Models. In: Quaglini S, Barahona P, Andreassen S, editors. Artificial Intelligence Medicine, 8th Conference on AI in Medicine in Europe, AIME 2001, Cascais, Portugal, July 1-4, 2001, Proceedings [Internet]. Springer; 2001 [cited 2024 Aug 29]. p. 314–23. (Lecture Notes in Computer Science; vol. 2101). Available from: [lien](https://doi.org/10.1007/3-540-48229-6\_43) 
+    16. Boxwala AA, Rocha BH, Maviglia S, Kashyap V, Meltzer S, Kim J, et al. A multi-layered framework for disseminating knowledge for computer-based decision support. Journal of the American Medical Informatics Association. 2011 Dec 1;18(Supplement_1):i132–9.
+    17. Graham ID, Logan J, Harrison MB, Straus SE, Tetroe J, Caswell W, et al. Lost in knowledge translation: Time for a map? Journal of Continuing Education in the Health Professions. 2006;26(1):13–24. 
+    18. Marcial LH, Blumenfeld B, Harle C, Jing X, Keller MS, Lee V, et al. Barriers, Facilitators, and Potential Solutions to Advancing Interoperable Clinical Decision Support: Multi-Stakeholder Consensus Recommendations for the Opioid Use Case. AMIA Annu Symp Proc. 2019;2019:637–46. 
+    19. CDS Hooks [Internet]. [cited 2018 Apr 12]. Available from: [lien](http://cds-hooks.org/)
+    20. Boussadi A, Caruba T, Zapletal E, Sabatier B, Durieux P, Degoulet P. A clinical data warehouse-based process for refining medication orders alerts. Journal of the American Medical Informatics Association. 2012 Sep 1;19(5):782–5. 
+    21. Harris AD, McGregor JC, Perencevich EN, Furuno JP, Zhu J, Peterson DE, et al. The Use and Interpretation of Quasi-Experimental Studies in Medical Informatics. Journal of the American Medical Informatics Association. 2006 Jan 1;13(1):16–23
+    22. About the Unified Modeling Language Specification Version 2.0 [Internet]. [cited 2024 Aug 29]. Available from: [lien](https://www.omg.org/spec/UML/2.0/)
+    23. CPG Home - Clinical Practice Guidelines v2.0.0-ballot [Internet]. [cited 2024 Aug 30]. Available from: [lien](https://hl7.org/fhir/uv/cpg/2024Jan/)
+    24. Http - FHIR v4.0.1 [Internet]. [cited 2021 Dec 1]. Available from: [lien](https://www.hl7.org/fhir/http.html)
+    25. Clinical Quality Language (CQL) [Internet]. [cited 2024 Aug 30]. Available from: [lien](https://cql.hl7.org/)
+    26. Etalab Licence Ouverte V2.0 [Internet]. 2017. Available from: [lien](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf)
+    27. Généralités sur la Gouvernance du CI-SIS [Internet]. [cited 2024 Aug 30]. Available from: [lien](https://ansforge.github.io/CISIS-doctrine-gouvernance/pages/docs/generalites-gouv.html)
+      

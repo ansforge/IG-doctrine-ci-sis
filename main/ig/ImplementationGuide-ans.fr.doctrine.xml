@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide ans.fr.doctrine</b></p><a name="ans.fr.doctrine"> </a><a name="hcans.fr.doctrine"> </a><a name="ans.fr.doctrine-fr-FR"> </a><h2>DoctrineCISIS</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine</pre></div>
   </text>
   <url value="https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine"/>
-  <version value="0.1.0"/>
+  <version value="0.1.0-ballot"/>
   <name value="DoctrineCISIS"/>
-  <title value="Doctrine du CI-SIS"/>
+  <title value="Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS)"/>
   <status value="draft"/>
-  <date value="2024-11-18T10:40:40+00:00"/>
+  <date value="2024-11-18T10:48:19+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -482,18 +482,10 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="generalites.html"/>
-        </extension>
-        <nameUrl value="generalites.html"/>
-        <title value="Généralités"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="doctrine.html"/>
         </extension>
         <nameUrl value="doctrine.html"/>
-        <title value="Doctrine d’interopérabilité syntaxique et doctrine d’interopérabilité sémantique"/>
+        <title value="Doctrine"/>
         <generation value="markdown"/>
       </page>
       <page>
@@ -542,14 +534,6 @@
         </extension>
         <nameUrl value="up-externe.html"/>
         <title value="Unité de production externe"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="connaissance-medicale.html"/>
-        </extension>
-        <nameUrl value="connaissance-medicale.html"/>
-        <title value="Connaissance médicale"/>
         <generation value="markdown"/>
       </page>
       <page>

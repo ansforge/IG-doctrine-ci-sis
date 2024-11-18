@@ -13,11 +13,11 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fr.doctrine</b></p><a name=\"ans.fr.doctrine\"> </a><a name=\"hcans.fr.doctrine\"> </a><a name=\"ans.fr.doctrine-fr-FR\"> </a><h2>DoctrineCISIS</h2><p>The official URL for this implementation guide is: </p><pre>https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine</pre></div>"
   ] ; # 
   fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.1.0-ballot"] ; # 
   fhir:name [ fhir:v "DoctrineCISIS"] ; # 
-  fhir:title [ fhir:v "Doctrine du CI-SIS"] ; # 
+  fhir:title [ fhir:v "Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS)"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-11-18T10:40:40+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-18T10:48:19+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -553,18 +553,10 @@
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "generalites.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "generalites.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Généralités" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "doctrine.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "doctrine.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Doctrine d’interopérabilité syntaxique et doctrine d’interopérabilité sémantique" ] ;
+         fhir:title [ fhir:v "Doctrine" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -613,14 +605,6 @@
          ] ) ;
          fhir:name [ fhir:v "up-externe.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Unité de production externe" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "connaissance-medicale.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "connaissance-medicale.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Connaissance médicale" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [

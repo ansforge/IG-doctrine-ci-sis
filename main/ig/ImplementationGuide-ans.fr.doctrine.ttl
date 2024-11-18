@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "DoctrineCISIS"] ; # 
   fhir:title [ fhir:v "Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS)"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-11-18T15:30:21+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-18T15:47:45+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -561,6 +561,14 @@
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "trajectoire-iop.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "trajectoire-iop.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Trajectoire interopérabilité" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "elaboration.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "elaboration.html"^^xsd:anyURI ] ;
@@ -585,30 +593,6 @@
        ] [
          fhir:extension ( [
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "ebe-cp.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "ebe-cp.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Expression des besoins (EBE) et gestion des Change Proposals (CP)" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "trajectoire-iop.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "trajectoire-iop.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Trajectoire interopérabilité" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "up-externe.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "up-externe.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Unité de production externe" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
            fhir:value [ fhir:v "comitologie.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "comitologie.html"^^xsd:anyURI ] ;
@@ -621,6 +605,22 @@
          ] ) ;
          fhir:name [ fhir:v "interactions-ecosysteme.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Interactions avec l'écosystème" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "ebe-cp.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "ebe-cp.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Expression des besoins (EBE) et gestion des Change Proposals (CP)" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "up-externe.html"^^xsd:anyURI ]
+         ] ) ;
+         fhir:name [ fhir:v "up-externe.html"^^xsd:anyURI ] ;
+         fhir:title [ fhir:v "Unité de production externe" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;

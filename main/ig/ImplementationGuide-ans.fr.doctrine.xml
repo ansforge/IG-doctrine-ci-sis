@@ -10,7 +10,7 @@
   <name value="DoctrineCISIS"/>
   <title value="Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS)"/>
   <status value="draft"/>
-  <date value="2024-11-18T15:30:21+00:00"/>
+  <date value="2024-11-18T15:47:45+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -490,6 +490,14 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="trajectoire-iop.html"/>
+        </extension>
+        <nameUrl value="trajectoire-iop.html"/>
+        <title value="Trajectoire interopérabilité"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="elaboration.html"/>
         </extension>
         <nameUrl value="elaboration.html"/>
@@ -514,30 +522,6 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="ebe-cp.html"/>
-        </extension>
-        <nameUrl value="ebe-cp.html"/>
-        <title value="Expression des besoins (EBE) et gestion des Change Proposals (CP)"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="trajectoire-iop.html"/>
-        </extension>
-        <nameUrl value="trajectoire-iop.html"/>
-        <title value="Trajectoire interopérabilité"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="up-externe.html"/>
-        </extension>
-        <nameUrl value="up-externe.html"/>
-        <title value="Unité de production externe"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="comitologie.html"/>
         </extension>
         <nameUrl value="comitologie.html"/>
@@ -550,6 +534,22 @@
         </extension>
         <nameUrl value="interactions-ecosysteme.html"/>
         <title value="Interactions avec l'écosystème"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="ebe-cp.html"/>
+        </extension>
+        <nameUrl value="ebe-cp.html"/>
+        <title value="Expression des besoins (EBE) et gestion des Change Proposals (CP)"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="up-externe.html"/>
+        </extension>
+        <nameUrl value="up-externe.html"/>
+        <title value="Unité de production externe"/>
         <generation value="markdown"/>
       </page>
     </page>

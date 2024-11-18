@@ -5,7 +5,7 @@ Deux événements majeurs ont poussé les responsables et les experts de l’ANS
 
 Ce document vient donc s’inscrire dans le cadre des travaux de mise à jour de la doctrine et de la gouvernance du CI-SIS. Ce document complète la doctrine du CI-SIS mise à jour en y introduisant les principes de base que doivent suivre les projets d’interopérabilités en lien avec la standardisation de la connaissance médicale apportés par le SI-CM. 
 
-<h3 id="public-concerné">Publics concernés </h3>
+<h4 id="public-concerné">Publics concernés </h3>
 
 Ce document s'adresse principalement aux personnes et organismes qui veulent comprendre
 <div>
@@ -28,7 +28,7 @@ Ce document s'adresse principalement aux personnes et organismes qui veulent com
     </ul>
 </div>
 
-<h3 id="cadre-SI-CM">Le cadre de la doctrine d'interopérabilité du SI-CM </h3>
+<h4 id="cadre-SI-CM">Le cadre de la doctrine d'interopérabilité du SI-CM </h3>
 
 La doctrine d’interopérabilité du SI-CM s’inscrit dans les orientations suivies par la nouvelle version de la doctrine du  CI-SIS décrite ici [1](#ref1). 
 La doctrine du SI-CM peut-être synthétisée ainsi 
@@ -53,8 +53,7 @@ La doctrine d’interopérabilité du SI-CM décrite dans ce document couvre
     </ol>
 </div>
 
-<h3 id ="principes-SI-CM">Les principes de la doctrine du SI-CM</h3>
-
+<h4 id ="principes-SI-CM">Les principes de la doctrine du SI-CM</h3>
 Une doctrine est par définition : un ensemble de principes génériques de base sur lequel s'appuie une stratégie et des plans d'actions [2](#ref2). Dans ce qui suit, nous décrivons les principes sur lesquels la doctrine du SI-CM s’appuiera pour gérer les artéfacts de connaissances médicales que le SI-CM produira / exposera. Ces principes nous permettront d’instancier un chemin nominal pour la gestion des artéfacts produits / exposés par le SI-CM et un ou plusieurs chemins secondaires. Ces chemins décriront les outils de modélisation, de conception et de mise en œuvre qui devront être utilisés et/ou promus (à destination de l’écosystème) par le SI-CM pour la gestion des artéfacts de connaissances médicales en France.
 
 Dans ce qui suit nous énoncerons
@@ -65,7 +64,7 @@ Dans ce qui suit nous énoncerons
     </ul>
 </div>    
 
-<h4 id ="principe-1">Principes #1 : Principes issus du cadre juridique</h4>
+<h5 id ="principe-1">Principes #1 : Principes issus du cadre juridique</h4>
 
 La loi du 7 octobre 2016 [3](#ref3) pour une république numérique, souvent appelée "Loi république numérique", est une législation française visant à adapter le cadre juridique aux enjeux de la transformation numérique. Cette loi est une source de « règles » pour la doctrine du SI-CM. Le SI-CM et les volets qui vont être publiés dans le CI-SIS doivent, entre autres, souscrire  
 
@@ -78,7 +77,7 @@ La loi du 7 octobre 2016 [3](#ref3) pour une république numérique, souvent app
 </div>
 Plusieurs de ces principes ont été directement ou partiellement inspirés des principes FAIR et de la mouvance Open Data que nous prenons également comme base de réflexion pour la doctrine du SI-CM.
 
-<h4 id ="principe-2">Principes #2 : Principes FAIR</h4>
+<h5 id ="principe-2">Principes #2 : Principes FAIR</h4>
 
 Les principes FAIR (Findable, Accessible, Interoperable, Reusable) [4](#ref4) visent à améliorer la gestion et le partage des données scientifiques. Ils sont conçus pour faciliter la découverte, l'accès, l'interopérabilité et la réutilisation des données de recherche. Ces principes peuvent être adaptés et adoptés pour la doctrine du SI-CM.  
 
@@ -110,7 +109,7 @@ Le SI-CM et les volets qui vont être publiés dans le CI-SIS doivent, entre aut
     </ul>
 </div>
 
-<h4 id = "principe-3">Principes #3 : Principes du mouvement de l'Open Data</h4>
+<h5 id = "principe-3">Principes #3 : Principes du mouvement de l'Open Data</h4>
 
 Le mouvement Open Data (données ouvertes) [5](#ref5) est une initiative mondiale qui vise à rendre les données publiques librement accessibles à tous, sans restriction légales, financières ou techniques. Plusieurs des principes de ce mouvement sont partagés avec le mouvement FAIR Data. La version Five [5](#ref5) Star du mouvement Open Data [6](#ref6) apporte plus de précision sur les principes du mouvement Open Data. Le mouvement Five [5](#ref5) Star définit une échelle et des étapes pour atteindre le niveau maximal de conformité à ces principes (Figure 1).  
 
@@ -121,7 +120,7 @@ La doctrine SI-CM - comme décrite plus en aval – vise à pousser l’éco sys
     <figcaption><b>Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)</b></figcaption>
 </div>
 
-<h4 id = "principe-4">Princpes #4 : Principes en lien avec les bonnes pratiques d'ingénierie logicielle et de recherche</h4>
+<h5 id = "principe-4">Princpes #4 : Principes en lien avec les bonnes pratiques d'ingénierie logicielle et de recherche</h4>
 
 Un projet informatique quel qu’il soit doit se conformer aux principes de base de conception, d’architecture et de développement logiciel. Il en va de même pour les projets d’interopérabilité de façon générale et pour les projets d’interopérabilité des artéfacts de connaissances médicales.  
 
@@ -129,7 +128,7 @@ Les projets d’interopérabilité des artéfacts de connaissances médicales do
 
 Dans ce qui suit nous listons les principes d’ingénierie que la présente doctrine doit respecter et par définition les volets du CI-SIS en lien avec le SI-CM.  
 
-<h5 id = "utilisation-design-patterns">L’utilisation des Design Patterns</h5>  
+<h6 id = "utilisation-design-patterns">L’utilisation des Design Patterns</h5>  
 
 Les artéfacts de connaissances médicales publiés, développés ou partagés par le SI-CM doivent se conformer aux principes architecturaux énoncés dans la littérature et adoptés par l’écosystème des ingénieurs informatiques. Dans ce qui suit nous citons succinctement quelqu’un de ces principes. 
 
@@ -164,7 +163,7 @@ Les artéfacts de connaissances médicales publiés, développés ou partagés p
 
 Il existe bien évidemment beaucoup plus de bonnes pratiques de conception logiciel énoncés dans la littérature, voici quelques références de base [7](#ref7) [8](#ref8) [9](#ref9) [10](#ref10). 
 
-<h5 id = "processus-conception-logiciel">L'adoption d'un processus de conception logiciel</h5>
+<h6 id = "processus-conception-logiciel">L'adoption d'un processus de conception logiciel</h5>
 
 Un projet en lien avec la standardisation et/ou l’interopérabilité des données de santé est un projet informatique à part entier. Il est donc nécessaire d’adopter un processus de conception logiciel adéquat pour structurer et organiser la conception et le développement des artéfacts produits par le projet en question. Les processus de conception doivent à minima inclure les étapes : collecte des exigences, la modélisation, la création de prototypes, et la validation des concepts avant la phase de développement. 
 
@@ -176,7 +175,7 @@ Les projets en lien avec la connaissance sont également gérés suivant des pro
 
 Les projets en lien avec la standardisation de la connaissance médicale doivent adopter un processus de conception Agile d’ingénierie des connaissances. Les artéfacts produits dans chaque étape de conception (de transformation de la connaissance) doivent être visibles et explicites pour chaque volet du SI-CM suivant le design pattern décrit ici … 
 
-##### L'adoption d'un langage de modélisation standard
+###### L'adoption d'un langage de modélisation standard
 
 Les langages de modélisation standard en ingénierie des logiciels sont des outils essentiels pour représenter visuellement les structures, les comportements et les interactions au sein d'un système logiciel. Ils permettent de faciliter la compréhension, la communication et la documentation des concepts complexes entre les parties prenantes. Parmi les langages de modélisation les plus utilisés, on retrouve : Unified Modeling Language (UML), SysML (Systems Modeling Language), Business Process Model and Notation (BPMN)… 
 
@@ -186,7 +185,7 @@ Le mouvement Agile n’impose pas de langage de modélisation particulier mais l
 
 Le processus de conception adopté dans le cadre de la gestion des artéfacts des connaissances médicales du SI-CM doit également adopter un (ou plusieurs) langage de modélisation standards. 
 
-##### L'adoption des Designs Patterns en ingénierie des connaissances pour la standardisation des GBPC et leur intégration dans un SI de santé
+###### L'adoption des Designs Patterns en ingénierie des connaissances pour la standardisation des GBPC et leur intégration dans un SI de santé
 
 En ingénierie des connaissances et plus particulièrement dans le cadre défini en paragraphe 2 de cette doctrine, nous avons identifié 3 designs patterns que le SI-CM doit respecter dans la gestion des artéfacts de connaissances médicales
 
@@ -279,13 +278,13 @@ __Pourquoi il est important de se positionner par rapport aux différentes caté
 
 L’interopérabilité telle qu’adoptée actuellement par l’éco système à travers le monde est basée sur la notion de cas d’usage. Chaque cas d’usage donne lieu à des spécifications qui sont censées répondre aux besoins décrits dans le cas d’usage. Cependant le risque est d’écrire des spécifications qui se chevauchent ou des spécifications dupliquées. Il est donc nécessaire à chaque début de projet de se positionner par rapport aux Design Patterns architecturaux générique décrits plus en amont pour pouvoir identifier les spécifications déjà existantes et pouvoir les réutiliser totalement ou partiellement. Ce principe rejoint les principes de modularité et de séparation des responsabilité décrits en paragraphe 4.4.1. 
 
-##### La mise à jour de la doctrine guidée par la recherche
+###### La mise à jour de la doctrine guidée par la recherche
 
 Une grande partie des principes énoncés plus en amont est basée sur des concepts issus de la recherche scientifique. Certains de ces concepts sont validés et adoptés par l’écosystème de l’ingénierie qui les exploite déjà dans des projets informatiques en routine, exemple : les design pattern de structuration des GBPC qui date de plus de 25 ans. D’autres concepts sont en cours d’évaluation par la communité des chercheurs et d’adoption par l’écosystème de l’ingénierie, exemple : le standard CDS Hooks [19](#ref19).  
 
 Il est donc nécessaire pour la doctrine du SI-CM de garder un œil sur l’évolution de certains concepts au regard de l’avancée de l’évaluation et de l’adoption de ces concepts en parcourant régulièrement les articles scientifiques correspondants.  
 
-##### L'évaluation de l'impact d'un SADC basé sur les bibliothèques de connaissances standards conçues et/ou exposées par l'ANS
+###### L'évaluation de l'impact d'un SADC basé sur les bibliothèques de connaissances standards conçues et/ou exposées par l'ANS
 
 Les bibliothèques standards de connaissances médicales publiées ou exposées par l’ANS doivent être évaluées avant toute mise en œuvre dans un SI de santé en production. L’évaluation de ces bibliothèques peut-être effectuée suivant différentes étapes
 <div>
@@ -297,7 +296,7 @@ Les bibliothèques standards de connaissances médicales publiées ou exposées 
     </ul>
 </div>
 
-#### Principes #5 : Définir la relation avec les doctrines du CI-SIS et CGTS
+##### Principes #5 : Définir la relation avec les doctrines du CI-SIS et CGTS
 
 Les artéfacts produits et gérés par le SI-CM sont en étroites relation avec ceux produits et gérés par le CI-SIS et le CGTS (voir chapitre précédent). Les artéfacts produits et gérés par le SI-CM peuvent réutiliser, tout ou partie des artéfacts produits et gérés par le CI-SIS et le CGTS.  
 
@@ -305,7 +304,7 @@ Les volets produits et gérés dans le cadre du SI-CM doivent, autant que faire 
 
 Les artéfacts de connaissances médicales qui suivent le principe de [l’architecture tri-dimensionnelle de Rector et al.](#L-adoption-des-Designs-Patterns-en-ingénierie-des-connaissances-pour-la-standardisation-des-GBPC-et-leur-intégration-dans-un-SI-de-santé) [15](#ref15)  doivent partager, autant que faire se peut, le même modèle d’information médicale que le CI-SIS et le même modèle de connaissance métier statique que le CGTS. 
 
-###  Les chemins de la doctrine du SI-CM
+####  Les chemins de la doctrine du SI-CM
 
 Ce paragraphe décrit une instanciation nominale (et plusieurs instanciations secondaires) de la doctrine du SI-CM basée sur les principes énoncés plus en amont. Cette instanciation correspond à une série de choix de standards, d’outils, de méthodes et de règles que le SI-CM devra respecter pour gérer les artéfacts de connaissances médicales issus de la standardisation des GBPC produits et/ou exposés par l’ANS. 
 
@@ -313,7 +312,7 @@ Ce chemin nominal n’est ni immuable ni parfait, il est et il sera donc sujet �
 
 Dans ce qui suit nous décrivons le chemin nominal ainsi que les possibles chemins secondaires de la doctrine du SI-CM. 
 
-#### Le chemin nominal de la doctrine du SI-CM
+##### Le chemin nominal de la doctrine du SI-CM
 
 Comme décrit en chapitre sur [le cadre de la doctrine d'interopérabilité du SI-CM](#Le-cadre-de-la-doctrine-d-interopérabilité-du-SI-CM), la doctrine du SI-CM est un ensemble d’activités consistants à identifier et à choisir, en se basant sur les principes de la doctrine, les standards, outils et autres méthodes qui permettront à l’ANS de concevoir et gérer les artéfacts de connaissances médicales standardisés.  
 
@@ -321,7 +320,7 @@ La figure 4 décrit un diagramme d’activité UML qui montre les activités d�
 
 Dans ce qui suit nous justifions nos choix d’outils et/ou standards pour le chemin nominal décrits en figure 4 en faisant la relation avec les principes de la doctrine énoncés plus en amont. 
 
-##### Relations entre les principes de la doctrine du SI-CM et les activités du chemin nominal instancié
+###### Relations entre les principes de la doctrine du SI-CM et les activités du chemin nominal instancié
 
 __Choisir un langage de modélisation__
 
@@ -448,7 +447,7 @@ Ce choix est justifié pour plusieurs raisons :
 
 
 
-#### Les chemins secondaires de la doctrine du SI-CM
+##### Les chemins secondaires de la doctrine du SI-CM
 
 Les choix effectués dans le chemin nominal de la présente doctrine ne sont pas et ne doivent pas être définitifs. Ces choix peuvent être remis en question pour de nombreuse raisons 
 <div>
@@ -479,7 +478,7 @@ Le chemin secondaire #7 concerne la propriété intellectuelle des artéfacts de
 
 La notion d’UP et de conventions entre l’ANS et les UPs sont celles définies dans la gouvernance du CI-SIS [27](#ref27). 
 
-###  La relation avec la gouvernance
+####  La relation avec la gouvernance
 
 Cette doctrine respecte les étapes et les règles de gouvernance énoncés dans la gouvernance du CI-SIS [27](#ref27). 
 

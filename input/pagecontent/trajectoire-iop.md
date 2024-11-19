@@ -164,7 +164,8 @@ Il existe une large gamme de standards sémantiques répandus ou imposés en Fra
     <ul>
         <li>Les terminologies de l’assurance maladie (NGAP, NABM, CCAM, LAHN, LPPR) pour les cas d’usage de remboursement.</li>
         <li>Les terminologies de l’OMS (ex : CIM largement utilisée dans le SNDS pour des cas d’usage de production de soins, coordination de soignants, pilotage et exploitation des données) .</li>
-        <li>Les terminologies de biologie pour structurer les examens et leurs résultats (LOINC, SNOMED CT et la grammaire UCUM) ainsi que pour décrire leur méthodes (Nomenclature des réactifs et techniques).</li>
+        <li>Une terminologie multi-domaines, la SNOMED CT, utilisée pour coder l'anatomie, des résultats de tests, statuts du patient, ...).</li>
+        <li>Les terminologies de biologie pour structurer les examens et leurs résultats (CIM-11, LOINC, SNOMED CT et la grammaire UCUM) ainsi que pour décrire leur méthodes (Nomenclature des réactifs et techniques).</li>
     </ul>
 </div>
 

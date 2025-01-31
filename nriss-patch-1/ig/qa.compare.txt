@@ -1,51 +1,20 @@
 DoctrineCISIS : Validation Results
 =========================================
 
-err = 1, warn = 14, info = 3
+err = 2, warn = 4, info = 0
 $--
 Generated $--. FHIR version $-- for ans.fr.doctrine#$-- (canonical = https://interop.esante.gouv.fr/ig/doctrine)
- Build Errors : 5 / 4 / 0
- /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/CodeSystem-competence-code-system : 0 / 2 / 2
- /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/CodeSystem-type-carte-code-system : 0 / 2 / 2
- /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.doctrine : 0 / 0 / 1
- /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/Patient-frpatient-exemple : 0 / 0 / 1
- /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/StructureDefinition-EyeColor : 0 / 2 / 1
- /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/StructureDefinition-fr-patient : 0 / 0 / 1
- /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/ValueSet-EyeColorVS : 0 / 1 / 1
- /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/ValueSet-MeltingPotVS : 0 / 1 / 2
- /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/ValueSet-ModifiedAdministrativeGender : 0 / 1 / 1
- /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/ValueSet-TypeCarteVS : 0 / 1 / 1
+ Build Errors : 2 / 6 / 0
+ /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.doctrine : 1 / 0 / 1
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[24].value: Supressed messages file not found
-ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/connaissance-medicale.html#/html/body/div/div/div/div/div/div/img at Line 330, column 6: The image source 'FIGURE 1 ENONCE SIMPLIFIE DES PRINCIPES FIVE STARS.png' cannot be resolved
-ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/p/a at Line 259, column 306: The link 'iste_Profils_IHE_Standards.xls' for "dans ce tableau" cannot be resolved
-ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/p/a at Line 313, column 253: The link 'iste_Profils_IHE_Standards.xls' for "ici" cannot be resolved
-ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/ebe-cp.html#/html/body/div/div/div/div/div/p/a at Line 223, column 406: The link 'gouvernance.html' for "nouvelle gouvernance" cannot be resolved
+ERROR: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/p/a at Line 385, column 253: The link 'iste_Profils_IHE_Standards.xls' for "ici" cannot be resolved
+WARNING: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/p/a at Line 927, column 117: The link 'https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine' for "lien" is a canonical link and is therefore unsafe with regard to versions
+WARNING: /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/output/doctrine.html#/html/body/div/div/div/div/div/p/a at Line 979, column 111: The link 'https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine' for "lien" is a canonical link and is therefore unsafe with regard to versions
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
-WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
-== fsh-generated/resources/CodeSystem-competence-code-system.json ==
-INFORMATION: CodeSystem/competence-code-system: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-WARNING: CodeSystem/competence-code-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
-WARNING: CodeSystem/competence-code-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
-== fsh-generated/resources/CodeSystem-type-carte-code-system.json ==
-INFORMATION: CodeSystem/type-carte-code-system: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-WARNING: CodeSystem/type-carte-code-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
-WARNING: CodeSystem/type-carte-code-system: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/ImplementationGuide-ans.fr.doctrine.json ==
-== fsh-generated/resources/Patient-frpatient-exemple.json ==
-== fsh-generated/resources/StructureDefinition-EyeColor.json ==
-WARNING: StructureDefinition/EyeColor: StructureDefinition.context[0]: Review the extension type for EyeColor: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'https://interop.esante.gouv.fr/ig/doctrine/StructureDefinition/EyeColor'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/StructureDefinition-fr-patient.json ==
-== fsh-generated/resources/ValueSet-EyeColorVS.json ==
-WARNING: ValueSet/EyeColorVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-== fsh-generated/resources/ValueSet-MeltingPotVS.json ==
-INFORMATION: ValueSet/MeltingPotVS: ValueSet.compose.include[0]: This include has some concepts with displays and some without - check that this is what is intended
-WARNING: ValueSet/MeltingPotVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-== fsh-generated/resources/ValueSet-ModifiedAdministrativeGender.json ==
-WARNING: ValueSet/ModifiedAdministrativeGender: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
-== fsh-generated/resources/ValueSet-TypeCarteVS.json ==
-WARNING: ValueSet/TypeCarteVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+ERROR: ImplementationGuide/ans.fr.doctrine: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)

@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Comitologie du CI-SIS - Doctrine du CI-SIS v0.1.0</title>
+    <title>Comitologie du CI-SIS - Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS) v0.1.0-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,22 +41,22 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"11"}
-    h3,h4,h5,h6{--heading-prefix:"11"}</style>
+    <style type="text/css">h2{--heading-prefix:"7"}
+    h3,h4,h5,h6{--heading-prefix:"7"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
 <div id="family-nav">
-    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+    <a id="hl7-search-lnk" no-external="true" href="https://esante.gouv.fr/produits-services/ci-sis"><img height="50" alt="Visit the CI-SIS website" src="assets/images/ci-sis-logo.jpeg"/> </a>
   </div>
   <div id="ans-nav" style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; ">
     <a id="hl7-logo" no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
   </div>
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Doctrine du CI-SIS</span>
+          <p><span style="font-size:12pt;font-weight:bold">Doctrine et gouvernance du cadre d&#39;interopérabilité des systèmes d&#39;informations en santé (CI-SIS)</span>
             <br/>
-            <span style="display:inline-block;">0.1.0 - ci-build
+            <span style="display:inline-block;">0.1.0-ballot - public-comment
 
 
 
@@ -96,10 +96,10 @@
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="generalites.html">Généralités</a>
+        <a href="doctrine.html">Doctrine</a>
       </li>
       <li>
-        <a href="doctrine.html">Doctrine du ci-sis</a>
+        <a href="trajectoire-iop.html">Trajectoire interopérabilité</a>
       </li>
       <li>
         <a href="elaboration.html">Méthode d&apos;élaboration des échanges fonctionnels</a>
@@ -108,19 +108,7 @@
         <a href="choix-standard.html">Choix des normes et standard</a>
       </li>
       <li>
-        <a href="cycle-de-vie.html">Cycle de vie</a>
-      </li>
-      <li>
-        <a href="ebe-cp.html">Expression des besoins et Change Proposals</a>
-      </li>
-      <li>
-        <a href="trajectoire-iop.html">Trajectoire interopérabilité</a>
-      </li>
-      <li>
-        <a href="up-externe.html">Unité de production externe</a>
-      </li>
-      <li>
-        <a href="connaissance-medicale.html">Connaissance médicale</a>
+        <a href="cycle-de-vie.html">Cycle de vie des spécifications</a>
       </li>
     </ul>
   </li>
@@ -134,6 +122,12 @@
       </li>
       <li>
         <a href="interactions-ecosysteme.html">Interactions avec l&apos;écosystème</a>
+      </li>
+      <li>
+        <a href="ebe-cp.html">Expression des besoins et Change Proposals</a>
+      </li>
+      <li>
+        <a href="up-externe.html">Unité de production externe</a>
       </li>
     </ul>
   </li>
@@ -156,7 +150,7 @@
 
           <span style="float:right;">
 
-            <a href="connaissance-medicale.html">&lt;prev</a> | 
+            <a href="cycle-de-vie.html">&lt;prev</a> | 
 
             <a href="#bottom">bottom</a>
 
@@ -182,7 +176,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Doctrine du CI-SIS - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://interop.esante.gouv.fr/ig/doctrine/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS) - Local Development build (v0.1.0-ballot) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://interop.esante.gouv.fr/ig/doctrine/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Comitologie du CI-SIS</h2>
   
 
@@ -206,20 +200,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </ul>
 
 </div>
-<div style="
-    background-color: #fff5f5; 
-    color: #e57373; 
-    border: 1px solid #e57373; 
-    padding: 10px; 
-    border-radius: 5px; 
-    font-size: 14px; 
-    text-align: center; 
-    max-width: 300px; 
-    margin: 20px auto;
-">
-    ⚠️ Work in Progress
-</div>
-
 <h3 id="avant-propos">Avant propos</h3>
 
 <p>Le présent document a pour objet de mettre à jour le contenu de la gouvernance du CI-SIS à la suite des ateliers conduits par les équipes d’interopérabilité de la DE2I de mai à juillet 2024 en vue de faire évoluer la gouvernance et la doctrine du CI-SIS.</p>
@@ -359,7 +339,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div>
     <ul>
         <li>Des représentants des fédérations d’industriels ayant participé au consensus initial sur le CI-SIS : ASINHPA ; FEIMA ; Interop’Santé ; LESSIS ; SNITEM ; SYNTEC</li>
-        <li>Des représentants des utilisateurs de CI-SIS : ARS, CISS, FEHAP, FFMPS, FHF, FHP, FNCS, FNEHAD, FSM, FSP, GCS, Ordres professionnels (CNOM, CNOP, CNOCD, CNOSF, ONI,CNOMK, CNOPP), SFIL, SFMG, SFR, SYNERPA, UNPS</li>
+        <li>Des représentants des utilisateurs de CI-SIS : ARS, CISS, FEHAP, FFMPS, FHF, FHP, FNCS, FNEHAD, FSM, FSP, GRADES, Ordres professionnels (CNOM, CNOP, CNOCD, CNOSF, ONI,CNOMK, CNOPP), SFIL, SFMG, SFR, SYNERPA, UNPS</li>
         <li>Des sociétés savantes et organismes ayant participés au CI-SIS : AUDIPOG, CMG CNGOF, CNSF, Comité scientifique BNDMR, FFRSP, FSMR, SFC, SFN, SFNV, SFP (Société Française de Pathologie), SFP (Société Française de Pédiatrie), SFT, UFCV, URPS ML PACA.</li>
     </ul>
 </div>
@@ -888,7 +868,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             <tr>
               <td style="text-align:left">&#xA0;
 
-                <a href="connaissance-medicale.html">&lt;prev</a>
+                <a href="cycle-de-vie.html">&lt;prev</a>
 
               </td>
               <td style="text-align:center">
@@ -906,7 +886,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Nov 12, 2024 17:25+0000">2024-11-12</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jan 31, 2025 13:21+0000">2025-01-31</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

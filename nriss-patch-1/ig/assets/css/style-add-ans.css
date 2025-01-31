@@ -1,17 +1,15 @@
 p, li, td {
-    color: black;
-  }
+    color: #343548;
+}
 
 #segment-header {
     background-color: white;
 }
 
 #segment-footer > .container {
-    background-color: #175560;
+    background-color: #464c6d;
 }
-.navbar {
-	background-color : #175560;
-}
+
 
 #stripe {
 
@@ -38,7 +36,17 @@ p, li, td {
     flex-direction: unset;
 }
 
+.navbar {
+	background-color : #464c6d;
+}
+.navbar,
+.navbar .container,
+.navbar .container-fluid,
+.navbar .container-xs {
 
+    /*display: table;*/
+
+}
 
 body {
     font-size: 14px;

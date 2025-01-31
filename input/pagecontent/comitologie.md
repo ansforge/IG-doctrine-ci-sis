@@ -482,22 +482,6 @@ L’ordre du jour du COPIL est variable en fonction de son positionnement dans l
         </tr>
         <tr>
             <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>MOS&nbsp;</span></p>
-            </td>
-            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Mod&egrave;le des objets de sant&eacute;&nbsp;</span></p>
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">NOS</span></p>
-            </td>
-            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Nomenclatures des objets de sant&eacute;&nbsp;</span></p>
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
                 <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>ONI&nbsp;</span></p>
             </td>
             <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">

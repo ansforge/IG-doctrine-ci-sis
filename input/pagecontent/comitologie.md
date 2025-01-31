@@ -450,10 +450,10 @@ L’ordre du jour du COPIL est variable en fonction de son positionnement dans l
         </tr>
         <tr>
             <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">GRADE</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">GRADES</span></p>
             </td>
             <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">&nbsp;</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">Groupement Régional d’Appui au Développement de la e-Santé</span></p>
             </td>
         </tr>
         <tr>

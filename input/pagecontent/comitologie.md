@@ -137,7 +137,7 @@ Il est composé :
 <div>
     <ul>
         <li>Des représentants des fédérations d’industriels ayant participé au consensus initial sur le CI-SIS : ASINHPA ; FEIMA ; Interop’Santé ; LESSIS ; SNITEM ; SYNTEC</li>
-        <li>Des représentants des utilisateurs de CI-SIS : ARS, CISS, FEHAP, FFMPS, FHF, FHP, FNCS, FNEHAD, FSM, FSP, GCS, Ordres professionnels (CNOM, CNOP, CNOCD, CNOSF, ONI,CNOMK, CNOPP), SFIL, SFMG, SFR, SYNERPA, UNPS</li>
+        <li>Des représentants des utilisateurs de CI-SIS : ARS, CISS, FEHAP, FFMPS, FHF, FHP, FNCS, FNEHAD, FSM, FSP, GRADES, Ordres professionnels (CNOM, CNOP, CNOCD, CNOSF, ONI,CNOMK, CNOPP), SFIL, SFMG, SFR, SYNERPA, UNPS</li>
         <li>Des sociétés savantes et organismes ayant participés au CI-SIS : AUDIPOG, CMG CNGOF, CNSF, Comité scientifique BNDMR, FFRSP, FSMR, SFC, SFN, SFNV, SFP (Société Française de Pathologie), SFP (Société Française de Pédiatrie), SFT, UFCV, URPS ML PACA.</li>
     </ul>
 </div>

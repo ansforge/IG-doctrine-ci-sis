@@ -23,7 +23,7 @@ L'interopérabilité fait partie des trois piliers du déploiement de la e-Sant�
 
 ### Contexte européen
 
-Au niveau européen, l'interopérabilité des systèmes de santé repose sur une collaboration entre les États membres et sur l'adoption de standards communs, soutenue par des initiatives telles que l'[Espace Européen des Données de Santé](https://esante.gouv.fr/espace-europeen-donnees-sante) (EEDS). L'EEDS vise à faciliter l'échange de données de santé, avec une attention particulière sur la protection des données et l'amélioration de la qualité des soins à travers l'Europe. Le cadre réglementaire de l’EEDS repose sur des standards internationaux, et plusieurs actes d'exécution privilégient l'usage du standard FHIR pour la structuration et l’échange des données.
+Au niveau européen, l’interopérabilité des systèmes de santé repose sur une collaboration entre les États membres et l’adoption de standards communs dans le cadre de l’Espace Européen des Données de Santé (EEDS). Le règlement EEDS vise entre-autre à faciliter l’échange de données de santé, avec une attention particulière sur la protection des données et l’amélioration de la qualité des soins à travers l’Europe. Les actes d’exécution du règlement reposeront sur des standards internationaux pour la structuration et l’échange des données.
 
 Dans ce cadre, des initiatives comme Xt-EHR (_eXtended Electronic Health Record_) et MaSanté@UE ont été développées pour promouvoir l’interopérabilité transfrontalière.
 

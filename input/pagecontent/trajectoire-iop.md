@@ -302,7 +302,8 @@ Les acteurs peuvent se situer à plusieurs niveaux : au niveau politique, au niv
 
 ##### Les acteurs politiques
 
-Ministère de la santé, commission européenne, gouvernance EEDS
+* Le Ministère de la santé et plus particulièrement la Délégation du Numérique en Santé (DNS). La mission de la DNS de développer et réguler les usages du numérique, pour répondre aux besoins de notre système de santé, dans le respect d’un cadre de valeur éthique et humaniste. La DNS joue un rôle de chef d’orchestre pour piloter la feuille de route du numérique en santé et garantir sa mise en oeuvre effective. Elle représente l’Etat dans la gouvernance de l’ANS.
+* Le eHealth Network (eHN) : réseau des états membres de l’union européenne. L'eHN a plusieurs missions dont la mise ne place d’applications et de services européens interopérables au bénéfice des citoyens européens, la rédaction de guide sur les données de santé à échanger et les méthodes, et le développement de mesures sur l’identification et l’authentification des acteurs impliqués dans l’échange de données.
 
 ##### Les professionnels de santé
 

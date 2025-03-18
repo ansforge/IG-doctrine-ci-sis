@@ -104,7 +104,8 @@ Les termes suivants sont utilisés dans ce document et peuvent nécessiter des b
     <ul>
         <li>CGTS : Centre de Gestion des Terminologies de Santé. C’est le guichet national de diffusion des terminologies en usage en France.</li>
         <li>Terminologies : Ensemble des ressources sémantiques telles que les terminologies, classifications, nomenclatures, ontologies, jeux de valeurs, alignements sémantiques etc.</li>
-        <li>Interopérabilité : Capacité que possède une terminologie à fonctionner avec d’autres terminologies.</li>
+        <li> Interopérabilité syntaxique ou technique : capacité de différents systèmes ou applications à échanger des données en respectant un même format et des protocoles standardisés (ex : XML, JSON, HL7 v2, HL7 FHIR). Elle garantit que les données peuvent être correctement envoyées, reçues et traitées, mais sans assurer qu'elles aient le même sens pour tous les systèmes. L'interopérabilité sémantique intervient ensuite pour donner un sens commun aux données échangées.</li>
+        <li>Interopérabilité sémantique : capacité des systèmes à interpréter et comprendre les données échangées de manière identique et cohérente. Elle repose sur des vocabulaires contrôlés, des ontologies et des terminologies (ex : SNOMED CT, LOINC) pour assurer une compréhension commune du sens des informations échangées.</li>
         <li>Volet du CI-SIS : spécification d'interopérabilité qui peut être au format PDF ou guide d'implémentation (IG)</li>
         <li>IHE : Integrated The Healthcare Enterprise, initiative internationale qui a pour but d’améliorer l’interopérabilité dans le domaine de la santé.</li>
         <li>Profil IHE : Les profils IHE décrivent des solutions spécifiques aux problèmes d'interopérabilité. Les profils précisent comment les « acteurs » utilisent les normes/standards pour traiter un cs d'utilisation spécifique des soins de santé.</li>

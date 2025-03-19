@@ -137,7 +137,7 @@ Il est composé :
 <div>
     <ul>
         <li>Des représentants des fédérations d’industriels ayant participé au consensus initial sur le CI-SIS : ASINHPA ; FEIMA ; Interop’Santé ; LESSIS ; SNITEM ; SYNTEC</li>
-        <li>Des représentants des utilisateurs de CI-SIS : ARS, CISS, FEHAP, FFMPS, FHF, FHP, FNCS, FNEHAD, FSM, FSP, GCS, Ordres professionnels (CNOM, CNOP, CNOCD, CNOSF, ONI,CNOMK, CNOPP), SFIL, SFMG, SFR, SYNERPA, UNPS</li>
+        <li>Des représentants des utilisateurs de CI-SIS : ARS, CISS, FEHAP, FFMPS, FHF, FHP, FNCS, FNEHAD, FSM, FSP, GRADES, Ordres professionnels (CNOM, CNOP, CNOCD, CNOSF, ONI,CNOMK, CNOPP), SFIL, SFMG, SFR, SYNERPA, UNPS</li>
         <li>Des sociétés savantes et organismes ayant participés au CI-SIS : AUDIPOG, CMG CNGOF, CNSF, Comité scientifique BNDMR, FFRSP, FSMR, SFC, SFN, SFNV, SFP (Société Française de Pathologie), SFP (Société Française de Pédiatrie), SFT, UFCV, URPS ML PACA.</li>
     </ul>
 </div>
@@ -450,10 +450,10 @@ L’ordre du jour du COPIL est variable en fonction de son positionnement dans l
         </tr>
         <tr>
             <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">GRADE</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">GRADES</span></p>
             </td>
             <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">&nbsp;</span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">Groupement Régional d’Appui au Développement de la e-Santé</span></p>
             </td>
         </tr>
         <tr>
@@ -478,22 +478,6 @@ L’ordre du jour du COPIL est variable en fonction de son positionnement dans l
             </td>
             <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
                 <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Les entreprises des syst&egrave;mes d&apos;information sanitaires et sociaux&nbsp;</span></p>
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>MOS&nbsp;</span></p>
-            </td>
-            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Mod&egrave;le des objets de sant&eacute;&nbsp;</span></p>
-            </td>
-        </tr>
-        <tr>
-            <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:left;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="font-size:15px;color:black;">NOS</span></p>
-            </td>
-            <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Nomenclatures des objets de sant&eacute;&nbsp;</span></p>
             </td>
         </tr>
         <tr>

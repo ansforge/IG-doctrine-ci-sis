@@ -8,7 +8,7 @@ L’ANS est de fait amenée à établir des conventions de partenariat ou contra
 Ces contrats visent à décrire les principes fondamentaux de collaboration et fonctionnement avec les unités de production.
 
 <blockquote class="stu-note">
-	<p>L'utilisation des UP externers est un processus peu usité à ce jour. Il pourra donc être amené à évoluer selon les retours d'expérience.
+	<p>L'utilisation des UP externes dans la création des volets est un processus peu usité à ce jour. Il pourra donc être amené à évoluer selon les retours d'expérience.
     </p>
 </blockquote>
 

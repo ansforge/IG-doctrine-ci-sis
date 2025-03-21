@@ -20,7 +20,9 @@ Une Unité de Production de Terminologies désigne le service organisé d’une 
 
 ### Définition des rôles (extrait des contrats cadre)
 
-#### Rôle de l'ANS
+#### Contexte : production de volets du CI-SIS
+
+##### Rôle de l'ANS
 
 Dans le cadre de ses missions citées en préambule, l’ANS réalise les actions suivantes :
 
@@ -32,17 +34,48 @@ Dans le cadre de ses missions citées en préambule, l’ANS réalise les action
 * assure, en collaboration avec l’UP, le support et des actions de formation auprès des utilisateurs finaux ;
 * apporte son expertise métier et en interopérabilité à l’UP pour l’élaboration du ou des volets.
 
-#### Rôle de l'UP externe
+##### Rôle de l'UP externe des volets du CI-SIS
 
 L’UP s’engage à :
 
-* produire, en cohérence avec les éléments déjà produits ou en cours de production au sein du CI-SIS (MOS, NOS, terminologies du SMT, Modèles des objets médicaux (ArtDecor), doctrine du CI-SIS....), les différents éléments constitutifs du ou des volet(s) ou la production de ressources sémantiques ;
-* mettre à disposition de l’ANS pour publication les éléments ;
-* collaborer avec l’ANS afin de traiter les éventuels commentaires remontés par celle-ci avant la phase de concertation;  
-* traiter, en collaboration avec l’ANS, les commentaires reçus lors de la concertation ; 
+* produire, en cohérence avec les éléments déjà produits ou en cours de production au sein du CI-SIS (MOS, NOS, terminologies du SMT, Modèles des objets médicaux (ArtDecor), doctrine du CI-SIS....), les différents éléments constitutifs du ou des volet(s) ;
+* mettre à disposition de l’ANS pour publication les éléments constitutifs du ou des volets du CI-SIS.
+* collaborer avec l’ANS afin de traiter les éventuels commentaires remontés par celle-ci avant la phase de concertation ;  
+* traiter, en collaboration avec l’ANS, les commentaires reçus lors de la concertation ;
 * assister l’ANS dans le cadre du traitement des questions formulées après la publication du ou des volet(s) ;
 * instruire toute demande d’évolution mineure sur les éléments constitutifs du ou de(s) volet(s) qu’elle a produits ;
 * maintenir, via le mécanisme d’évolutions mineures du CI-SIS , les éléments constitutifs du ou de(s) volet(s) qu’elle a produits pour prendre en compte notamment :
   * les évolutions de la norme ou du standard utilisé(e) pour l’élaboration des spécifications techniques,
   * les demandes d’évolution mineure acceptées.
+
+#### Contexte : production de Terminologie
+
+##### Rôle du Centre de gestion des Terminologies de santé (CGTS)
+
+Dans le cadre de ses missions, le CGTS :
+
+* diffuse la/les Terminologie(s) de l’UP, objet des présentes,
+* assure, en collaboration avec  l’UP, une fonction support et des actions de formation pour les utilisateurs de la/des Terminologie(s) de l’UP,
+* intègre de manière cohérente la/les Terminologie(s) de l’UP parmi les Terminologies de référence diffusées par le SMT.
+
+
+##### Rôle de l’Unité de production de la Terminologie
+
+L’UP s’engage à préciser, notamment au travers de la Politique de Gestion de la Terminologie qu’elle met en place, les conditions dans lesquelles la/les Terminologie(s) qu’elle met à disposition est/sont utilisée(s).
+La Politique de Gestion de la Terminologie est décrite au travers d'un document élaboré par chaque UP et transmis à l’ANS en exécution des présentes. Ce document décrit la gestion de(s) Terminologie(s) et explicite en particulier les processus suivants :
+
+* qualification des modifications et évolutions de la Terminologie ;
+* processus de modification ;
+* processus d’évolution ;
+* politique de gestion de version.
+
+Le document « Politique de Gestion de Terminologie » peut se confondre avec un manuel qualité ou tout autre documentation de type manuel utilisateur, à condition qu’il fasse transparaître la Politique de Gestion de Terminologie effectivement mise en œuvre par l’UP.
+L’UP s’engage par ailleurs à répondre aux questions qui lui seront transmises après la publication de la/des Terminologie(s) et à respecter l’ensemble des stipulations des présentes ainsi que celles des annexes autres qu’indicatives.
+
+### Contrats cadres
+
+Les contrats cadres sont téléchargeables aux liens suivants :
+
+* pour les [volets du CI-SIS](Contrat_Cadre_UP_Syntaxe.zip) 
+* pour la [mise à disposition de terminologies](Contrat_cadre_UP_Semantique.zip)
 

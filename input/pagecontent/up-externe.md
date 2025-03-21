@@ -7,7 +7,6 @@ Les spécifications ainsi produites ont vocation à être publiées par l’ANS 
 L’ANS est de fait amenée à établir des conventions de partenariat ou contrats avec ces partenaires pour les [volets du CI-SIS](Contrat_Cadre_UP_Syntaxe.zip) ou pour la [mise à disposition de terminologies](Contrat_cadre_UP_Semantique.zip).
 Ces contrats visent à décrire les principes fondamentaux de collaboration et fonctionnement avec les unités de production.
 
-A noter que les spécifications produites ont vocation à être publiées par l’ANS sous la forme d’un ou plusieurs volet(s) du CI-SIS. Ce service public est gratuit pour les Utilisateurs finaux des volets publiés dans le CI-SIS.
 
 ### Définitions 
 

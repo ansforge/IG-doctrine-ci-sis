@@ -7,6 +7,11 @@ Les spécifications ainsi produites ont vocation à être publiées par l’ANS 
 L’ANS est de fait amenée à établir des conventions de partenariat ou contrats avec ces partenaires pour les [volets du CI-SIS](Contrat_Cadre_UP_Syntaxe.zip) ou pour la [mise à disposition de terminologies](Contrat_cadre_UP_Semantique.zip).
 Ces contrats visent à décrire les principes fondamentaux de collaboration et fonctionnement avec les unités de production.
 
+<blockquote class="stu-note">
+	<p>L'utilisation des UP externers est un processus peu usité à ce jour. Il pourra donc être amené à évoluer selon les retours d'expérience.
+    </p>
+</blockquote>
+
 
 ### Définitions 
 

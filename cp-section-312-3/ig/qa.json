@@ -6,8 +6,8 @@
   "status" : "draft",
   "package-id" : "ans.fr.doctrine",
   "ig-ver" : "0.1.0-ballot",
-  "date" : "Tue, 25 Mar, 2025 10:57:32 +0000",
-  "dateISO8601" : "2025-03-25T10:57:32+00:00",
+  "date" : "Tue, 25 Mar, 2025 11:09:10 +0000",
+  "dateISO8601" : "2025-03-25T11:09:10+00:00",
   "errs" : 2,
   "warnings" : 4,
   "hints" : 0,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 654826104
+  "maxMemory" : 648008192
 }

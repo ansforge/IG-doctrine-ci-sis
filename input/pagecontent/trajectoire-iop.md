@@ -124,13 +124,13 @@ Prioriser la prise en charge du FHIR document est à ce point indéniable, de no
 
 Deux scénarios de déploiement de FHIR document ont été identifiés en France
 
-###### 1/ Mettre en place une transformation entre les standards CDA et FHIR
+###### 1 Mettre en place une transformation entre les standards CDA et FHIR
 
 Le premier scénario consiste à mettre un place un outil de transformation des documents CDA vers FHIR et inversement. Cependant, ce scénario nécessite de maintenir cet alignement dans le temps. Les techniques d'alignement sont complexes et lourdes à mettre un oeuvre avec un accroissement de la complexité pour chaque nouvelle version de spécification publiée. Par exemple, des [travaux italiens sur ce sujet](https://www.hl7.it/fhir/cda2fhir/) contiennent plusieurs dizaines de milliers de lignes. Il y a également des questionnements quant à la responsabilité : qui sera responsable du document en cas d'erreur de transformation ?
 
 Pour transformer les documents CDA des volets du CI-SIS vers FHIR, il faudrait que l'ensemble des spécifications CDA soient définies au format StructureDefinition pour utiliser le FHIR Mapping Language.
 
-###### 2/ Permettre une utilisation concomitante de FHIR et de CDA le temps de la transition
+###### 2 Permettre une utilisation concomitante de FHIR et de CDA le temps de la transition
 
 Cette solution permettrait une utilisation concomitante de FHIR et de CDA, où les spécifications seront publiées selon les deux modes. Cela permettrait une transition douce avec un timing au choix de chacun pour le passage vers FHIR Document, avec une date limite de décommissionnement de l'autorisation d'écriture en CDA dans le DMP.
 
@@ -142,7 +142,7 @@ La difficulté reviendrait aux consommateurs qui devront, au moins pendant un te
 
 La solution qui semble se dessiner pour l'ANS et pour la commission européenne est de permettre une utilisation concomitante de FHIR et de CDA pour faire une transition douce, complétée d'une preuve de concept d'un mapping CDA - FHIR, générique, sans aller jusqu'à une spécification validée et utilisable en production, pour aider les éditeurs dans leur transition.
 
-### Le paradigme "Document" du DMP à compléter par les autres paradigmes
+#### Le paradigme "Document" du DMP à compléter par les autres paradigmes
 
 En France, le cas d'usage "document" est bien connu, notamment dans le cadre du DMP : un document est un compte rendu médical signé et daté d'un patient.
 
@@ -294,29 +294,29 @@ Sur le plan du développement et de l’amélioration du catalogue de terminolog
     </ul>
 </div>
 
-#### Les acteurs influençant la trajectoire
+### Les acteurs influençant la trajectoire
 
 De nombreux acteurs influencent la trajectoire et le rôle des experts interopérabilité est d'avoir une vision globale de cet écosystème, de ces acteurs et des spécifications existantes afin de répondre aux besoins en réutilisant au maximum les travaux existants au niveau international, et éviter la nécessité de se ré-aligner par la suite.
 
 Les acteurs peuvent se situer à plusieurs niveaux : au niveau politique, au niveau modélisation technique et au niveau implémentation.
 
-##### Les acteurs politiques
+#### Les acteurs politiques
 
 * Le Ministère de la santé et plus particulièrement la Délégation du Numérique en Santé (DNS). La mission de la DNS de développer et réguler les usages du numérique, pour répondre aux besoins de notre système de santé, dans le respect d’un cadre de valeur éthique et humaniste. La DNS joue un rôle de chef d’orchestre pour piloter la feuille de route du numérique en santé et garantir sa mise en oeuvre effective. Elle représente l’Etat dans la gouvernance de l’ANS.
 * Le eHealth Network (eHN) : réseau des états membres de l’union européenne. L'eHN a plusieurs missions dont la mise ne place d’applications et de services européens interopérables au bénéfice des citoyens européens, la rédaction de guide sur les données de santé à échanger et les méthodes, et le développement de mesures sur l’identification et l’authentification des acteurs impliqués dans l’échange de données.
 
-##### Les professionnels de santé
+#### Les professionnels de santé
 
 il est nécessaire de consulter les professionnels de santé pour évaluer des nomes techniques sémantiques ou syntaxiques et de spécifier des profils au plus près de leurs besoins en respectant leurs usages.
 
-##### Les éditeurs de logiciels
+#### Les éditeurs de logiciels
 
 Les éditeurs vont mettre en œuvre les différentes normes dans leurs solutions applicatives. La trajectoire de l’interopérabilité va dépendre de leur maturité et de leur disponibilté pour mettre en œuvre les standards concertés et prescrits.
 
-##### Les acteurs en charge de la modélisation technique (organismes de standardisation)
+#### Les acteurs en charge de la modélisation technique (organismes de standardisation)
 
 IHE, HL7 International, HL7 Europe
 
-##### Les acteurs en charge de l'implémentation
+#### Les acteurs en charge de l'implémentation
 
 La CNAM (DMP, Mon Espace Santé), les éditeurs de logiciels de soin

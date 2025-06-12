@@ -4,8 +4,14 @@ L'UP externe intègre alors le processus de traitement d'une [expression de beso
 
 Les spécifications ainsi produites ont vocation à être publiées par l’ANS sous la forme d’un ou plusieurs volet(s) du CI-SIS. Ce service public est gratuit pour les Utilisateurs finaux des volets publiés dans le CI-SIS.
 
+Un acteur de l'écosystème peut devenir UP-externe :
+
+* sur proposition de l'ANS
+* ou en se proposant à l'ANS. L'ANS analysera alors sa candidature.
+
 L’ANS est de fait amenée à établir des conventions de partenariat ou contrats avec ces partenaires pour les [volets du CI-SIS](Contrat_Cadre_UP_Syntaxe.zip) ou pour la [mise à disposition de terminologies](Contrat_cadre_UP_Semantique.zip).
 Ces contrats visent à décrire les principes fondamentaux de collaboration et fonctionnement avec les unités de production.
+
 
 <blockquote class="stu-note">
 	<p>L'utilisation des UP externes dans la création des volets est un processus peu usité à ce jour. Il pourra donc être amené à évoluer selon les retours d'expérience.
@@ -83,4 +89,3 @@ Les contrats cadres sont téléchargeables aux liens suivants :
 
 * pour les [volets du CI-SIS](Contrat_Cadre_UP_Syntaxe.zip) 
 * pour la [mise à disposition de terminologies](Contrat_cadre_UP_Semantique.zip)
-

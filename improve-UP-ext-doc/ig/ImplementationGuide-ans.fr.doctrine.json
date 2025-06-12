@@ -3,14 +3,14 @@
   "id" : "ans.fr.doctrine",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fr.doctrine</b></p><a name=\"ans.fr.doctrine\"> </a><a name=\"hcans.fr.doctrine\"> </a><a name=\"ans.fr.doctrine-fr-FR\"> </a><h2>DoctrineCISIS</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine</pre></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fr.doctrine</b></p><a name=\"ans.fr.doctrine\"> </a><a name=\"hcans.fr.doctrine\"> </a><a name=\"ans.fr.doctrine-fr-FR\"> </a><h2>DoctrineCISIS</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine</pre></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine",
   "version" : "0.1.0-ballot",
   "name" : "DoctrineCISIS",
   "title" : "Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS)",
   "status" : "draft",
-  "date" : "2025-03-21T16:14:27+00:00",
+  "date" : "2025-06-12T16:09:49+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -37,7 +37,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.2.0"
+    "version" : "6.4.0"
   },
   {
     "id" : "hl7ext",
@@ -338,7 +338,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.4.1"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.5.0"
     },
     {
       "extension" : [{

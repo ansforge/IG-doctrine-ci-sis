@@ -27,7 +27,27 @@ Au niveau européen, l’interopérabilité des systèmes de santé repose sur u
 
 Dans ce cadre, des initiatives comme Xt-EHR (_eXtended Electronic Health Record_) et MaSanté@UE ont été développées pour promouvoir l’interopérabilité transfrontalière.
 
-Xt-EHR a pour objectif de standardiser les dossiers de santé électroniques afin qu’ils soient compréhensibles et utilisables dans différents pays européens. Cela permet une continuité des soins pour les patients en déplacement au sein de l’UE. Cette initiative repose sur des protocoles comme FHIR et CDA pour structurer les données médicales de manière compatible entre les systèmes. Le développement de ces projets est crucial pour permettre un échange sécurisé et efficace d’informations médicales, contribuant à une continuité des soins transfrontaliers.
+Le projet Xt-EHR est une initiative européenne structurante, pilotée dans le cadre de l’Espace Européen des Données de Santé (EEDS). Il vise à définir une architecture partagée et interopérable pour les dossiers de santé électroniques à l’échelle de l’Union européenne. Ce projet a pour ambition de garantir la continuité et la qualité des soins pour les citoyens européens en mobilité, tout en facilitant la réutilisation secondaire des données de santé.
+
+Le projet repose sur l’élaboration du format EEHRxF (European Electronic Health Record Exchange Format), un modèle logique structurant l’échange des données de santé autour d’une approche documentaire basée sur FHIR. Ce format définit la manière dont les données cliniques doivent être structurées, organisées et échangées, en conformité avec les exigences du règlement EEDS.
+
+Le format EEHRxF repose sur FHIR Document : Il décrit un document médical structuré utilisant les ressources FHIR encapsulées dans une ressource _Composition_, conformément au paradigme "Document" du standard HL7 FHIR. 
+
+Vers une obligation réglementaire : Le règlement EEDS prévoit que tous les dossiers médicaux électroniques destinés à l’échange au sein de l’UE devront supporter le format EEHRxF. Cela fera du FHIR Document le socle technique réglementaire pour l’ensemble des flux transfrontaliers (résumés du dossier du patient, prescriptions, imagerie, biologie, etc.).
+
+Impact direct sur la trajectoire française (CI-SIS) : Cette orientation européenne structure directement la stratégie nationale. À terme, les futurs volets de contenu du CI-SIS seront conçus nativement en FHIR Document, en cohérence avec les exigences européennes. Une transition progressive depuis le format CDA est envisagée, en permettant une cohabitation temporaire des deux formats et en accompagnant les éditeurs dans l’adoption de cette nouvelle approche.
+
+Le projet Xt-EHR fournit pour cela :
+
+<div>
+    <ul>
+        <li>Des modèles logiques communs (_Logical Models_) alignés sur les six catégories prioritaires de données de santé définies par l’EEDS ; </li>
+        <li>Des Guides d’Implémentation FHIR (FHIR IGs) conformes au format EEHRxF pour chaque type de contenu échangé ; </li>
+        <li>Des outils de validation et démonstrateurs techniques, testés lors de projectathons et ateliers entre États membres.</li>
+    </ul>
+</div>
+
+Xt-EHR joue ainsi un rôle central pour préparer les actes d’exécution du règlement EEDS, en servant de référence technique pour l’interopérabilité des services transfrontaliers. Il s’intègre pleinement dans la feuille de route française en matière d’interopérabilité, et renforce l’alignement entre les trajectoires nationales et européennes, tant sur le plan syntaxique (FHIR) que sémantique (alignement sur les jeux de valeurs européens).
 
 Le projet MaSanté@UE permet de faciliter l’échange des données de santé du citoyen européen dans le cadre de son parcours de soin en donnant au professionnel de santé l’accès dans sa langue aux données médicales du patient qu’il prend en charge. Il permet d’améliorer la prise en charge des citoyens lors de séjours à l’étranger. Ce projet soutient fortement l’utilisation de FHIR et de CDA pour garantir une interopérabilité maximale.
 

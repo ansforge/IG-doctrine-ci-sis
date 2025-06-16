@@ -176,7 +176,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS) - Local Development build (v0.1.0-ballot) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://interop.esante.gouv.fr/ig/doctrine/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS) - Local Development build (v0.1.0-ballot) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interop.esante.gouv.fr/ig/doctrine/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Trajectoire interopérabilité</h2>
   
 
@@ -197,8 +197,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li><a href="#les-actions-menées-pour-promouvoir-linteropérabilité" id="markdown-toc-les-actions-menées-pour-promouvoir-linteropérabilité">Les actions menées pour promouvoir l’interopérabilité</a></li>
   <li><a href="#contexte-européen" id="markdown-toc-contexte-européen">Contexte européen</a></li>
   <li><a href="#la-trajectoire-syntaxique" id="markdown-toc-la-trajectoire-syntaxique">La trajectoire syntaxique</a></li>
-  <li><a href="#le-paradigme-document-du-dmp-à-compléter-par-les-autres-paradigmes" id="markdown-toc-le-paradigme-document-du-dmp-à-compléter-par-les-autres-paradigmes">Le paradigme “Document” du DMP à compléter par les autres paradigmes</a></li>
   <li><a href="#la-trajectoire-sémantique" id="markdown-toc-la-trajectoire-sémantique">La trajectoire sémantique</a></li>
+  <li><a href="#les-acteurs-influençant-la-trajectoire" id="markdown-toc-les-acteurs-influençant-la-trajectoire">Les acteurs influençant la trajectoire</a></li>
 </ul>
 
 </div>
@@ -233,7 +233,7 @@ A noter, l’interopérabilité est souvent confondue avec référencement, mais
 
 <p>Xt-EHR a pour objectif de standardiser les dossiers de santé électroniques afin qu’ils soient compréhensibles et utilisables dans différents pays européens. Cela permet une continuité des soins pour les patients en déplacement au sein de l’UE. Cette initiative repose sur des protocoles comme FHIR et CDA pour structurer les données médicales de manière compatible entre les systèmes. Le développement de ces projets est crucial pour permettre un échange sécurisé et efficace d’informations médicales, contribuant à une continuité des soins transfrontaliers.</p>
 
-<p>Le programme MaSanté@UE, quant à lui, permet de faciliter l’échange des données de santé du citoyen européen dans le cadre de son parcours de soin en donnant au professionnel de santé l’accès dans sa langue aux données médicales du patient qu’il prend en charge. Il permet d’améliorer la prise en charge des citoyens lors de séjours à l’étranger. Ce projet soutient fortement l’utilisation du FHIR et du CDA pour garantir une interopérabilité maximale.</p>
+<p>Le projet MaSanté@UE permet de faciliter l’échange des données de santé du citoyen européen dans le cadre de son parcours de soin en donnant au professionnel de santé l’accès dans sa langue aux données médicales du patient qu’il prend en charge. Il permet d’améliorer la prise en charge des citoyens lors de séjours à l’étranger. Ce projet soutient fortement l’utilisation de FHIR et de CDA pour garantir une interopérabilité maximale.</p>
 
 <p>Des standards FHIR et le CDA sont au cœur de ces efforts, car ils permettent une approche modulaire et flexible de l’échange de données de santé. FHIR, en particulier, grâce à son approche moderne via des API REST, est privilégié pour des cas d’usage tels que le partage de Compte-rendu de laboratoire (<em>Lab Reports</em>) de Lettre de sortie d’hospitalisation (<em>Hospital Discharge Reports</em>), et de Compte-rendu d’imagerie médical (<em>Medical Imaging Reports</em>), permettant une réutilisation plus fluide et facile des données à travers différents systèmes de santé européens.</p>
 
@@ -328,13 +328,13 @@ Il est également à noter que le choix national de la version FHIR utilisée de
 
 <p>Deux scénarios de déploiement de FHIR document ont été identifiés en France</p>
 
-<h6 id="1-mettre-en-place-une-transformation-entre-les-standards-cda-et-fhir">1/ Mettre en place une transformation entre les standards CDA et FHIR</h6>
+<h6 id="1-mettre-en-place-une-transformation-entre-les-standards-cda-et-fhir">1 Mettre en place une transformation entre les standards CDA et FHIR</h6>
 
 <p>Le premier scénario consiste à mettre un place un outil de transformation des documents CDA vers FHIR et inversement. Cependant, ce scénario nécessite de maintenir cet alignement dans le temps. Les techniques d’alignement sont complexes et lourdes à mettre un oeuvre avec un accroissement de la complexité pour chaque nouvelle version de spécification publiée. Par exemple, des <a href="https://www.hl7.it/fhir/cda2fhir/">travaux italiens sur ce sujet</a> contiennent plusieurs dizaines de milliers de lignes. Il y a également des questionnements quant à la responsabilité : qui sera responsable du document en cas d’erreur de transformation ?</p>
 
 <p>Pour transformer les documents CDA des volets du CI-SIS vers FHIR, il faudrait que l’ensemble des spécifications CDA soient définies au format StructureDefinition pour utiliser le FHIR Mapping Language.</p>
 
-<h6 id="2-permettre-une-utilisation-concomitante-de-fhir-et-de-cda-le-temps-de-la-transition">2/ Permettre une utilisation concomitante de FHIR et de CDA le temps de la transition</h6>
+<h6 id="2-permettre-une-utilisation-concomitante-de-fhir-et-de-cda-le-temps-de-la-transition">2 Permettre une utilisation concomitante de FHIR et de CDA le temps de la transition</h6>
 
 <p>Cette solution permettrait une utilisation concomitante de FHIR et de CDA, où les spécifications seront publiées selon les deux modes. Cela permettrait une transition douce avec un timing au choix de chacun pour le passage vers FHIR Document, avec une date limite de décommissionnement de l’autorisation d’écriture en CDA dans le DMP.</p>
 
@@ -346,7 +346,7 @@ Il est également à noter que le choix national de la version FHIR utilisée de
 
 <p>La solution qui semble se dessiner pour l’ANS et pour la commission européenne est de permettre une utilisation concomitante de FHIR et de CDA pour faire une transition douce, complétée d’une preuve de concept d’un mapping CDA - FHIR, générique, sans aller jusqu’à une spécification validée et utilisable en production, pour aider les éditeurs dans leur transition.</p>
 
-<h3 id="le-paradigme-document-du-dmp-à-compléter-par-les-autres-paradigmes">Le paradigme “Document” du DMP à compléter par les autres paradigmes</h3>
+<h4 id="le-paradigme-document-du-dmp-à-compléter-par-les-autres-paradigmes">Le paradigme “Document” du DMP à compléter par les autres paradigmes</h4>
 
 <p>En France, le cas d’usage “document” est bien connu, notamment dans le cadre du DMP : un document est un compte rendu médical signé et daté d’un patient.</p>
 
@@ -498,29 +498,32 @@ La SNOMED CT adoptée par la France en 2023 est disponible sur le serveur depuis
     </ul>
 </div>
 
-<h4 id="les-acteurs-influençant-la-trajectoire">Les acteurs influençant la trajectoire</h4>
+<h3 id="les-acteurs-influençant-la-trajectoire">Les acteurs influençant la trajectoire</h3>
 
 <p>De nombreux acteurs influencent la trajectoire et le rôle des experts interopérabilité est d’avoir une vision globale de cet écosystème, de ces acteurs et des spécifications existantes afin de répondre aux besoins en réutilisant au maximum les travaux existants au niveau international, et éviter la nécessité de se ré-aligner par la suite.</p>
 
 <p>Les acteurs peuvent se situer à plusieurs niveaux : au niveau politique, au niveau modélisation technique et au niveau implémentation.</p>
 
-<h5 id="les-acteurs-politiques">Les acteurs politiques</h5>
+<h4 id="les-acteurs-politiques">Les acteurs politiques</h4>
 
-<p>Ministère de la santé, commission européenne, gouvernance EEDS</p>
+<ul>
+  <li>Le Ministère de la santé et plus particulièrement la Délégation du Numérique en Santé (DNS). La mission de la DNS de développer et réguler les usages du numérique, pour répondre aux besoins de notre système de santé, dans le respect d’un cadre de valeur éthique et humaniste. La DNS joue un rôle de chef d’orchestre pour piloter la feuille de route du numérique en santé et garantir sa mise en oeuvre effective. Elle représente l’Etat dans la gouvernance de l’ANS.</li>
+  <li>Le eHealth Network (eHN) : réseau des états membres de l’union européenne. L’eHN a plusieurs missions dont la mise ne place d’applications et de services européens interopérables au bénéfice des citoyens européens, la rédaction de guide sur les données de santé à échanger et les méthodes, et le développement de mesures sur l’identification et l’authentification des acteurs impliqués dans l’échange de données.</li>
+</ul>
 
-<h5 id="les-professionnels-de-santé">Les professionnels de santé</h5>
+<h4 id="les-professionnels-de-santé">Les professionnels de santé</h4>
 
 <p>il est nécessaire de consulter les professionnels de santé pour évaluer des nomes techniques sémantiques ou syntaxiques et de spécifier des profils au plus près de leurs besoins en respectant leurs usages.</p>
 
-<h5 id="les-éditeurs-de-logiciels">Les éditeurs de logiciels</h5>
+<h4 id="les-éditeurs-de-logiciels">Les éditeurs de logiciels</h4>
 
 <p>Les éditeurs vont mettre en œuvre les différentes normes dans leurs solutions applicatives. La trajectoire de l’interopérabilité va dépendre de leur maturité et de leur disponibilté pour mettre en œuvre les standards concertés et prescrits.</p>
 
-<h5 id="les-acteurs-en-charge-de-la-modélisation-technique-organismes-de-standardisation">Les acteurs en charge de la modélisation technique (organismes de standardisation)</h5>
+<h4 id="les-acteurs-en-charge-de-la-modélisation-technique-organismes-de-standardisation">Les acteurs en charge de la modélisation technique (organismes de standardisation)</h4>
 
 <p>IHE, HL7 International, HL7 Europe</p>
 
-<h5 id="les-acteurs-en-charge-de-limplémentation">Les acteurs en charge de l’implémentation</h5>
+<h4 id="les-acteurs-en-charge-de-limplémentation">Les acteurs en charge de l’implémentation</h4>
 
 <p>La CNAM (DMP, Mon Espace Santé), les éditeurs de logiciels de soin</p>
 
@@ -565,13 +568,13 @@ La SNOMED CT adoptée par la France en 2023 est disponible sur le serveur depuis
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 24, 2025 15:51+0000">2025-03-24</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 16, 2025 15:01+0000">2025-06-16</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA </a> |
 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/ig/doctrine/history.html">Historique des versions </a>
- | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/ansforge/FIG_ans-ig-sample/issues/new">New Issue</a>
+ | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/ansforge/IG-doctrine-ci-sis/issues/new">New Issue</a>
 
           </span>
         </p>

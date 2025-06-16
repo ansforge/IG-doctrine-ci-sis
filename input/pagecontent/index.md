@@ -13,7 +13,7 @@ The interoperability framework for health information systems (CI-SIS) sets the 
 </blockquote>
 </div>
 
-L’Agence du Numérique en Santé (ANS) accompagne la transformation numérique du système de santé aux côtés de tous les acteurs concernés des secteurs sanitaire, social et médico-social, privés comme publics, professionnels ou usagers.  Elle met en œuvre les orientations dédiées au secteur de la santé et du médico-social, à travers trois ambitions.
+[L’Agence du Numérique en Santé (ANS)](https://esante.gouv.fr/) accompagne la transformation numérique du système de santé aux côtés de tous les acteurs concernés des secteurs sanitaire, social et médico-social, privés comme publics, professionnels ou usagers.  Elle met en œuvre les orientations dédiées au secteur de la santé et du médico-social, à travers trois ambitions.
 
 <div>
     <ul>
@@ -24,14 +24,15 @@ L’Agence du Numérique en Santé (ANS) accompagne la transformation numérique
 </div>
 
 Dans le rôle de **régulateur** ayant pour ambition de développer la capacité des systèmes d’information en santé à partager et échanger des données de santé de manière fluide, efficace et sécurisée, l’Agence porte la construction d’un cadre commun comprenant l’interopérabilité, la sécurité et l’éthique, permettant ainsi le développement de la e-santé entre l’ensemble des acteurs, et en particulier avec les solutions de la puissance publique, dans le cadre retenu de l’Etat-plateforme.
+
 Ce cadre commun sur l’interopérabilité :
 
 <div>
     <ul>
-        <li>Soutient la dématérialisation des processus en santé, en permettant d’apporter de la valeur ajoutée via le numérique en santé</li>
-        <li>Est au profit des patients, de leur prise en charge, des parcours de soin</li>
-        <li>Est aussi au profit des professionnels de santé et des établissements de santé, afin de permettre la généralisation, le passage à l’échelle, de cas d’usage métier où le numérique en santé contribue à apporter de la valeur ajoutée dans leurs pratiques</li>
-        <li>S’adresse tout particulièrement aux ENS (Entreprises du Numérique en Santé) pour l’implémentation de ce cadre commun dans leurs solutions qui peuvent alors échanger et partager de manière plus fluide, efficace et sécurisée des données de santé. Les ENS peuvent ainsi industrialiser les déploiements et aussi proposer des services à valeur ajoutée (toujours dans le cadre de l’Etat-plateforme)</li>
+        <li><b>Soutient la dématérialisation des processus en santé</b>, en permettant d’apporter de la valeur ajoutée via le numérique en santé</li>
+        <li><b>Est au profit des patients, de leur prise en charge, des parcours de soin</b></li>
+        <li><b>Est aussi au profit des professionnels de santé et des établissements de santé</b>, afin de permettre la généralisation, le passage à l’échelle, de cas d’usage métier où le numérique en santé contribue à apporter de la valeur ajoutée dans leurs pratiques</li>
+        <li><b>S’adresse tout particulièrement aux ENS (Entreprises du Numérique en Santé)</b> pour l’implémentation de ce cadre commun dans leurs solutions qui peuvent alors échanger et partager de manière plus fluide, efficace et sécurisée des données de santé. Les ENS peuvent ainsi industrialiser les déploiements et aussi proposer des services à valeur ajoutée (toujours dans le cadre de l’Etat-plateforme)</li>
     </ul>
 </div>
 
@@ -111,3 +112,16 @@ Les termes suivants sont utilisés dans ce document et peuvent nécessiter des b
         <li>Profil IHE : Les profils IHE décrivent des solutions spécifiques aux problèmes d'interopérabilité. Les profils précisent comment les « acteurs » utilisent les normes/standards pour traiter un cs d'utilisation spécifique des soins de santé.</li>
     </ul>
 </div>
+
+Acronymes | Définitions
+----------|------------
+CGTS | Centre de Gestion des Terminologies de Santé. C’est le guichet national de diffusion des terminologies en usage en France.
+Terminologies | Ensemble des ressources sémantiques telles que les terminologies, classifications, nomenclatures, ontologies, jeux de valeurs, alignements sémantiques etc.
+Interopérabilité syntaxique ou technique | capacité de différents systèmes ou applications à échanger des données en respectant un même format et des protocoles standardisés (ex : XML, JSON, HL7 v2, HL7 FHIR). Elle garantit que les données peuvent être correctement envoyées, reçues et traitées, mais sans assurer qu'elles aient le même sens pour tous les systèmes. L'interopérabilité sémantique intervient ensuite pour donner un sens commun aux données échangées.
+Interopérabilité sémantique | capacité des systèmes à interpréter et comprendre les données échangées de manière identique et cohérente. Elle repose sur des vocabulaires contrôlés, des ontologies et des terminologies (ex : SNOMED CT, LOINC) pour assurer une compréhension commune du sens des informations échangées.
+Volet du CI-SIS | spécification d'interopérabilité qui peut être au format PDF ou guide d'implémentation (IG)
+IHE | Integrated The Healthcare Enterprise, initiative internationale qui a pour but d’améliorer l’interopérabilité dans le domaine de la santé.
+Profil IHE | Les profils IHE décrivent des solutions spécifiques aux problèmes d'interopérabilité. Les profils précisent comment les « acteurs » utilisent les normes/standards pour traiter un cs d'utilisation spécifique des soins de santé.
+
+
+ 

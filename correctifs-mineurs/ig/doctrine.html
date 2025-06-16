@@ -254,13 +254,13 @@ Cette gouvernance est conçue pour faciliter et maîtriser la multiplication des
 <p>Dans l’optique de réduire cette diversité, les profils internationaux ont pour vocation de guider la mise en œuvre des normes et standards généraux dans le contexte de cas d’usage identifiés. C’est le cas par exemple des profils WS ou SAML qui détaillent la mise en œuvre des standards correspondants pour des cas d’usage génériques d’échange entre systèmes d’information.
 Les profils internationaux peuvent également être plus détaillés pour être adaptés à un domaine en particulier. Les organisations internationales HL7, IHE et Continua Alliance, par exemple, produisent des profils adaptés aux cas d’usage du domaine de la santé.</p>
 
-<p>Enfin, les profils nationaux ont pour objectif d’adapter aux contextes nationaux les profils internationaux lorsqu’ils existent ou, à défaut, les normes et standards internationaux techniques et sémantiques. En France, le <a href="https://www.numerique.gouv.fr/publications/interoperabilite">Référentiel Général d’Interopérabilité (RGI)</a> constitue par exemple une adaptation nationale pour des cas d’usage génériques d’échange entre systèmes d’information. Il est censé être en adéquation avec le Cadre d’interopérabilité européen (European Interoperability Framework – EIF).</p>
+<p>Enfin, les profils nationaux ont pour objectif d’adapter aux contextes nationaux les profils internationaux lorsqu’ils existent ou, à défaut, les normes et standards internationaux techniques et sémantiques. En France, le <a href="https://www.numerique.gouv.fr/publications/interoperabilite">Référentiel Général d’Interopérabilité (RGI)</a> constitue par exemple une adaptation nationale pour des cas d’usage génériques d’échange entre systèmes d’information. Il est censé être en adéquation avec le <a href="https://ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf">cadre d’interopérabilité européen</a> (<a href="https://ec.europa.eu/isa2/eif_en/">European Interoperability Framework – EIF</a>).</p>
 
 <p>Dans le domaine de la santé, le CI-SIS regroupe les profils opérationnels correspondant aux cas d’usage français. Il est basé sur des profils IHE ou des guides d’implémentation HL7 FHIR internationaux lorsqu’ils existent ou, à défaut, sur des normes et standards internationaux.</p>
 
 <p>Dans le futur, il est possible que le CI-SIS soit également basé sur des spécifications publiées par d’autres organisations qui font autorité au niveau international telles que l’OMS, les accélérateurs de projets européens/internationaux ou au niveau national avec des organisations telles que <a href="http://www.edess.org/joomla/index.php">EDESS</a> ou <a href="https://www.interopsante.org/">InteropSanté</a>. Cette dernière possibilité pourrait être envisagée uniquement pour des standards nationaux ouverts et libres de droits.</p>
 
-<p>Le CI-SIS est également en cohérence avec les orientations du RGI et du <a href="https://ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf">cadre d’interopérabilité européen</a> (European Interoperabilty Framework – EIF) et identifie formellement les cas où les spécificités des cas d’usage santé nécessitent de s’en écarter.</p>
+<p>Le CI-SIS est également en cohérence avec les orientations du <a href="https://www.numerique.gouv.fr/publications/interoperabilite">RGI</a> et du <a href="https://ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf">cadre d’interopérabilité européen</a> (<a href="https://ec.europa.eu/isa2/eif_en/">European Interoperability Framework – EIF</a>) et identifie formellement les cas où les spécificités des cas d’usage santé nécessitent de s’en écarter.</p>
 
 <div style="text-align: center;" class="figure">
     <img src="positionnement-profil-fr.jpg" alt="CP" style="width:80%;" title="Exemple (non exhaustif) de positionnement de profils français et internationaux par rapport aux normes et standards"/>
@@ -314,8 +314,6 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
         <li> A défaut, consultation des acteurs pour identification de la terminologie de référence à utiliser pour prendre en compte le beosin d'interopérabilité et création de jeux de valeurs ad hoc.</li>
     </ul>
 </div>
-
-<p>Dans un futur proche, une doctrine d’interopérabilité pour les cas d’usage d’aide à la décision clinique viendra compléter la doctrine du CI-SIS.</p>
 
 <p>L’ensemble des spécifications d’interopérabilité (au sein du Cadre d’Interopérabilité des Systèmes d’Information de Santé (CI-SIS)) et des terminologies constitue un bien commun, qui respecte les principes de transparence, de collaboration, de participation et d’éthique.</p>
 
@@ -382,7 +380,7 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
 
 <p>Cependant, l’ANS a défini une <a href="./trajectoire-iop.html">trajectoire d’interopérabilité</a> qui tient compte des orientations retenues par la Commission Européenne dans le cadre de la construction de l’espace de données de santé européen (European Health Data Space - EHDS). Une de ces orientations concerne l’utilisation du standard FHIR en remplacement ou en complément de CDA pour les documents structurés.</p>
 
-<p><a name="l673">​</a>La liste des normes et standards utilisés dans le CI-SIS évolue constamment à la faveur de la production de nouveaux volets du CI-SIS. A titre d’information, les normes et standards qui sont utilisés dans le CI-SIS en septembre 2024 sont présentés <a href="iste_Profils_IHE_Standards.xls">ici</a>.</p>
+<p><a name="l682">​</a>La liste des normes et standards utilisés dans le CI-SIS évolue constamment à la faveur de la production de nouveaux volets du CI-SIS. A titre d’information, les normes et standards qui sont utilisés dans le CI-SIS en septembre 2024 sont présentés <a href="iste_Profils_IHE_Standards.xls">ici</a>.</p>
 
 <h4 id="choix-des-normes-et-standards-non-encore-utilisés-dans-le-ci-sis">Choix des normes et standards non encore utilisés dans le CI-SIS</h4>
 
@@ -426,7 +424,7 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
 
 <div>
     <ul>
-        <li>A. Analyse métier du cas d’usage, modélisation des échanges entre SI conformément à la [méthodologie d’élaboration des spécifications fonctionnelles des échanges](./elaboration.html), et choix de terminologie(s) de référence répondant au cas d’usage étudié selon les principes de la doctrine sémantique ;</li>
+        <li>A. Analyse métier du cas d’usage, modélisation des échanges entre SI conformément à la <a href="./elaboration.html">méthodologie d’élaboration des spécifications fonctionnelles des échanges</a>, et choix de terminologie(s) de référence répondant au cas d’usage étudié selon les principes de la doctrine sémantique ;</li>
         <li>B. Concertation publique sur la spécification fonctionnelle des échanges (intégrant les choix de terminologies) ;</li>
         <li>C. Choix de la norme ou du standard syntaxique selon les principes de la doctrine syntaxique ;</li>
         <li>D. Rédaction des spécifications techniques d’interopérabilité par correspondance entre les échanges modélisés et la syntaxe cible assortie des règles de mise en œuvre tel que définies dans la norme ou le standard choisi ;</li>
@@ -1023,7 +1021,7 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 16, 2025 09:33+0000">2025-06-16</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 16, 2025 16:34+0000">2025-06-16</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

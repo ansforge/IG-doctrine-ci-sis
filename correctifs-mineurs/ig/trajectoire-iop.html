@@ -206,7 +206,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Pour faciliter le partage et l’accès de la donnée de santé, il est nécessaire de construire un langage de données informatique partagé par tous et adapté aux cas d’usage traités. La construction d’un langage commun pertinent et opérationnel, qui réponde efficacement aux besoins identifiés, nécessite une concertation large avec l’ensemble des acteurs de l’écosystème : professionnels de santé, acteurs techniques, décideurs politiques. Cette collaboration est nécessaire pour définir et prioriser une feuille de route, puis élaborer et promouvoir une spécification. La clé de la réussite de l’interopérabilité est de fédérer un maximum d’acteurs afin de valoriser et généraliser l’usage d’une spécification tout en s’appuyant sur les travaux internationaux de standardisation pour une réutilisation maximale des travaux déjà effectués.</p>
 
-<p>Au niveau du développement d’un logiciel, l’interopérabilité doit être pensée au plus tôt, au moment de sa conception afin d’être “interoperable by design”, car une fois mes interfaces graphiques développées et corrélées aux flux propriétaires, il est bien plus coûteux de faire l’évolution dans l’autre sens. 
+<p>Au niveau du développement d’un logiciel, l’interopérabilité doit être pensée au plus tôt, au moment de sa conception afin d’être “interoperable by design”, car une fois les interfaces graphiques développées et corrélées aux flux propriétaires, il est bien plus coûteux de faire l’évolution dans l’autre sens. 
 A noter, l’interopérabilité est souvent confondue avec référencement, mais ces termes ne sont pas synonymes. Bien que l’interopérabilité puisse être une exigence dans le cadre d’un référencement, elle se distingue principalement par sa capacité à faciliter le partage et la réutilisation des données.</p>
 
 <p>L’objectif de cette page est de fournir à l’écosystème une vision sur l’évolution des standards d’interopérabilité déployés en France, notamment ceux utilisés par le CI-SIS, dans les programmes nationaux comme le Ségur du Numérique en Santé et les établissements. Cette trajectoire est vouée à évoluer car les travaux sont constants au niveau international et européen. On peut citer par exemple les actes d’exécution du règlement EEDS qui se baseront a priori sur le standard FHIR R4 dans un premier temps mais dont le choix pourrait évoluer.</p>
@@ -219,9 +219,9 @@ A noter, l’interopérabilité est souvent confondue avec référencement, mais
     <ul>
         <li><b>La <a href="https://interop.esante.gouv.fr/evs/home.seam">plateforme de tests gazelle</a></b> permet à chaque concepteur de logiciels de tester sa conformité aux spécifications d'interopérabilité du CI-SIS.</li>
         <li><b>Le Serveur Multi Terminologique (SMT)</b> est un portail web permettant l'accès à l'ensemble des terminologies, jeux de valeurs et alignements à utiliser en France. Il dispose d'un site web et d'une API pour accéder informatiquement à ces informations. Le SMT est accessible à l’adresse <a href="https://smt.esante.gouv.fr/">(format rdf)</a>  ou <a href="https://smt.esante.gouv.fr/FHIR">(format FHIR)</a></li>
-        <li>L'ANS prône la démarche open source et publie la majorité de ses spécifications d'interopérabilité <b><a href="https://github.com/orgs/ansforge/dashboard">sur GitHub</a></b>. GitHub permet à n'importe qui d'accéder à notre code source et à remonter des erreurs ou de manquements dans une perspective d'amélioration continue.</li>
+        <li>L'ANS prône la démarche open source et publie de plus en plus ses travaux de spécifications d'interopérabilité <b><a href="https://github.com/orgs/ansforge/dashboard">sur GitHub</a></b>. GitHub permet à n'importe qui d'accéder à notre code source et à remonter des erreurs ou de manquements dans une perspective d'amélioration continue.</li>
         <li>L'ANS organise régulièrement des <b>projectathons</b>, évènement unique permettant à tous les éditeurs de se rencontrer et de tester ses interfaces d'interopérabilité de point-à-point. Notre plateforme de tests gazelle est utilisée dans le cadre de ces évènements.</li>
-        <li>L'ANS évangélise et sensibilise l'écosystème à travers de nombreux webinaires et interventions publiques ainsi qu'à travers sa page LinkedIn.</li>
+        <li>L'ANS évangélise et sensibilise l'écosystème à travers de nombreux webinaires et interventions publiques ainsi qu'à travers sa page <a href="https://www.linkedin.com/company/agence-du-numerique-en-sante/">LinkedIn</a>.</li>
     </ul>
 </div>
 
@@ -328,13 +328,13 @@ Il est également à noter que le choix national de la version FHIR utilisée de
 
 <p>Deux scénarios de déploiement de FHIR document ont été identifiés en France</p>
 
-<h6 id="1-mettre-en-place-une-transformation-entre-les-standards-cda-et-fhir">1 Mettre en place une transformation entre les standards CDA et FHIR</h6>
+<h6 id="scenario-1--mettre-en-place-une-transformation-entre-les-standards-cda-et-fhir">Scenario 1 : Mettre en place une transformation entre les standards CDA et FHIR</h6>
 
-<p>Le premier scénario consiste à mettre un place un outil de transformation des documents CDA vers FHIR et inversement. Cependant, ce scénario nécessite de maintenir cet alignement dans le temps. Les techniques d’alignement sont complexes et lourdes à mettre un oeuvre avec un accroissement de la complexité pour chaque nouvelle version de spécification publiée. Par exemple, des <a href="https://www.hl7.it/fhir/cda2fhir/">travaux italiens sur ce sujet</a> contiennent plusieurs dizaines de milliers de lignes. Il y a également des questionnements quant à la responsabilité : qui sera responsable du document en cas d’erreur de transformation ?</p>
+<p>Le premier scénario consiste à mettre un place un outil de transformation des documents CDA vers FHIR et inversement. Cependant, ce scénario nécessite de maintenir cet alignement dans le temps. Les techniques d’alignement sont complexes et lourdes à mettre en oeuvre avec un accroissement de la complexité pour chaque nouvelle version de spécification publiée. Par exemple, des <a href="https://www.hl7.it/fhir/cda2fhir/">travaux italiens sur ce sujet</a> contiennent plusieurs dizaines de milliers de lignes. Il y a également des questionnements quant à la responsabilité : qui sera responsable du document en cas d’erreur de transformation ?</p>
 
-<p>Pour transformer les documents CDA des volets du CI-SIS vers FHIR, il faudrait que l’ensemble des spécifications CDA soient définies au format StructureDefinition pour utiliser le FHIR Mapping Language.</p>
+<p>Pour transformer les documents CDA des volets du CI-SIS vers FHIR, il faudrait que l’ensemble des spécifications CDA soient définies au format <code class="language-plaintext highlighter-rouge">StructureDefinition</code> pour utiliser le FHIR Mapping Language.</p>
 
-<h6 id="2-permettre-une-utilisation-concomitante-de-fhir-et-de-cda-le-temps-de-la-transition">2 Permettre une utilisation concomitante de FHIR et de CDA le temps de la transition</h6>
+<h6 id="scenario-2--permettre-une-utilisation-concomitante-de-fhir-et-de-cda-le-temps-de-la-transition">Scenario 2 : Permettre une utilisation concomitante de FHIR et de CDA le temps de la transition</h6>
 
 <p>Cette solution permettrait une utilisation concomitante de FHIR et de CDA, où les spécifications seront publiées selon les deux modes. Cela permettrait une transition douce avec un timing au choix de chacun pour le passage vers FHIR Document, avec une date limite de décommissionnement de l’autorisation d’écriture en CDA dans le DMP.</p>
 
@@ -568,7 +568,7 @@ La SNOMED CT adoptée par la France en 2023 est disponible sur le serveur depuis
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 16, 2025 09:33+0000">2025-06-16</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 16, 2025 16:34+0000">2025-06-16</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

@@ -731,7 +731,6 @@ L'exemple du diagramme d'objets **"Diagramme d'objets du flux 1 - CreationCercle
     <figcaption><b>Diagramme d'objets du flux 1 - CreationCercleSoins</b></figcaption>
 </div>
 
-Le diagramme d'objets n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir table **"Flux de recherche : Flux 2 – RechercheCercleSoins"**).
 
 **Classe « CercleSoins »**
 
@@ -797,11 +796,9 @@ Le tableau suivant est extrait du modèle de flux « flux 1 – CreationCercleSo
     </tbody>
 </table>
 
-
-Le diagramme de classes n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir tableau ci-dessous).
+Le diagramme d'objets n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir table **"Tableau des critères de recherche du « Flux de recherche : Flux 2 – RechercheCercleSoins »"**).
 
 **Flux de recherche : Flux 2 – RechercheCercleSoins**
-
 
 | Nom | Description | Obligatoire |
 | --- | --- | --- |
@@ -811,7 +808,6 @@ Le diagramme de classes n’est pas approprié pour formaliser un flux de recher
 | CercleSoins/dateFin | Date de fin d'existence du cercle de soins. | Non |
 | CercleSoins/statut | Statut du cercle de soin (actif, inactif, ...) | Non |
 | MembreCercleSoin/idMembreCercleSoin | Identifiant du membre du cercle de soins. | Non |
-
 
 <figcaption><b>Tableau des critères de recherche du « Flux de recherche : Flux 2 – RechercheCercleSoins »</b></figcaption>
 

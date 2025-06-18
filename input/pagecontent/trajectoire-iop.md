@@ -142,15 +142,13 @@ La difficulté reviendrait aux consommateurs qui devront, au moins pendant un te
 
 La solution qui semble se dessiner pour l'ANS et pour la commission européenne est de permettre une utilisation concomitante de FHIR et de CDA pour faire une transition douce, complétée d'une preuve de concept d'un mapping CDA - FHIR, générique, sans aller jusqu'à une spécification validée et utilisable en production, pour aider les éditeurs dans leur transition.
 
-#### Le paradigme "Document" du DMP à compléter par les autres paradigmes
+#### Les différents paradigmes d'échanges de données
 
-En France, le cas d'usage "document" est bien connu, notamment dans le cadre du DMP : un document est un compte rendu médical signé et daté d'un patient.
+En France, le cas d'usage "document" est bien connu, notamment dans le cadre du DMP : un document est un compte rendu médical signé et daté d'un patient. Il existe pourtant d'autres paradigmes tel que le paradigme message, le paradigne REST, la souscription, ... [La documentation de FHIR](https://www.hl7.org/fhir/exchanging.html) facilite la prise de décision en suivant un arbre de décision.
 
-Il existe pourtant trois autres paradigmes : le paradigme service, message et API.
+Par exemple, les trois API FHIR de Mon Espace Santé (Mesures de santé, Agenda et document) permettent d'accéder aux données via des requêtes REST.
 
-Il y a par exemple déjà actuellement les API Mesures de santé et Agenda de Mon Espace Santé où il y a des données accessibles via des requêtes REST sans document médical.
-
-Ainsi, il ne faudra pas négliger ce paradigme API REST pour certains cas d'usages s'y prêtant bien, comme par exemple une API de vaccination, une API Cercle de Soins, une API pour la diffusion des essais cliniques ouverts au recrutement. L'intérêt tout particulier de ce type d'API réside sur l'utilisation de critères de recherches standards définis par FHIR pour accéder à l'information d'intérêt simplement, sans superflu.
+Une étude approfondie du besoin est nécessaire pour identifier le paradigme idéal par cas d'usage.
 
 ### La trajectoire sémantique
 

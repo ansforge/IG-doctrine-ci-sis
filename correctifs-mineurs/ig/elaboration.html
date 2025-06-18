@@ -1098,95 +1098,69 @@ Il n’y a pas de règle pour la mise en correspondance entre un concept métier
     <figcaption><b>Diagramme d'objets du flux 1 - CreationCercleSoins</b></figcaption>
 </div>
 
-<p><strong>Classe « CercleSoins »</strong></p>
+<!-- **Classe « CercleSoins »**
 
-<p>Le Cercle de Soins comprend toutes les personnes (Professionnel ou Personne Tierce) et Entités qui participent à la prise en charge et aux actions de coordination du parcours de santé d’un Usager. Le Cercle de Soins possède un statut (actif, inactif…), une date de début, une date de fin et une date de mise à jour.</p>
+Le Cercle de Soins comprend toutes les personnes (Professionnel ou Personne Tierce) et Entités qui participent à la prise en charge et aux actions de coordination du parcours de santé d’un Usager. Le Cercle de Soins possède un statut (actif, inactif…), une date de début, une date de fin et une date de mise à jour.
 
-<table>
-  <thead>
-    <tr>
-      <th>Nom</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>idCercleSoins : [1..1] Identifiant</td>
-      <td>Identifiant du cercle de soins.</td>
-    </tr>
-    <tr>
-      <td>dateCreation : [1..1] Date</td>
-      <td>Date de création du cercle de soin.</td>
-    </tr>
-    <tr>
-      <td>dateMAJ : [1..*] Date</td>
-      <td>Date de mise à jour du cercle de soin.</td>
-    </tr>
-    <tr>
-      <td>dateFin : [1..1] string</td>
-      <td>Date de fin d’existence du cercle de soins.</td>
-    </tr>
-    <tr>
-      <td>statut : [1..1] string</td>
-      <td>Statut du cercle de soin (actif, inactif, …).</td>
-    </tr>
-    <tr>
-      <td>metadonnee : [1..1] Metadonnee</td>
-      <td>Informations relatives à la gestion des classes et des données.</td>
-    </tr>
-  </tbody>
-</table>
+| Nom | Description |
+| --- | --- |
+| idCercleSoins : [1..1] Identifiant | Identifiant du cercle de soins. |
+| dateCreation : [1..1] Date | Date de création du cercle de soin. |
+| dateMAJ : [1..*] Date | Date de mise à jour du cercle de soin.|
+| dateFin : [1..1] string | Date de fin d'existence du cercle de soins. |
+| statut : [1..1] string | Statut du cercle de soin (actif, inactif, ...).|
+| metadonnee : [1..1] Metadonnee | Informations relatives à la gestion des classes et des données. |
 
-<p><strong>Classe « PersonnePriseCharge »</strong></p>
+**Classe « PersonnePriseCharge »**
 
-<p>Personne physique bénéficiaire de soins, d’examens, d’actes de prévention ou de services. Selon le contexte, la personne prise en charge peut être un patient ou un usager.</p>
+Personne physique bénéficiaire de soins, d'examens, d'actes de prévention ou de services. Selon le contexte, la personne prise en charge peut être un patient ou un usager.
 
-<p>Le tableau suivant est extrait du modèle de flux « flux 1 – CreationCercleSoin »</p>
+Le tableau suivant est extrait du modèle de flux « flux 1 – CreationCercleSoin »
 
 <table style="border-collapse:collapse;border:none;">
     <tbody>
         <tr>
             <td style="width: 226.55pt;border: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;"><span style="color:#404040;font-style:italic;"><strong><span style="color:#4F81BD;">Nom</span></strong></span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="color:#404040;font-style:italic;"><strong><span style="color:#4F81BD;">Nom</span></strong></span></p>
             </td>
             <td style="width: 226.55pt;border-top: 1pt solid windowtext;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-image: initial;border-left: none;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;"><span style="color:#404040;font-style:italic;"><strong><span style="color:#4F81BD;">Description</span></strong></span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="color:#404040;font-style:italic;"><strong><span style="color:#4F81BD;">Description</span></strong></span></p>
             </td>
         </tr>
         <tr>
             <td style="width: 226.55pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">idPersonnePriseCharge : [1..1] Identifiant&nbsp;</span></p>
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>idPersonnePriseCharge : [1..1] Identifiant&nbsp;</span></p>
             </td>
             <td style="width: 226.55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">Identifiant(s) de la personne prise en charge (identifiants de sant&eacute;, identifiants locaux, etc.).&nbsp;</span></p>
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>Identifiant(s) de la personne prise en charge (identifiants de sant&eacute;, identifiants locaux, etc.).&nbsp;</span></p>
             </td>
         </tr>
         <tr>
             <td style="width: 226.55pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">adresseCorrespondance : [1..1] Adresse&nbsp;</span></p>
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>adresseCorrespondance : [1..1] Adresse&nbsp;</span></p>
             </td>
             <td style="width: 226.55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">Adresse(s) de correspondance de la personne prise en charge.&nbsp;</span></p>
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>Adresse(s) de correspondance de la personne prise en charge.&nbsp;</span></p>
             </td>
         </tr>
         <tr>
             <td style="width: 226.55pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">telecommunication : [1..*] Telecommunication&nbsp;</span></p>
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>telecommunication : [1..*] Telecommunication&nbsp;</span></p>
             </td>
             <td style="width: 226.55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">Adresse(s) de t&eacute;l&eacute;communication de la personne prise en charge (num&eacute;ro de t&eacute;l&eacute;phone, adresse email, URL, etc.).&nbsp;</span></p>
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>Adresse(s) de t&eacute;l&eacute;communication de la personne prise en charge (num&eacute;ro de t&eacute;l&eacute;phone, adresse email, URL, etc.).&nbsp;</span></p>
             </td>
         </tr>
         <tr>
             <td style="width: 226.55pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">metadonnee : [1..1] Metadonnee&nbsp;</span></p>
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>metadonnee : [1..1] Metadonnee&nbsp;</span></p>
             </td>
             <td style="width: 226.55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">Informations relatives &agrave; la gestion des classes et des donn&eacute;es.&nbsp;</span></p>
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>Informations relatives &agrave; la gestion des classes et des donn&eacute;es.&nbsp;</span></p>
             </td>
         </tr>
     </tbody>
-</table>
+</table> -->
 
 <p>Le diagramme d’objets n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir table <strong>“Tableau des critères de recherche du « Flux de recherche : Flux 2 – RechercheCercleSoins »”</strong>).</p>
 
@@ -1379,7 +1353,7 @@ Il n’y a pas de règle pour la mise en correspondance entre un concept métier
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 18, 2025 12:15+0000">2025-06-18</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 18, 2025 12:17+0000">2025-06-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

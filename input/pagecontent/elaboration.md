@@ -809,7 +809,9 @@ Le diagramme d'objets n’est pas approprié pour formaliser un flux de recherch
 | CercleSoins/statut | Statut du cercle de soin (actif, inactif, ...) | Non |
 | MembreCercleSoin/idMembreCercleSoin | Identifiant du membre du cercle de soins. | Non |
 
-<figcaption><b>Tableau des critères de recherche du « Flux de recherche : Flux 2 – RechercheCercleSoins »</b></figcaption>
+<div class="figure" style='text-align: center;'>
+    <figcaption><b>Tableau des critères de recherche du « Flux de recherche : Flux 2 – RechercheCercleSoins »</b></figcaption>
+</div>
 
 **Diagramme d’objet du flux 1 – CreationCercleSoins**
 

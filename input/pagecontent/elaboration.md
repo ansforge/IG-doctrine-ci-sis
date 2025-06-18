@@ -77,7 +77,7 @@ Les cas d’usage sont décrits à ce niveau. Il s’agit de détailler, à l’
 
 Le but de cette étape est de placer l'étude dans son contexte et d'identifier le ou les processus collaboratifs du périmètre de cette étude.
 
-Si les informations de contexte s'avèrent insuffisantes à cette étape, il est tout à fait possible de passer à l'étape 2, en définissant les processus collaboratifs du périmètre de l'étude. Une fois les processus collaboratifs définis, il est envisageable de reprendre l'étape 1 en les rassemblant en groupes de processus. Il est également possible de revenir l'étape 1 à tout moment, quelle que soit l'étape en cours de spécification.
+Si les informations de contexte s'avèrent insuffisantes à cette étape, il est tout à fait possible de passer à l'[étape 2](elaboration.html#etape-2--d%C3%A9finition-des-processus-collaboratifs), en définissant les processus collaboratifs du périmètre de l'étude. Une fois les processus collaboratifs définis, il est envisageable de reprendre l'étape 1 en les rassemblant en groupes de processus. Il est également possible de revenir à l'étape 1 à tout moment, quelle que soit l'étape en cours de spécification.
 
 Une fois identifiés, les processus sont représentés dans un diagramme de paquetages.
 
@@ -91,7 +91,7 @@ Le paquetage **<<Domaine>>** représente le domaine d'activité dans lequel se s
 
 Le paquetage **<<GroupeProcessus>>** est composé d'un ou plusieurs processus métier collaboratifs.
 
-Le paquetage **<<Processus>>** représente le processus métier collaboratif qui est décrit à partir de l'étape 2. A noter que le périmètre de l'étude concerne des processus qui peuvent être présents dans un seul groupe de processus ou répartis dans plusieurs groupes de processus.
+Le paquetage **<<Processus>>** représente le processus métier collaboratif qui est décrit à partir de l'[étape 2](elaboration.html#etape-2--d%C3%A9finition-des-processus-collaboratifs). A noter que le périmètre de l'étude concerne des processus qui peuvent être présents dans un seul groupe de processus ou répartis dans plusieurs groupes de processus.
 
 ##### Règles applicables
 
@@ -107,7 +107,7 @@ Les règles applicables dans cette étape sont les suivantes :
 
 ##### Exemple
 
-Le diagramme de paquetages de la ci-dessous est extrait de l’étude "Cercle de soins". Le processus collaboratif faisant partie du périmètre de l’étude est indiqué en bleu sur ce diagramme.
+Le diagramme de paquetages ci-dessous est extrait de l’étude "Cercle de soins". Le processus collaboratif faisant partie du périmètre de l’étude est indiqué en bleu sur ce diagramme.
 
 <div class="figure" style='text-align: center;'>
     <img src="ex-cds.png" alt="CP" title="Organisation du contexte métier de l’étude « Cercle de soins »" style="width:50%;">
@@ -116,8 +116,10 @@ Le diagramme de paquetages de la ci-dessous est extrait de l’étude "Cercle de
 
 #### Etape 2 : définition des processus collaboratifs
 
-Les processus métier collaboratifs ont été identifiés à l'étape 1 "Organisation du contexte métier". Le but de l'étape 2 est de les décrire.
-Cette modélisation est une vue macroscopique des processus qui sont représentés au moyen de diagrammes de cas d’utilisation UML. Dans cette étape, l'action la plus importante consiste à identifier, définir et relier les acteurs aux processus.
+Les processus métier collaboratifs ont été identifiés à l'[étape 1 "Organisation du contexte métier"](elaboration.html#etape-1--organisation-du-contexte-m%C3%A9tier). Le but de l'étape 2 est de les décrire.
+Cette modélisation est une vue macroscopique des processus qui sont représentés au moyen de diagrammes de cas d’utilisation UML.
+
+Dans cette étape, l'action la plus importante consiste à **identifier, définir et relier les acteurs aux processus**.
 
 D’éventuelles dépendances entre les processus peuvent être formalisées par des :
 
@@ -130,6 +132,7 @@ D’éventuelles dépendances entre les processus peuvent être formalisées par
 </div>
 
 Toutefois, l’exercice ne doit pas être poussé trop loin. Si ces notions d’héritage, d'inclusion et d'extension semblent incontournables, il faut néanmoins avant d’y recourir, revoir la liste des processus et vérifier qu’elle est pertinente.
+
 Un diagramme de cas d’utilisation contient un à plusieurs cas d'utilisation ainsi que les acteurs impliqués. Chaque cas d’utilisation correspond à un processus métier collaboratif. Les caractéristiques du cas d’utilisation sont détaillées à la suite du diagramme.
 
 ##### Description des acteurs
@@ -210,9 +213,9 @@ Les règles applicables à cette étape sont les suivantes :
 
 #### Etape 3 : identification des flux
 
-Les processus métier collaboratifs ont été identifiés à l'étape 1 "Organisation du contexte métier", puis définis à l'étape 2 "Définition des processus collaboratifs". Le but de l'étape 3 est de décrire le comportement des acteurs stéréotypés **<<Rôle>>** identifiés à l’étape 2 et de préciser les flux échangés par ces acteurs **<<Rôle>>**.
+Les processus métier collaboratifs ont été identifiés à l'[étape 1 "Organisation du contexte métier"](elaboration.html#etape-1--organisation-du-contexte-m%C3%A9tier), puis définis à l'étape 2 "Définition des processus collaboratifs". Le but de l'étape 3 est de décrire le comportement des acteurs stéréotypés **<<Rôle>>** identifiés à l’[étape 2](elaboration.html#etape-2--d%C3%A9finition-des-processus-collaboratifs) et de préciser les flux échangés par ces acteurs **<<Rôle>>**.
 
-Il est préconisé de modéliser chaque processus métier collaboratif identifié à l'étape 2, par un diagramme d'activité UML. Le résultat de l’étape 3 est un ensemble de diagrammes d’activité. Chaque diagramme est composé d’acteurs **<<Rôle>>** (représentés par des travées), d’actions et de flux.
+Il est préconisé de modéliser chaque processus métier collaboratif identifié à l'[étape 2](elaboration.html#etape-2--d%C3%A9finition-des-processus-collaboratifs), par un diagramme d'activité UML. Le résultat de l’étape 3 est un ensemble de diagrammes d’activité. Chaque diagramme est composé d’acteurs **<<Rôle>>** (représentés par des travées), d’actions et de flux.
 
 Cette modélisation peut être faite, si souhaité, par un diagramme BPMN ou un diagramme de séquence UML. Le diagramme BPMN offre plus d'options de modélisation que le diagramme d’activité UML. Il est donc possible de réduire les options de modélisation BPMN à celles préconisées par la méthode.
 
@@ -224,7 +227,7 @@ Il est possible, afin d’offrir une vue globale, de représenter en annexe des 
 
 Chaque acteur est représenté sur le diagramme par une travée appelée aussi partition, couloir ou ligne d’eau. Une travée rassemble les actions, nœuds de contrôle et flux sous la responsabilité de cet acteur.
 
-Les acteurs représentés sont ceux décrits sous le stéréotype " Rôle ", à l’étape 2.
+Les acteurs représentés sont ceux décrits sous le stéréotype " Rôle ", à l’[étape 2](elaboration.html#etape-2--d%C3%A9finition-des-processus-collaboratifs).
 
 ##### Description des actions
 
@@ -272,7 +275,7 @@ Les règles applicables à cette étape sont les suivantes :
 
 <div>
     <ul>
-        <li>Les noms des flux doivent être écrits au singulier et respecter la convention de nommage [UpperCamelCase](https://fr.wikipedia.org/wiki/CamelCase) ;</li>
+        <li>Les noms des flux doivent être écrits au singulier et respecter la convention de nommage <a href="https://fr.wikipedia.org/wiki/CamelCase">UpperCamelCase</a>;</li>
         <li>Les articles, propositions, etc. ainsi que les accents doivent être retirés des noms des flux ;</li>
         <li>Les actions doivent commencer par un verbe à l’infinitif ;</li>
         <li>Les noms des acteurs doivent suivre la convention suivante : " InstanceActeur : RoleActeur " ; seul   RoleActeur » est à renseigner.</li>
@@ -306,7 +309,8 @@ Un tableau récapitulatif permet de décrire chaque flux d’information identif
 </div>
 
 Lorsqu’un même flux d’informations est identifié dans plusieurs processus, ou plusieurs fois dans le même processus, le tableau compte alors autant de lignes que de fois où le flux est identifié.
-Remarque : Un même flux d’informations évoluant dans le temps peut être constitué d'instances différentes. Par exemple, un dossier de sinistre d’assurance circule entre plusieurs acteurs et est rempli au fur et à mesure de l’avancée dans le processus. Le tableau est alors constitué de plusieurs lignes pour le même flux. Il est alors recommandé par la suite, à partir de l'étape 5, de factoriser ces instances et de ne considérer, qu’un seul flux regroupant toutes les informations nécessaires au déroulement du processus.
+
+**Remarque :** Un même flux d’informations évoluant dans le temps peut être constitué d'instances différentes. Par exemple, un dossier de sinistre d’assurance circule entre plusieurs acteurs et est rempli au fur et à mesure de l’avancée dans le processus. Le tableau est alors constitué de plusieurs lignes pour le même flux. Il est alors recommandé par la suite, à partir de l'étape 5, de factoriser ces instances et de ne considérer, qu’un seul flux regroupant toutes les informations nécessaires au déroulement du processus.
 
 Exemple du tableau de synthèse de l’ensemble des flux d’information dans le contexte du volet « Cercle de soins » :
 
@@ -487,13 +491,13 @@ Par exemple, dans le contexte du volet « Cercle de soins », il est possible de
     </tbody>
 </table>
 
-(Note 1) : dans le cas où l’acteur supporte l’option Création des acteurs du cercle de soins, il doit également supporter obligatoirement l’option Création du cercle de soins.
+**(Note 1) :** dans le cas où l’acteur supporte l’option Création des acteurs du cercle de soins, il doit également supporter obligatoirement l’option Création du cercle de soins.
 
 Le même principe s’applique aux autres acteurs identifiés pour lesquels une ou plusieurs options ont été identifiées.
 
 Enfin, il est possible également de préciser les groupements entre les acteurs identifiés par l’étude fonctionnelle et d’autres acteurs définis en dehors du volet en construction mais déjà décrits dans d’autres volets du CI-SIS ou dans d’autres spécifications de portée internationale.
 
-Les étapes 1, 2, 3 et 4 font l’objet d’une harmonisation du contenu d’une spécification d’interopérabilité, définissant ainsi un plan type des spécifications d’interopérabilité qui s’appliqué également aux guides d’implémentation (y compris les IG FHIR).
+Les étapes 1, 2, 3 et 4 font l’objet d’une harmonisation du contenu d’une spécification d’interopérabilité, définissant ainsi un plan type des spécifications d’interopérabilité qui s’appliqué également aux guides d’implémentation (y compris les guides d'implémentation FHIR).
 
 Tout volet du CI-SIS, quel que soit son format doit contenir les sections suivantes (sous forme de parties dans le cas d’une spécification PDF ou d’onglets dans le cas d’un guide d’implémentation) :
 
@@ -530,7 +534,7 @@ Tout volet du CI-SIS, quel que soit son format doit contenir les sections suivan
 
 #### Etape 4 : identification des concepts véhiculés dans les flux d’information
 
-Les flux d’informations échangés par les acteurs dans les processus métier collaboratifs ont été identifiés et décrits à l’étape 3. Le but de l’étape 4 est d’identifier les concepts métier véhiculés dans les flux et de les associer aux concepts du modèle des objets de santé (MOS). Le MOS est un ensemble de concepts, décrits de manière homogène et neutre vis-à-vis des technologies. Il offre une description commune et mutualisée des informations traitées dans les systèmes d’information et les échanges.
+Les flux d’informations échangés par les acteurs dans les processus métier collaboratifs ont été identifiés et décrits à l’[étape 3](elaboration.html#etape-3--identification-des-flux). Le but de l’étape 4 est d’identifier les concepts métier véhiculés dans les flux et de les associer aux concepts du modèle des objets de santé (MOS). Le MOS est un ensemble de concepts, décrits de manière homogène et neutre vis-à-vis des technologies. Il offre une description commune et mutualisée des informations traitées dans les systèmes d’information et les échanges.
 
 Cette étape est découpée en deux sous-étapes :
 
@@ -540,11 +544,12 @@ Cette étape est découpée en deux sous-étapes :
         <li>Sous-étape 4.2 : Correspondance entre les concepts métier identifiés et les concepts du MOS.</li>
     </ul>
 </div>
-##### Identification des concepts
+
+##### Sous-étape 4.1 : Identification des concepts
 
 L’identification des concepts métier véhiculés dans chacun des flux est un exercice d’inventaire qui nécessite une collecte des informations auprès du métier, flux par flux.
-D’un point de vue pratique dans cette étape, les concepts métier sont tous identifiés à des classes UML, quel que soit leur devenir, classe ou attribut, dans les étapes suivantes de l’étude. Ils respectent les conventions de nommage des classes du MOS, définies à l’étape 5.
-Le résultat de cette approche est consigné dans des tableaux qui listent, pour chaque flux, les concepts métier véhiculés et leur définition (voir Figure 15).
+D’un point de vue pratique dans cette étape, les concepts métier sont tous identifiés à des classes UML, quel que soit leur devenir, classe ou attribut, dans les étapes suivantes de l’étude. Ils respectent les conventions de nommage des classes du MOS, définies à l’[étape 5](elaboration.html#etape-5--modélisation-des-flux-dinformation).
+Le résultat de cette approche est consigné dans des tableaux qui listent, pour chaque flux, les concepts métier véhiculés et leur définition (voir exemple dans le tableau ci-dessous).
 
 Exemple :
 
@@ -556,7 +561,7 @@ Exemple :
 
 Tableau : Extrait des concepts métier présents dans l’étude « Cercle de soins »
 
-##### Identification des classes génériques
+##### Sous-étape 4.2 :Identification des classes génériques
 
 Une des principales difficultés lors de la modélisation des informations d'un échange est de ne pas réinventer à chaque fois une modélisation différente pour ces mêmes informations. Il faut, par exemple, veiller à représenter les informations relatives à "une personne physique" de la même façon dans chaque projet.
 Le but de cette partie est d'identifier, pour chaque concept métier, les composants du MOS les plus pertinents à réutiliser lors de la modélisation du flux, à partir des tableaux des concepts métier définis lors de la sous-étape 4.1.
@@ -596,7 +601,7 @@ Par la suite, les extensions sont instruites pour déterminer si elles sont :
 
 **Construction du tableau de mise en correspondance**
 
-La démarche s’applique pour chacun des concepts métier identifiés, que ce concept devienne une classe ou un ou plusieurs attributs. Suite à cette analyse, il est possible de construire un tableau de correspondance entre le concept métier et le concept MOS associé (voir Figure 18).
+La démarche s’applique pour chacun des concepts métier identifiés, que ce concept devienne une classe ou un ou plusieurs attributs. Suite à cette analyse, il est possible de construire un tableau de correspondance entre le concept métier et le concept MOS associé (voir tableau ci-dessous).
 
 Ce tableau contient les éléments suivants :
 
@@ -628,7 +633,8 @@ Tableau : Correspondance « concepts métier/MOS » pour les flux du volet « Ce
 
 #### Etape 5 : modélisation des flux d’information
 
-Les concepts véhiculés par les flux d’informations ont été identifiés à l’étape 4. Le but de cette étape est d'élaborer le modèle sous tendu par chaque flux à partir des concepts métier et des classes et attributs existants dans le MOS.
+Les concepts véhiculés par les flux d’informations ont été identifiés à l’[étape 4](elaboration.html#etape-4--identification-des-concepts-véhiculés-dans-les-flux-dinformation). Le but de cette étape est d'élaborer le modèle sous tendu par chaque flux à partir des concepts métier et des classes et attributs existants dans le MOS.
+
 Le modèle sous tendu par chaque flux d’information est modélisé par un diagramme de classes UML. Cette représentation formalisée du flux doit prendre en compte les deux exigences suivantes :
 
 <div>
@@ -640,12 +646,14 @@ Le modèle sous tendu par chaque flux d’information est modélisé par un diag
 
 ##### Modélisation des flux
 
-Le but de cette étape est d’établir la modélisation de chaque flux en utilisant les concepts identifiés à l'étape précédente. Cette modélisation est le résultat de cinq opérations.
-Remarque : Le cas particulier des flux de recherche est traité à la suite de la modélisation des flux afin de lier les critères de recherche aux classes et attributs identifiés.
+Le but de cette étape est d’établir la modélisation de chaque flux en utilisant les concepts identifiés à l'étape précédente. Cette modélisation est le résultat de cinq opérations que nous allons détailler dans cette section.
+
+**Remarque :** Le cas particulier des flux de recherche est traité à la suite de la modélisation des flux afin de lier les critères de recherche aux classes et attributs identifiés.
 
 **Première opération : choix de la racine**
 
-Le modèle du flux a toujours comme point de départ une classe unique, appelée la classe racine. Elle reprend le nom du flux identifié à l'étape 3. Elle n'a pas d'attribut.
+Le modèle du flux a toujours comme point de départ une classe unique, appelée la classe racine. Elle reprend le nom du flux identifié à l'[étape 3](elaboration.html#etape-3--identification-des-flux). Elle n'a pas d'attribut.
+
 Les noms des éléments du modèle respectent les conventions de nommage du MOS, à savoir :
 
 <div>
@@ -716,14 +724,15 @@ Le modèle du flux est neutre de toute syntaxe ; il est la base des évolutions 
 
 Le diagramme contient les classes sélectionnées du MOS et restreintes ainsi que de nouvelles classes propres à la description fonctionnelle. Chaque attribut est défini par un type de donnée et des cardinalités, les attributs de type "Code" sont associés à leur nomenclature ; cette dernière information figure dans la documentation du diagramme de classes.
 
-L'exemple du diagramme de classe "Flux 1 - CreationCercleSoins" illustre la construction du modèle d’un flux. Pour plus de lisibilité dans cet exemple, les classes issues du MOS ont été identifiées à l’aide du symbole *. Il est complété par le diagramme d'objet correspondant en Figure 19.
-
-Le diagramme de classes n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir Figure ci-dessous).
+L'exemple du diagramme de classe "Flux 1 - CreationCercleSoins" illustre la construction du modèle d’un flux. Pour plus de lisibilité dans cet exemple, les classes issues du MOS ont été identifiées à l’aide du symbole *. Il est complété par le diagramme d'objet correspondant.
 
 <div class="figure" style='text-align: center;'>
     <img src="flux1-creation-cds.png" alt="CP" title="Flux 1 - création CDS" style="width:80%;">
     <figcaption><b>Flux 1 - création CDS</b></figcaption>
 </div>
+
+Le diagramme de classes n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir Figure ci-dessous).
+
 
 **Classe « CercleSoins »**
 

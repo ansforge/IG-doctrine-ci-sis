@@ -220,7 +220,7 @@ Il existe de nombreux défis au niveau de la trajectoire sémantique française
     </ul>
 </div>
 
-La réponse à ces défis est multiple
+La réponse à ces défis est multiple :
 
 Sur le plan technique
 
@@ -268,7 +268,7 @@ Elles sont suivies par les terminologies médicales de l’OMS (CIM 11 en déplo
 Les terminologies de cyto-anapathologie, des dispositifs médicaux, des expositions professionnelles et des actes suivent ensuite.
 La SNOMED CT adoptée par la France en 2023 est disponible sur le serveur depuis novembre 2023. Environ 50 téléchargements sont opérés mensuellement.
 
-Les priorités 2025 - 2027 : 
+**Les priorités 2025 - 2027 :**
 
 Sur le plan outillage et publication
 
@@ -319,4 +319,4 @@ IHE, HL7 International, HL7 Europe
 
 #### Les acteurs en charge de l'implémentation
 
-La CNAM (DMP, Mon Espace Santé), les éditeurs de logiciels de soin
+La CNAM (DMP, Mon Espace Santé), les éditeurs de logiciels de santé.

@@ -750,6 +750,8 @@ Le Cercle de Soins comprend toutes les personnes (Professionnel ou Personne Tier
 
 Personne physique bénéficiaire de soins, d'examens, d'actes de prévention ou de services. Selon le contexte, la personne prise en charge peut être un patient ou un usager.
 
+Le tableau suivant est extrait du modèle de flux « flux 1 – CreationCercleSoin »
+
 <table style="border-collapse:collapse;border:none;">
     <tbody>
         <tr>
@@ -795,7 +797,8 @@ Personne physique bénéficiaire de soins, d'examens, d'actes de prévention ou 
     </tbody>
 </table>
 
-Tableaut extrait du modèle de flux « flux 1 – CreationCercleSoin »
+
+Le diagramme de classes n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir tableau ci-dessous).
 
 **Flux de recherche : Flux 2 – RechercheCercleSoins**
 

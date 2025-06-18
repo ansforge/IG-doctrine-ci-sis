@@ -3,7 +3,7 @@ DoctrineCISIS : Validation Results
 
 err = 2, warn = 4, info = 0
 IG Publisher Version: 2.0.7
-Generated Wed Jun 18 11:53:06 UTC 2025. FHIR version 4.0.1 for ans.fr.doctrine#0.1.0-ballot (canonical = https://interop.esante.gouv.fr/ig/doctrine)
+Generated Wed Jun 18 12:05:24 UTC 2025. FHIR version 4.0.1 for ans.fr.doctrine#0.1.0-ballot (canonical = https://interop.esante.gouv.fr/ig/doctrine)
  Build Errors : 2 / 6 / 0
  /home/runner/work/IG-doctrine-ci-sis/IG-doctrine-ci-sis/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.doctrine : 1 / 0 / 1
 </table>

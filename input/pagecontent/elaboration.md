@@ -731,9 +731,6 @@ L'exemple du diagramme de classe "Flux 1 - CreationCercleSoins" illustre la cons
     <figcaption><b>Flux 1 - création CDS</b></figcaption>
 </div>
 
-Le diagramme de classes n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir Figure ci-dessous).
-
-
 **Classe « CercleSoins »**
 
 Le Cercle de Soins comprend toutes les personnes (Professionnel ou Personne Tierce) et Entités qui participent à la prise en charge et aux actions de coordination du parcours de santé d’un Usager. Le Cercle de Soins possède un statut (actif, inactif…), une date de début, une date de fin et une date de mise à jour.
@@ -750,6 +747,8 @@ Le Cercle de Soins comprend toutes les personnes (Professionnel ou Personne Tier
 **Classe « PersonnePriseCharge »**
 
 Personne physique bénéficiaire de soins, d'examens, d'actes de prévention ou de services. Selon le contexte, la personne prise en charge peut être un patient ou un usager.
+
+Le tableau suivant est extrait du modèle de flux « flux 1 – CreationCercleSoin »
 
 <table style="border-collapse:collapse;border:none;">
     <tbody>
@@ -796,7 +795,8 @@ Personne physique bénéficiaire de soins, d'examens, d'actes de prévention ou 
     </tbody>
 </table>
 
-Tableaut extrait du modèle de flux « flux 1 – CreationCercleSoin »
+
+Le diagramme de classes n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir tableau ci-dessous).
 
 **Flux de recherche : Flux 2 – RechercheCercleSoins**
 

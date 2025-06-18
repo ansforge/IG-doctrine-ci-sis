@@ -819,7 +819,7 @@ Le diagramme de classes n’est pas approprié pour formaliser un flux de recher
 
 <div class="figure" style='text-align: center;'>
     <img src="diagramme-cds.png" alt="CP" title="Diagramme d’objet du flux 1 – CreationCercleSoins**" style="width:80%;">
-    <figcaption><b>Diagramme d’objet du flux 1 – CreationCercleSoins**</b></figcaption>
+    <figcaption><b>Exemples d'instances respectant le diagramme d’objet du flux 1 </b></figcaption>
 </div>
 
 ### Cas spécifique des mises à jour des spécifications

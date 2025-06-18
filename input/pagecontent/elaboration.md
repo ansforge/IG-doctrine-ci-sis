@@ -732,7 +732,7 @@ L'exemple du diagramme d'objets **"Diagramme d'objets du flux 1 - CreationCercle
 </div>
 
 
-**Classe « CercleSoins »**
+<!-- **Classe « CercleSoins »**
 
 Le Cercle de Soins comprend toutes les personnes (Professionnel ou Personne Tierce) et Entités qui participent à la prise en charge et aux actions de coordination du parcours de santé d’un Usager. Le Cercle de Soins possède un statut (actif, inactif…), une date de début, une date de fin et une date de mise à jour.
 
@@ -794,7 +794,7 @@ Le tableau suivant est extrait du modèle de flux « flux 1 – CreationCercleSo
             </td>
         </tr>
     </tbody>
-</table>
+</table> -->
 
 Le diagramme d'objets n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir table **"Tableau des critères de recherche du « Flux de recherche : Flux 2 – RechercheCercleSoins »"**).
 

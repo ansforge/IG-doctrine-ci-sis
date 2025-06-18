@@ -116,9 +116,9 @@ Ces règles de nommage ont été établies en s'inspirant des ressources [us-cor
 
 La documentation officielle se trouve sur le [confluence d'HL7](https://confluence.hl7.org/pages/viewpage.action?pageId=35718826#GuidetoDesigningResources-NamingRules&Guidelines)
 
-Les critères de qualité **CDA** sont :
+<!--Les critères de qualité **CDA** sont :
 
-**A remplir par l'équipe CDA**
+**A remplir par l'équipe CDA** -->
 
 ### Définition des métadonnées associées à une spécification d'interopérabilité
 

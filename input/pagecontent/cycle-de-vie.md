@@ -12,7 +12,7 @@ Les statuts « trial-implementation » et « final-text » reflètent la matur
 
 #### Le statut « draft » ou « version-de-travail »
 
-Le statut « draft » correspond à une spécification **en cours de cours de création ou de modification**.
+Le statut « draft » correspond à une spécification **en cours de création ou de modification**.
 Ce statut est particulièrement important pour les spécifications développées sur GitHub car tous les travaux sont publics et donc accessibles à tout moment : de la création du répertoire GitHub à la publication. C'est le statut d'une spécification publiée en mode intégration continue (ci-build).
 
 #### Le statut « public-comment » ou « en-concertation »

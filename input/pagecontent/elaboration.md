@@ -718,20 +718,21 @@ Comme mentionné précédemment, des demandes de modifications sont à émettre 
 
 **Illustration des flux modélisés – Diagramme d’objets**
 
-Le résultat est constitué par un diagramme de classes par flux, appelé modèle du flux, accompagné de la documentation des classes, attributs et règles.
+Le résultat est constitué par un diagramme d'objets par flux, appelé modèle du flux, accompagné de la documentation des classes, attributs et règles.
 
 Le modèle du flux est neutre de toute syntaxe ; il est la base des évolutions fonctionnelles. Il est ensuite transformé, automatiquement ou non, dans la syntaxe choisie par le projet au cours de l’[étude des Normes et standards](./choix-standard.html). Cette syntaxe peut faire partie des standards du cadre d'interopérabilité des systèmes d'information de santé (CI-SIS).
 
-Le diagramme contient les classes sélectionnées du MOS et restreintes ainsi que de nouvelles classes propres à la description fonctionnelle. Chaque attribut est défini par un type de donnée et des cardinalités, les attributs de type "Code" sont associés à leur nomenclature ; cette dernière information figure dans la documentation du diagramme de classes.
+Le diagramme contient les classes sélectionnées du MOS et restreintes ainsi que de nouvelles classes propres à la description fonctionnelle. Chaque attribut est défini par un type de donnée et des cardinalités, les attributs de type "Code" sont associés à leur nomenclature ; cette dernière information figure dans la documentation du diagramme d'objets.
 
-L'exemple du diagramme de classe "Flux 1 - CreationCercleSoins" illustre la construction du modèle d’un flux. Pour plus de lisibilité dans cet exemple, les classes issues du MOS ont été identifiées à l’aide du symbole *. Il est complété par le diagramme d'objet correspondant.
+L'exemple du diagramme d'objets **"Diagramme d'objets du flux 1 - CreationCercleSoins"** illustre la construction du modèle d’un flux. Pour plus de lisibilité dans cet exemple, les classes issues du MOS ont été identifiées à l’aide du symbole *. Il est complété par le diagramme d'objet correspondant.
 
 <div class="figure" style='text-align: center;'>
     <img src="flux1-creation-cds.png" alt="CP" title="Flux 1 - création CDS" style="width:80%;">
-    <figcaption><b>Flux 1 - création CDS</b></figcaption>
+    <figcaption><b>Diagramme d'objets du flux 1 - CreationCercleSoins</b></figcaption>
 </div>
 
-**Classe « CercleSoins »**
+
+<!-- **Classe « CercleSoins »**
 
 Le Cercle de Soins comprend toutes les personnes (Professionnel ou Personne Tierce) et Entités qui participent à la prise en charge et aux actions de coordination du parcours de santé d’un Usager. Le Cercle de Soins possède un statut (actif, inactif…), une date de début, une date de fin et une date de mise à jour.
 
@@ -793,10 +794,9 @@ Le tableau suivant est extrait du modèle de flux « flux 1 – CreationCercleSo
             </td>
         </tr>
     </tbody>
-</table>
+</table> -->
 
-
-Le diagramme de classes n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir tableau ci-dessous).
+Le diagramme d'objets n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir table **"Tableau des critères de recherche du « Flux de recherche : Flux 2 – RechercheCercleSoins »"**).
 
 **Flux de recherche : Flux 2 – RechercheCercleSoins**
 
@@ -809,13 +809,13 @@ Le diagramme de classes n’est pas approprié pour formaliser un flux de recher
 | CercleSoins/statut | Statut du cercle de soin (actif, inactif, ...) | Non |
 | MembreCercleSoin/idMembreCercleSoin | Identifiant du membre du cercle de soins. | Non |
 
-Tableau des critères de recherche du « Flux de recherche : Flux 2 – RechercheCercleSoins »
+<figcaption><b>Tableau des critères de recherche du « Flux de recherche : Flux 2 – RechercheCercleSoins »</b></figcaption>
 
 **Diagramme d’objet du flux 1 – CreationCercleSoins**
 
 <div class="figure" style='text-align: center;'>
     <img src="diagramme-cds.png" alt="CP" title="Diagramme d’objet du flux 1 – CreationCercleSoins**" style="width:80%;">
-    <figcaption><b>Diagramme d’objet du flux 1 – CreationCercleSoins**</b></figcaption>
+    <figcaption><b>Exemples d'instances respectant le diagramme d’objet du flux 1 </b></figcaption>
 </div>
 
 ### Cas spécifique des mises à jour des spécifications

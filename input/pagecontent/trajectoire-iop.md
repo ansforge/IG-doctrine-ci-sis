@@ -140,11 +140,11 @@ La difficulté reviendrait aux consommateurs qui devront, au moins pendant un te
 
 ###### Solution privilégiée 
 
-La solution qui semble se dessiner pour l'ANS et pour la commission européenne est de permettre une utilisation concomitante de FHIR et de CDA pour faire une transition douce, complétée d'une preuve de concept d'un mapping CDA - FHIR, générique, sans aller jusqu'à une spécification validée et utilisable en production, pour aider les éditeurs dans leur transition.
+l'ANS et la commission européenne privilégieront la solution numéro 2, qui consiste en une utilisation concomitante de FHIR et de CDA. Cette solution sera agrémentée d'une preuve de concept d’un mapping CDA - FHIR, générique à destination de l'écosystème.
 
-#### Les différents paradigmes d'échanges de données
+#### Pourquoi il est nécessaire d'aller au delà du paradigme document en France ?
 
-En France, le cas d'usage "document" est bien connu, notamment dans le cadre du DMP : un document est un compte rendu médical signé et daté à propos d'un patient. Il existe d'autres paradigmes à considérer tel que le paradigme message, le paradigne REST, la souscription, ... [La documentation de FHIR](https://www.hl7.org/fhir/exchanging.html) facilite la prise de décision en proposant un arbre de décision.
+reformulation: En France, le paradigme document est l'un des plus utilisés par l'écosystème, notamment dans le cadre du service DMP : un document est un compte rendu médical signé et daté à propos d'un patient. Il existe d'autres paradigmes à considérer tel que le paradigme message, le paradigne REST, la souscription, ... [La documentation de FHIR](https://www.hl7.org/fhir/exchanging.html) facilite la prise de décision en proposant un arbre de décision.
 
 Par exemple, les trois API FHIR de Mon Espace Santé (Mesures de santé, Agenda et document) permettent d'accéder aux données via des requêtes REST.
 

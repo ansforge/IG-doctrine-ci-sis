@@ -130,7 +130,7 @@ Le premier scénario consiste à mettre un place un outil de transformation des 
 
 Pour transformer les documents CDA des volets du CI-SIS vers FHIR, il faudrait que l'ensemble des spécifications CDA soient définies au format `StructureDefinition` pour utiliser le FHIR Mapping Language.
 
-###### Scenario 2 : Permettre une utilisation concomitante de FHIR et de CDA le temps de la transition
+###### Scénario 2 : Permettre une utilisation concomitante de FHIR et de CDA le temps de la transition
 
 Cette solution permettrait une utilisation concomitante de FHIR et de CDA, où les spécifications seront publiées selon les deux modes. Cela permettrait une transition douce avec un timing au choix de chacun pour le passage vers FHIR Document, avec une date limite de décommissionnement de l'autorisation d'écriture en CDA dans le DMP.
 

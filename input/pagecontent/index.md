@@ -7,7 +7,6 @@ The interoperability framework for health information systems (CI-SIS) sets the 
     <img style="height: auto; width: 100%;" src="ci-sis-logo.png" alt="CI-SIS" title="Logo du CI-SIS">
 </div> -->
 
-<div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/xhtml ../../schema/fhir-xhtml.xsd" xmlns="http://www.w3.org/1999/xhtml">
 
 {% if site.data.info.releaselabel == 'ci-build' %}
 <div style="width: 65%">

@@ -344,17 +344,15 @@ Il est également à noter que le choix national de la version FHIR utilisée de
 
 <h6 id="solution-privilégiée">Solution privilégiée</h6>
 
-<p>La solution qui semble se dessiner pour l’ANS et pour la commission européenne est de permettre une utilisation concomitante de FHIR et de CDA pour faire une transition douce, complétée d’une preuve de concept d’un mapping CDA - FHIR, générique, sans aller jusqu’à une spécification validée et utilisable en production, pour aider les éditeurs dans leur transition.</p>
+<p>l’ANS et la commission européenne privilégieront la solution numéro 2, qui consiste en une utilisation concomitante de FHIR et de CDA. Cette solution sera agrémentée d’une preuve de concept d’un mapping CDA - FHIR, générique à destination de l’écosystème.</p>
 
-<h4 id="le-paradigme-document-du-dmp-à-compléter-par-les-autres-paradigmes">Le paradigme “Document” du DMP à compléter par les autres paradigmes</h4>
+<h4 id="pourquoi-il-est-nécessaire-daller-au-delà-du-paradigme-document-en-france-">Pourquoi il est nécessaire d’aller au delà du paradigme document en France ?</h4>
 
-<p>En France, le cas d’usage “document” est bien connu, notamment dans le cadre du DMP : un document est un compte rendu médical signé et daté d’un patient.</p>
+<p>reformulation: En France, le paradigme document est l’un des plus utilisés par l’écosystème, notamment dans le cadre du service DMP : un document est un compte rendu médical signé et daté à propos d’un patient. Il existe d’autres paradigmes à considérer tel que le paradigme message, le paradigne REST, la souscription, … <a href="https://www.hl7.org/fhir/exchanging.html">La documentation de FHIR</a> facilite la prise de décision en proposant un arbre de décision.</p>
 
-<p>Il existe pourtant trois autres paradigmes : le paradigme service, message et API.</p>
+<p>Par exemple, les trois API FHIR de Mon Espace Santé (Mesures de santé, Agenda et document) permettent d’accéder aux données via des requêtes REST.</p>
 
-<p>Il y a par exemple déjà actuellement les API Mesures de santé et Agenda de Mon Espace Santé où il y a des données accessibles via des requêtes REST sans document médical.</p>
-
-<p>Ainsi, il ne faudra pas négliger ce paradigme API REST pour certains cas d’usages s’y prêtant bien, comme par exemple une API de vaccination, une API Cercle de Soins, une API pour la diffusion des essais cliniques ouverts au recrutement. L’intérêt tout particulier de ce type d’API réside sur l’utilisation de critères de recherches standards définis par FHIR pour accéder à l’information d’intérêt simplement, sans superflu.</p>
+<p>Une étude approfondie du besoin est nécessaire pour identifier le paradigme idéal par cas d’usage sans partir de facto sur le paradigme document.</p>
 
 <h3 id="la-trajectoire-sémantique">La trajectoire sémantique</h3>
 
@@ -568,7 +566,7 @@ La SNOMED CT adoptée par la France en 2023 est disponible sur le serveur depuis
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 19, 2025 09:43+0000">2025-06-19</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 19, 2025 15:56+0000">2025-06-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

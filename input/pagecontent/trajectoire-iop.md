@@ -148,7 +148,7 @@ En France, le cas d'usage "document" est bien connu, notamment dans le cadre du 
 
 Par exemple, les trois API FHIR de Mon Espace Santé (Mesures de santé, Agenda et document) permettent d'accéder aux données via des requêtes REST.
 
-Une étude approfondie du besoin est nécessaire pour identifier le paradigme idéal par cas d'usage sans partir de facto sur le paradigme document?
+Une étude approfondie du besoin est nécessaire pour identifier le paradigme idéal par cas d'usage sans partir de facto sur le paradigme document.
 
 ### La trajectoire sémantique
 

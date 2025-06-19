@@ -165,7 +165,7 @@ Le comité de concertation a pour objectif de formuler des recommandations en te
     </ul>
 </div>
 
-Il se réunit une fois par an, en juin/juillet, à la suite du 2eme COPIL de l’année.
+Il se réunit une fois par an, en juin/juillet, à la suite du 2ème COPIL de l’année.
 Il est préparé et animé par le comité d’instruction.
 
 ##### Comité d’instruction

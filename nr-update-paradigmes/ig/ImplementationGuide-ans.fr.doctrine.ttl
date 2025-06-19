@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "DoctrineCISIS"] ; # 
   fhir:title [ fhir:v "Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS)"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-19T09:46:20+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-19T09:48:18+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

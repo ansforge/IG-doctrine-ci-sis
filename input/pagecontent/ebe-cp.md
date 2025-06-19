@@ -8,7 +8,8 @@ Ce formulaire fait partie du corpus documentaire associé à cette gouvernance. 
 
 #### Suivi du traitement des expressions de besoins
 
-Il vous est possible de visualiser vos demandes en cours traitement, mais également celles émises par les autres acteurs en accédant au [tableau de bord](https://github.com/orgs/ansforge/projects/39/views/2) (**outil en cours d'élaboration**).
+Il vous est possible de visualiser vos demandes en cours traitement, mais également celles émises par les autres acteurs en accédant au tableau de bord (**outil en cours d'élaboration**).
+
 **Il est fortement recommandé de prendre connaissance des demandes en cours avant de nous soumettre votre propre demande.**
 
 <p style="background-color: #ffd733; border:1px solid grey; padding: 5px; max-width: 790px;">

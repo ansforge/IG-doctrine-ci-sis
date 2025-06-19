@@ -1,6 +1,6 @@
 ### Avant propos
 
-Le présent document a pour objet de mettre à jour le contenu de la gouvernance du CI-SIS à la suite des ateliers conduits par les équipes d’interopérabilité de la DE2I de mai à juillet 2024 en vue de faire évoluer la gouvernance et la doctrine du CI-SIS.
+Ce chapitre a pour objectif de mettre à jour le contenu de la gouvernance du CI-SIS à la suite des ateliers conduits par les équipes d’interopérabilité de la DE2I de mai à juillet 2024 en vue de faire évoluer la gouvernance et la doctrine du CI-SIS.
 
 À l’issue de plusieurs années de test de mise en œuvre de la gouvernance rénovée du cadre d’interopérabilité des systèmes d’information de santé (CI-SIS), il est apparu que la comitologie associée n’impliquait pas assez les acteurs partie-prenante de l’interopérabilité. En conséquence une nouvelle comitologie pour la gouvernance du CI-SIS a été définie, dans un effort de :
 
@@ -13,7 +13,7 @@ Le présent document a pour objet de mettre à jour le contenu de la gouvernance
     </ul>
 </div>
 
-Le présent document a pour objet de détailler cette nouvelle comitologie.
+Cette nouvelle comitologie est détaillée dans les sections suivantes.
 
 ### Gouvernance rénovée du CI-SIS
 
@@ -32,7 +32,9 @@ Initialement centré sur l’échange et le partage de documents de santé dans 
     </ul>
 </div>
 
-La gouvernance rénovée du CI-SIS se caractérise notamment par un processus d’élaboration des spécifications d’interopérabilité qui sont à l’origine du développement des conditions favorables à l’interopérabilité des systèmes. Ce processus peut être schématisé de la façon suivante :
+La gouvernance rénovée du CI-SIS se caractérise notamment par un processus d’élaboration des spécifications d’interopérabilité qui sont à l’origine du développement des conditions favorables à l’interopérabilité des systèmes.
+
+Ce processus peut être schématisé de la façon suivante :
 
 <div class="figure" style='text-align: center;'>
     <img src="processus-ebe.png" alt="CP" title="Processus d’élaboration des spécifications d’interopérabilité" style="width:80%;">
@@ -74,15 +76,17 @@ Ainsi, à l’instar de la PGSSI-S, La comitologie de gouvernance du CI-SIS est 
 
 <div>
     <ul>
-        <li>Un comité de pilotage (COPIL), organe décisionnel regroupant les institutions publiques impliquées dans l’interopérabilité des systèmes d’information des secteurs sanitaire, médico-social, médico-administratif et social ; </li>
-        <li>Un comité de concertation, organe consultatif regroupant l’ensemble des parties-prenantes du CI-SIS ;</li>
-        <li>Un comité d’instruction, organe opérationnel regroupant des experts en interopérabilité de l’ANS et de la DNS.</li>
+        <li>Un <b>comité de pilotage</b> (COPIL), organe décisionnel regroupant les institutions publiques impliquées dans l’interopérabilité des systèmes d’information des secteurs sanitaire, médico-social, médico-administratif et social ; </li>
+        <li>Un <b>comité de concertation</b>, organe consultatif regroupant l’ensemble des parties-prenantes du CI-SIS ;</li>
+        <li>Un <b>comité d’instruction</b>, organe opérationnel regroupant des experts en interopérabilité de l’ANS et de la DNS.</li>
     </ul>
 </div>
 
 ##### Comité de pilotage
 
-Le comité de pilotage joue un rôle décisionnel. Il est composé des institutions publiques impliquées dans l’interopérabilité des systèmes d’information des secteurs sanitaire, médico-social, médico-administratif et social :  ANAP ;  ANS ;  ANSM ; ATIH ; CNAMTS ;  CNSA ;  DGOS, DGS, DSS ;  DNS ; HAS. ; HDH ; INCA.
+**Le comité de pilotage joue un rôle décisionnel**.
+
+Il est composé des institutions publiques impliquées dans l’interopérabilité des systèmes d’information des secteurs sanitaire, médico-social, médico-administratif et social :  ANAP ;  ANS ;  ANSM ; ATIH ; CNAMTS ;  CNSA ;  DGOS, DGS, DSS ;  DNS ; HAS. ; HDH ; INCA.
 
 Il est chargé de :
 
@@ -110,7 +114,9 @@ L’analyse de ces documents doit permettre au COPIL de dégager les éléments 
 
 Les orientations d’évolution du CI-SIS sont mises à jour régulièrement par le COPIL en fonction de l’évolution des documents fondateurs.  
 
-La feuille de route d’interopérabilité de l’ANS est consolidée par le comité d’instruction, sous l’égide du COPIL, en fonction des résultats du comité de concertation et des arbitrages réalisés par le comité de pilotage. Les objectifs de cette feuille de route sont :
+**La feuille de route d’interopérabilité de l’ANS est consolidée par le comité d’instruction, sous l’égide du COPIL, en fonction des résultats du comité de concertation et des arbitrages réalisés par le comité de pilotage.** 
+
+Les objectifs de cette feuille de route sont :
 
 <div>
     <ul>
@@ -121,16 +127,20 @@ La feuille de route d’interopérabilité de l’ANS est consolidée par le com
     </ul>
 </div>
 
-L’ANS met à disposition de l’écosystème un outil de façon à afficher et partager cette feuille de route avec l’écosystème.
-<!-- Insérer le lien vers la feuille de route -->
+L’ANS met à disposition de l’écosystème un outil de façon à afficher et partager cette feuille de route avec l’écosystème (**outil en cours de construction**).
+<!-- Insérer le lien vers la feuille de route lorsque ce sera disponible-->
 
-Le comité de pilotage se réunit trois fois par an : en février/mars (COPIL 1), en mai/juin (COPIL 2) et en octobre/novembre (COPIL 3).
+Le comité de pilotage se réunit trois fois par an :
+
+* en février/mars (COPIL 1),
+* en mai/juin (COPIL 2),
+* et en octobre/novembre (COPIL 3).
 
 Le comité d’instruction intervient en support du comité de pilotage pour préparer et animer les réunions du COPIL.
 
 ##### Comité de concertation
 
-Semblable à celui mis en place pour la PGSSI-S, le comité de concertation joue un rôle consultatif.
+Semblable à celui mis en place pour la PGSSI-S, **le comité de concertation joue un rôle consultatif**.
 
 Il est composé :
 
@@ -142,7 +152,7 @@ Il est composé :
     </ul>
 </div>
 
-<!-- Faire le ménage dans ces listes?  -->
+<!-- mettre à jour cette liste?  -->
 
 La composition du comité de concertation du CI-SIS peut être revue sur demande d’ajout d’une partie-prenante après validation par le comité de pilotage.
 
@@ -151,16 +161,16 @@ Le comité de concertation a pour objectif de formuler des recommandations en te
 <div>
     <ul>
         <li>De priorisation de besoins en fonction de la valeur qu’apporteraient les spécifications d’interopérabilité correspondantes aux secteurs sanitaire, médico-administratif, médico-social et social ; </li>
-        <li>D’orientation normative lorsque le consensus initial sur le CI-SIS n’est pas adapté et qu’une norme ou un standard déjà profilé dans le CI-SIS ne peuvent pas être réutilisés (cf. Doctrine du CI-SIS). </li>
+        <li>D’orientation normative lorsque le consensus initial sur le CI-SIS n’est pas adapté et qu’une norme ou un standard déjà profilé dans le CI-SIS ne peuvent pas être réutilisés (cf. <a href="doctrine.html#la-doctrine-du-ci-sis">Doctrine du CI-SIS</a>). </li>
     </ul>
 </div>
 
-Il se réunit une fois par an, en juin/juillet, à la suite du 2° COPIL de l’année. Il est préparé et animé par le comité d’instruction.
-<!-- Référencer la page sur la doctrine du CI_SIS -->
+Il se réunit une fois par an, en juin/juillet, à la suite du 2eme COPIL de l’année.
+Il est préparé et animé par le comité d’instruction.
 
 ##### Comité d’instruction
 
-Le comité d’instruction joue un rôle opérationnel.
+**Le comité d’instruction joue un rôle opérationnel.**
 
 Il est composé d’un petit groupe d’experts en interopérabilité de l’ANS et de la DNS. Il a en charge la préparation et l’animation des réunions du comité de pilotage, du comité de concertation et de la réunion annuelle de présentation de l’évolution du CI-SIS aux entreprises du numérique en santé (ENS).
 

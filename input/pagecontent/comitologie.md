@@ -32,7 +32,7 @@ Initialement centré sur l’échange et le partage de documents de santé dans 
     </ul>
 </div>
 
-La gouvernance rénovée du CI-SIS se caractérise notamment par un processus d’élaboration des spécifications d’interopérabilité qui sont à l’origine du développement des conditions favorables à l’interopérabilité des systèmes.
+La gouvernance mise à jour du CI-SIS se caractérise notamment par un processus d’élaboration des spécifications d’interopérabilité qui sont à l’origine du développement des conditions favorables à l’interopérabilité des systèmes.
 
 Ce processus peut être schématisé de la façon suivante :
 

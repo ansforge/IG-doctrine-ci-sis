@@ -56,7 +56,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS)</span>
             <br/>
-            <span style="display:inline-block;">0.1.0-ballot - public-comment
+            <span style="display:inline-block;">0.1.0-ballot - ci-build
 
 
 
@@ -196,6 +196,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <ul id="markdown-toc">
   <li><a href="#enjeux-de-linteropérabilité-et-du-ci-sis" id="markdown-toc-enjeux-de-linteropérabilité-et-du-ci-sis">Enjeux de l’interopérabilité et du CI-SIS</a></li>
   <li><a href="#la-doctrine-du-ci-sis" id="markdown-toc-la-doctrine-du-ci-sis">La doctrine du CI-SIS</a></li>
+  <li><a href="#les-principes-de-la-doctrine-du-ci-sis" id="markdown-toc-les-principes-de-la-doctrine-du-ci-sis">Les principes de la doctrine du CI-SIS</a></li>
   <li><a href="#doctrine-de-la-connaissance-médicale" id="markdown-toc-doctrine-de-la-connaissance-médicale">Doctrine de la connaissance médicale</a></li>
 </ul>
 
@@ -285,7 +286,7 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
 
 <p>Par la définition de la structuration du contenu médical, le CI–SIS permet d’identifier le langage adéquat pour présenter des informations selon les standards et les normes reconnus ainsi que le vocabulaire à utiliser pour coder l’information (interopérabilité sémantique). Ceci permet de faciliter le traitement automatique de l’information et permet la mise en œuvre de services à valeur ajoutée. C’est ce qu’on appelle « l’interopérabilité syntaxique et sémantique ».</p>
 
-<p>De nature à favoriser l’adéquation opérationnelle des profils français du domaine de la santé, du medico-social et social, aux cas d’usage métier, ce positionnement de fait nécessite une formalisation au sein d’une doctrine d’interopérabilité afin de fournir une meilleure visibilité aux parties prenantes sur les orientations du CI-SIS en termes de normes et standards techniques, syntaxiques et sémantiques.</p>
+<p>De nature à favoriser l’adéquation opérationnelle des profils français du domaine de la santé, du medico-social et social, aux cas d’usage métier, ce positionnement de fait nécessite une formalisation au sein d’une doctrine du CI-SIS afin de fournir une meilleure visibilité aux parties prenantes sur les orientations du CI-SIS en termes de normes et standards techniques, syntaxiques et sémantiques.</p>
 
   <!-- ## Guide de lecture pour novices -->
 
@@ -295,7 +296,7 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
 
 <p>La doctrine du CI-SIS a pour objectif de formaliser les orientations suivies par le CI-SIS en termes de normes et standards dans le cas général et de fournir un processus de détermination des normes et standards à suivre lorsque le cas d’usage considéré ne peut pas être mis en œuvre via ces orientations. Une fois validée par les acteurs du domaine, elle permet de s’affranchir d’une consultation préalable à l’élaboration des spécifications d’interopérabilité lorsqu’un besoin d’interopérabilité peut être pris en compte par une norme ou un standard déjà existant dans les orientations du CI-SIS. Elle ne change pas le processus d’élaboration des spécifications d’interopérabilité qui sont soumises à concertation publique, qu’il y ait eu une consultation préalable ou non sur les normes/standards.</p>
 
-<p>La doctrine d’interopérabilité technique et syntaxique du CI-SIS peut être synthétisée par les règles suivantes :</p>
+<p>La doctrine technique et syntaxique du CI-SIS peut être synthétisée par les règles suivantes :</p>
 
 <div>
     <ul>
@@ -305,7 +306,7 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
     </ul>
 </div>
 
-<p>La doctrine d’interopérabilité sémantique du CGTS s’inscrit dans la doctrine d’interopérabilité du CI-SIS en termes de terminologies de référence à retenir :</p>
+<p>La doctrine sémantique du CI-SIS en termes de terminologies de référence à retenir :</p>
 
 <div>
     <ul>
@@ -318,17 +319,141 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
 <p>L’ensemble des spécifications d’interopérabilité (au sein du Cadre d’Interopérabilité des Systèmes d’Information de Santé (CI-SIS)) et des terminologies constitue un bien commun, qui respecte les principes de transparence, de collaboration, de participation et d’éthique.</p>
 
 <div style="text-align: center;" class="figure">
-    <img src="doctrine.png" alt="CP" style="width:80%;" title="Principes généraux de la doctrine d’interopérabilité"/>
-    <figcaption><b>Principes généraux de la doctrine d’interopérabilité</b></figcaption>
+    <img src="doctrine.png" alt="CP" style="width:80%;" title="Principes généraux de la doctrine du CI-SIS"/>
+    <figcaption><b>Principes généraux de la doctrine du CI-SIS</b></figcaption>
 </div>
 
-<h4 id="choix-des-profils-ihe-et-des-guides-dimplémentation-fhir-comme-base-de-la-doctrine-dinteropérabilité-syntaxique">Choix des profils IHE et des guides d’implémentation FHIR comme base de la doctrine d’interopérabilité syntaxique</h4>
+<h3 id="les-principes-de-la-doctrine-du-ci-sis">Les principes de la doctrine du CI-SIS</h3>
+<p>Une doctrine est par définition : un ensemble de principes génériques de base sur lequel s’appuie une stratégie et des plans d’actions <a href="#ref2">2</a>. Dans ce qui suit, nous décrivons les principes sur lesquels la doctrine du CI-SIS s’appuie.</p>
 
-<p>Les profils IHE  et les guides d’implémentation FHIR d’HL7 sont des spécifications opérationnelles d’interopérabilité qui indiquent comment utiliser des normes/standards stables et « vivants » dans le cadre de cas d’usage des domaines sanitaire, medico-social et social. Ce travail d’analyse et de sélection des normes/standards ainsi que la prise en compte des spécificités des cas d’usage de ces domaines en font une base de départ adaptée pour les spécifications du CI-SIS, qui n’ont plus qu’à contraindre ces profils et ces guides d’implémentation en fonction du contexte français.</p>
+<h4 id="principes-1--principes-issus-du-cadre-juridique">Principes #1 : Principes issus du cadre juridique</h4>
+
+<p>La loi du 7 octobre 2016 <a href="#ref3">3</a> pour une république numérique, souvent appelée “Loi république numérique”, est une législation française visant à adapter le cadre juridique aux enjeux de la transformation numérique. Cette loi est une source de « règles » pour la doctrine du CI-SIS. Le <a href="#doctrine-de-la-connaissance-médicale">SI-CM (Système d’Information et Connaissances Médicales)</a> et les volets qui vont être publiés dans le CI-SIS doivent  doivent, entre autres, souscrire</p>
+
+<div>
+    <ul>
+    <li>à l'ouverture des données produites</li>
+    <li>à rendre accessibles en ligne les données publiques produites dans un format ouvert et réutilisable</li>
+    <li>à la portabilité des données produites. Les utilisateurs finaux doivent pouvoir se partager les données publiques et libres d'accès (voir chapitre sur la propriété intellectuelle)</li>
+    </ul>
+</div>
+<p>Plusieurs de ces principes ont été directement ou partiellement inspirés des principes FAIR et de la mouvance Open Data que nous prenons également comme base de réflexion pour la doctrine du CI-SIS.</p>
+
+<h4 id="principes-2--principes-fair">Principes #2 : Principes FAIR</h4>
+
+<p>Les principes FAIR (Findable, Accessible, Interoperable, Reusable) <a href="#ref4">4</a> visent à améliorer la gestion et le partage des données scientifiques. Ils sont conçus pour faciliter la découverte, l’accès, l’interopérabilité et la réutilisation des données de recherche.</p>
+
+<p>Le SI-CM et les volets qui vont être publiés dans le CI-SIS doivent, entre autres, souscrire</p>
+
+<div>
+    <ul>
+    <li>A ce que les artéfacts publics produits soient facilement trouvables via une plateforme dédiée. La plateforme en question doit être implémentée de façon à ce que</li>
+        <ul>
+        <li>Les artéfacts produits soient faciles à localiser pour les humains et les machines. Cela implique l'utilisation de métadonnées descriptives et de mécanismes de recherche appropriés.</li>
+        <li>Les artéfacts produits aient un identifiant unique et persistant.</li>
+        </ul>
+    <li>A ce que les artéfacts publiques soient accessibles en s’assurant que</li>  
+        <ul>
+        <li>L’accès à ces artéfacts se fasse via des protocoles standards et ouverts </li>
+        <li>Les conditions d’accès à ces artéfacts soient clairement spécifiées et documentées, autant que faire se peut, via des métadonnées</li>
+        </ul>
+    <li>A ce que les artéfacts publiques produits soient interopérables en s’assurant que</li>
+        <ul>
+        <li>Les artéfacts produits soient structurés de manière à pouvoir les combiner et les intégrer dans divers SIs</li>
+        <li>Les artéfacts produits utilisent pour la structuration de leurs données des standards d’interopérabilité reconnus et validés par la littérature et les experts du domaine mais également par les usages</li>
+        <li>Les artéfacts produits utilisent pour la structuration de leurs données des Terminologies reconnues et validées par la littérature et les experts du domaine mais également par les usages</li>
+        </ul>
+    <li>A ce que les artéfacts publiques produits soient réutilisables en s’assurant que</li>
+        <ul>
+        <li>Les artéfacts produits soient suffisamment documentés pour permettre la réutilisation mais également pour permettre à l’utilisateur final de connaitre le contexte métier en lien avec la production de ces artéfacts</li>
+        <li>Les conditions d’utilisation et de réutilisation soient clairement énoncées, cela comprend la ou les licences de publication des artéfacts en question.</li>
+        </ul>
+    </ul>
+</div>
+
+<h4 id="principes-3--principes-du-mouvement-de-lopen-data">Principes #3 : Principes du mouvement de l’Open Data</h4>
+
+<p>Le mouvement Open Data (données ouvertes) <a href="#ref5">5</a> est une initiative mondiale qui vise à rendre les données publiques librement accessibles à tous, sans restriction légales, financières ou techniques. Plusieurs des principes de ce mouvement sont partagés avec le mouvement FAIR Data. La version Five Star <a href="#ref5">5</a> du mouvement Open Data <a href="#ref6">6</a> apporte plus de précision sur les principes du mouvement Open Data. Le mouvement Five Star <a href="#ref5">5</a> définit une échelle et des étapes pour atteindre le niveau maximal de conformité à ces principes (Figure 1).</p>
+
+<p>La doctrine du CI-SIS vise à pousser l’écosystème à adopter, autant que faire se peut, l’échelle maximale (5 étoiles) de conformité pour la publication des artéfacts de connaissances médicales.</p>
+
+<div style="text-align: center;" class="figure">
+    <img src="FIGURE 1  ENONCE SIMPLIFIE DES PRINCIPES FIVE STARS.png" alt="5stars" style="width:50%;" title="Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)"/>
+    <figcaption><b>Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)</b></figcaption>
+</div>
+
+<h4 id="principes-4--principes-en-lien-avec-les-bonnes-pratiques-dingénierie-logicielle-et-de-recherche">Principes #4 : Principes en lien avec les bonnes pratiques d’ingénierie logicielle et de recherche</h4>
+
+<p>Un projet informatique quel qu’il soit doit se conformer aux principes de base de conception, d’architecture et de développement logiciel. Il en va de même pour les projets d’interopérabilité de façon générale et pour les projets d’interopérabilité des artéfacts de connaissances médicales.</p>
+
+<p>Les projets d’interopérabilité des artéfacts de connaissances médicales doivent également se conformer aux principes de base de l’ingénierie des connaissances.</p>
+
+<p>Dans ce qui suit nous listons les principes d’ingénierie que la doctrine du CI-SIS doit respecter.</p>
+
+<h5 id="lutilisation-des-design-patterns">L’utilisation des Design Patterns</h5>
+
+<p>Les artéfacts publiés, développés ou partagés doivent se conformer aux principes architecturaux énoncés dans la littérature et adoptés par l’écosystème des ingénieurs informatiques. Dans ce qui suit nous citons succinctement quelqu’un de ces principes.</p>
+
+<div>
+    <ol>
+    <li>La modularité : un logiciel doit être divisé en modules ou composants distincts, chacun ayant une fonction spécifique.</li>
+        <ul>
+        <li>Avantages : la modularité facilite la compréhension, la maintenance et la réutilisation du code.</li>
+        </ul>
+    <li>L’encapsulation : permet de restreindre l'accès direct aux données et fonctions internes d'un module, exposant uniquement ce qui est nécessaire via des interfaces publiques.</li>
+        <ul>
+        <li>Avantages : l’encapsulation protège l'intégrité des données et réduit les interférences entre les composants.</li>
+        </ul>
+    <li>L’abstraction : consiste à cacher la complexité interne d’implémentation à l’utilisateur en se concentrant sur les aspects essentiels à l’utilisateur</li>
+        <ul>
+        <li>Avantages : améliore la clarté et permet de gérer la complexité du système en interne</li>
+        </ul>
+    <li>La forte cohésion : le degré auquel les éléments d'un même module sont liés fonctionnellement doit être fort.</li>
+        <ul>
+        <li>Avantages : les modules fortement en cohésion sont plus compréhensibles, maintenables et fiables</li>
+        </ul>
+    <li>Le faible couplage : les modules doivent être faiblement interdépendants</li>
+        <ul>
+        <li>Avantages : Un faible couplage réduit la complexité et facilite les modifications et l'évolution du système.</li>
+        </ul>
+    <li>La séparation des responsabilités : la responsabilité est un ensemble de fonctionnalités pris en charge par un module ou un ensemble de modules distincts. La séparation des responsabilités revient à concevoir le logiciel en groupes de modules distincts en termes de groupes de fonctionnalités</li>
+        <ul>
+        <li>Avantage : améliore la modularité citée plus haut mais à un niveau de modularité plus élevée</li>
+        </ul>
+    </ol>
+</div>
+
+<p>Il existe bien évidemment beaucoup plus de bonnes pratiques de conception logiciel énoncés dans la littérature, voici quelques références de base <a href="#ref7">7</a> <a href="#ref8">8</a> <a href="#ref9">9</a> <a href="#ref10">10</a>.</p>
+
+<h5 id="ladoption-dun-processus-de-conception-logiciel">L’adoption d’un processus de conception logiciel</h5>
+
+<p>Un projet en lien avec la standardisation et/ou l’interopérabilité des données de santé est un projet informatique à part entier. Il est donc nécessaire d’adopter un processus de conception logiciel adéquat pour structurer et organiser la conception et le développement des artéfacts produits par le projet en question. Les processus de conception doivent à minima inclure les étapes : collecte des exigences, la modélisation, la création de prototypes, et la validation des concepts avant la phase de développement.</p>
+
+<p>Les processus de conception logiciels les plus utilisés en ingénierie des logiciels à l’heure actuelle sont ceux issus du mouvement Agile. De nombreux « framework Agiles » existe, tels que : Scrum, Kanban, XP, Lean, Scaled Agile Framework,…</p>
+
+<p><strong>L’ingénierie des connaissances</strong></p>
+
+<p>Les projets en lien avec la connaissance sont également gérés suivant des processus de conception en lien avec une discipline appelée : l’ingénierie des connaissances <a href="#ref11">11</a> <a href="#ref12">12</a>. L’ingénierie des connaissances se concentre sur la création, la gestion et l’utilisation de la connaissance dans les systèmes informatiques. Elle implique la collecte, la structuration, la formalisation et la mise en œuvre des connaissances pour développer des systèmes intelligents capables de résoudre des problèmes complexes. Cette discipline est essentielle dans des domaines tels que  l’intelligence artificielle, les bases de connaissances et bien évidemment la structuration et la standardisation de la connaissance (médicale).</p>
+
+<p>Les projets en lien avec la standardisation de la connaissance médicale doivent adopter un processus de conception Agile d’ingénierie des connaissances. Les artéfacts produits dans chaque étape de conception (de transformation de la connaissance) doivent être visibles et explicites pour chaque volet suivant le design pattern décrit ici …</p>
+
+<h5 id="ladoption-dun-langage-de-modélisation-standard">L’adoption d’un langage de modélisation standard</h5>
+
+<p>Les langages de modélisation standard en ingénierie des logiciels sont des outils essentiels pour représenter visuellement les structures, les comportements et les interactions au sein d’un système logiciel. Ils permettent de faciliter la compréhension, la communication et la documentation des concepts complexes entre les parties prenantes. Parmi les langages de modélisation les plus utilisés, on retrouve : Unified Modeling Language (UML), SysML (Systems Modeling Language), Business Process Model and Notation (BPMN)…</p>
+
+<p>Ces langages de modélisation standard jouent un rôle crucial dans la conception, l’analyse et la gestion des projets de développement logiciel, en assurant une vision cohérente et partagée du système à construire.</p>
+
+<p>Le mouvement Agile n’impose pas de langage de modélisation particulier mais le manifeste Agile insiste sur l’attention continue que doit porter l’équipe de développement logiciel à l’excellence technique et à la conception basée sur les bonnes pratiques mais également sur la facilitation de la transmission de l’information entre les membres de l’équipe du projet. L’utilisation d’un langage de modélisation standard dans un processus de conception Agile permet de combiner les avantages de la modélisation formelle avec la flexibilité et la réactivité des méthodes agiles. Un langage de modélisation peut être utilisé de manière pragmatique pour clarifier les exigences, faciliter la communication entre les équipes et documenter les architectures logicielles de manière succincte. Ambler <a href="#ref13">13</a> et Rumbaugh <a href="#ref14">14</a>, estime que l’intégration d’UML (par exemple, N.D.L.R) dans les pratiques agiles aide à maintenir la cohérence et la compréhension commune du projet tout en respectant les principes agiles de simplicité et de réponse rapide aux changements.</p>
+
+<p>Le processus de conception adopté dans le cadre de la gestion des artéfacts doit également adopter un (ou plusieurs) langage de modélisation standards.</p>
+
+<h4 id="choix-des-profils-ihe-et-des-guides-dimplémentation-comme-base-de-la-doctrine-syntaxique-du-ci-sis">Choix des profils IHE et des guides d’implémentation comme base de la doctrine syntaxique du CI-SIS</h4>
+
+<p>Les profils IHE et les guides d’implémentation d’HL7 sont des spécifications opérationnelles d’interopérabilité qui indiquent comment utiliser des normes/standards stables et « vivants » dans le cadre de cas d’usage des domaines sanitaire, medico-social et social. Ce travail d’analyse et de sélection des normes/standards ainsi que la prise en compte des spécificités des cas d’usage de ces domaines en font une base de départ adaptée pour les spécifications du CI-SIS, qui n’ont plus qu’à contraindre ces profils et ces guides d’implémentation en fonction du contexte français.</p>
 
 <p>Cette adéquation est également reconnue au niveau européen. En effet, le 28 juillet 2015 la Commission Européenne a identifié 27 profils IHE pouvant servir de référence dans la passation de marchés publics, profils qui ont été intégrés au cadre d’interopérabilité européen. Ces profils sont présentés <a href="Liste_Profils_IHE_Standards.xls">dans ce tableau</a>.</p>
 
-<p>Ces éléments ont amené à considérer les profils IHE ainsi que les guides d’implémentation FHIR comme base de la doctrine du CI-SIS. Pour autant, toutes ces spécifications n’ont pas un niveau de maturité suffisant pour constituer une base solide :</p>
+<p>Ces éléments ont amené à considérer les profils IHE ainsi que les guides d’implémentation comme base de la doctrine du CI-SIS. Pour autant, toutes ces spécifications n’ont pas un niveau de maturité suffisant pour constituer une base solide :</p>
 
 <div>
     <ul>
@@ -337,13 +462,13 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
     </ul>
 </div>
 
-<p>Les profils et les guides d’implémentation FHIR choisis pour constituer la base de la doctrine du CI-SIS sont donc :</p>
+<p>Les profils et les guides d’implémentation choisis pour constituer la base de la doctrine du CI-SIS sont donc :</p>
 
 <div>
     <ul>
         <li> Les profils IHE en final text régulièrement testés au connectathon et/ou bénéficiant d’une communauté active ;</li>
         <li> Les profils IHE en trial implementation depuis plusieurs années, régulièrement testés au connectathon  et/ou bénéficiant d’une communauté active, et ne faisant pas l’objet de change proposals (CP)  structurant et dont l’intégration en final text est prévue à court terme (ex. en attente d’outils de test automatisés).</li>
-        <li> Les guides d’implémentation FHIR au statut Trial use ou Normative.</li>
+        <li> Les guides d’implémentation au statut Trial use ou Normative.</li>
     </ul>
 </div>
 
@@ -360,7 +485,7 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
     </ul>
 </div>
 
-<p>Les dernières guidelines publiées dans ce cadre introduisent en particulier le standard Fast Health Interoperable Resources (FHIR) d’HL7. Ces guidelines sont ensuite déclinées en guides d’implémentation FHIR qui précisent l’implémentation opérationnelle des cas d’usage adressés.</p>
+<p>Les dernières guidelines publiées dans ce cadre introduisent en particulier le standard Fast Health Interoperable Resources (FHIR) d’HL7. Ces guidelines sont ensuite déclinées en guides d’implémentation qui précisent l’implémentation opérationnelle des cas d’usage adressés.</p>
 
 <h4 id="réutilisation-des-normes-et-standards-déjà-utilisés-dans-le-ci-sis">Réutilisation des normes et standards déjà utilisés dans le CI-SIS</h4>
 
@@ -380,7 +505,7 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
 
 <p>Cependant, l’ANS a défini une <a href="./trajectoire-iop.html">trajectoire d’interopérabilité</a> qui tient compte des orientations retenues par la Commission Européenne dans le cadre de la construction de l’espace de données de santé européen (European Health Data Space - EHDS). Une de ces orientations concerne l’utilisation du standard FHIR en remplacement ou en complément de CDA pour les documents structurés.</p>
 
-<p><a name="l682">​</a>La liste des normes et standards utilisés dans le CI-SIS évolue constamment à la faveur de la production de nouveaux volets du CI-SIS. A titre d’information, les normes et standards qui sont utilisés dans le CI-SIS en septembre 2024 sont présentés <a href="iste_Profils_IHE_Standards.xls">ici</a>.</p>
+<p>La liste des normes et standards utilisés dans le CI-SIS évolue constamment à la faveur de la production de nouveaux volets du CI-SIS. A titre d’information, les normes et standards qui sont utilisés dans le CI-SIS en septembre 2024 sont présentés <a href="Liste_Profils_IHE_Standards.xls">ici</a>.</p>
 
 <h4 id="choix-des-normes-et-standards-non-encore-utilisés-dans-le-ci-sis">Choix des normes et standards non encore utilisés dans le CI-SIS</h4>
 
@@ -394,7 +519,7 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
     </ul>
 </div>
 
-<p>Dans ce cas, la doctrine est donc complétée par une procédure de consultation sur les normes et standards pour les cas d’usage non couverts par des profils IHE, par des guides d’implémentation FHIR d’HL7 adaptés ou par des normes et standards déjà utilisés dans le CI-SIS.</p>
+<p>Dans ce cas, la doctrine du CI-SIS est donc complétée par une procédure de consultation sur les normes et standards pour les cas d’usage non couverts par des profils IHE, par des guides d’implémentation FHIR d’HL7 adaptés ou par des normes et standards déjà utilisés dans le CI-SIS.</p>
 
 <p>Cette consultation s’organise en 6 étapes :</p>
 
@@ -411,22 +536,23 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
 
 <p>Ces différentes étapes sont détaillées dans les schémas de la section suivante.</p>
 
-<h4 id="articulation-de-la-doctrine-dinteropérabilité-avec-la-gouvernance-du-ci-sis">Articulation de la doctrine d’interopérabilité avec la gouvernance du CI-SIS</h4>
+<h4 id="articulation-entre-la-doctrine-et-la-gouvernance-du-ci-sis">Articulation entre la doctrine et la gouvernance du CI-SIS</h4>
 
-<p>La doctrine est complètement intégrée à la gouvernance du CI-SIS. Elle vient se positionner en entrée de la phase 4 de l’instruction de la gouvernance lors du choix de la syntaxe et de la sémantique cibles à utiliser dans les spécifications d’interopérabilité.</p>
+<p>La doctrine du CI-SIS est complètement intégrée à la gouvernance du CI-SIS. Elle vient se positionner en entrée de la phase 4 de l’instruction de la gouvernance lors du choix de la syntaxe et de la sémantique cibles à utiliser dans les spécifications d’interopérabilité.</p>
 
 <div style="text-align: center;" class="figure">
     <img src="phase-gouv.png" alt="CP" style="width:80%;" title="Niveaux Rappel des phases de la gouvernance du CI-SIS"/>
     <figcaption><b>Niveaux Rappel des phases de la gouvernance du CI-SIS</b></figcaption>
 </div>
 
-<p>En y intégrant les éléments de la doctrine syntaxique et sémantique, la phase d’évolution du CI-SIS (phase 4) se décompose en 5 sous-phases :</p>
+<p>En y intégrant les éléments de la doctrine syntaxique et sémantique du CI-SIS, la phase d’évolution du CI-SIS (phase 4) se décompose en 5 sous-phases :</p>
 
 <div>
     <ul>
+
         <li>A. Analyse métier du cas d’usage, modélisation des échanges entre SI conformément à la <a href="./elaboration.html">méthodologie d’élaboration des spécifications fonctionnelles des échanges</a>, et choix de terminologie(s) de référence répondant au cas d’usage étudié selon les principes de la doctrine sémantique ;</li>
         <li>B. Concertation publique sur la spécification fonctionnelle des échanges (intégrant les choix de terminologies) ;</li>
-        <li>C. Choix de la norme ou du standard syntaxique selon les principes de la doctrine syntaxique ;</li>
+        <li>C. Choix de la norme ou du standard syntaxique selon les principes de la doctrine syntaxique du CI-SIS ;</li>
         <li>D. Rédaction des spécifications techniques d’interopérabilité par correspondance entre les échanges modélisés et la syntaxe cible assortie des règles de mise en œuvre tel que définies dans la norme ou le standard choisi ;</li>
         <li>E. Concertation publique sur la modélisation des échanges et les spécifications d’interopérabilité correspondantes et finalisation des spécifications.</li>
     </ul>
@@ -500,137 +626,9 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
 </div>
 
 <h4 id="principes-SI-CM">Les principes de la doctrine du SI-CM</h4>
-<p>Une doctrine est par définition : un ensemble de principes génériques de base sur lequel s’appuie une stratégie et des plans d’actions <a href="#ref2">2</a>. Dans ce qui suit, nous décrivons les principes sur lesquels la doctrine du SI-CM s’appuiera pour gérer les artéfacts de connaissances médicales que le SI-CM produira / exposera. Ces principes nous permettront d’instancier un chemin nominal pour la gestion des artéfacts produits / exposés par le SI-CM et un ou plusieurs chemins secondaires. Ces chemins décriront les outils de modélisation, de conception et de mise en œuvre qui devront être utilisés et/ou promus (à destination de l’écosystème) par le SI-CM pour la gestion des artéfacts de connaissances médicales en France.</p>
+<p>Dans ce qui suit, nous décrivons les principes spécifique de la doctrine du SI-CM sur lesquelles elle s’appuiera pour gérer les artéfacts de connaissances médicales que le SI-CM produira / exposera. Ces principes nous permettront d’instancier un chemin nominal pour la gestion des artéfacts produits / exposés par le SI-CM et un ou plusieurs chemins secondaires. Ces chemins décriront les outils de modélisation, de conception et de mise en œuvre qui devront être utilisés et/ou promus (à destination de l’écosystème) par le SI-CM pour la gestion des artéfacts de connaissances médicales en France. Les principes commun à l’ensemble de la doctrine du CI-SIS sont présentés dans le chapitre précédente.</p>
 
-<p>Dans ce qui suit nous énoncerons</p>
-<div>
-    <ul>
-    <li>Les principes de la doctrine du SI-CM </li> 
-    <li>Le chemin nominal et la possibilité d'avoir un ou plusieurs chemins secondaires pour les différents outils de modélisation, de conception et de mise en oeuvre des artéfacts de connaissances médicales du SI-CM </li> 
-    </ul>
-</div>
-
-<h5 id="principe-1">Principes #1 : Principes issus du cadre juridique</h5>
-
-<p>La loi du 7 octobre 2016 <a href="#ref3">3</a> pour une république numérique, souvent appelée “Loi république numérique”, est une législation française visant à adapter le cadre juridique aux enjeux de la transformation numérique. Cette loi est une source de « règles » pour la doctrine du SI-CM. Le SI-CM et les volets qui vont être publiés dans le CI-SIS doivent, entre autres, souscrire</p>
-
-<div>
-    <ul>
-    <li>à l'ouverture des données produites dans le cadre de ce système d'information (SI)</li>
-    <li>à rendre accessibles en ligne les données ubiques produites dans le cadre de ce SI, dans un format ouvert et réutilisable</li>
-    <li>à la portabilité des données produites dans le cadre de ce SI. Les utilisateurs finaux doivent pouvoir se partager les données publiques et libres d'accès (voir chapitre sur la propriété intellectuelle)</li>
-    </ul>
-</div>
-<p>Plusieurs de ces principes ont été directement ou partiellement inspirés des principes FAIR et de la mouvance Open Data que nous prenons également comme base de réflexion pour la doctrine du SI-CM.</p>
-
-<h5 id="principe-2">Principes #2 : Principes FAIR</h5>
-
-<p>Les principes FAIR (Findable, Accessible, Interoperable, Reusable) <a href="#ref4">4</a> visent à améliorer la gestion et le partage des données scientifiques. Ils sont conçus pour faciliter la découverte, l’accès, l’interopérabilité et la réutilisation des données de recherche. Ces principes peuvent être adaptés et adoptés pour la doctrine du SI-CM.</p>
-
-<p>Le SI-CM et les volets qui vont être publiés dans le CI-SIS doivent, entre autres, souscrire</p>
-
-<div>
-    <ul>
-    <li>A ce que les artéfacts publics produits par le SI-CM soient facilement trouvables via une plateforme dédiée. La plateforme en question doit être implémentée de façon à ce que</li>
-        <ul>
-        <li>Les artéfacts produits dans le cadre du SI-CM doivent être faciles à localiser pour les humains et les machines. Cela implique l'utilisation de métadonnées descriptives et de mécanismes de recherche appropriés.</li>
-        <li>Les artéfacts produits dans le cadre du SI-CM doivent avoir un identifiant unique et persistant.</li>
-        </ul>
-    <li>A ce que les artéfacts publiques produits par le SI-CM soient accessibles en s’assurant que</li>  
-        <ul>
-        <li>L’accès à ces artéfacts se fasse via des protocoles standards et ouverts </li>
-        <li>Les conditions d’accès à ces artéfacts soient clairement spécifiées et documentées, autant que faire se peut, via des métadonnées</li>
-        </ul>
-    <li>A ce que les artéfacts publiques produits par le SI-CM soient interopérables en s’assurant que</li>
-        <ul>
-        <li>Les artéfacts produits dans le cadre du SI-CM soient structurés de manière à pouvoir les combiner et les intégrer dans divers Sis</li>
-        <li>Les artéfacts produits dans le cadre du SI-CM utilisent pour la structuration de leurs données des standards d’interopérabilité reconnus et validés par la littérature et les experts du domaine mais également par les usages</li>
-        <li>Les artéfacts produits dans le cadre du SI-CM utilisent pour la structuration de leurs données des terminologies reconnues et validées par la littérature et les experts du domaine mais également par les usages</li>
-        </ul>
-    <li>A ce que les artéfacts publiques produits par le SI-CM soient réutilisables en s’assurant que</li>
-        <ul>
-        <li>Les artéfacts produits dans le cadre du SI-CM soient suffisamment documentés pour permettre la réutilisation mais également pour permettre à l’utilisateur final de connaitre le contexte métier en lien avec la production de ces artéfacts</li>
-        <li>Les conditions d’utilisation et de réutilisation soient clairement énoncées, cela comprend la ou les licences de publication des artéfacts en question.</li>
-        </ul>
-    </ul>
-</div>
-
-<h5 id="principe-3">Principes #3 : Principes du mouvement de l'Open Data</h5>
-
-<p>Le mouvement Open Data (données ouvertes) <a href="#ref5">5</a> est une initiative mondiale qui vise à rendre les données publiques librement accessibles à tous, sans restriction légales, financières ou techniques. Plusieurs des principes de ce mouvement sont partagés avec le mouvement FAIR Data. La version Five Star <a href="#ref5">5</a> du mouvement Open Data <a href="#ref6">6</a> apporte plus de précision sur les principes du mouvement Open Data. Le mouvement Five Star <a href="#ref5">5</a> définit une échelle et des étapes pour atteindre le niveau maximal de conformité à ces principes (Figure 1).</p>
-
-<p>La doctrine SI-CM - comme décrite plus en aval – vise à pousser l’éco système à adopter, autant que faire se peut, l’échelle maximale (5 étoiles) de conformité pour la publication des artéfacts de connaissances médicales.</p>
-
-<div style="text-align: center;" class="figure">
-    <img src="FIGURE 1  ENONCE SIMPLIFIE DES PRINCIPES FIVE STARS.png" alt="5stars" style="width:50%;" title="Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)"/>
-    <figcaption><b>Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)</b></figcaption>
-</div>
-
-<h5 id="principe-4">Princpes #4 : Principes en lien avec les bonnes pratiques d'ingénierie logicielle et de recherche</h5>
-
-<p>Un projet informatique quel qu’il soit doit se conformer aux principes de base de conception, d’architecture et de développement logiciel. Il en va de même pour les projets d’interopérabilité de façon générale et pour les projets d’interopérabilité des artéfacts de connaissances médicales.</p>
-
-<p>Les projets d’interopérabilité des artéfacts de connaissances médicales doivent également se conformer aux principes de base de l’ingénierie des connaissances.</p>
-
-<p>Dans ce qui suit nous listons les principes d’ingénierie que la présente doctrine doit respecter et par définition les volets du CI-SIS en lien avec le SI-CM.</p>
-
-<h6 id="utilisation-design-patterns">L’utilisation des Design Patterns</h6>
-
-<p>Les artéfacts de connaissances médicales publiés, développés ou partagés par le SI-CM doivent se conformer aux principes architecturaux énoncés dans la littérature et adoptés par l’écosystème des ingénieurs informatiques. Dans ce qui suit nous citons succinctement quelqu’un de ces principes.</p>
-
-<div>
-    <ol>
-    <li>La modularité : un logiciel doit être divisé en modules ou composants distincts, chacun ayant une fonction spécifique.</li>
-        <ul>
-        <li>Avantages : la modularité facilite la compréhension, la maintenance et la réutilisation du code.</li>
-        </ul>
-    <li>L’encapsulation : permet de restreindre l'accès direct aux données et fonctions internes d'un module, exposant uniquement ce qui est nécessaire via des interfaces publiques.</li>
-        <ul>
-        <li>Avantages : l’encapsulation protège l'intégrité des données et réduit les interférences entre les composants.</li>
-        </ul>
-    <li>L’abstraction : consiste à cacher la complexité interne d’implémentation à l’utilisateur en se concentrant sur les aspects essentiels à l’utilisateur</li>
-        <ul>
-        <li>Avantages : améliore la clarté et permet de gérer la complexité du système en interne</li>
-        </ul>
-    <li>La forte cohésion : le degré auquel les éléments d'un même module sont liés fonctionnellement doit être fort.</li>
-        <ul>
-        <li>Avantages : les modules fortement en cohésion sont plus compréhensibles, maintenables et fiables</li>
-        </ul>
-    <li>Le faible couplage : les modules doivent être faiblement interdépendants</li>
-        <ul>
-        <li>Avantages : Un faible couplage réduit la complexité et facilite les modifications et l'évolution du système.</li>
-        </ul>
-    <li>La séparation des responsabilités : la responsabilité est un ensemble de fonctionnalités pris en charge par un module ou un ensemble de modules distincts. La séparation des responsabilités revient à concevoir le logiciel en groupes de modules distincts en termes de groupes de fonctionnalités</li>
-        <ul>
-        <li>Avantage : améliore la modularité citée plus haut mais à un niveau de modularité plus élevée</li>
-        </ul>
-    </ol>
-</div>
-
-<p>Il existe bien évidemment beaucoup plus de bonnes pratiques de conception logiciel énoncés dans la littérature, voici quelques références de base <a href="#ref7">7</a> <a href="#ref8">8</a> <a href="#ref9">9</a> <a href="#ref10">10</a>.</p>
-
-<h6 id="processus-conception-logiciel">L'adoption d'un processus de conception logiciel</h6>
-
-<p>Un projet en lien avec la standardisation et/ou l’interopérabilité des données de santé est un projet informatique à part entier. Il est donc nécessaire d’adopter un processus de conception logiciel adéquat pour structurer et organiser la conception et le développement des artéfacts produits par le projet en question. Les processus de conception doivent à minima inclure les étapes : collecte des exigences, la modélisation, la création de prototypes, et la validation des concepts avant la phase de développement.</p>
-
-<p>Les processus de conception logiciels les plus utilisés en ingénierie des logiciels à l’heure actuelle sont ceux issus du mouvement Agile. De nombreux « framework Agiles » existe, tels que : Scrum, Kanban, XP, Lean, Scaled Agile Framework,…</p>
-
-<p><strong>L’ingénierie des connaissances</strong></p>
-
-<p>Les projets en lien avec la connaissance sont également gérés suivant des processus de conception en lien avec une discipline appelée : l’ingénierie des connaissances <a href="#ref11">11</a> <a href="#ref12">12</a>. L’ingénierie des connaissances se concentre sur la création, la gestion et l’utilisation de la connaissance dans les systèmes informatiques. Elle implique la collecte, la structuration, la formalisation et la mise en œuvre des connaissances pour développer des systèmes intelligents capables de résoudre des problèmes complexes. Cette discipline est essentielle dans des domaines tels que  l’intelligence artificielle, les bases de connaissances et bien évidemment la structuration et la standardisation de la connaissance (médicale).</p>
-
-<p>Les projets en lien avec la standardisation de la connaissance médicale doivent adopter un processus de conception Agile d’ingénierie des connaissances. Les artéfacts produits dans chaque étape de conception (de transformation de la connaissance) doivent être visibles et explicites pour chaque volet du SI-CM suivant le design pattern décrit ici …</p>
-
-<h6 id="langage-modelisation-standard">L'adoption d'un langage de modélisation standard</h6>
-
-<p>Les langages de modélisation standard en ingénierie des logiciels sont des outils essentiels pour représenter visuellement les structures, les comportements et les interactions au sein d’un système logiciel. Ils permettent de faciliter la compréhension, la communication et la documentation des concepts complexes entre les parties prenantes. Parmi les langages de modélisation les plus utilisés, on retrouve : Unified Modeling Language (UML), SysML (Systems Modeling Language), Business Process Model and Notation (BPMN)…</p>
-
-<p>Ces langages de modélisation standard jouent un rôle crucial dans la conception, l’analyse et la gestion des projets de développement logiciel, en assurant une vision cohérente et partagée du système à construire.</p>
-
-<p>Le mouvement Agile n’impose pas de langage de modélisation particulier mais le manifeste Agile insiste sur l’attention continue que doit porter l’équipe de développement logiciel à l’excellence technique et à la conception basée sur les bonnes pratiques mais également sur la facilitation de la transmission de l’information entre les membres de l’équipe du projet. L’utilisation d’un langage de modélisation standard dans un processus de conception Agile permet de combiner les avantages de la modélisation formelle avec la flexibilité et la réactivité des méthodes agiles. Un langage de modélisation peut être utilisé de manière pragmatique pour clarifier les exigences, faciliter la communication entre les équipes et documenter les architectures logicielles de manière succincte. Ambler <a href="#ref13">13</a> et Rumbaugh <a href="#ref14">14</a>, estime que l’intégration d’UML (par exemple, N.D.L.R) dans les pratiques agiles aide à maintenir la cohérence et la compréhension commune du projet tout en respectant les principes agiles de simplicité et de réponse rapide aux changements.</p>
-
-<p>Le processus de conception adopté dans le cadre de la gestion des artéfacts des connaissances médicales du SI-CM doit également adopter un (ou plusieurs) langage de modélisation standards.</p>
-
+<h5 id="principe-4">Principes #4 : Principes en lien avec les bonnes pratiques d'ingénierie logicielle et de recherche</h5>
 <h6 id="design-patterns"> L'adoption des Designs Patterns en ingénierie des connaissances pour la standardisation des GBPC et leur intégration dans un SI de santé</h6>
 
 <p>En ingénierie des connaissances et plus particulièrement dans le cadre défini en paragraphe 2 de cette doctrine, nous avons identifié 3 designs patterns que le SI-CM doit respecter dans la gestion des artéfacts de connaissances médicales</p>
@@ -768,7 +766,7 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
 
 <h7 id="langage-modelisation">Choisir un langage de modélisation</h7>
 
-<p>Cette activité est en relation avec le principe #4 sur <a href="#processus-conception-logiciel">l’adoption d’un processus de conception logiciel</a> énoncé en amont. Le langage de modélisation standard choisi pour illustrer les étapes de conception et de structuration des artéfacts de connaissances médicales issues des GBPC dans la doctrine du SI-CM est le langage standard UML version 2.0 <a href="#ref22">22</a>.</p>
+<p><a name="l1524">​</a>Cette activité est en relation avec le principe #4 sur <a href="#processus-conception-logiciel">l’adoption d’un processus de conception logiciel</a> énoncé en amont. Le langage de modélisation standard choisi pour illustrer les étapes de conception et de structuration des artéfacts de connaissances médicales issues des GBPC dans la doctrine du SI-CM est le langage standard UML version 2.0 <a href="#ref22">22</a>.</p>
 
 <p>Ce choix est justifié pour plusieurs raisons</p>
 <div>
@@ -1021,7 +1019,7 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 23, 2025 14:32+0000">2025-06-23</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 23, 2025 15:41+0000">2025-06-23</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

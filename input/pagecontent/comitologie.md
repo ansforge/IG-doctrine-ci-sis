@@ -188,7 +188,7 @@ L’ordre du jour du COPIL est variable en fonction de son positionnement dans l
     </ul>
 </div>
 
-### Glossaire
+### Abréviations et acronymes
 
 <table style="border-collapse:collapse;border:none;">
     <tbody>

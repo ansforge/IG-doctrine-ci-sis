@@ -41,7 +41,6 @@ Ce processus peut être schématisé de la façon suivante :
     <figcaption><b>Processus d’élaboration des spécifications d’interopérabilité</b></figcaption>
 </div>
 
-Une présentation plus détaillée des différentes étapes de l’évolution du CI-SIS, sous forme de logigramme, est présentée en annexe pour les évolutions majeures (ex : nouvelles spécifications ou évolutions de spécifications existantes avec nécessité des développements importants pour les systèmes mettant en œuvre les spécifications existantes) et pour les évolutions mineures (ex : évolutions de spécifications existantes sans impact ou avec un impact mineur sur les systèmes mettant en œuvre les spécifications existantes).  
 
 Le processus d’élaboration des spécifications du CI-SIS prend appui sur les points clés suivants :
 
@@ -57,6 +56,8 @@ Le processus d’élaboration des spécifications du CI-SIS prend appui sur les 
         <li>Des mises en concertation au fil de l’eau et une réunion d’information annuelle pour présenter le bilan annuel des évolutions du CI-SIS ainsi que les orientations stratégiques. </li>
     </ul>
 </div>
+
+Les modalités pour faire évoluer le CI-SIS sont présentées de manière plus détaillée sur cette [page](ebe-cp.html).
 
 #### Adaptation de la comitologie associée du CI-SIS
 

@@ -7,11 +7,16 @@ The interoperability framework for health information systems (CI-SIS) sets the 
     <img style="height: auto; width: 100%;" src="ci-sis-logo.png" alt="CI-SIS" title="Logo du CI-SIS">
 </div> -->
 
-<div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/1999/xhtml ../../schema/fhir-xhtml.xsd" xmlns="http://www.w3.org/1999/xhtml">
+
+{% if site.data.info.releaselabel == 'ci-build' %}
+<div style="width: 65%">
 <blockquote class="stu-note">
-	Guide d'implémentation de la gouvernance et de la doctrine du CI-SIS <strong>en concertation</strong>. La version actuelle de la doctrine est accessible dans la page <a href="https://esante.gouv.fr/offres-services/ci-sis/demarche-elaboration">démarche d'élaboration</a>.
+<p>
+  <b>Attention !</b> Cette version de l'Implementation Guide est en intégration continue (version de travail) et est soumise à des changements réguliers. Après première publication, la version officielle sera accessible à l'adresse https://interop.esante.gouv.fr/ig/fhir/doctrine</b>
+</p>
 </blockquote>
 </div>
+{% endif %}
 
 [L’Agence du Numérique en Santé (ANS)](https://esante.gouv.fr/) accompagne la transformation numérique du système de santé aux côtés de tous les acteurs concernés des secteurs sanitaire, social et médico-social, privés comme publics, professionnels ou usagers.  Elle met en œuvre les orientations dédiées au secteur de la santé et du médico-social, à travers trois ambitions.
 
@@ -52,7 +57,7 @@ Afin de répondre à ces ambitions, la construction de ce cadre comme d’intero
 
 <div>
     <ul>
-        <li>S’assurer de répondre à des <b>cas d’usage prioritaires</b> (feuille de route du numérique en santé, etc), avec l’identification de ces cas d’usage, leur priorisation et un contrôle de la pertinence de la réponse technique au besoin ;</li>
+        <li>S’assurer de répondre à des <b>cas d’usage prioritaires</b> (la feuille de route du numérique en santé, les programmes nationaux tels que le Ségur du Numérique en Santé, les référentiels, les échanges avec et entre les services numériques socles, l’élaboration des référentiels de conformité … ), avec l’identification de ces cas d’usage, leur priorisation et un contrôle de la pertinence de la réponse technique au besoin ;</li>
         <li>S’inscrire dans un <b>cadre résolument international</b>, en particulier avec les travaux IHE, HL7, DICOM, de façon à bénéficier des travaux réalisés de ces communautés et de limiter ainsi le coût d’implémentation de la déclinaison française de l’interopérabilité. En complément, avec la mise en œuvre de l’EEDS (Espace Européen des Données de Santé), le cadre européen d’interopérabilité s’imposera aussi aux Etats membres, qui sera donc évidemment repris dans le CI-SIS</li>
         <li>Garantir la <b>co-construction de ce cadre commun</b>, en s’assurant que chacun puisse être acteur aux différents niveaux : identification de cas d’usage, formalisation précise du besoin, propositions techniques, expérimentations et retours terrain, etc</li>
         <li>Maintenir <b>une lisibilité d’un CI-SIS</b> en croissance, en particulier sur les contributions attendues et leurs modalités mais aussi sur le contenu validé et son niveau de maturité, i.e. la confiance dans sa capacité à répondre au besoin</li>

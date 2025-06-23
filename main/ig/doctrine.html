@@ -1,39 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <title>Doctrine - Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS) v0.1.0-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
 
-    <link href="fhir.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="fhir.css"/>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
 
-    <!-- Project extras -->
-    <link href="assets/css/project.css" rel="stylesheet"/>
-    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
-    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
-  	<link href="assets/css/prism.css" rel="stylesheet" />
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
     <link rel="stylesheet" href="assets/css/style-ans.css"/>
     <link rel="stylesheet" href="assets/css/style-add-ans.css"/>
-    <!-- Placeholder for child template CSS declarations -->
+      <!-- Placeholder for child template CSS declarations -->
 
-    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
+    <![endif] -->
 
-    <!-- Favicons -->
-    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
-    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
-    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
     <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
@@ -43,50 +43,50 @@
 
     <style type="text/css">h2{--heading-prefix:"2"}
     h3,h4,h5,h6{--heading-prefix:"2"}</style>
-    <div id="segment-header" class="segment">  <!-- segment-header -->
-      <div class="container">  <!-- container -->
-        <!-- Placeholder for child template header declarations -->
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+      <div class="container">    <!-- container -->
+          <!-- Placeholder for child template header declarations -->
 <div id="family-nav">
-    <a id="hl7-search-lnk" no-external="true" href="https://esante.gouv.fr/produits-services/ci-sis"><img height="50" alt="Visit the CI-SIS website" src="assets/images/ci-sis-logo.jpeg"/> </a>
+    <a no-external="true" id="hl7-search-lnk" href="https://esante.gouv.fr/produits-services/ci-sis"><img src="assets/images/ci-sis-logo.jpeg" alt="Visit the CI-SIS website" height="50"/> </a>
   </div>
-  <div id="ans-nav" style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; ">
-    <a id="hl7-logo" no-external="true" href="https://esante.gouv.fr/"><img height="50" alt="ANS Logo" src="assets/images/logo-ANS.svg"/></a>
+  <div style="line-height: 50px; float: left; margin-top: 4px; margin-bottom: 8px; color: #808080; " id="ans-nav">
+    <a no-external="true" id="hl7-logo" href="https://esante.gouv.fr/"><img src="assets/images/logo-ANS.svg" alt="ANS Logo" height="50"/></a>
   </div>
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Doctrine et gouvernance du cadre d&#39;interopérabilité des systèmes d&#39;informations en santé (CI-SIS)</span>
+          <p><span style="font-size:12pt;font-weight:bold">Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS)</span>
             <br/>
             <span style="display:inline-block;">0.1.0-ballot - ci-build
 
 
 
-  <img alt="France flag" src="assets/images/fra.svg" height="16" title="France"/>
+  <img src="assets/images/fra.svg" alt="France flag" title="France" height="16"/>
 
 
             </span>
           </p>
         </div>
-      </div> <!-- /container -->
-    </div>  <!-- /segment-header -->
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
 
-    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+    <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
       <div id="stripe"> </div>
-      <div class="container">  <!-- container -->
-        <!-- HEADER CONTENT -->
+      <div class="container">    <!-- container -->
+          <!-- HEADER CONTENT -->
 
         <nav class="navbar navbar-inverse">
-          <!--status-bar-->
+            <!-- status-bar -->
           <div class="container">
-            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+            <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-              <!-- menu.xml  -->
+                <!-- menu.xml -->
 
-<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+<ul class="nav navbar-nav">
   <li>
     <a href="index.html">Accueil</a>
   </li>
@@ -102,7 +102,7 @@
         <a href="trajectoire-iop.html">Trajectoire interopérabilité</a>
       </li>
       <li>
-        <a href="elaboration.html">Méthode d&apos;élaboration des échanges fonctionnels</a>
+        <a href="elaboration.html">Méthode d'élaboration des échanges fonctionnels</a>
       </li>
       <li>
         <a href="choix-standard.html">Choix des normes et standard</a>
@@ -121,7 +121,7 @@
         <a href="comitologie.html">Comitologie</a>
       </li>
       <li>
-        <a href="interactions-ecosysteme.html">Interactions avec l&apos;écosystème</a>
+        <a href="interactions-ecosysteme.html">Interactions avec l'écosystème</a>
       </li>
       <li>
         <a href="ebe-cp.html">Expression des besoins et Change Proposals</a>
@@ -132,21 +132,21 @@
     </ul>
   </li>
   <li>
-    <a target="_blank" href="https://interop.esante.gouv.fr/ig/documentation/">Documentation des IGs</a>
+    <a href="https://interop.esante.gouv.fr/ig/documentation/" target="_blank">Documentation des IGs</a>
   </li>
 </ul>
-            </div>  <!-- /.nav-collapse -->
-          </div>  <!-- /.container -->
-        </nav>  <!-- /.navbar -->
-      <!-- /HEADER CONTENT -->
-      </div>  <!-- /container -->
-    </div>  <!-- /segment-navbar -->
-    <!--status-bar-->
+            </div>    <!-- /.nav-collapse -->
+          </div>    <!-- /.container -->
+        </nav>    <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-navbar -->
+      <!-- status-bar -->
 
-    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
-      <div class="container">  <!-- container -->
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Doctrine</b></li>
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><b>Doctrine</b></li>
 
           <span style="float:right;">
 
@@ -159,12 +159,12 @@
           </span>
 
         </ul>
-      </div>  <!-- /container -->
-    </div>  <!-- /segment-breadcrumb -->
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
 
     <a name="top"> </a>
-    <div id="segment-content" class="segment">  <!-- segment-content -->
-      <div class="container">  <!-- container -->
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
         <div class="row">
           <div class="inner-wrapper">
 
@@ -176,7 +176,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS) - Local Development build (v0.1.0-ballot) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interop.esante.gouv.fr/ig/doctrine/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+    <!-- ReleaseHeader --><p id="publish-box">Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS) - Local Development build (v0.1.0-ballot) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://interop.esante.gouv.fr/ig/doctrine/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <h2>Doctrine</h2>
   
 
@@ -191,11 +191,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
 
-    <p><!-- white space is critical inside of capture --></p>
+    <p>  <!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
   <li><a href="#enjeux-de-linteropérabilité-et-du-ci-sis" id="markdown-toc-enjeux-de-linteropérabilité-et-du-ci-sis">Enjeux de l’interopérabilité et du CI-SIS</a></li>
   <li><a href="#la-doctrine-du-ci-sis" id="markdown-toc-la-doctrine-du-ci-sis">La doctrine du CI-SIS</a></li>
+  <li><a href="#les-principes-de-la-doctrine-du-ci-sis" id="markdown-toc-les-principes-de-la-doctrine-du-ci-sis">Les principes de la doctrine du CI-SIS</a></li>
   <li><a href="#doctrine-de-la-connaissance-médicale" id="markdown-toc-doctrine-de-la-connaissance-médicale">Doctrine de la connaissance médicale</a></li>
 </ul>
 
@@ -262,8 +263,8 @@ Les profils internationaux peuvent également être plus détaillés pour être 
 
 <p>Le CI-SIS est également en cohérence avec les orientations du RGI et du <a href="https://ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf">cadre d’interopérabilité européen</a> (European Interoperabilty Framework – EIF) et identifie formellement les cas où les spécificités des cas d’usage santé nécessitent de s’en écarter.</p>
 
-<div class="figure" style="text-align: center;">
-    <img src="positionnement-profil-fr.jpg" alt="CP" title="Exemple (non exhaustif) de positionnement de profils français et internationaux par rapport aux normes et standards" style="width:80%;" />
+<div style="text-align: center;" class="figure">
+    <img src="positionnement-profil-fr.jpg" alt="CP" style="width:80%;" title="Exemple (non exhaustif) de positionnement de profils français et internationaux par rapport aux normes et standards"/>
     <figcaption><b>Exemple (non exhaustif) de positionnement de profils français et internationaux par rapport aux normes et standards</b></figcaption>
 </div>
 
@@ -285,17 +286,17 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
 
 <p>Par la définition de la structuration du contenu médical, le CI–SIS permet d’identifier le langage adéquat pour présenter des informations selon les standards et les normes reconnus ainsi que le vocabulaire à utiliser pour coder l’information (interopérabilité sémantique). Ceci permet de faciliter le traitement automatique de l’information et permet la mise en œuvre de services à valeur ajoutée. C’est ce qu’on appelle « l’interopérabilité syntaxique et sémantique ».</p>
 
-<p>De nature à favoriser l’adéquation opérationnelle des profils français du domaine de la santé, du medico-social et social, aux cas d’usage métier, ce positionnement de fait nécessite une formalisation au sein d’une doctrine d’interopérabilité afin de fournir une meilleure visibilité aux parties prenantes sur les orientations du CI-SIS en termes de normes et standards techniques, syntaxiques et sémantiques.</p>
+<p>De nature à favoriser l’adéquation opérationnelle des profils français du domaine de la santé, du medico-social et social, aux cas d’usage métier, ce positionnement de fait nécessite une formalisation au sein d’une doctrine du CI-SIS afin de fournir une meilleure visibilité aux parties prenantes sur les orientations du CI-SIS en termes de normes et standards techniques, syntaxiques et sémantiques.</p>
 
-<!-- ## Guide de lecture pour novices -->
+  <!-- ## Guide de lecture pour novices -->
 
-<!-- TODO -->
+  <!-- TODO -->
 
 <h3 id="la-doctrine-du-ci-sis">La doctrine du CI-SIS</h3>
 
 <p>La doctrine du CI-SIS a pour objectif de formaliser les orientations suivies par le CI-SIS en termes de normes et standards dans le cas général et de fournir un processus de détermination des normes et standards à suivre lorsque le cas d’usage considéré ne peut pas être mis en œuvre via ces orientations. Une fois validée par les acteurs du domaine, elle permet de s’affranchir d’une consultation préalable à l’élaboration des spécifications d’interopérabilité lorsqu’un besoin d’interopérabilité peut être pris en compte par une norme ou un standard déjà existant dans les orientations du CI-SIS. Elle ne change pas le processus d’élaboration des spécifications d’interopérabilité qui sont soumises à concertation publique, qu’il y ait eu une consultation préalable ou non sur les normes/standards.</p>
 
-<p>La doctrine d’interopérabilité technique et syntaxique du CI-SIS peut être synthétisée par les règles suivantes :</p>
+<p>La doctrine technique et syntaxique du CI-SIS peut être synthétisée par les règles suivantes :</p>
 
 <div>
     <ul>
@@ -305,7 +306,7 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
     </ul>
 </div>
 
-<p>La doctrine d’interopérabilité sémantique du CGTS s’inscrit dans la doctrine d’interopérabilité du CI-SIS en termes de terminologies de référence à retenir :</p>
+<p>La doctrine sémantique du CI-SIS en termes de terminologies de référence à retenir :</p>
 
 <div>
     <ul>
@@ -315,16 +316,138 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
     </ul>
 </div>
 
-<p>Dans un futur proche, une doctrine d’interopérabilité pour les cas d’usage d’aide à la décision clinique viendra compléter la doctrine du CI-SIS.</p>
-
 <p>L’ensemble des spécifications d’interopérabilité (au sein du Cadre d’Interopérabilité des Systèmes d’Information de Santé (CI-SIS)) et des terminologies constitue un bien commun, qui respecte les principes de transparence, de collaboration, de participation et d’éthique.</p>
 
-<div class="figure" style="text-align: center;">
-    <img src="doctrine.png" alt="CP" title="Principes généraux de la doctrine d’interopérabilité" style="width:80%;" />
-    <figcaption><b>Principes généraux de la doctrine d’interopérabilité</b></figcaption>
+<div style="text-align: center;" class="figure">
+    <img src="doctrine.png" alt="CP" style="width:80%;" title="Principes généraux de la doctrine du CI-SIS"/>
+    <figcaption><b>Principes généraux de la doctrine du CI-SIS</b></figcaption>
 </div>
 
-<h4 id="choix-des-profils-ihe-et-des-guides-dimplémentation-comme-base-de-la-doctrine-dinteropérabilité-syntaxique">Choix des profils IHE et des guides d’implémentation comme base de la doctrine d’interopérabilité syntaxique</h4>
+<h3 id="les-principes-de-la-doctrine-du-ci-sis">Les principes de la doctrine du CI-SIS</h3>
+<p>Une doctrine est par définition : un ensemble de principes génériques de base sur lequel s’appuie une stratégie et des plans d’actions <a href="#ref2">2</a>. Dans ce qui suit, nous décrivons les principes sur lesquels la doctrine du CI-SIS s’appuie.</p>
+
+<h4 id="principes-1--principes-issus-du-cadre-juridique">Principes #1 : Principes issus du cadre juridique</h4>
+
+<p>La loi du 7 octobre 2016 <a href="#ref3">3</a> pour une république numérique, souvent appelée “Loi république numérique”, est une législation française visant à adapter le cadre juridique aux enjeux de la transformation numérique. Cette loi est une source de « règles » pour la doctrine du CI-SIS. Le <a href="#doctrine-de-la-connaissance-médicale">SI-CM (Système d’Information et Connaissances Médicales)</a> et les volets qui vont être publiés dans le CI-SIS doivent  doivent, entre autres, souscrire</p>
+
+<div>
+    <ul>
+    <li>à l'ouverture des données produites</li>
+    <li>à rendre accessibles en ligne les données publiques produites dans un format ouvert et réutilisable</li>
+    <li>à la portabilité des données produites. Les utilisateurs finaux doivent pouvoir se partager les données publiques et libres d'accès (voir chapitre sur la propriété intellectuelle)</li>
+    </ul>
+</div>
+<p>Plusieurs de ces principes ont été directement ou partiellement inspirés des principes FAIR et de la mouvance Open Data que nous prenons également comme base de réflexion pour la doctrine du CI-SIS.</p>
+
+<h4 id="principes-2--principes-fair">Principes #2 : Principes FAIR</h4>
+
+<p>Les principes FAIR (Findable, Accessible, Interoperable, Reusable) <a href="#ref4">4</a> visent à améliorer la gestion et le partage des données scientifiques. Ils sont conçus pour faciliter la découverte, l’accès, l’interopérabilité et la réutilisation des données de recherche.</p>
+
+<p>Le SI-CM et les volets qui vont être publiés dans le CI-SIS doivent, entre autres, souscrire</p>
+
+<div>
+    <ul>
+    <li>A ce que les artéfacts publics produits soient facilement trouvables via une plateforme dédiée. La plateforme en question doit être implémentée de façon à ce que</li>
+        <ul>
+        <li>Les artéfacts produits soient faciles à localiser pour les humains et les machines. Cela implique l'utilisation de métadonnées descriptives et de mécanismes de recherche appropriés.</li>
+        <li>Les artéfacts produits aient un identifiant unique et persistant.</li>
+        </ul>
+    <li>A ce que les artéfacts publiques soient accessibles en s’assurant que</li>  
+        <ul>
+        <li>L’accès à ces artéfacts se fasse via des protocoles standards et ouverts </li>
+        <li>Les conditions d’accès à ces artéfacts soient clairement spécifiées et documentées, autant que faire se peut, via des métadonnées</li>
+        </ul>
+    <li>A ce que les artéfacts publiques produits soient interopérables en s’assurant que</li>
+        <ul>
+        <li>Les artéfacts produits soient structurés de manière à pouvoir les combiner et les intégrer dans divers SIs</li>
+        <li>Les artéfacts produits utilisent pour la structuration de leurs données des standards d’interopérabilité reconnus et validés par la littérature et les experts du domaine mais également par les usages</li>
+        <li>Les artéfacts produits utilisent pour la structuration de leurs données des Terminologies reconnues et validées par la littérature et les experts du domaine mais également par les usages</li>
+        </ul>
+    <li>A ce que les artéfacts publiques produits soient réutilisables en s’assurant que</li>
+        <ul>
+        <li>Les artéfacts produits soient suffisamment documentés pour permettre la réutilisation mais également pour permettre à l’utilisateur final de connaitre le contexte métier en lien avec la production de ces artéfacts</li>
+        <li>Les conditions d’utilisation et de réutilisation soient clairement énoncées, cela comprend la ou les licences de publication des artéfacts en question.</li>
+        </ul>
+    </ul>
+</div>
+
+<h4 id="principes-3--principes-du-mouvement-de-lopen-data">Principes #3 : Principes du mouvement de l’Open Data</h4>
+
+<p>Le mouvement Open Data (données ouvertes) <a href="#ref5">5</a> est une initiative mondiale qui vise à rendre les données publiques librement accessibles à tous, sans restriction légales, financières ou techniques. Plusieurs des principes de ce mouvement sont partagés avec le mouvement FAIR Data. La version Five Star <a href="#ref5">5</a> du mouvement Open Data <a href="#ref6">6</a> apporte plus de précision sur les principes du mouvement Open Data. Le mouvement Five Star <a href="#ref5">5</a> définit une échelle et des étapes pour atteindre le niveau maximal de conformité à ces principes (Figure 1).</p>
+
+<p>La doctrine du CI-SIS vise à pousser l’écosystème à adopter, autant que faire se peut, l’échelle maximale (5 étoiles) de conformité pour la publication des artéfacts de connaissances médicales.</p>
+
+<div style="text-align: center;" class="figure">
+    <img src="FIGURE 1  ENONCE SIMPLIFIE DES PRINCIPES FIVE STARS.png" alt="5stars" style="width:50%;" title="Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)"/>
+    <figcaption><b>Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)</b></figcaption>
+</div>
+
+<h4 id="principes-4--principes-en-lien-avec-les-bonnes-pratiques-dingénierie-logicielle-et-de-recherche">Principes #4 : Principes en lien avec les bonnes pratiques d’ingénierie logicielle et de recherche</h4>
+
+<p>Un projet informatique quel qu’il soit doit se conformer aux principes de base de conception, d’architecture et de développement logiciel. Il en va de même pour les projets d’interopérabilité de façon générale et pour les projets d’interopérabilité des artéfacts de connaissances médicales.</p>
+
+<p>Les projets d’interopérabilité des artéfacts de connaissances médicales doivent également se conformer aux principes de base de l’ingénierie des connaissances.</p>
+
+<p>Dans ce qui suit nous listons les principes d’ingénierie que la doctrine du CI-SIS doit respecter.</p>
+
+<h5 id="lutilisation-des-design-patterns">L’utilisation des Design Patterns</h5>
+
+<p>Les artéfacts publiés, développés ou partagés doivent se conformer aux principes architecturaux énoncés dans la littérature et adoptés par l’écosystème des ingénieurs informatiques. Dans ce qui suit nous citons succinctement quelqu’un de ces principes.</p>
+
+<div>
+    <ol>
+    <li>La modularité : un logiciel doit être divisé en modules ou composants distincts, chacun ayant une fonction spécifique.</li>
+        <ul>
+        <li>Avantages : la modularité facilite la compréhension, la maintenance et la réutilisation du code.</li>
+        </ul>
+    <li>L’encapsulation : permet de restreindre l'accès direct aux données et fonctions internes d'un module, exposant uniquement ce qui est nécessaire via des interfaces publiques.</li>
+        <ul>
+        <li>Avantages : l’encapsulation protège l'intégrité des données et réduit les interférences entre les composants.</li>
+        </ul>
+    <li>L’abstraction : consiste à cacher la complexité interne d’implémentation à l’utilisateur en se concentrant sur les aspects essentiels à l’utilisateur</li>
+        <ul>
+        <li>Avantages : améliore la clarté et permet de gérer la complexité du système en interne</li>
+        </ul>
+    <li>La forte cohésion : le degré auquel les éléments d'un même module sont liés fonctionnellement doit être fort.</li>
+        <ul>
+        <li>Avantages : les modules fortement en cohésion sont plus compréhensibles, maintenables et fiables</li>
+        </ul>
+    <li>Le faible couplage : les modules doivent être faiblement interdépendants</li>
+        <ul>
+        <li>Avantages : Un faible couplage réduit la complexité et facilite les modifications et l'évolution du système.</li>
+        </ul>
+    <li>La séparation des responsabilités : la responsabilité est un ensemble de fonctionnalités pris en charge par un module ou un ensemble de modules distincts. La séparation des responsabilités revient à concevoir le logiciel en groupes de modules distincts en termes de groupes de fonctionnalités</li>
+        <ul>
+        <li>Avantage : améliore la modularité citée plus haut mais à un niveau de modularité plus élevée</li>
+        </ul>
+    </ol>
+</div>
+
+<p>Il existe bien évidemment beaucoup plus de bonnes pratiques de conception logiciel énoncés dans la littérature, voici quelques références de base <a href="#ref7">7</a> <a href="#ref8">8</a> <a href="#ref9">9</a> <a href="#ref10">10</a>.</p>
+
+<h5 id="ladoption-dun-processus-de-conception-logiciel">L’adoption d’un processus de conception logiciel</h5>
+
+<p>Un projet en lien avec la standardisation et/ou l’interopérabilité des données de santé est un projet informatique à part entier. Il est donc nécessaire d’adopter un processus de conception logiciel adéquat pour structurer et organiser la conception et le développement des artéfacts produits par le projet en question. Les processus de conception doivent à minima inclure les étapes : collecte des exigences, la modélisation, la création de prototypes, et la validation des concepts avant la phase de développement.</p>
+
+<p>Les processus de conception logiciels les plus utilisés en ingénierie des logiciels à l’heure actuelle sont ceux issus du mouvement Agile. De nombreux « framework Agiles » existe, tels que : Scrum, Kanban, XP, Lean, Scaled Agile Framework,…</p>
+
+<p><strong>L’ingénierie des connaissances</strong></p>
+
+<p>Les projets en lien avec la connaissance sont également gérés suivant des processus de conception en lien avec une discipline appelée : l’ingénierie des connaissances <a href="#ref11">11</a> <a href="#ref12">12</a>. L’ingénierie des connaissances se concentre sur la création, la gestion et l’utilisation de la connaissance dans les systèmes informatiques. Elle implique la collecte, la structuration, la formalisation et la mise en œuvre des connaissances pour développer des systèmes intelligents capables de résoudre des problèmes complexes. Cette discipline est essentielle dans des domaines tels que  l’intelligence artificielle, les bases de connaissances et bien évidemment la structuration et la standardisation de la connaissance (médicale).</p>
+
+<p>Les projets en lien avec la standardisation de la connaissance médicale doivent adopter un processus de conception Agile d’ingénierie des connaissances. Les artéfacts produits dans chaque étape de conception (de transformation de la connaissance) doivent être visibles et explicites pour chaque volet suivant le design pattern décrit ici …</p>
+
+<h5 id="ladoption-dun-langage-de-modélisation-standard">L’adoption d’un langage de modélisation standard</h5>
+
+<p>Les langages de modélisation standard en ingénierie des logiciels sont des outils essentiels pour représenter visuellement les structures, les comportements et les interactions au sein d’un système logiciel. Ils permettent de faciliter la compréhension, la communication et la documentation des concepts complexes entre les parties prenantes. Parmi les langages de modélisation les plus utilisés, on retrouve : Unified Modeling Language (UML), SysML (Systems Modeling Language), Business Process Model and Notation (BPMN)…</p>
+
+<p>Ces langages de modélisation standard jouent un rôle crucial dans la conception, l’analyse et la gestion des projets de développement logiciel, en assurant une vision cohérente et partagée du système à construire.</p>
+
+<p>Le mouvement Agile n’impose pas de langage de modélisation particulier mais le manifeste Agile insiste sur l’attention continue que doit porter l’équipe de développement logiciel à l’excellence technique et à la conception basée sur les bonnes pratiques mais également sur la facilitation de la transmission de l’information entre les membres de l’équipe du projet. L’utilisation d’un langage de modélisation standard dans un processus de conception Agile permet de combiner les avantages de la modélisation formelle avec la flexibilité et la réactivité des méthodes agiles. Un langage de modélisation peut être utilisé de manière pragmatique pour clarifier les exigences, faciliter la communication entre les équipes et documenter les architectures logicielles de manière succincte. Ambler <a href="#ref13">13</a> et Rumbaugh <a href="#ref14">14</a>, estime que l’intégration d’UML (par exemple, N.D.L.R) dans les pratiques agiles aide à maintenir la cohérence et la compréhension commune du projet tout en respectant les principes agiles de simplicité et de réponse rapide aux changements.</p>
+
+<p>Le processus de conception adopté dans le cadre de la gestion des artéfacts doit également adopter un (ou plusieurs) langage de modélisation standards.</p>
+
+<h4 id="choix-des-profils-ihe-et-des-guides-dimplémentation-comme-base-de-la-doctrine-syntaxique-du-ci-sis">Choix des profils IHE et des guides d’implémentation comme base de la doctrine syntaxique du CI-SIS</h4>
 
 <p>Les profils IHE et les guides d’implémentation d’HL7 sont des spécifications opérationnelles d’interopérabilité qui indiquent comment utiliser des normes/standards stables et « vivants » dans le cadre de cas d’usage des domaines sanitaire, medico-social et social. Ce travail d’analyse et de sélection des normes/standards ainsi que la prise en compte des spécificités des cas d’usage de ces domaines en font une base de départ adaptée pour les spécifications du CI-SIS, qui n’ont plus qu’à contraindre ces profils et ces guides d’implémentation en fonction du contexte français.</p>
 
@@ -351,7 +474,7 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
 
 <p>D’autre part, dans le cadre du règlement relatif à l’espace Européen des données de santé (EHDS), le réseau eHealth Network, sous l’égide de la Commission Européenne, définit des normes et standards internationaux et des spécifications techniques s’adressant aux entreprises du numérique en santé des états membres, précisant l’implémentation de ces normes et standards au fur et à mesure de la construction de cet espace Européen des données de santé. En particulier, EHDS est basé sur un format d’échange des données de santé (EEHRxF) constitué à ce jour des guidelines suivantes :</p>
 
-<!-- Insérer le lien sur les guidelines -->
+  <!-- Insérer le lien sur les guidelines -->
 <div>
     <ul>
         <li>ePrescription and eDispensation,</li>
@@ -396,7 +519,7 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
     </ul>
 </div>
 
-<p>Dans ce cas, la doctrine est donc complétée par une procédure de consultation sur les normes et standards pour les cas d’usage non couverts par des profils IHE, par des guides d’implémentation FHIR d’HL7 adaptés ou par des normes et standards déjà utilisés dans le CI-SIS.</p>
+<p>Dans ce cas, la doctrine du CI-SIS est donc complétée par une procédure de consultation sur les normes et standards pour les cas d’usage non couverts par des profils IHE, par des guides d’implémentation FHIR d’HL7 adaptés ou par des normes et standards déjà utilisés dans le CI-SIS.</p>
 
 <p>Cette consultation s’organise en 6 étapes :</p>
 
@@ -413,33 +536,33 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
 
 <p>Ces différentes étapes sont détaillées dans les schémas de la section suivante.</p>
 
-<h4 id="articulation-de-la-doctrine-dinteropérabilité-avec-la-gouvernance-du-ci-sis">Articulation de la doctrine d’interopérabilité avec la gouvernance du CI-SIS</h4>
+<h4 id="articulation-entre-la-doctrine-et-la-gouvernance-du-ci-sis">Articulation entre la doctrine et la gouvernance du CI-SIS</h4>
 
-<p>La doctrine est complètement intégrée à la gouvernance du CI-SIS. Elle vient se positionner en entrée de la phase 4 de l’instruction de la gouvernance lors du choix de la syntaxe et de la sémantique cibles à utiliser dans les spécifications d’interopérabilité.</p>
+<p>La doctrine du CI-SIS est complètement intégrée à la gouvernance du CI-SIS. Elle vient se positionner en entrée de la phase 4 de l’instruction de la gouvernance lors du choix de la syntaxe et de la sémantique cibles à utiliser dans les spécifications d’interopérabilité.</p>
 
-<div class="figure" style="text-align: center;">
-    <img src="phase-gouv.png" alt="CP" title="Niveaux Rappel des phases de la gouvernance du CI-SIS" style="width:80%;" />
+<div style="text-align: center;" class="figure">
+    <img src="phase-gouv.png" alt="CP" style="width:80%;" title="Niveaux Rappel des phases de la gouvernance du CI-SIS"/>
     <figcaption><b>Niveaux Rappel des phases de la gouvernance du CI-SIS</b></figcaption>
 </div>
 
-<p>En y intégrant les éléments de la doctrine syntaxique et sémantique, la phase d’évolution du CI-SIS (phase 4) se décompose en 5 sous-phases :</p>
+<p>En y intégrant les éléments de la doctrine syntaxique et sémantique du CI-SIS, la phase d’évolution du CI-SIS (phase 4) se décompose en 5 sous-phases :</p>
 
 <div>
     <ul>
-        <li>A. Analyse métier du cas d’usage, modélisation des échanges entre SI conformément à la [méthodologie d’élaboration des spécifications fonctionnelles des échanges](./elaboration.html), et choix de terminologie(s) de référence répondant au cas d’usage étudié selon les principes de la doctrine sémantique ;</li>
+        <li>A. Analyse métier du cas d’usage, modélisation des échanges entre SI conformément à la [méthodologie d’élaboration des spécifications fonctionnelles des échanges](./elaboration.html), et choix de terminologie(s) de référence répondant au cas d’usage étudié selon les principes de la doctrine sémantique du CI-SIS ;</li>
         <li>B. Concertation publique sur la spécification fonctionnelle des échanges (intégrant les choix de terminologies) ;</li>
-        <li>C. Choix de la norme ou du standard syntaxique selon les principes de la doctrine syntaxique ;</li>
+        <li>C. Choix de la norme ou du standard syntaxique selon les principes de la doctrine syntaxique du CI-SIS ;</li>
         <li>D. Rédaction des spécifications techniques d’interopérabilité par correspondance entre les échanges modélisés et la syntaxe cible assortie des règles de mise en œuvre tel que définies dans la norme ou le standard choisi ;</li>
         <li>E. Concertation publique sur la modélisation des échanges et les spécifications d’interopérabilité correspondantes et finalisation des spécifications.</li>
     </ul>
 </div>
 
-<div class="figure" style="text-align: center;">
-    <img src="sous-phase-evo.png" alt="CP" title="Sous phases de la phase d’évolution du CI-SIS" style="width:80%;" />
+<div style="text-align: center;" class="figure">
+    <img src="sous-phase-evo.png" alt="CP" style="width:80%;" title="Sous phases de la phase d’évolution du CI-SIS"/>
     <figcaption><b>Sous phases de la phase d’évolution du CI-SIS</b></figcaption>
 </div>
 
-<!-- IGI - Schéma modifié par rapport à l’original pour insérer la phase de concertation publique de l’étude fonctionnelle des échanges -->
+  <!-- IGI - Schéma modifié par rapport à l’original pour insérer la phase de concertation publique de l’étude fonctionnelle des échanges -->
 
 <p>Ces travaux peuvent être faits en collaboration avec l’écosystème via une contractualisation sous forme d’<a href="./up-externe.html">Unité de Production externe</a>.</p>
 
@@ -502,137 +625,9 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
 </div>
 
 <h4 id="principes-SI-CM">Les principes de la doctrine du SI-CM</h4>
-<p>Une doctrine est par définition : un ensemble de principes génériques de base sur lequel s’appuie une stratégie et des plans d’actions <a href="#ref2">2</a>. Dans ce qui suit, nous décrivons les principes sur lesquels la doctrine du SI-CM s’appuiera pour gérer les artéfacts de connaissances médicales que le SI-CM produira / exposera. Ces principes nous permettront d’instancier un chemin nominal pour la gestion des artéfacts produits / exposés par le SI-CM et un ou plusieurs chemins secondaires. Ces chemins décriront les outils de modélisation, de conception et de mise en œuvre qui devront être utilisés et/ou promus (à destination de l’écosystème) par le SI-CM pour la gestion des artéfacts de connaissances médicales en France.</p>
+<p>Dans ce qui suit, nous décrivons les principes spécifique de la doctrine du SI-CM sur lesquelles elle s’appuiera pour gérer les artéfacts de connaissances médicales que le SI-CM produira / exposera. Ces principes nous permettront d’instancier un chemin nominal pour la gestion des artéfacts produits / exposés par le SI-CM et un ou plusieurs chemins secondaires. Ces chemins décriront les outils de modélisation, de conception et de mise en œuvre qui devront être utilisés et/ou promus (à destination de l’écosystème) par le SI-CM pour la gestion des artéfacts de connaissances médicales en France. Les principes commun à l’ensemble de la doctrine du CI-SIS sont présentés dans le chapitre précédente.</p>
 
-<p>Dans ce qui suit nous énoncerons</p>
-<div>
-    <ul>
-    <li>Les principes de la doctrine du SI-CM </li> 
-    <li>Le chemin nominal et la possibilité d'avoir un ou plusieurs chemins secondaires pour les différents outils de modélisation, de conception et de mise en oeuvre des artéfacts de connaissances médicales du SI-CM </li> 
-    </ul>
-</div>
-
-<h5 id="principe-1">Principes #1 : Principes issus du cadre juridique</h5>
-
-<p>La loi du 7 octobre 2016 <a href="#ref3">3</a> pour une république numérique, souvent appelée “Loi république numérique”, est une législation française visant à adapter le cadre juridique aux enjeux de la transformation numérique. Cette loi est une source de « règles » pour la doctrine du SI-CM. Le SI-CM et les volets qui vont être publiés dans le CI-SIS doivent, entre autres, souscrire</p>
-
-<div>
-    <ul>
-    <li>à l'ouverture des données produites dans le cadre de ce système d'information (SI)</li>
-    <li>à rendre accessibles en ligne les données ubiques produites dans le cadre de ce SI, dans un format ouvert et réutilisable</li>
-    <li>à la portabilité des données produites dans le cadre de ce SI. Les utilisateurs finaux doivent pouvoir se partager les données publiques et libres d'accès (voir chapitre sur la propriété intellectuelle)</li>
-    </ul>
-</div>
-<p>Plusieurs de ces principes ont été directement ou partiellement inspirés des principes FAIR et de la mouvance Open Data que nous prenons également comme base de réflexion pour la doctrine du SI-CM.</p>
-
-<h5 id="principe-2">Principes #2 : Principes FAIR</h5>
-
-<p>Les principes FAIR (Findable, Accessible, Interoperable, Reusable) <a href="#ref4">4</a> visent à améliorer la gestion et le partage des données scientifiques. Ils sont conçus pour faciliter la découverte, l’accès, l’interopérabilité et la réutilisation des données de recherche. Ces principes peuvent être adaptés et adoptés pour la doctrine du SI-CM.</p>
-
-<p>Le SI-CM et les volets qui vont être publiés dans le CI-SIS doivent, entre autres, souscrire</p>
-
-<div>
-    <ul>
-    <li>A ce que les artéfacts publics produits par le SI-CM soient facilement trouvables via une plateforme dédiée. La plateforme en question doit être implémentée de façon à ce que</li>
-        <ul>
-        <li>Les artéfacts produits dans le cadre du SI-CM doivent être faciles à localiser pour les humains et les machines. Cela implique l'utilisation de métadonnées descriptives et de mécanismes de recherche appropriés.</li>
-        <li>Les artéfacts produits dans le cadre du SI-CM doivent avoir un identifiant unique et persistant.</li>
-        </ul>
-    <li>A ce que les artéfacts publiques produits par le SI-CM soient accessibles en s’assurant que</li>  
-        <ul>
-        <li>L’accès à ces artéfacts se fasse via des protocoles standards et ouverts </li>
-        <li>Les conditions d’accès à ces artéfacts soient clairement spécifiées et documentées, autant que faire se peut, via des métadonnées</li>
-        </ul>
-    <li>A ce que les artéfacts publiques produits par le SI-CM soient interopérables en s’assurant que</li>
-        <ul>
-        <li>Les artéfacts produits dans le cadre du SI-CM soient structurés de manière à pouvoir les combiner et les intégrer dans divers Sis</li>
-        <li>Les artéfacts produits dans le cadre du SI-CM utilisent pour la structuration de leurs données des standards d’interopérabilité reconnus et validés par la littérature et les experts du domaine mais également par les usages</li>
-        <li>Les artéfacts produits dans le cadre du SI-CM utilisent pour la structuration de leurs données des terminologies reconnues et validées par la littérature et les experts du domaine mais également par les usages</li>
-        </ul>
-    <li>A ce que les artéfacts publiques produits par le SI-CM soient réutilisables en s’assurant que</li>
-        <ul>
-        <li>Les artéfacts produits dans le cadre du SI-CM soient suffisamment documentés pour permettre la réutilisation mais également pour permettre à l’utilisateur final de connaitre le contexte métier en lien avec la production de ces artéfacts</li>
-        <li>Les conditions d’utilisation et de réutilisation soient clairement énoncées, cela comprend la ou les licences de publication des artéfacts en question.</li>
-        </ul>
-    </ul>
-</div>
-
-<h5 id="principe-3">Principes #3 : Principes du mouvement de l'Open Data</h5>
-
-<p>Le mouvement Open Data (données ouvertes) <a href="#ref5">5</a> est une initiative mondiale qui vise à rendre les données publiques librement accessibles à tous, sans restriction légales, financières ou techniques. Plusieurs des principes de ce mouvement sont partagés avec le mouvement FAIR Data. La version Five Star <a href="#ref5">5</a> du mouvement Open Data <a href="#ref6">6</a> apporte plus de précision sur les principes du mouvement Open Data. Le mouvement Five Star <a href="#ref5">5</a> définit une échelle et des étapes pour atteindre le niveau maximal de conformité à ces principes (Figure 1).</p>
-
-<p>La doctrine SI-CM - comme décrite plus en aval – vise à pousser l’éco système à adopter, autant que faire se peut, l’échelle maximale (5 étoiles) de conformité pour la publication des artéfacts de connaissances médicales.</p>
-
-<div class="figure" style="text-align: center;">
-    <img src="FIGURE 1  ENONCE SIMPLIFIE DES PRINCIPES FIVE STARS.png" alt="5stars" title="Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)" style="width:50%;" />
-    <figcaption><b>Figure 1 : ENONCE SIMPLIFIE DES PRINCIPES FIVES STARS (6)</b></figcaption>
-</div>
-
-<h5 id="principe-4">Princpes #4 : Principes en lien avec les bonnes pratiques d'ingénierie logicielle et de recherche</h5>
-
-<p>Un projet informatique quel qu’il soit doit se conformer aux principes de base de conception, d’architecture et de développement logiciel. Il en va de même pour les projets d’interopérabilité de façon générale et pour les projets d’interopérabilité des artéfacts de connaissances médicales.</p>
-
-<p>Les projets d’interopérabilité des artéfacts de connaissances médicales doivent également se conformer aux principes de base de l’ingénierie des connaissances.</p>
-
-<p>Dans ce qui suit nous listons les principes d’ingénierie que la présente doctrine doit respecter et par définition les volets du CI-SIS en lien avec le SI-CM.</p>
-
-<h6 id="utilisation-design-patterns">L’utilisation des Design Patterns</h6>
-
-<p>Les artéfacts de connaissances médicales publiés, développés ou partagés par le SI-CM doivent se conformer aux principes architecturaux énoncés dans la littérature et adoptés par l’écosystème des ingénieurs informatiques. Dans ce qui suit nous citons succinctement quelqu’un de ces principes.</p>
-
-<div>
-    <ol>
-    <li>La modularité : un logiciel doit être divisé en modules ou composants distincts, chacun ayant une fonction spécifique.</li>
-        <ul>
-        <li>Avantages : la modularité facilite la compréhension, la maintenance et la réutilisation du code.</li>
-        </ul>
-    <li>L’encapsulation : permet de restreindre l'accès direct aux données et fonctions internes d'un module, exposant uniquement ce qui est nécessaire via des interfaces publiques.</li>
-        <ul>
-        <li>Avantages : l’encapsulation protège l'intégrité des données et réduit les interférences entre les composants.</li>
-        </ul>
-    <li>L’abstraction : consiste à cacher la complexité interne d’implémentation à l’utilisateur en se concentrant sur les aspects essentiels à l’utilisateur</li>
-        <ul>
-        <li>Avantages : améliore la clarté et permet de gérer la complexité du système en interne</li>
-        </ul>
-    <li>La forte cohésion : le degré auquel les éléments d'un même module sont liés fonctionnellement doit être fort.</li>
-        <ul>
-        <li>Avantages : les modules fortement en cohésion sont plus compréhensibles, maintenables et fiables</li>
-        </ul>
-    <li>Le faible couplage : les modules doivent être faiblement interdépendants</li>
-        <ul>
-        <li>Avantages : Un faible couplage réduit la complexité et facilite les modifications et l'évolution du système.</li>
-        </ul>
-    <li>La séparation des responsabilités : la responsabilité est un ensemble de fonctionnalités pris en charge par un module ou un ensemble de modules distincts. La séparation des responsabilités revient à concevoir le logiciel en groupes de modules distincts en termes de groupes de fonctionnalités</li>
-        <ul>
-        <li>Avantage : améliore la modularité citée plus haut mais à un niveau de modularité plus élevée</li>
-        </ul>
-    </ol>
-</div>
-
-<p>Il existe bien évidemment beaucoup plus de bonnes pratiques de conception logiciel énoncés dans la littérature, voici quelques références de base <a href="#ref7">7</a> <a href="#ref8">8</a> <a href="#ref9">9</a> <a href="#ref10">10</a>.</p>
-
-<h6 id="processus-conception-logiciel">L'adoption d'un processus de conception logiciel</h6>
-
-<p>Un projet en lien avec la standardisation et/ou l’interopérabilité des données de santé est un projet informatique à part entier. Il est donc nécessaire d’adopter un processus de conception logiciel adéquat pour structurer et organiser la conception et le développement des artéfacts produits par le projet en question. Les processus de conception doivent à minima inclure les étapes : collecte des exigences, la modélisation, la création de prototypes, et la validation des concepts avant la phase de développement.</p>
-
-<p>Les processus de conception logiciels les plus utilisés en ingénierie des logiciels à l’heure actuelle sont ceux issus du mouvement Agile. De nombreux « framework Agiles » existe, tels que : Scrum, Kanban, XP, Lean, Scaled Agile Framework,…</p>
-
-<p><strong>L’ingénierie des connaissances</strong></p>
-
-<p>Les projets en lien avec la connaissance sont également gérés suivant des processus de conception en lien avec une discipline appelée : l’ingénierie des connaissances <a href="#ref11">11</a> <a href="#ref12">12</a>. L’ingénierie des connaissances se concentre sur la création, la gestion et l’utilisation de la connaissance dans les systèmes informatiques. Elle implique la collecte, la structuration, la formalisation et la mise en œuvre des connaissances pour développer des systèmes intelligents capables de résoudre des problèmes complexes. Cette discipline est essentielle dans des domaines tels que  l’intelligence artificielle, les bases de connaissances et bien évidemment la structuration et la standardisation de la connaissance (médicale).</p>
-
-<p>Les projets en lien avec la standardisation de la connaissance médicale doivent adopter un processus de conception Agile d’ingénierie des connaissances. Les artéfacts produits dans chaque étape de conception (de transformation de la connaissance) doivent être visibles et explicites pour chaque volet du SI-CM suivant le design pattern décrit ici …</p>
-
-<h6 id="langage-modelisation-standard">L'adoption d'un langage de modélisation standard</h6>
-
-<p>Les langages de modélisation standard en ingénierie des logiciels sont des outils essentiels pour représenter visuellement les structures, les comportements et les interactions au sein d’un système logiciel. Ils permettent de faciliter la compréhension, la communication et la documentation des concepts complexes entre les parties prenantes. Parmi les langages de modélisation les plus utilisés, on retrouve : Unified Modeling Language (UML), SysML (Systems Modeling Language), Business Process Model and Notation (BPMN)…</p>
-
-<p>Ces langages de modélisation standard jouent un rôle crucial dans la conception, l’analyse et la gestion des projets de développement logiciel, en assurant une vision cohérente et partagée du système à construire.</p>
-
-<p>Le mouvement Agile n’impose pas de langage de modélisation particulier mais le manifeste Agile insiste sur l’attention continue que doit porter l’équipe de développement logiciel à l’excellence technique et à la conception basée sur les bonnes pratiques mais également sur la facilitation de la transmission de l’information entre les membres de l’équipe du projet. L’utilisation d’un langage de modélisation standard dans un processus de conception Agile permet de combiner les avantages de la modélisation formelle avec la flexibilité et la réactivité des méthodes agiles. Un langage de modélisation peut être utilisé de manière pragmatique pour clarifier les exigences, faciliter la communication entre les équipes et documenter les architectures logicielles de manière succincte. Ambler <a href="#ref13">13</a> et Rumbaugh <a href="#ref14">14</a>, estime que l’intégration d’UML (par exemple, N.D.L.R) dans les pratiques agiles aide à maintenir la cohérence et la compréhension commune du projet tout en respectant les principes agiles de simplicité et de réponse rapide aux changements.</p>
-
-<p>Le processus de conception adopté dans le cadre de la gestion des artéfacts des connaissances médicales du SI-CM doit également adopter un (ou plusieurs) langage de modélisation standards.</p>
-
+<h5 id="principe-4">Principes #4 : Principes en lien avec les bonnes pratiques d'ingénierie logicielle et de recherche</h5>
 <h6 id="design-patterns"> L'adoption des Designs Patterns en ingénierie des connaissances pour la standardisation des GBPC et leur intégration dans un SI de santé</h6>
 
 <p>En ingénierie des connaissances et plus particulièrement dans le cadre défini en paragraphe 2 de cette doctrine, nous avons identifié 3 designs patterns que le SI-CM doit respecter dans la gestion des artéfacts de connaissances médicales</p>
@@ -650,8 +645,8 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
     </ul>
 </div>
 
-<div class="figure" style="text-align: center;">
-    <img src="Figure 2  Les modèles de l’architecture tri dimensionnel de Rector et al. et leurs interfaces.png" alt="archi_tri_dim" title="Figure 2 : Les modèles de l’architecture tri-dimensionnel de Rector et al. (15) et leurs interfaces" style="width:50%;" />
+<div style="text-align: center;" class="figure">
+    <img src="Figure 2  Les modèles de l’architecture tri dimensionnel de Rector et al. et leurs interfaces.png" alt="archi_tri_dim" style="width:50%;" title="Figure 2 : Les modèles de l’architecture tri-dimensionnel de Rector et al. (15) et leurs interfaces"/>
     <figcaption><b>Figure 2 : Les modèles de l’architecture tri-dimensionnel de Rector et al. (15) et leurs interfaces</b></figcaption>
 </div>
 
@@ -697,8 +692,8 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
     </ol>
 </div>
 
-<div class="figure" style="text-align: center;">
-    <img src="Tableau 1 les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al.png" alt="quatre_couche" title="Tableau 1 : les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al. (16)" style="width:50%;" />
+<div style="text-align: center;" class="figure">
+    <img src="Tableau 1 les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al.png" alt="quatre_couche" style="width:50%;" title="Tableau 1 : les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al. (16)"/>
     <figcaption><b>Tableau 1 : les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al. (16)</b></figcaption>
 </div>
 
@@ -770,7 +765,7 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
 
 <h7 id="langage-modelisation">Choisir un langage de modélisation</h7>
 
-<p>Cette activité est en relation avec le principe #4 sur <a href="#processus-conception-logiciel">l’adoption d’un processus de conception logiciel</a> énoncé en amont. Le langage de modélisation standard choisi pour illustrer les étapes de conception et de structuration des artéfacts de connaissances médicales issues des GBPC dans la doctrine du SI-CM est le langage standard UML version 2.0 <a href="#ref22">22</a>.</p>
+<p><a name="l1509">​</a>Cette activité est en relation avec le principe #4 sur <a href="#processus-conception-logiciel">l’adoption d’un processus de conception logiciel</a> énoncé en amont. Le langage de modélisation standard choisi pour illustrer les étapes de conception et de structuration des artéfacts de connaissances médicales issues des GBPC dans la doctrine du SI-CM est le langage standard UML version 2.0 <a href="#ref22">22</a>.</p>
 
 <p>Ce choix est justifié pour plusieurs raisons</p>
 <div>
@@ -840,8 +835,8 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
     </ul>
 </div>
 
-<div class="figure" style="text-align: center;">
-    <img src="FIGURE 3  Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM.png" alt="rector_et_al" title="FIGURE 3 : Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM" style="width:50%;" />
+<div style="text-align: center;" class="figure">
+    <img src="FIGURE 3  Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM.png" alt="rector_et_al" style="width:50%;" title="FIGURE 3 : Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM"/>
     <figcaption><b>FIGURE 3 : Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM</b></figcaption>
 </div>
 
@@ -884,8 +879,8 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
     </ul>
 </div>
 
-<div class="figure" style="text-align: center;">
-    <img src="Figure 4 Diagramme d’activité UML pour illustrer les choix du chemin nominal de la doctrine du SI-CM et les possibles chemins secondaires.svg" alt="choix_nominal" title="Figure 4 : Diagramme d’activité UML pour illustrer les choix du chemin nominal de la doctrine du SI-CM et les possibles chemins secondaires" style="width:100%;" />
+<div style="text-align: center;" class="figure">
+    <img src="Figure 4 Diagramme d’activité UML pour illustrer les choix du chemin nominal de la doctrine du SI-CM et les possibles chemins secondaires.svg" alt="choix_nominal" style="width:100%;" title="Figure 4 : Diagramme d’activité UML pour illustrer les choix du chemin nominal de la doctrine du SI-CM et les possibles chemins secondaires"/>
     <figcaption><b>Figure 4 : Diagramme d’activité UML pour illustrer les choix du chemin nominal de la doctrine du SI-CM et les possibles chemins secondaires</b></figcaption>
 </div>
 
@@ -986,24 +981,24 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
 
 
 </div>
-        </div>  <!-- /inner-wrapper -->
-      </div>  <!-- /row -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-content -->
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
 
-  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
-  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
-<script type="text/javascript" src="assets/js/window-hash.js"> </script>
+<script src="assets/js/window-hash.js" type="text/javascript"> </script>
   <a name="bottom"> </a>
-  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
-    <div class="container">  <!-- container -->
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
 
       <div style="background-color:var(--footer-nav-bg-color)">
         <table style="width:100%">
           <tbody>
             <tr>
-              <td style="text-align:left">&#xA0;
+              <td style="text-align:left">&nbsp;
 
                 <a href="index.html">&lt;prev</a>
 
@@ -1011,7 +1006,7 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
               <td style="text-align:center">
                 <a href="#top">top</a>
               </td>
-              <td style="text-align:right">&#xA0;
+              <td style="text-align:right">&nbsp;
 
                 <a href="trajectoire-iop.html">next&gt;</a>
 
@@ -1023,50 +1018,50 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 23, 2025 15:15+0000">2025-06-23</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jun 23, 2025 15:29+0000">2025-06-23</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |
 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA </a> |
-<a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://interop.esante.gouv.fr/ig/doctrine/history.html">Historique des versions </a>
- | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="https://github.com/ansforge/IG-doctrine-ci-sis/issues/new">New Issue</a>
+<a style="color: var(--footer-hyperlink-text-color)" href="https://interop.esante.gouv.fr/ig/doctrine/history.html" target="_blank">Historique des versions </a>
+ | <a style="color: var(--footer-hyperlink-text-color)" href="https://github.com/ansforge/IG-doctrine-ci-sis/issues/new" target="_blank">New Issue</a>
 
-          </span>
+          
         </p>
-      </div>  <!-- /inner-wrapper -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-footer -->
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
   
-  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
-    <div class="container">  <!-- container -->
-    </div>  <!-- /container -->
-  </div>  <!-- /segment-post-footer -->
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
   
-  <!-- JS and analytics only. -->
-  <!-- Bootstrap core JavaScript
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
   ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
-  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
-  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
-  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
-  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
 
-  <!-- Ajout ANS -->
+    <!-- Ajout ANS -->
   <script src="assets/js/app.js" type="text/javascript"> </script>
   <script src="assets/js/vendor.js" type="text/javascript"> </script>
-  <!-- Fin ajout ANS -->
+    <!-- Fin ajout ANS -->
 
-  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
   
 
-  <!-- Analytics Below
+    <!-- Analytics Below
   ================================================== -->
 
 
-  <!-- AJOUT ANS -->
+    <!-- AJOUT ANS -->
 
-<footer class="footer footer-principal" role="contentinfo">
+<footer role="contentinfo" class="footer footer-principal">
   <div class="footer__region1">
     <div class="container">
       <div class="row">
@@ -1074,17 +1069,17 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
         <div class="col-md-6 col-lg-4 text-center text-md-left">
           <div class="logos">        
             <div class="logo logo--0">
-              <a href="https://solidarites-sante.gouv.fr" title="Ministère des Solidarités et de la Santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
+              <a rel="nofollow" href="https://solidarites-sante.gouv.fr" title="Ministère des Solidarités et de la Santé (nouvelle fenêtre)" target="_blank">
                 
-                <img src="assets/images/logo-ministere.svg" alt="Ministère des Solidarités et de la Santé" width="133" height="77" loading="lazy" />
+                <img src="assets/images/logo-ministere.svg" alt="Ministère des Solidarités et de la Santé" width="133" loading="lazy" height="77"/>
                 
               </a>
             </div>
         
             <div class="logo logo--1">
-              <a href="https://esante.gouv.fr/" title="Agence du numérique en santé (nouvelle fenêtre)" target="_blank" rel="nofollow">
+              <a rel="nofollow" href="https://esante.gouv.fr/" title="Agence du numérique en santé (nouvelle fenêtre)" target="_blank">
                 
-                <img src="assets/images/logo-ANS-footer.svg" alt="Agence du numérique en santé" width="106" height="74" loading="lazy" />
+                <img src="assets/images/logo-ANS-footer.svg" alt="Agence du numérique en santé" width="106" loading="lazy" height="74"/>
               </a>
             </div>
           </div>
@@ -1094,7 +1089,7 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
           <p class="footer__title">Agence du Numérique en Santé</p>
           <p>2-10 Rue d'Oradour-sur-Glane 75015 Paris</p>
 
-          <!-- <div class="m-social">
+            <!-- <div class="m-social">
             <ul class="m-social__list">        
               <li class="m-social__item">
                 <a class="m-social__link" href="https://www.linkedin.com/company/agence-du-numerique-en-sante/" target="_blank" rel="nofollow">
@@ -1136,12 +1131,11 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
           <ul class="footer-list">
             <li class="footer-list__item footer-list__item--hasIcon">
               <a href="mailto:ci-sis@esante.gouv.fr" class="mailto-link">
-                <svg class="svg-icon svg-angle-right" aria-hidden="true" focusable="false"><use href="assets/images/icon-sprite.svg#angle-right"></use></svg>Contact</a>
+                <svg aria-hidden="true" focusable="false" class="svg-icon svg-angle-right"><use href="assets/images/icon-sprite.svg#angle-right"></use></svg>Contact</a>
               </li>
-              <!-- <li class="footer-list__item">
+                <!-- <li class="footer-list__item">
                 <a href="https://interop-pprod.esante.gouv.fr/ci-sis-specifications/wp-content/uploads/CGU_espace_de_tests_v1.1.pdf" class="file-link">Mentions légales</a>
-              </li>
-               -->
+              </li> -->
             </ul>
           </div>
 
@@ -1149,7 +1143,7 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
       </div>
     </div>
     
-    <!-- <div class="footer__region2">
+      <!-- <div class="footer__region2">
       <div class="container">
         <div class="footer-contentinfo">
           <ul class="footer-list footer-list--inline">
@@ -1161,4 +1155,3 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
   </footer>
   </body>
 </html>
-

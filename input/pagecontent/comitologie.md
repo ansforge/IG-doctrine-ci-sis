@@ -9,7 +9,7 @@ Ce chapitre a pour objectif de mettre à jour le contenu de la gouvernance du CI
         <li>Simplification et systématisation des processus de gouvernance ; </li>
         <li>Lisibilité de la comitologie ; </li>
         <li>Équité de la représentation des parties-prenantes ; </li>
-        <li>Mise à profit du retour d’expérience d’autres référentiels, bâtis en concertation avec les parties prenantes, tels que la PGSSI-S. </li>
+        <li>Mise à profit du retour d’expérience d’autres référentiels, bâtis en concertation avec les parties prenantes, tels que la <a href="https://esante.gouv.fr/produits-services/pgssi-s">PGSSI-S</a>. </li>
     </ul>
 </div>
 
@@ -72,7 +72,7 @@ Suite aux premières années de mise en œuvre de la gouvernance et afin de rép
 
 À cet effet, il a été décidé de rapprocher la comitologie de gouvernance du CI-SIS de celles d’autres référentiels bâtis en concertation avec les parties-prenantes dans le secteur sanitaire, médico-administratif, médico-social et social.
 
-Ainsi, à l’instar de la PGSSI-S, La comitologie de gouvernance du CI-SIS est désormais constituée de trois organes :
+Ainsi, à l’instar de la [PGSSI-S](https://esante.gouv.fr/produits-services/pgssi-s), La comitologie de gouvernance du CI-SIS est désormais constituée de trois organes :
 
 <div>
     <ul>
@@ -140,7 +140,7 @@ Le comité d’instruction intervient en support du comité de pilotage pour pr�
 
 ##### Comité de concertation
 
-Semblable à celui mis en place pour la PGSSI-S, **le comité de concertation joue un rôle consultatif**.
+Semblable à celui mis en place pour la [PGSSI-S](https://esante.gouv.fr/produits-services/pgssi-s), **le comité de concertation joue un rôle consultatif**.
 
 Il est composé :
 
@@ -500,7 +500,7 @@ L’ordre du jour du COPIL est variable en fonction de son positionnement dans l
         </tr>
         <tr>
             <td style="width: 106.1pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>PGSSI-S&nbsp;</span></p>
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'><a href="https://esante.gouv.fr/produits-services/pgssi-s">PGSSI-S</a>&nbsp;</span></p>
             </td>
             <td style="width: 347pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
                 <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;'><span style='font-size:15px;font-family:"Calibri",sans-serif;'>Politique g&eacute;n&eacute;rale de s&eacute;curit&eacute; des syst&egrave;mes d&rsquo;information de sant&eacute;</span></p>

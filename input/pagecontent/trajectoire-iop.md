@@ -144,7 +144,7 @@ l'ANS et la commission européenne privilégieront la solution numéro 2, qui co
 
 #### Pourquoi il est nécessaire d'aller au delà du paradigme document en France ?
 
-reformulation: En France, le paradigme document est l'un des plus utilisés par l'écosystème, notamment dans le cadre du service DMP : un document est un compte rendu médical signé et daté à propos d'un patient. Il existe d'autres paradigmes à considérer tel que le paradigme message, le paradigne REST, la souscription, ... [La documentation de FHIR](https://www.hl7.org/fhir/exchanging.html) facilite la prise de décision en proposant un arbre de décision.
+En France, le paradigme document est l'un des plus utilisés par l'écosystème, notamment dans le cadre du service DMP : un document est un compte rendu médical signé et daté à propos d'un patient. Il existe d'autres paradigmes à considérer tel que le paradigme message, le paradigne REST, la souscription, ... [La documentation de FHIR](https://www.hl7.org/fhir/exchanging.html) facilite la prise de décision en proposant un arbre de décision.
 
 Par exemple, les trois API FHIR de Mon Espace Santé (Mesures de santé, Agenda et document) permettent d'accéder aux données via des requêtes REST.
 

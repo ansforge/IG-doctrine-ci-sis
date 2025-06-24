@@ -12,7 +12,7 @@ The interoperability framework for health information systems (CI-SIS) sets the 
 <div style="width: 65%">
 <blockquote class="stu-note">
 <p>
-  <b>Attention !</b> Cette version de l'Implementation Guide est en intégration continue (version de travail) et est soumise à des changements réguliers. Après première publication, la version officielle sera accessible à l'adresse https://interop.esante.gouv.fr/ig/fhir/doctrine</b>
+  <b>Attention !</b> Cette version de l'Implementation Guide est en intégration continue (version de travail) et est soumise à des changements réguliers. La version officielle est accessible à l'adresse <a href="https://interop.esante.gouv.fr/ig/fhir/doctrine"https://interop.esante.gouv.fr/ig/fhir/doctrine</a>
 </p>
 </blockquote>
 </div>

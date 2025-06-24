@@ -23,17 +23,61 @@ L'interopérabilité fait partie des trois piliers du déploiement de la e-Sant�
 
 ### Contexte européen
 
-Au niveau européen, l’interopérabilité des systèmes de santé repose sur une collaboration entre les États membres et l’adoption de standards communs dans le cadre de l’Espace Européen des Données de Santé (EEDS). Le règlement EEDS vise entre-autre à faciliter l’échange de données de santé, avec une attention particulière sur la protection des données et l’amélioration de la qualité des soins à travers l’Europe. Les actes d’exécution du règlement reposeront sur des standards internationaux pour la structuration et l’échange des données.
+Dans le cadre de la mise en œuvre de l’Espace Européen des Données de Santé (EEDS), plusieurs initiatives européennes ont été développées pour définir les fondations techniques de l’interopérabilité des systèmes de santé à l’échelle de l’Union européenne. Parmi elles, les projets Xt-EHR, ainsi que l'infrastructure MaSanté@UE et ses services associés jouent un rôle central.
 
-Dans ce cadre, des initiatives comme Xt-EHR (_eXtended Electronic Health Record_) et MaSanté@UE ont été développées pour promouvoir l’interopérabilité transfrontalière.
+#### Xt-EHR : vers un format européen commun fondé sur FHIR Document
 
-Xt-EHR a pour objectif de standardiser les dossiers de santé électroniques afin qu’ils soient compréhensibles et utilisables dans différents pays européens. Cela permet une continuité des soins pour les patients en déplacement au sein de l’UE. Cette initiative repose sur des protocoles comme FHIR et CDA pour structurer les données médicales de manière compatible entre les systèmes. Le développement de ces projets est crucial pour permettre un échange sécurisé et efficace d’informations médicales, contribuant à une continuité des soins transfrontaliers.
+Le projet Xt-EHR (_eXtended Electronic Health Record_) est une action conjointe européenne, soutenue par la Commission européenne, dont l’objectif principal est de définir un format commun d’échange de dossiers de santé électroniques. Ce format, appelé EEHRxF (_European Electronic Health Record Exchange Format_), constitue la base technique attendue pour les actes d’exécution du règlement EEDS.
 
-Le projet MaSanté@UE permet de faciliter l’échange des données de santé du citoyen européen dans le cadre de son parcours de soin en donnant au professionnel de santé l’accès dans sa langue aux données médicales du patient qu’il prend en charge. Il permet d’améliorer la prise en charge des citoyens lors de séjours à l’étranger. Ce projet soutient fortement l’utilisation de FHIR et de CDA pour garantir une interopérabilité maximale.
+Le projet fournit ainsi les spécifications normatives nécessaires à l’harmonisation des échanges de données de santé entre États membres, en s’appuyant sur des standards internationaux reconnus, notamment HL7 FHIR, tout en promouvant une convergence européenne sur les modèles de données et les jeux de valeurs utilisés.
 
-Des standards FHIR et le CDA sont au cœur de ces efforts, car ils permettent une approche modulaire et flexible de l'échange de données de santé. FHIR, en particulier, grâce à son approche moderne via des API REST, est privilégié pour des cas d’usage tels que le partage de Compte-rendu de laboratoire (_Lab Reports_) de Lettre de sortie d’hospitalisation (_Hospital Discharge Reports_), et de Compte-rendu d’imagerie médical (_Medical Imaging Reports_), permettant une réutilisation plus fluide et facile des données à travers différents systèmes de santé européens.
+Le format EEHRxF repose sur une approche documentaire normalisée. Il décrit un document structuré FHIR, construit autour de la ressource _Composition_, en accord avec le paradigme "Document" du standard HL7 FHIR. 
 
-Ces initiatives s’alignent avec la trajectoire nationale française en matière d’interopérabilité, renforçant la nécessité d’une harmonisation des standards et des pratiques au niveau international. L’adoption de standards comme FHIR R4 est encouragée pour assurer une cohérence entre les systèmes nationaux et européens, en prévision des actes d’exécution du règlement EEDS.
+##### Une exigence future du règlement EEDS
+
+Le règlement européen prévoit que tous les systèmes gérant des dossiers médicaux électroniques devront supporter le format EEHRxF pour permettre l’échange de données transfrontaliers. Cela fera du FHIR Document le socle réglementaire pour les principaux flux de données en santé : résumé du dossier patient, prescriptions, résultats de biologie, comptes rendus d’imagerie, et lettres de sortie.
+
+##### Une transformation de la trajectoire française (CI-SIS)
+
+Cette orientation européenne influence directement la stratégie nationale. À terme, les futurs volets de contenu du CI-SIS seront conçus nativement en FHIR Document, pour assurer une conformité totale avec les spécifications européennes. Une phase transitoire permettra un accompagnement des éditeurs pour faciliter l’adoption progressive du nouveau standard.
+
+Le projet Xt-EHR contribue à cette transformation en livrant :
+
+<div> 
+    <ul> 
+        <li>Des <strong>modèles logiques communs</strong> (_Logical Models_) pour les six catégories de données prioritaires du règlement EEDS ;</li> 
+        <li>Des <strong>Guides d’Implémentation FHIR (FHIR IGs)</strong> conformes au format EEHRxF pour chaque type de document échangé ;</li> 
+        <li>Des <strong>outils de validation</strong>, des démonstrateurs techniques et des phases de test interétatiques, notamment à travers les <em>projectathons européens</em>.</li> 
+    </ul> 
+</div>
+
+Xt-EHR joue donc un rôle clé dans la préparation technique de l’EEDS. Il structure la convergence entre trajectoires nationales et exigences européennes, en assurant une cohérence des standards syntaxiques (FHIR) et sémantiques (terminologies partagées) dans les services de santé numériques en Europe.
+
+#### MaSanté@UE : continuité des soins et accès multilingue aux données
+
+Le projet MaSanté@UE vise quant à lui à faciliter l’échange transfrontalier des données de santé pour les citoyens européens en situation de mobilité. Il permet aux professionnels de santé d’un état membre d’accéder, dans leur propre langue, aux informations médicales d’un patient provenant d’un autre État membre. Cela améliore significativement la qualité et la sécurité des soins lors de séjours à l’étranger.
+
+Ce projet s’appuie également sur les standards HL7 pour garantir une interopérabilité entre les systèmes nationaux. Il constitue l’un des premiers cas d’usage concrets des infrastructures de santé numérique paneuropéennes.
+
+#### Le rôle des standards dans cette convergence européenne
+
+Les standards HL7 sont au cœur de ces initiatives, car ils offrent une approche modulaire, extensible et soutenue par une large communauté internationale. FHIR, en particulier, grâce à son architecture fondée sur des API REST, est largement préféré pour les cas d’usage modernes tels que :
+
+<div> 
+    <ul> 
+        <li>Le partage de comptes rendus de biologie médicale (Lab Reports) ;</li> 
+        <li>Les lettres de sortie d’hospitalisation (Hospital Discharge Reports) ;</li> 
+        <li>Les comptes rendus d’imagerie médicale (Medical Imaging Reports).</li> 
+    </ul> 
+</div>
+
+Ces cas d’usage sont justement au cœur des travaux de standardisation du projet Xt-EHR.
+
+#### Un alignement croissant avec la stratégie française
+
+Ces initiatives européennes sont pleinement alignées avec la trajectoire nationale d’interopérabilité, portée par le CI-SIS et les travaux de l’ANS et d’Interop’Santé. Elles renforcent la nécessité d’une harmonisation des formats, des structures de données et des référentiels terminologiques au niveau européen.
+
+L’adoption coordonnée de FHIR R4 au niveau national s’inscrit dans cette dynamique. Elle vise à garantir la cohérence entre les systèmes français et européens et à anticiper la mise en œuvre des actes d’exécution du règlement EEDS.
 
 ### La trajectoire syntaxique
 

@@ -38,6 +38,8 @@ pages:
         title: Expression des besoins (EBE) et gestion des Change Proposals (CP)
     up-externe.md:
         title: Unité de production externe
+    change-log.md:
+        title: "Historique des versions"
 
 
 menu:
@@ -53,4 +55,5 @@ menu:
         Interactions avec l'écosystème: interactions-ecosysteme.html
         Expression des besoins et Change Proposals: ebe-cp.html
         Unité de production externe: up-externe.html
+    Historique des versions: change-log.html
     Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/

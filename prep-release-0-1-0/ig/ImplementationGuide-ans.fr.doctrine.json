@@ -10,7 +10,7 @@
   "name" : "DoctrineCISIS",
   "title" : "Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS)",
   "status" : "draft",
-  "date" : "2025-06-25T16:19:41+00:00",
+  "date" : "2025-06-25T16:43:12+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -722,6 +722,15 @@
         }],
         "nameUrl" : "up-externe.html",
         "title" : "Unité de production externe",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "change-log.html"
+        }],
+        "nameUrl" : "change-log.html",
+        "title" : "Historique des versions",
         "generation" : "markdown"
       }]
     },

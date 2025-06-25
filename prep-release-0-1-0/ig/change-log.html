@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Accueil - Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS) v0.1.0-ballot</title>
+    <title>Historique des versions - Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS) v0.1.0-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"1"}
-    h3,h4,h5,h6{--heading-prefix:"1"}</style>
+    <style type="text/css">h2{--heading-prefix:"11"}
+    h3,h4,h5,h6{--heading-prefix:"11"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -149,15 +149,15 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Accueil</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Historique des versions</b></li>
 
           <span style="float:right;">
 
-            <a href="toc.html">&lt;prev</a> | 
+            <a href="up-externe.html">&lt;prev</a> | 
 
             <a href="#bottom">bottom</a>
 
-          | <a href="doctrine.html">next&gt;</a>
+          | <a href="artifacts.html">next&gt;</a>
 
           </span>
 
@@ -180,50 +180,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </style>
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS) - Local Development build (v0.1.0-ballot) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interop.esante.gouv.fr/ig/doctrine/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
-  <h2>Accueil</h2>
+  <h2>Historique des versions</h2>
   
 
 
 
-
-
-
-  <table class="colsd">
-
-    <tr>
-      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine"/></span>
-      </td>
-      <td><i>Version</i>:
-      <span class="copy-text">0.1.0-ballot<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine|0.1.0-ballot"/></span>
-      </td>
-    </tr>
-
-    <tr>
-
-
-
-
-
-
-
-      <td colspan="4">
-        
-          Draft
-          
-            as of 2025-06-25
-          
-        
-      </td>
-
-
-
-      <td><i>Computable Name</i>: <span style="font-family: monospace;">DoctrineCISIS</span></td>
-    </tr>
-
-
-
-
-  </table>
 
 
 
@@ -234,156 +195,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div class="markdown-toc">
-<ul id="markdown-toc">
-  <li><a href="#les-enjeux-du-développement-du-ci-sis" id="markdown-toc-les-enjeux-du-développement-du-ci-sis">Les enjeux du développement du CI-SIS</a></li>
-  <li><a href="#une-évolution-volontariste-dans-la-continuité" id="markdown-toc-une-évolution-volontariste-dans-la-continuité">Une évolution volontariste dans la continuité</a></li>
-  <li><a href="#glossaire" id="markdown-toc-glossaire">Glossaire</a></li>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<h3 id="version-010">version 0.1.0</h3>
+
+<p><strong>Version intégrant les retours de <a href="https://participez.esante.gouv.fr/project/mise-a-jour-de-la-gouvernance-et-de-la-doctrine-du-ci-sis/presentation/presentation">concertation</a></strong></p>
+
+<ul>
+  <li>Ajout de la possibilité d’utiliser un courriel standard à la place du MDN pour la gestion des erreurs (<a href="https://github.com/ansforge/IG-hl7v2-volet-transmission-document-cda-r2/issues/41">41</a>)</li>
 </ul>
-
-</div>
-<p style="padding: 5px; border-radius: 5px; border: 2px solid maroon; background: #ffffe6; width: 65%">
-<b>Brief description of this Implementation Guide</b><br />
-The interoperability framework for health information systems (CI-SIS) sets the rules for exchanging and sharing health data on the same standards. It is managed by the ANS in collaboration with the entire ecosystem. This implementation guide outlines the doctrine and governance that apply to this framework.
-</p>
-<!-- 
-<div class="figure" style="width:65%;">
-    <img style="height: auto; width: 100%;" src="ci-sis-logo.png" alt="CI-SIS" title="Logo du CI-SIS">
-</div> -->
-
-<div style="width: 65%">
-<blockquote class="stu-note">
-<p>
-  <b>Attention !</b> Cette version de l'Implementation Guide est en intégration continue (version de travail) et est soumise à des changements réguliers. La version officielle est accessible à l'adresse <a href="https://interop.esante.gouv.fr/ig/fhir/doctrine">https://interop.esante.gouv.fr/ig/fhir/doctrine</a>
-</p>
-</blockquote>
-</div>
-
-<p><a href="https://esante.gouv.fr/">L’Agence du Numérique en Santé (ANS)</a> accompagne la transformation numérique du système de santé aux côtés de tous les acteurs concernés des secteurs sanitaire, social et médico-social, privés comme publics, professionnels ou usagers.  Elle met en œuvre les orientations dédiées au secteur de la santé et du médico-social, à travers trois ambitions.</p>
-
-<div>
-    <ul>
-        <li><b>Régulatrice</b> : elle améliore la performance numérique grâce à des règles communes de régulation et d’échanges ; </li>
-        <li><b>Opératrice</b> : elle conçoit les grands e-programmes nationaux pour un service public de santé efficace et solidaire ; </li>
-        <li><b>Promotrice et valorisatrice</b> : elle stimule, accompagne et évalue toutes les initiatives de e-santé pour les faire grandir. </li>
-    </ul>
-</div>
-
-<p>Dans le rôle de <strong>régulateur</strong> ayant pour ambition de développer la capacité des systèmes d’information en santé à partager et échanger des données de santé de manière fluide, efficace et sécurisée, l’Agence porte la construction d’un cadre commun comprenant l’interopérabilité, la sécurité et l’éthique, permettant ainsi le développement de la e-santé entre l’ensemble des acteurs, et en particulier avec les solutions de la puissance publique, dans le cadre retenu de l’Etat-plateforme.</p>
-
-<p>Ce cadre commun sur l’interopérabilité :</p>
-
-<div>
-    <ul>
-        <li><b>Soutient la dématérialisation des processus en santé</b>, en permettant d’apporter de la valeur ajoutée via le numérique en santé</li>
-        <li><b>Est au profit des patients, de leur prise en charge, des parcours de soin</b></li>
-        <li><b>Est aussi au profit des professionnels de santé et des établissements de santé</b>, afin de permettre la généralisation, le passage à l’échelle, de cas d’usage métier où le numérique en santé contribue à apporter de la valeur ajoutée dans leurs pratiques</li>
-        <li><b>S’adresse tout particulièrement aux ENS (Entreprises du Numérique en Santé)</b> pour l’implémentation de ce cadre commun dans leurs solutions qui peuvent alors échanger et partager de manière plus fluide, efficace et sécurisée des données de santé. Les ENS peuvent ainsi industrialiser les déploiements et aussi proposer des services à valeur ajoutée (toujours dans le cadre de l’Etat-plateforme)</li>
-    </ul>
-</div>
-
-<p>Ce cadre commun d’interopérabilité, le CI-SIS (Cadre d’Interopérabilité des Systèmes d’Information de Santé) :</p>
-
-<div>
-    <ul>
-        <li>comprend l’ensemble des spécifications définissant les informations à échanger ou partager entre les systèmes d’information de santé et identifie la norme ou le standard le plus approprié à utiliser pour cet échange ou partage : c’est ce qu’on appelle « l’interopérabilité technique »</li>
-        <li>via la définition de la structuration du contenu médical, il identifie le langage adéquat pour présenter des informations selon les standards et les normes reconnus ainsi que le vocabulaire à utiliser pour coder l’information. Ceci permet de faciliter le traitement automatique de l’information et permet la mise en œuvre de services à valeur ajoutée. C’est ce qu’on appelle « l’interopérabilité syntaxique et sémantique »</li>
-    </ul>
-</div>
-
-<h3 id="les-enjeux-du-développement-du-ci-sis">Les enjeux du développement du CI-SIS</h3>
-
-<p>Afin de répondre à ces ambitions, la construction de ce cadre comme d’interopérabilité, le CI-SIS doit relever plusieurs enjeux, dont tout particulièrement :</p>
-
-<div>
-    <ul>
-        <li>S’assurer de répondre à des <b>cas d’usage prioritaires</b> (la feuille de route du numérique en santé, les programmes nationaux tels que le Ségur du Numérique en Santé, les référentiels, les échanges avec et entre les services numériques socles, l’élaboration des référentiels de conformité … ), avec l’identification de ces cas d’usage, leur priorisation et un contrôle de la pertinence de la réponse technique au besoin ;</li>
-        <li>S’inscrire dans un <b>cadre résolument international</b>, en particulier avec les travaux IHE, HL7, DICOM, de façon à bénéficier des travaux réalisés de ces communautés et de limiter ainsi le coût d’implémentation de la déclinaison française de l’interopérabilité. En complément, avec la mise en œuvre de l’EEDS (Espace Européen des Données de Santé), le cadre européen d’interopérabilité s’imposera aussi aux Etats membres, qui sera donc évidemment repris dans le CI-SIS</li>
-        <li>Garantir la <b>co-construction de ce cadre commun</b>, en s’assurant que chacun puisse être acteur aux différents niveaux : identification de cas d’usage, formalisation précise du besoin, propositions techniques, expérimentations et retours terrain, etc</li>
-        <li>Maintenir <b>une lisibilité d’un CI-SIS</b> en croissance, en particulier sur les contributions attendues et leurs modalités mais aussi sur le contenu validé et son niveau de maturité, i.e. la confiance dans sa capacité à répondre au besoin</li>
-        <li>Construire et opérer <b>un outillage permettant de valider la bonne implémentation</b> des référentiels du CI-SIS dans les solutions des ENS, de façon à </li>
-        <ul>
-            <li>permettre un déploiement industrialisé qui passe à l’échelle,</li>
-            <li>faciliter la lisibilité des ES/PS dans le choix de leurs solutions</li>
-        </ul>
-        <li><b>promouvoir, valoriser</b> le contenu du CI-SIS et <b>accompagner</b> les acteurs dans la mise en œuvre via des webinaires et aussi de l’outillage de tests, la réalisation de tests techniques lors des projectathons, la réalisation de pilotes (et projectathons usage) permettant de <b>tester</b> les solutions, les référentiels du CI-SIS et <b>l’adéquation aux cas d’usage</b> et d’intégrer ces éléments dans l’évolution du CI-SIS</li>
-    </ul>
-</div>
-
-<p>Les différentes réponses à ces enjeux du cadre commun CI-SIS sont ainsi portées par :</p>
-
-<div>
-    <ul>
-        <li><b>Une doctrine du CI-SIS</b> qui formalise les règles régissant la constitution et l’évolution du contenu du CI-SIS : trajectoire générale de l’interopérabilité, choix des normes et standards, cycle de vie des référentiels, modalités de contribution et concertation de l’écosystème, formalisation du contenu des référentiels</li>
-        <li><b>Une gouvernance du CI-SIS</b> qui favorise la co-construction, instruit et arbitre les priorités des travaux et évolutions du CI-SIS par rapport aux cas d’usage et donne de la visibilité aux différents acteurs sur les orientations stratégiques du CI-SIS.</li>
-    </ul>
-</div>
-
-<h3 id="une-évolution-volontariste-dans-la-continuité">Une évolution volontariste dans la continuité</h3>
-
-<p>Sous l’impulsion de la première feuille de route du numérique en santé (masanté 2022), du Ségur numérique, et d’évolutions réglementaires récentes au niveau français et européen, l’interopérabilité et le rôle de régulation de l’Agence évoluent fortement :</p>
-
-<div>
-    <ul>
-        <li>A travers le <b>Ségur numérique</b> Vague 1 ont été mis en place de manière massive les « canaux » de partage et d’échange de données de santé via MES/DMP et la MSSanté. Si la consultation du DMP dans les logiciels des PS sera développée / améliorée avec la Vague 2, le focus devrait ainsi se porter <b>à court terme sur le développement de cas d’usage</b> via le numérique en santé (et moins sur des sujets technique de mise en place de ces canaux) ;</li>
-        <li>Le rôle de l’Agence <b>en tant que régulateur</b> du numérique en santé sur les champs de l’interopérabilité, de la sécurité et de l’éthique a été confirmé, en particulier dans la mission de contrôle de conformité des solutions aux référentiels, ayant vocation à être complété à court terme par un dispositif de sanction ;</li>
-        <li><b>La mise en œuvre de l’EEDS et d’un futur cadre européen de l’interopérabilité</b>, impliquant de promouvoir le cadre déjà mis en œuvre au niveau national, mais aussi d’assurer la transition vers le future cadre européen. Il sera aussi nécessaire de poursuivre le développement des outils permettant de valider de manière automatique la conformité des solutions des ENS ;</li>
-        <li><b>Le développement des EDS</b> (Entrepôts de Données de Santé) et de l’usage secondaire des données de santé, porté aussi fortement par l’EEDS, met directement en exergue le besoin de qualité des données numériques de santé, et donc d’interopérabilité ;</li>
-        <li><b>L’IA en santé</b> ouvre aussi des perspectives particulièrement stimulantes pour l’interopérabilité</li>
-    </ul>
-</div>
-
-<p>Alors que le CI-SIS existe depuis de nombreuses années, que la gouvernance a déjà été revue, il apparait ainsi important de s’engager dans une évolution de la doctrine du CI-SIS et de sa gouvernance via des propositions d’adaptation et de renforcement, dans une approche :</p>
-
-<div>
-    <ul>
-        <li>résolument volontariste, afin de répondre concrètement aux enjeux et fortes attentes des prochains mois et années du numérique en santé</li>
-        <li>dans la continuité, en capitalisant sur les efforts déjà consentis et les réussites du CI-SIS.</li>
-    </ul>
-</div>
-
-<h3 id="glossaire">Glossaire</h3>
-
-<p>Les termes suivants sont utilisés dans ce document et peuvent nécessiter des besoins de précisions.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Terme</th>
-      <th>Définition</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>CGTS</td>
-      <td>Centre de Gestion des Terminologies de Santé. C’est le guichet national de diffusion des terminologies en usage en France.</td>
-    </tr>
-    <tr>
-      <td>Terminologies</td>
-      <td>Ensemble des ressources sémantiques telles que les terminologies, classifications, nomenclatures, ontologies, jeux de valeurs, alignements sémantiques etc.</td>
-    </tr>
-    <tr>
-      <td>Interopérabilité syntaxique ou technique</td>
-      <td>capacité de différents systèmes ou applications à échanger des données en respectant un même format et des protocoles standardisés (ex : XML, JSON, HL7 v2, HL7 FHIR). Elle garantit que les données peuvent être correctement envoyées, reçues et traitées, mais sans assurer qu’elles aient le même sens pour tous les systèmes. L’interopérabilité sémantique intervient ensuite pour donner un sens commun aux données échangées.</td>
-    </tr>
-    <tr>
-      <td>Interopérabilité sémantique</td>
-      <td>capacité des systèmes à interpréter et comprendre les données échangées de manière identique et cohérente. Elle repose sur des vocabulaires contrôlés, des ontologies et des terminologies (ex : SNOMED CT, LOINC) pour assurer une compréhension commune du sens des informations échangées.</td>
-    </tr>
-    <tr>
-      <td>Volet du CI-SIS</td>
-      <td>spécification d’interopérabilité qui peut être au format PDF ou guide d’implémentation (IG)</td>
-    </tr>
-    <tr>
-      <td>IHE</td>
-      <td>Integrated The Healthcare Enterprise, initiative internationale qui a pour but d’améliorer l’interopérabilité dans le domaine de la santé.</td>
-    </tr>
-    <tr>
-      <td>Profil IHE</td>
-      <td>Les profils IHE décrivent des solutions spécifiques aux problèmes d’interopérabilité. Les profils précisent comment les « acteurs » utilisent les normes/standards pour traiter un cs d’utilisation spécifique des soins de santé.</td>
-    </tr>
-  </tbody>
-</table>
 
 
 
@@ -408,7 +229,7 @@ The interoperability framework for health information systems (CI-SIS) sets the 
             <tr>
               <td style="text-align:left">&#xA0;
 
-                <a href="toc.html">&lt;prev</a>
+                <a href="up-externe.html">&lt;prev</a>
 
               </td>
               <td style="text-align:center">
@@ -416,7 +237,7 @@ The interoperability framework for health information systems (CI-SIS) sets the 
               </td>
               <td style="text-align:right">&#xA0;
 
-                <a href="doctrine.html">next&gt;</a>
+                <a href="artifacts.html">next&gt;</a>
 
               </td>
             </tr>

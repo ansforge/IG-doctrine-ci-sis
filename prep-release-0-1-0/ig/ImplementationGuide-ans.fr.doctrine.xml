@@ -10,7 +10,7 @@
   <name value="DoctrineCISIS"/>
   <title value="Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS)"/>
   <status value="draft"/>
-  <date value="2025-06-25T16:19:41+00:00"/>
+  <date value="2025-06-25T16:43:12+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -550,6 +550,14 @@
         </extension>
         <nameUrl value="up-externe.html"/>
         <title value="Unité de production externe"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="change-log.html"/>
+        </extension>
+        <nameUrl value="change-log.html"/>
+        <title value="Historique des versions"/>
         <generation value="markdown"/>
       </page>
     </page>

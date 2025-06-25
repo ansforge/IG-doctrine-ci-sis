@@ -22,7 +22,7 @@ Cette gouvernance répond aux objectifs suivants :
         <li>Couvrir l’ensemble du périmètre cible de l’interopérabilité : MOS, NOS et spécifications d’interopérabilité aspects syntaxiques, aspects sémantiques, tests d’interopérabilité ; </li>
         <li>Définir des bonnes pratiques pour la mise en œuvre de l’interopérabilité en France, précisées dans la doctrine du CI-SIS ;</li>
         <li>Développer des processus d’évolution du périmètre du CI-SIS afin d’inclure des nouveaux cas d’usage du domaine sanitaire, médico-social, médico-administratif et social ; </li>
-        <li>Définir les modalités de coopération avec des unités de production externes (UP_Externes) dans l’objectif de sous-traiter tout ou partie d’une spécification d’interopérabilité du CI-SIS dans le respect des règles définies par la doctrine du CI-SIS ; </li>
+        <li>Définir les modalités de coopération avec des unités de production externes (UP Externes) dans l’objectif de sous-traiter tout ou partie d’une spécification d’interopérabilité du CI-SIS dans le respect des règles définies par la doctrine du CI-SIS ; </li>
         <li>Tenir compte des standards internationaux matures, largement utilisés et maintenus. </li>
     </ul>
 </div>
@@ -40,10 +40,12 @@ La collaboration avec ces partenaires externes est encadrée par l’établissem
 
 <div>
     <ul>
-        <li>D’un Contrat_Cadre_UP_Syntaxe relatif à la production de volets du CI-SIS ;</li>
-        <li>D’un Contrat_Cadre_UP_Sémantique relatif à la mise à disposition de terminologies</li>
+        <li>D’un Contrat Cadre relatif à la production de volets du CI-SIS ;</li>
+        <li>D’un Contrat Cadre relatif à la mise à disposition de terminologies</li>
     </ul>
 </div>
+
+Plus de détails sur les UP externes sont disponibles [ici](./up-externe.html).
 
 ### Positionnement des comités au sein du processus
 

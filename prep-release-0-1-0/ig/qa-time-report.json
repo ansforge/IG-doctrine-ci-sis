@@ -1,49 +1,49 @@
 {
-  "date" : "Wed, 25 Jun, 2025 16:43:35 +0000",
+  "date" : "Thu, 26 Jun, 2025 14:35:51 +0000",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
       "name" : "/fsh-generated/resources/ImplementationGuide-ans.fr.doctrine.json",
-      "size" : 2871,
+      "size" : 2877,
       "processes" : [
         {
           "activity" : "load",
-          "start" : 23,
-          "length" : 38
+          "start" : 22,
+          "length" : 36
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 24,
-          "length" : 13
+          "start" : 23,
+          "length" : 14
         },
         {
           "activity" : "generateNarratives",
-          "start" : 24,
-          "length" : 90
+          "start" : 23,
+          "length" : 99
         },
         {
           "activity" : "validate",
-          "start" : 24,
-          "length" : 7008
+          "start" : 23,
+          "length" : 6951
         },
         {
           "activity" : "generate1",
-          "start" : 31,
-          "length" : 78
+          "start" : 37,
+          "length" : 93
         },
         {
           "activity" : "generate2",
-          "start" : 32,
-          "length" : 89
+          "start" : 38,
+          "length" : 87
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 39,
+          "start" : 46,
           "length" : 3
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 42,
+          "start" : 49,
           "length" : 2
         }
       ]

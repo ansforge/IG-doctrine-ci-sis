@@ -1,6 +1,6 @@
 ### version 0.1.0
 
-**Version intégrant les retours de [concertation](https://participez.esante.gouv.fr/project/mise-a-jour-de-la-gouvernance-et-de-la-doctrine-du-ci-sis/presentation/presentation)**
+**Version intégrant le traitement de retours de [concertation](https://participez.esante.gouv.fr/project/mise-a-jour-de-la-gouvernance-et-de-la-doctrine-du-ci-sis/presentation/presentation)**
 
 * Modification de la [section 1.1.1 Les enjeux du développement du CI-SIS](https://interop.esante.gouv.fr/ig/doctrine/#les-enjeux-du-d%C3%A9veloppement-du-ci-sis) ([24](https://github.com/ansforge/IG-doctrine-ci-sis/issues/24))
 * Modification de la [section 1.1.3 Glossaire](https://interop.esante.gouv.fr/ig/doctrine/#glossaire) ([25](https://github.com/ansforge/IG-doctrine-ci-sis/issues/25))

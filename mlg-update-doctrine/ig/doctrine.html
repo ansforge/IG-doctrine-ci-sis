@@ -56,7 +56,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS)</span>
             <br/>
-            <span style="display:inline-block;">0.1.0-ballot - public-comment
+            <span style="display:inline-block;">0.1.0-ballot - ci-build
 
 
 
@@ -255,13 +255,13 @@ Cette gouvernance est conçue pour faciliter et maîtriser la multiplication des
 <p>Dans l’optique de réduire cette diversité, les profils internationaux ont pour vocation de guider la mise en œuvre des normes et standards généraux dans le contexte de cas d’usage identifiés. C’est le cas par exemple des profils WS ou SAML qui détaillent la mise en œuvre des standards correspondants pour des cas d’usage génériques d’échange entre systèmes d’information.
 Les profils internationaux peuvent également être plus détaillés pour être adaptés à un domaine en particulier. Les organisations internationales HL7, IHE et Continua Alliance, par exemple, produisent des profils adaptés aux cas d’usage du domaine de la santé.</p>
 
-<p>Enfin, les profils nationaux ont pour objectif d’adapter aux contextes nationaux les profils internationaux lorsqu’ils existent ou, à défaut, les normes et standards internationaux techniques et sémantiques. En France, le <a href="https://www.numerique.gouv.fr/publications/interoperabilite">Référentiel Général d’Interopérabilité (RGI)</a> constitue par exemple une adaptation nationale pour des cas d’usage génériques d’échange entre systèmes d’information. Il est censé être en adéquation avec le Cadre d’interopérabilité européen (European Interoperability Framework – EIF).</p>
+<p>Enfin, les profils nationaux ont pour objectif d’adapter aux contextes nationaux les profils internationaux lorsqu’ils existent ou, à défaut, les normes et standards internationaux techniques et sémantiques. En France, le <a href="https://www.numerique.gouv.fr/publications/interoperabilite">Référentiel Général d’Interopérabilité (RGI)</a> constitue par exemple une adaptation nationale pour des cas d’usage génériques d’échange entre systèmes d’information. Il est censé être en adéquation avec le <a href="https://ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf">cadre d’interopérabilité européen</a> (<a href="https://ec.europa.eu/isa2/eif_en/">European Interoperability Framework – EIF</a>).</p>
 
 <p>Dans le domaine de la santé, le CI-SIS regroupe les profils opérationnels correspondant aux cas d’usage français. Il est basé sur des profils IHE ou des guides d’implémentation HL7 FHIR internationaux lorsqu’ils existent ou, à défaut, sur des normes et standards internationaux.</p>
 
 <p>Dans le futur, il est possible que le CI-SIS soit également basé sur des spécifications publiées par d’autres organisations qui font autorité au niveau international telles que l’OMS, les accélérateurs de projets européens/internationaux ou au niveau national avec des organisations telles que <a href="http://www.edess.org/joomla/index.php">EDESS</a> ou <a href="https://www.interopsante.org/">InteropSanté</a>. Cette dernière possibilité pourrait être envisagée uniquement pour des standards nationaux ouverts et libres de droits.</p>
 
-<p>Le CI-SIS est également en cohérence avec les orientations du RGI et du <a href="https://ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf">cadre d’interopérabilité européen</a> (European Interoperabilty Framework – EIF) et identifie formellement les cas où les spécificités des cas d’usage santé nécessitent de s’en écarter.</p>
+<p>Le CI-SIS est également en cohérence avec les orientations du <a href="https://www.numerique.gouv.fr/publications/interoperabilite">RGI</a> et du <a href="https://ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf">cadre d’interopérabilité européen</a> (<a href="https://ec.europa.eu/isa2/eif_en/">European Interoperability Framework – EIF</a>). Cependant les profils exposés par le CI-SIS peuvent s’écarter de ces orientations pour répondre aux spécificités de l’écosystème français lorsque cela est nécessaire.</p>
 
 <div style="text-align: center;" class="figure">
     <img src="positionnement-profil-fr.jpg" alt="CP" style="width:80%;" title="Exemple (non exhaustif) de positionnement de profils français et internationaux par rapport aux normes et standards"/>
@@ -549,7 +549,8 @@ Il est constitué d’un ensemble de spécifications qui définit les informatio
 
 <div>
     <ul>
-        <li>A. Analyse métier du cas d’usage, modélisation des échanges entre SI conformément à la [méthodologie d’élaboration des spécifications fonctionnelles des échanges](./elaboration.html), et choix de terminologie(s) de référence répondant au cas d’usage étudié selon les principes de la doctrine sémantique du CI-SIS ;</li>
+
+        <li>A. Analyse métier du cas d’usage, modélisation des échanges entre SI conformément à la <a href="./elaboration.html">méthodologie d’élaboration des spécifications fonctionnelles des échanges</a>, et choix de terminologie(s) de référence répondant au cas d’usage étudié selon les principes de la doctrine sémantique ;</li>
         <li>B. Concertation publique sur la spécification fonctionnelle des échanges (intégrant les choix de terminologies) ;</li>
         <li>C. Choix de la norme ou du standard syntaxique selon les principes de la doctrine syntaxique du CI-SIS ;</li>
         <li>D. Rédaction des spécifications techniques d’interopérabilité par correspondance entre les échanges modélisés et la syntaxe cible assortie des règles de mise en œuvre tel que définies dans la norme ou le standard choisi ;</li>
@@ -765,7 +766,7 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
 
 <h7 id="langage-modelisation">Choisir un langage de modélisation</h7>
 
-<p><a name="l1509">​</a>Cette activité est en relation avec le principe #4 sur <a href="#processus-conception-logiciel">l’adoption d’un processus de conception logiciel</a> énoncé en amont. Le langage de modélisation standard choisi pour illustrer les étapes de conception et de structuration des artéfacts de connaissances médicales issues des GBPC dans la doctrine du SI-CM est le langage standard UML version 2.0 <a href="#ref22">22</a>.</p>
+<p><a name="l1524">​</a>Cette activité est en relation avec le principe #4 sur <a href="#processus-conception-logiciel">l’adoption d’un processus de conception logiciel</a> énoncé en amont. Le langage de modélisation standard choisi pour illustrer les étapes de conception et de structuration des artéfacts de connaissances médicales issues des GBPC dans la doctrine du SI-CM est le langage standard UML version 2.0 <a href="#ref22">22</a>.</p>
 
 <p>Ce choix est justifié pour plusieurs raisons</p>
 <div>
@@ -1018,7 +1019,7 @@ La doctrine du SI-CM peut-être synthétisée ainsi</p>
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 26, 2025 08:25+0000">2025-06-26</span>
+          IG &copy; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 26, 2025 08:44+0000">2025-06-26</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

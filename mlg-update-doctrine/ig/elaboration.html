@@ -56,7 +56,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Doctrine et gouvernance du cadre d&#39;interopérabilité des systèmes d&#39;informations en santé (CI-SIS)</span>
             <br/>
-            <span style="display:inline-block;">0.1.0-ballot - public-comment
+            <span style="display:inline-block;">0.1.0-ballot - ci-build
 
 
 
@@ -280,7 +280,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Le but de cette étape est de placer l’étude dans son contexte et d’identifier le ou les processus collaboratifs du périmètre de cette étude.</p>
 
-<p>Si les informations de contexte s’avèrent insuffisantes à cette étape, il est tout à fait possible de passer à l’étape 2, en définissant les processus collaboratifs du périmètre de l’étude. Une fois les processus collaboratifs définis, il est envisageable de reprendre l’étape 1 en les rassemblant en groupes de processus. Il est également possible de revenir l’étape 1 à tout moment, quelle que soit l’étape en cours de spécification.</p>
+<p>Si les informations de contexte s’avèrent insuffisantes à cette étape, il est tout à fait possible de passer à l’<a href="elaboration.html#etape-2--d%C3%A9finition-des-processus-collaboratifs">étape 2</a>, en définissant les processus collaboratifs du périmètre de l’étude. Une fois les processus collaboratifs définis, il est envisageable de reprendre l’étape 1 en les rassemblant en groupes de processus. Il est également possible de revenir à l’étape 1 à tout moment, quelle que soit l’étape en cours de spécification.</p>
 
 <p>Une fois identifiés, les processus sont représentés dans un diagramme de paquetages.</p>
 
@@ -294,7 +294,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Le paquetage <strong>«GroupeProcessus»</strong> est composé d’un ou plusieurs processus métier collaboratifs.</p>
 
-<p>Le paquetage <strong>«Processus»</strong> représente le processus métier collaboratif qui est décrit à partir de l’étape 2. A noter que le périmètre de l’étude concerne des processus qui peuvent être présents dans un seul groupe de processus ou répartis dans plusieurs groupes de processus.</p>
+<p>Le paquetage <strong>«Processus»</strong> représente le processus métier collaboratif qui est décrit à partir de l’<a href="elaboration.html#etape-2--d%C3%A9finition-des-processus-collaboratifs">étape 2</a>. A noter que le périmètre de l’étude concerne des processus qui peuvent être présents dans un seul groupe de processus ou répartis dans plusieurs groupes de processus.</p>
 
 <h5 id="règles-applicables">Règles applicables</h5>
 
@@ -310,7 +310,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h5 id="exemple">Exemple</h5>
 
-<p>Le diagramme de paquetages de la ci-dessous est extrait de l’étude “Cercle de soins”. Le processus collaboratif faisant partie du périmètre de l’étude est indiqué en bleu sur ce diagramme.</p>
+<p>Le diagramme de paquetages ci-dessous est extrait de l’étude “Cercle de soins”. Le processus collaboratif faisant partie du périmètre de l’étude est indiqué en bleu sur ce diagramme.</p>
 
 <div class="figure" style="text-align: center;">
     <img src="ex-cds.png" alt="CP" title="Organisation du contexte métier de l’étude « Cercle de soins »" style="width:50%;" />
@@ -319,8 +319,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h4 id="etape-2--définition-des-processus-collaboratifs">Etape 2 : définition des processus collaboratifs</h4>
 
-<p>Les processus métier collaboratifs ont été identifiés à l’étape 1 “Organisation du contexte métier”. Le but de l’étape 2 est de les décrire.
-Cette modélisation est une vue macroscopique des processus qui sont représentés au moyen de diagrammes de cas d’utilisation UML. Dans cette étape, l’action la plus importante consiste à identifier, définir et relier les acteurs aux processus.</p>
+<p>Les processus métier collaboratifs ont été identifiés à l’<a href="elaboration.html#etape-1--organisation-du-contexte-m%C3%A9tier">étape 1 “Organisation du contexte métier”</a>. Le but de l’étape 2 est de les décrire.
+Cette modélisation est une vue macroscopique des processus qui sont représentés au moyen de diagrammes de cas d’utilisation UML.</p>
+
+<p>Dans cette étape, l’action la plus importante consiste à <strong>identifier, définir et relier les acteurs aux processus</strong>.</p>
 
 <p>D’éventuelles dépendances entre les processus peuvent être formalisées par des :</p>
 
@@ -332,8 +334,9 @@ Cette modélisation est une vue macroscopique des processus qui sont représent�
     </ul>
 </div>
 
-<p>Toutefois, l’exercice ne doit pas être poussé trop loin. Si ces notions d’héritage, d’inclusion et d’extension semblent incontournables, il faut néanmoins avant d’y recourir, revoir la liste des processus et vérifier qu’elle est pertinente.
-Un diagramme de cas d’utilisation contient un à plusieurs cas d’utilisation ainsi que les acteurs impliqués. Chaque cas d’utilisation correspond à un processus métier collaboratif. Les caractéristiques du cas d’utilisation sont détaillées à la suite du diagramme.</p>
+<p>Toutefois, l’exercice ne doit pas être poussé trop loin. Si ces notions d’héritage, d’inclusion et d’extension semblent incontournables, il faut néanmoins avant d’y recourir, revoir la liste des processus et vérifier qu’elle est pertinente.</p>
+
+<p>Un diagramme de cas d’utilisation contient un à plusieurs cas d’utilisation ainsi que les acteurs impliqués. Chaque cas d’utilisation correspond à un processus métier collaboratif. Les caractéristiques du cas d’utilisation sont détaillées à la suite du diagramme.</p>
 
 <h5 id="description-des-acteurs">Description des acteurs</h5>
 
@@ -430,9 +433,9 @@ Un diagramme de cas d’utilisation contient un à plusieurs cas d’utilisation
 
 <h4 id="etape-3--identification-des-flux">Etape 3 : identification des flux</h4>
 
-<p>Les processus métier collaboratifs ont été identifiés à l’étape 1 “Organisation du contexte métier”, puis définis à l’étape 2 “Définition des processus collaboratifs”. Le but de l’étape 3 est de décrire le comportement des acteurs stéréotypés <strong>«Rôle»</strong> identifiés à l’étape 2 et de préciser les flux échangés par ces acteurs <strong>«Rôle»</strong>.</p>
+<p>Les processus métier collaboratifs ont été identifiés à l’<a href="elaboration.html#etape-1--organisation-du-contexte-m%C3%A9tier">étape 1 “Organisation du contexte métier”</a>, puis définis à l’étape 2 “Définition des processus collaboratifs”. Le but de l’étape 3 est de décrire le comportement des acteurs stéréotypés <strong>«Rôle»</strong> identifiés à l’<a href="elaboration.html#etape-2--d%C3%A9finition-des-processus-collaboratifs">étape 2</a> et de préciser les flux échangés par ces acteurs <strong>«Rôle»</strong>.</p>
 
-<p>Il est préconisé de modéliser chaque processus métier collaboratif identifié à l’étape 2, par un diagramme d’activité UML. Le résultat de l’étape 3 est un ensemble de diagrammes d’activité. Chaque diagramme est composé d’acteurs <strong>«Rôle»</strong> (représentés par des travées), d’actions et de flux.</p>
+<p>Il est préconisé de modéliser chaque processus métier collaboratif identifié à l’<a href="elaboration.html#etape-2--d%C3%A9finition-des-processus-collaboratifs">étape 2</a>, par un diagramme d’activité UML. Le résultat de l’étape 3 est un ensemble de diagrammes d’activité. Chaque diagramme est composé d’acteurs <strong>«Rôle»</strong> (représentés par des travées), d’actions et de flux.</p>
 
 <p>Cette modélisation peut être faite, si souhaité, par un diagramme BPMN ou un diagramme de séquence UML. Le diagramme BPMN offre plus d’options de modélisation que le diagramme d’activité UML. Il est donc possible de réduire les options de modélisation BPMN à celles préconisées par la méthode.</p>
 
@@ -444,7 +447,7 @@ Un diagramme de cas d’utilisation contient un à plusieurs cas d’utilisation
 
 <p>Chaque acteur est représenté sur le diagramme par une travée appelée aussi partition, couloir ou ligne d’eau. Une travée rassemble les actions, nœuds de contrôle et flux sous la responsabilité de cet acteur.</p>
 
-<p>Les acteurs représentés sont ceux décrits sous le stéréotype “ Rôle “, à l’étape 2.</p>
+<p>Les acteurs représentés sont ceux décrits sous le stéréotype “ Rôle “, à l’<a href="elaboration.html#etape-2--d%C3%A9finition-des-processus-collaboratifs">étape 2</a>.</p>
 
 <h5 id="description-des-actions">Description des actions</h5>
 
@@ -509,7 +512,7 @@ Un diagramme de cas d’utilisation contient un à plusieurs cas d’utilisation
 
 <div>
     <ul>
-        <li>Les noms des flux doivent être écrits au singulier et respecter la convention de nommage [UpperCamelCase](https://fr.wikipedia.org/wiki/CamelCase) ;</li>
+        <li>Les noms des flux doivent être écrits au singulier et respecter la convention de nommage <a href="https://fr.wikipedia.org/wiki/CamelCase">UpperCamelCase</a>;</li>
         <li>Les articles, propositions, etc. ainsi que les accents doivent être retirés des noms des flux ;</li>
         <li>Les actions doivent commencer par un verbe à l’infinitif ;</li>
         <li>Les noms des acteurs doivent suivre la convention suivante : " InstanceActeur : RoleActeur " ; seul   RoleActeur » est à renseigner.</li>
@@ -542,8 +545,9 @@ Le diagramme des acteurs/transactions regroupe l’ensemble des acteurs impliqu�
     </ul>
 </div>
 
-<p>Lorsqu’un même flux d’informations est identifié dans plusieurs processus, ou plusieurs fois dans le même processus, le tableau compte alors autant de lignes que de fois où le flux est identifié.
-Remarque : Un même flux d’informations évoluant dans le temps peut être constitué d’instances différentes. Par exemple, un dossier de sinistre d’assurance circule entre plusieurs acteurs et est rempli au fur et à mesure de l’avancée dans le processus. Le tableau est alors constitué de plusieurs lignes pour le même flux. Il est alors recommandé par la suite, à partir de l’étape 5, de factoriser ces instances et de ne considérer, qu’un seul flux regroupant toutes les informations nécessaires au déroulement du processus.</p>
+<p>Lorsqu’un même flux d’informations est identifié dans plusieurs processus, ou plusieurs fois dans le même processus, le tableau compte alors autant de lignes que de fois où le flux est identifié.</p>
+
+<p><strong>Remarque :</strong> Un même flux d’informations évoluant dans le temps peut être constitué d’instances différentes. Par exemple, un dossier de sinistre d’assurance circule entre plusieurs acteurs et est rempli au fur et à mesure de l’avancée dans le processus. Le tableau est alors constitué de plusieurs lignes pour le même flux. Il est alors recommandé par la suite, à partir de l’étape 5, de factoriser ces instances et de ne considérer, qu’un seul flux regroupant toutes les informations nécessaires au déroulement du processus.</p>
 
 <p>Exemple du tableau de synthèse de l’ensemble des flux d’information dans le contexte du volet « Cercle de soins » :</p>
 
@@ -759,13 +763,13 @@ Remarque : Un même flux d’informations évoluant dans le temps peut être con
     </tbody>
 </table>
 
-<p>(Note 1) : dans le cas où l’acteur supporte l’option Création des acteurs du cercle de soins, il doit également supporter obligatoirement l’option Création du cercle de soins.</p>
+<p><strong>(Note 1) :</strong> dans le cas où l’acteur supporte l’option Création des acteurs du cercle de soins, il doit également supporter obligatoirement l’option Création du cercle de soins.</p>
 
 <p>Le même principe s’applique aux autres acteurs identifiés pour lesquels une ou plusieurs options ont été identifiées.</p>
 
 <p>Enfin, il est possible également de préciser les groupements entre les acteurs identifiés par l’étude fonctionnelle et d’autres acteurs définis en dehors du volet en construction mais déjà décrits dans d’autres volets du CI-SIS ou dans d’autres spécifications de portée internationale.</p>
 
-<p>Les étapes 1, 2, 3 et 4 font l’objet d’une harmonisation du contenu d’une spécification d’interopérabilité, définissant ainsi un plan type des spécifications d’interopérabilité qui s’appliqué également aux guides d’implémentation (y compris les IG FHIR).</p>
+<p>Les étapes 1, 2, 3 et 4 font l’objet d’une harmonisation du contenu d’une spécification d’interopérabilité, définissant ainsi un plan type des spécifications d’interopérabilité qui s’appliqué également aux guides d’implémentation (y compris les guides d’implémentation FHIR).</p>
 
 <p>Tout volet du CI-SIS, quel que soit son format doit contenir les sections suivantes (sous forme de parties dans le cas d’une spécification PDF ou d’onglets dans le cas d’un guide d’implémentation) :</p>
 
@@ -802,7 +806,7 @@ Remarque : Un même flux d’informations évoluant dans le temps peut être con
 
 <h4 id="etape-4--identification-des-concepts-véhiculés-dans-les-flux-dinformation">Etape 4 : identification des concepts véhiculés dans les flux d’information</h4>
 
-<p>Les flux d’informations échangés par les acteurs dans les processus métier collaboratifs ont été identifiés et décrits à l’étape 3. Le but de l’étape 4 est d’identifier les concepts métier véhiculés dans les flux et de les associer aux concepts du modèle des objets de santé (MOS). Le MOS est un ensemble de concepts, décrits de manière homogène et neutre vis-à-vis des technologies. Il offre une description commune et mutualisée des informations traitées dans les systèmes d’information et les échanges.</p>
+<p>Les flux d’informations échangés par les acteurs dans les processus métier collaboratifs ont été identifiés et décrits à l’<a href="elaboration.html#etape-3--identification-des-flux">étape 3</a>. Le but de l’étape 4 est d’identifier les concepts métier véhiculés dans les flux et de les associer aux concepts du modèle des objets de santé (MOS). Le MOS est un ensemble de concepts, décrits de manière homogène et neutre vis-à-vis des technologies. Il offre une description commune et mutualisée des informations traitées dans les systèmes d’information et les échanges.</p>
 
 <p>Cette étape est découpée en deux sous-étapes :</p>
 
@@ -812,11 +816,12 @@ Remarque : Un même flux d’informations évoluant dans le temps peut être con
         <li>Sous-étape 4.2 : Correspondance entre les concepts métier identifiés et les concepts du MOS.</li>
     </ul>
 </div>
-<h5 id="identification-des-concepts">Identification des concepts</h5>
+
+<h5 id="sous-étape-41--identification-des-concepts">Sous-étape 4.1 : Identification des concepts</h5>
 
 <p>L’identification des concepts métier véhiculés dans chacun des flux est un exercice d’inventaire qui nécessite une collecte des informations auprès du métier, flux par flux.
-D’un point de vue pratique dans cette étape, les concepts métier sont tous identifiés à des classes UML, quel que soit leur devenir, classe ou attribut, dans les étapes suivantes de l’étude. Ils respectent les conventions de nommage des classes du MOS, définies à l’étape 5.
-Le résultat de cette approche est consigné dans des tableaux qui listent, pour chaque flux, les concepts métier véhiculés et leur définition (voir Figure 15).</p>
+D’un point de vue pratique dans cette étape, les concepts métier sont tous identifiés à des classes UML, quel que soit leur devenir, classe ou attribut, dans les étapes suivantes de l’étude. Ils respectent les conventions de nommage des classes du MOS, définies à l’<a href="elaboration.html#etape-5--modélisation-des-flux-dinformation">étape 5</a>.
+Le résultat de cette approche est consigné dans des tableaux qui listent, pour chaque flux, les concepts métier véhiculés et leur définition (voir exemple dans le tableau ci-dessous).</p>
 
 <p>Exemple :</p>
 
@@ -852,7 +857,7 @@ Le résultat de cette approche est consigné dans des tableaux qui listent, pour
 
 <p>Tableau : Extrait des concepts métier présents dans l’étude « Cercle de soins »</p>
 
-<h5 id="identification-des-classes-génériques">Identification des classes génériques</h5>
+<h5 id="sous-étape-42-identification-des-classes-génériques">Sous-étape 4.2 :Identification des classes génériques</h5>
 
 <p>Une des principales difficultés lors de la modélisation des informations d’un échange est de ne pas réinventer à chaque fois une modélisation différente pour ces mêmes informations. Il faut, par exemple, veiller à représenter les informations relatives à “une personne physique” de la même façon dans chaque projet.
 Le but de cette partie est d’identifier, pour chaque concept métier, les composants du MOS les plus pertinents à réutiliser lors de la modélisation du flux, à partir des tableaux des concepts métier définis lors de la sous-étape 4.1.</p>
@@ -892,7 +897,7 @@ Il n’y a pas de règle pour la mise en correspondance entre un concept métier
 
 <p><strong>Construction du tableau de mise en correspondance</strong></p>
 
-<p>La démarche s’applique pour chacun des concepts métier identifiés, que ce concept devienne une classe ou un ou plusieurs attributs. Suite à cette analyse, il est possible de construire un tableau de correspondance entre le concept métier et le concept MOS associé (voir Figure 18).</p>
+<p>La démarche s’applique pour chacun des concepts métier identifiés, que ce concept devienne une classe ou un ou plusieurs attributs. Suite à cette analyse, il est possible de construire un tableau de correspondance entre le concept métier et le concept MOS associé (voir tableau ci-dessous).</p>
 
 <p>Ce tableau contient les éléments suivants :</p>
 
@@ -995,8 +1000,9 @@ Il n’y a pas de règle pour la mise en correspondance entre un concept métier
 
 <h4 id="etape-5--modélisation-des-flux-dinformation">Etape 5 : modélisation des flux d’information</h4>
 
-<p>Les concepts véhiculés par les flux d’informations ont été identifiés à l’étape 4. Le but de cette étape est d’élaborer le modèle sous tendu par chaque flux à partir des concepts métier et des classes et attributs existants dans le MOS.
-Le modèle sous tendu par chaque flux d’information est modélisé par un diagramme de classes UML. Cette représentation formalisée du flux doit prendre en compte les deux exigences suivantes :</p>
+<p>Les concepts véhiculés par les flux d’informations ont été identifiés à l’<a href="elaboration.html#etape-4--identification-des-concepts-véhiculés-dans-les-flux-dinformation">étape 4</a>. Le but de cette étape est d’élaborer le modèle sous tendu par chaque flux à partir des concepts métier et des classes et attributs existants dans le MOS.</p>
+
+<p>Le modèle sous tendu par chaque flux d’information est modélisé par un diagramme de classes UML. Cette représentation formalisée du flux doit prendre en compte les deux exigences suivantes :</p>
 
 <div>
     <ul>
@@ -1007,13 +1013,15 @@ Le modèle sous tendu par chaque flux d’information est modélisé par un diag
 
 <h5 id="modélisation-des-flux">Modélisation des flux</h5>
 
-<p>Le but de cette étape est d’établir la modélisation de chaque flux en utilisant les concepts identifiés à l’étape précédente. Cette modélisation est le résultat de cinq opérations.
-Remarque : Le cas particulier des flux de recherche est traité à la suite de la modélisation des flux afin de lier les critères de recherche aux classes et attributs identifiés.</p>
+<p>Le but de cette étape est d’établir la modélisation de chaque flux en utilisant les concepts identifiés à l’étape précédente. Cette modélisation est le résultat de cinq opérations que nous allons détailler dans cette section.</p>
+
+<p><strong>Remarque :</strong> Le cas particulier des flux de recherche est traité à la suite de la modélisation des flux afin de lier les critères de recherche aux classes et attributs identifiés.</p>
 
 <p><strong>Première opération : choix de la racine</strong></p>
 
-<p>Le modèle du flux a toujours comme point de départ une classe unique, appelée la classe racine. Elle reprend le nom du flux identifié à l’étape 3. Elle n’a pas d’attribut.
-Les noms des éléments du modèle respectent les conventions de nommage du MOS, à savoir :</p>
+<p>Le modèle du flux a toujours comme point de départ une classe unique, appelée la classe racine. Elle reprend le nom du flux identifié à l’<a href="elaboration.html#etape-3--identification-des-flux">étape 3</a>. Elle n’a pas d’attribut.</p>
+
+<p>Les noms des éléments du modèle respectent les conventions de nommage du MOS, à savoir :</p>
 
 <div>
     <ul>
@@ -1077,110 +1085,84 @@ Les noms des éléments du modèle respectent les conventions de nommage du MOS,
 
 <p><strong>Illustration des flux modélisés – Diagramme d’objets</strong></p>
 
-<p>Le résultat est constitué par un diagramme de classes par flux, appelé modèle du flux, accompagné de la documentation des classes, attributs et règles.</p>
+<p>Le résultat est constitué par un diagramme d’objets par flux, appelé modèle du flux, accompagné de la documentation des classes, attributs et règles.</p>
 
 <p>Le modèle du flux est neutre de toute syntaxe ; il est la base des évolutions fonctionnelles. Il est ensuite transformé, automatiquement ou non, dans la syntaxe choisie par le projet au cours de l’<a href="./choix-standard.html">étude des Normes et standards</a>. Cette syntaxe peut faire partie des standards du cadre d’interopérabilité des systèmes d’information de santé (CI-SIS).</p>
 
-<p>Le diagramme contient les classes sélectionnées du MOS et restreintes ainsi que de nouvelles classes propres à la description fonctionnelle. Chaque attribut est défini par un type de donnée et des cardinalités, les attributs de type “Code” sont associés à leur nomenclature ; cette dernière information figure dans la documentation du diagramme de classes.</p>
+<p>Le diagramme contient les classes sélectionnées du MOS et restreintes ainsi que de nouvelles classes propres à la description fonctionnelle. Chaque attribut est défini par un type de donnée et des cardinalités, les attributs de type “Code” sont associés à leur nomenclature ; cette dernière information figure dans la documentation du diagramme d’objets.</p>
 
-<p>L’exemple du diagramme de classe “Flux 1 - CreationCercleSoins” illustre la construction du modèle d’un flux. Pour plus de lisibilité dans cet exemple, les classes issues du MOS ont été identifiées à l’aide du symbole *. Il est complété par le diagramme d’objet correspondant en Figure 19.</p>
-
-<p>Le diagramme de classes n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir Figure ci-dessous).</p>
+<p>L’exemple du diagramme d’objets <strong>“Diagramme d’objets du flux 1 - CreationCercleSoins”</strong> illustre la construction du modèle d’un flux. Pour plus de lisibilité dans cet exemple, les classes issues du MOS ont été identifiées à l’aide du symbole *. Il est complété par le diagramme d’objet correspondant.</p>
 
 <div class="figure" style="text-align: center;">
     <img src="flux1-creation-cds.png" alt="CP" title="Flux 1 - création CDS" style="width:80%;" />
-    <figcaption><b>Flux 1 - création CDS</b></figcaption>
+    <figcaption><b>Diagramme d'objets du flux 1 - CreationCercleSoins</b></figcaption>
 </div>
 
-<p><strong>Classe « CercleSoins »</strong></p>
+<!-- **Classe « CercleSoins »**
 
-<p>Le Cercle de Soins comprend toutes les personnes (Professionnel ou Personne Tierce) et Entités qui participent à la prise en charge et aux actions de coordination du parcours de santé d’un Usager. Le Cercle de Soins possède un statut (actif, inactif…), une date de début, une date de fin et une date de mise à jour.</p>
+Le Cercle de Soins comprend toutes les personnes (Professionnel ou Personne Tierce) et Entités qui participent à la prise en charge et aux actions de coordination du parcours de santé d’un Usager. Le Cercle de Soins possède un statut (actif, inactif…), une date de début, une date de fin et une date de mise à jour.
 
-<table>
-  <thead>
-    <tr>
-      <th>Nom</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>idCercleSoins : [1..1] Identifiant</td>
-      <td>Identifiant du cercle de soins.</td>
-    </tr>
-    <tr>
-      <td>dateCreation : [1..1] Date</td>
-      <td>Date de création du cercle de soin.</td>
-    </tr>
-    <tr>
-      <td>dateMAJ : [1..*] Date</td>
-      <td>Date de mise à jour du cercle de soin.</td>
-    </tr>
-    <tr>
-      <td>dateFin : [1..1] string</td>
-      <td>Date de fin d’existence du cercle de soins.</td>
-    </tr>
-    <tr>
-      <td>statut : [1..1] string</td>
-      <td>Statut du cercle de soin (actif, inactif, …).</td>
-    </tr>
-    <tr>
-      <td>metadonnee : [1..1] Metadonnee</td>
-      <td>Informations relatives à la gestion des classes et des données.</td>
-    </tr>
-  </tbody>
-</table>
+| Nom | Description |
+| --- | --- |
+| idCercleSoins : [1..1] Identifiant | Identifiant du cercle de soins. |
+| dateCreation : [1..1] Date | Date de création du cercle de soin. |
+| dateMAJ : [1..*] Date | Date de mise à jour du cercle de soin.|
+| dateFin : [1..1] string | Date de fin d'existence du cercle de soins. |
+| statut : [1..1] string | Statut du cercle de soin (actif, inactif, ...).|
+| metadonnee : [1..1] Metadonnee | Informations relatives à la gestion des classes et des données. |
 
-<p><strong>Classe « PersonnePriseCharge »</strong></p>
+**Classe « PersonnePriseCharge »**
 
-<p>Personne physique bénéficiaire de soins, d’examens, d’actes de prévention ou de services. Selon le contexte, la personne prise en charge peut être un patient ou un usager.</p>
+Personne physique bénéficiaire de soins, d'examens, d'actes de prévention ou de services. Selon le contexte, la personne prise en charge peut être un patient ou un usager.
+
+Le tableau suivant est extrait du modèle de flux « flux 1 – CreationCercleSoin »
 
 <table style="border-collapse:collapse;border:none;">
     <tbody>
         <tr>
             <td style="width: 226.55pt;border: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;"><span style="color:#404040;font-style:italic;"><strong><span style="color:#4F81BD;">Nom</span></strong></span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="color:#404040;font-style:italic;"><strong><span style="color:#4F81BD;">Nom</span></strong></span></p>
             </td>
             <td style="width: 226.55pt;border-top: 1pt solid windowtext;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-image: initial;border-left: none;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;"><span style="color:#404040;font-style:italic;"><strong><span style="color:#4F81BD;">Description</span></strong></span></p>
+                <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:0cm;text-align:center;line-height:normal;font-size:13px;font-family:"Calibri",sans-serif;'><span style="color:#404040;font-style:italic;"><strong><span style="color:#4F81BD;">Description</span></strong></span></p>
             </td>
         </tr>
         <tr>
             <td style="width: 226.55pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">idPersonnePriseCharge : [1..1] Identifiant&nbsp;</span></p>
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>idPersonnePriseCharge : [1..1] Identifiant&nbsp;</span></p>
             </td>
             <td style="width: 226.55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">Identifiant(s) de la personne prise en charge (identifiants de sant&eacute;, identifiants locaux, etc.).&nbsp;</span></p>
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>Identifiant(s) de la personne prise en charge (identifiants de sant&eacute;, identifiants locaux, etc.).&nbsp;</span></p>
             </td>
         </tr>
         <tr>
             <td style="width: 226.55pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">adresseCorrespondance : [1..1] Adresse&nbsp;</span></p>
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>adresseCorrespondance : [1..1] Adresse&nbsp;</span></p>
             </td>
             <td style="width: 226.55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">Adresse(s) de correspondance de la personne prise en charge.&nbsp;</span></p>
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>Adresse(s) de correspondance de la personne prise en charge.&nbsp;</span></p>
             </td>
         </tr>
         <tr>
             <td style="width: 226.55pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">telecommunication : [1..*] Telecommunication&nbsp;</span></p>
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>telecommunication : [1..*] Telecommunication&nbsp;</span></p>
             </td>
             <td style="width: 226.55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">Adresse(s) de t&eacute;l&eacute;communication de la personne prise en charge (num&eacute;ro de t&eacute;l&eacute;phone, adresse email, URL, etc.).&nbsp;</span></p>
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>Adresse(s) de t&eacute;l&eacute;communication de la personne prise en charge (num&eacute;ro de t&eacute;l&eacute;phone, adresse email, URL, etc.).&nbsp;</span></p>
             </td>
         </tr>
         <tr>
             <td style="width: 226.55pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">metadonnee : [1..1] Metadonnee&nbsp;</span></p>
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>metadonnee : [1..1] Metadonnee&nbsp;</span></p>
             </td>
             <td style="width: 226.55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;vertical-align: top;">
-                <p style="margin:0cm;font-size:16px;font-family:&quot;Arial&quot;,sans-serif;color:black;text-align:justify;"><span style="font-size:13px;font-family:&quot;Calibri&quot;,sans-serif;">Informations relatives &agrave; la gestion des classes et des donn&eacute;es.&nbsp;</span></p>
+                <p style='margin:0cm;font-size:16px;font-family:"Arial",sans-serif;color:black;text-align:justify;'><span style='font-size:13px;font-family:"Calibri",sans-serif;'>Informations relatives &agrave; la gestion des classes et des donn&eacute;es.&nbsp;</span></p>
             </td>
         </tr>
     </tbody>
-</table>
+</table> -->
 
-<p>Tableaut extrait du modèle de flux « flux 1 – CreationCercleSoin »</p>
+<p>Le diagramme d’objets n’est pas approprié pour formaliser un flux de recherche. Ce diagramme est remplacé par un tableau qui contient pour chaque critère de recherche, sa description ainsi que son caractère obligatoire (voir table <strong>“Tableau des critères de recherche du « Flux de recherche : Flux 2 – RechercheCercleSoins »”</strong>).</p>
 
 <p><strong>Flux de recherche : Flux 2 – RechercheCercleSoins</strong></p>
 
@@ -1226,13 +1208,15 @@ Les noms des éléments du modèle respectent les conventions de nommage du MOS,
   </tbody>
 </table>
 
-<p>Tableau des critères de recherche du « Flux de recherche : Flux 2 – RechercheCercleSoins »</p>
+<div class="figure" style="text-align: center;">
+    <figcaption><b>Tableau des critères de recherche du « Flux de recherche : Flux 2 – RechercheCercleSoins »</b></figcaption>
+</div>
 
 <p><strong>Diagramme d’objet du flux 1 – CreationCercleSoins</strong></p>
 
 <div class="figure" style="text-align: center;">
     <img src="diagramme-cds.png" alt="CP" title="Diagramme d’objet du flux 1 – CreationCercleSoins**" style="width:80%;" />
-    <figcaption><b>Diagramme d’objet du flux 1 – CreationCercleSoins**</b></figcaption>
+    <figcaption><b>Exemples d'instances respectant le diagramme d’objet du flux 1 </b></figcaption>
 </div>
 
 <h3 id="cas-spécifique-des-mises-à-jour-des-spécifications">Cas spécifique des mises à jour des spécifications</h3>
@@ -1371,7 +1355,7 @@ Les noms des éléments du modèle respectent les conventions de nommage du MOS,
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 26, 2025 08:25+0000">2025-06-26</span>
+          IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.doctrine#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 26, 2025 08:44+0000">2025-06-26</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
             Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

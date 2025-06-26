@@ -2,7 +2,7 @@ L'interopérabilité est la capacité des systèmes à communiquer entre eux, au
 
 Pour faciliter le partage et l'accès de la donnée de santé, il est nécessaire de construire un langage de données informatique partagé par tous et adapté aux cas d’usage traités. La construction d’un langage commun pertinent et opérationnel, qui réponde efficacement aux besoins identifiés, nécessite une concertation large avec l’ensemble des acteurs de l’écosystème : professionnels de santé, acteurs techniques, décideurs politiques. Cette collaboration est nécessaire pour définir et prioriser une feuille de route, puis élaborer et promouvoir une spécification. La clé de la réussite de l'interopérabilité est de fédérer un maximum d'acteurs afin de valoriser et généraliser l'usage d'une spécification tout en s'appuyant sur les travaux internationaux de standardisation pour une réutilisation maximale des travaux déjà effectués.
 
-Au niveau du développement d'un logiciel, l'interopérabilité doit être pensée au plus tôt, au moment de sa conception afin d'être "interoperable by design", car une fois mes interfaces graphiques développées et corrélées aux flux propriétaires, il est bien plus coûteux de faire l'évolution dans l'autre sens. 
+Au niveau du développement d'un logiciel, l'interopérabilité doit être pensée au plus tôt, au moment de sa conception afin d'être "interoperable by design", car une fois les interfaces graphiques développées et corrélées aux flux propriétaires, il est bien plus coûteux de faire l'évolution dans l'autre sens. 
 A noter, l'interopérabilité est souvent confondue avec référencement, mais ces termes ne sont pas synonymes. Bien que l'interopérabilité puisse être une exigence dans le cadre d'un référencement, elle se distingue principalement par sa capacité à faciliter le partage et la réutilisation des données.
 
 L'objectif de cette page est de fournir à l'écosystème une vision sur l'évolution des standards d'interopérabilité déployés en France, notamment ceux utilisés par le CI-SIS, dans les programmes nationaux comme le Ségur du Numérique en Santé et les établissements. Cette trajectoire est vouée à évoluer car les travaux sont constants au niveau international et européen. On peut citer par exemple les actes d'exécution du règlement EEDS qui se baseront a priori sur le standard FHIR R4 dans un premier temps mais dont le choix pourrait évoluer.
@@ -15,25 +15,69 @@ L'interopérabilité fait partie des trois piliers du déploiement de la e-Sant�
     <ul>
         <li><b>La <a href="https://interop.esante.gouv.fr/evs/home.seam">plateforme de tests gazelle</a></b> permet à chaque concepteur de logiciels de tester sa conformité aux spécifications d'interopérabilité du CI-SIS.</li>
         <li><b>Le Serveur Multi Terminologique (SMT)</b> est un portail web permettant l'accès à l'ensemble des terminologies, jeux de valeurs et alignements à utiliser en France. Il dispose d'un site web et d'une API pour accéder informatiquement à ces informations. Le SMT est accessible à l’adresse <a href="https://smt.esante.gouv.fr/">(format rdf)</a>  ou <a href="https://smt.esante.gouv.fr/FHIR">(format FHIR)</a></li>
-        <li>L'ANS prône la démarche open source et publie la majorité de ses spécifications d'interopérabilité <b><a href="https://github.com/orgs/ansforge/dashboard">sur GitHub</a></b>. GitHub permet à n'importe qui d'accéder à notre code source et à remonter des erreurs ou de manquements dans une perspective d'amélioration continue.</li>
+        <li>L'ANS prône la démarche open source et publie de plus en plus ses travaux de spécifications d'interopérabilité <b><a href="https://github.com/orgs/ansforge/dashboard">sur GitHub</a></b>. GitHub permet à n'importe qui d'accéder à notre code source et à remonter des erreurs ou de manquements dans une perspective d'amélioration continue.</li>
         <li>L'ANS organise régulièrement des <b>projectathons</b>, évènement unique permettant à tous les éditeurs de se rencontrer et de tester ses interfaces d'interopérabilité de point-à-point. Notre plateforme de tests gazelle est utilisée dans le cadre de ces évènements.</li>
-        <li>L'ANS évangélise et sensibilise l'écosystème à travers de nombreux webinaires et interventions publiques ainsi qu'à travers sa page LinkedIn.</li>
+        <li>L'ANS évangélise et sensibilise l'écosystème à travers de nombreux webinaires et interventions publiques ainsi qu'à travers sa page <a href="https://www.linkedin.com/company/agence-du-numerique-en-sante/">LinkedIn</a>.</li>
     </ul>
 </div>
 
 ### Contexte européen
 
-Au niveau européen, l’interopérabilité des systèmes de santé repose sur une collaboration entre les États membres et l’adoption de standards communs dans le cadre de l’Espace Européen des Données de Santé (EEDS). Le règlement EEDS vise entre-autre à faciliter l’échange de données de santé, avec une attention particulière sur la protection des données et l’amélioration de la qualité des soins à travers l’Europe. Les actes d’exécution du règlement reposeront sur des standards internationaux pour la structuration et l’échange des données.
+Dans le cadre de la mise en œuvre de l’Espace Européen des Données de Santé (EEDS), plusieurs initiatives européennes ont été développées pour définir les fondations techniques de l’interopérabilité des systèmes de santé à l’échelle de l’Union européenne. Parmi elles, les projets Xt-EHR, ainsi que l'infrastructure MaSanté@UE et ses services associés jouent un rôle central.
 
-Dans ce cadre, des initiatives comme Xt-EHR (_eXtended Electronic Health Record_) et MaSanté@UE ont été développées pour promouvoir l’interopérabilité transfrontalière.
+#### Xt-EHR : vers un format européen commun fondé sur FHIR Document
 
-Xt-EHR a pour objectif de standardiser les dossiers de santé électroniques afin qu’ils soient compréhensibles et utilisables dans différents pays européens. Cela permet une continuité des soins pour les patients en déplacement au sein de l’UE. Cette initiative repose sur des protocoles comme FHIR et CDA pour structurer les données médicales de manière compatible entre les systèmes. Le développement de ces projets est crucial pour permettre un échange sécurisé et efficace d’informations médicales, contribuant à une continuité des soins transfrontaliers.
+Le projet Xt-EHR (_eXtended Electronic Health Record_) est une action conjointe européenne, soutenue par la Commission européenne, dont l’objectif principal est de définir un format commun d’échange de dossiers de santé électroniques. Ce format, appelé EEHRxF (_European Electronic Health Record Exchange Format_), constitue la base technique attendue pour les actes d’exécution du règlement EEDS.
 
-Le projet MaSanté@UE permet de faciliter l’échange des données de santé du citoyen européen dans le cadre de son parcours de soin en donnant au professionnel de santé l’accès dans sa langue aux données médicales du patient qu’il prend en charge. Il permet d’améliorer la prise en charge des citoyens lors de séjours à l’étranger. Ce projet soutient fortement l’utilisation de FHIR et de CDA pour garantir une interopérabilité maximale.
+Le projet fournit ainsi les spécifications normatives nécessaires à l’harmonisation des échanges de données de santé entre États membres, en s’appuyant sur des standards internationaux reconnus, notamment HL7 FHIR, tout en promouvant une convergence européenne sur les modèles de données et les jeux de valeurs utilisés.
 
-Des standards FHIR et le CDA sont au cœur de ces efforts, car ils permettent une approche modulaire et flexible de l'échange de données de santé. FHIR, en particulier, grâce à son approche moderne via des API REST, est privilégié pour des cas d’usage tels que le partage de Compte-rendu de laboratoire (_Lab Reports_) de Lettre de sortie d’hospitalisation (_Hospital Discharge Reports_), et de Compte-rendu d’imagerie médical (_Medical Imaging Reports_), permettant une réutilisation plus fluide et facile des données à travers différents systèmes de santé européens.
+Le format EEHRxF repose sur une approche documentaire normalisée. Il décrit un document structuré FHIR, construit autour de la ressource _Composition_, en accord avec le paradigme "Document" du standard HL7 FHIR. 
 
-Ces initiatives s’alignent avec la trajectoire nationale française en matière d’interopérabilité, renforçant la nécessité d’une harmonisation des standards et des pratiques au niveau international. L’adoption de standards comme FHIR R4 est encouragée pour assurer une cohérence entre les systèmes nationaux et européens, en prévision des actes d’exécution du règlement EEDS.
+##### Une exigence future du règlement EEDS
+
+Le règlement européen prévoit que tous les systèmes gérant des dossiers médicaux électroniques devront supporter le format EEHRxF pour permettre l’échange de données transfrontaliers. Cela fera du FHIR Document le socle réglementaire pour les principaux flux de données en santé : résumé du dossier patient, prescriptions, résultats de biologie, comptes rendus d’imagerie, et lettres de sortie.
+
+##### Une transformation de la trajectoire française (CI-SIS)
+
+Cette orientation européenne influence directement la stratégie nationale. À terme, les futurs volets de contenu du CI-SIS seront conçus nativement en FHIR Document, pour assurer une conformité totale avec les spécifications européennes. Une phase transitoire permettra un accompagnement des éditeurs pour faciliter l’adoption progressive du nouveau standard.
+
+Le projet Xt-EHR contribue à cette transformation en livrant :
+
+<div> 
+    <ul> 
+        <li>Des <strong>modèles logiques communs</strong> (_Logical Models_) pour les six catégories de données prioritaires du règlement EEDS ;</li> 
+        <li>Des <strong>Guides d’Implémentation FHIR (FHIR IGs)</strong> conformes au format EEHRxF pour chaque type de document échangé ;</li> 
+        <li>Des <strong>outils de validation</strong>, des démonstrateurs techniques et des phases de test interétatiques, notamment à travers les <em>projectathons européens</em>.</li> 
+    </ul> 
+</div>
+
+Xt-EHR joue donc un rôle clé dans la préparation technique de l’EEDS. Il structure la convergence entre trajectoires nationales et exigences européennes, en assurant une cohérence des standards syntaxiques (FHIR) et sémantiques (terminologies partagées) dans les services de santé numériques en Europe.
+
+#### MaSanté@UE : continuité des soins et accès multilingue aux données
+
+Le projet MaSanté@UE vise quant à lui à faciliter l’échange transfrontalier des données de santé pour les citoyens européens en situation de mobilité. Il permet aux professionnels de santé d’un état membre d’accéder, dans leur propre langue, aux informations médicales d’un patient provenant d’un autre État membre. Cela améliore significativement la qualité et la sécurité des soins lors de séjours à l’étranger.
+
+Ce projet s’appuie également sur les standards HL7 pour garantir une interopérabilité entre les systèmes nationaux. Il constitue l’un des premiers cas d’usage concrets des infrastructures de santé numérique paneuropéennes.
+
+#### Le rôle des standards dans cette convergence européenne
+
+Les standards HL7 sont au cœur de ces initiatives, car ils offrent une approche modulaire, extensible et soutenue par une large communauté internationale. FHIR, en particulier, grâce à son architecture fondée sur des API REST, est largement préféré pour les cas d’usage modernes tels que :
+
+<div> 
+    <ul> 
+        <li>Le partage de comptes rendus de biologie médicale (Lab Reports) ;</li> 
+        <li>Les lettres de sortie d’hospitalisation (Hospital Discharge Reports) ;</li> 
+        <li>Les comptes rendus d’imagerie médicale (Medical Imaging Reports).</li> 
+    </ul> 
+</div>
+
+Ces cas d’usage sont justement au cœur des travaux de standardisation du projet Xt-EHR.
+
+#### Un alignement croissant avec la stratégie française
+
+Ces initiatives européennes sont pleinement alignées avec la trajectoire nationale d’interopérabilité, portée par le CI-SIS et les travaux de l’ANS et d’Interop’Santé. Elles renforcent la nécessité d’une harmonisation des formats, des structures de données et des référentiels terminologiques au niveau européen.
+
+L’adoption coordonnée de FHIR R4 au niveau national s’inscrit dans cette dynamique. Elle vise à garantir la cohérence entre les systèmes français et européens et à anticiper la mise en œuvre des actes d’exécution du règlement EEDS.
 
 ### La trajectoire syntaxique
 
@@ -124,13 +168,13 @@ Prioriser la prise en charge du FHIR document est à ce point indéniable, de no
 
 Deux scénarios de déploiement de FHIR document ont été identifiés en France
 
-###### 1 Mettre en place une transformation entre les standards CDA et FHIR
+###### Scenario 1 : Mettre en place une transformation entre les standards CDA et FHIR
 
-Le premier scénario consiste à mettre un place un outil de transformation des documents CDA vers FHIR et inversement. Cependant, ce scénario nécessite de maintenir cet alignement dans le temps. Les techniques d'alignement sont complexes et lourdes à mettre un oeuvre avec un accroissement de la complexité pour chaque nouvelle version de spécification publiée. Par exemple, des [travaux italiens sur ce sujet](https://www.hl7.it/fhir/cda2fhir/) contiennent plusieurs dizaines de milliers de lignes. Il y a également des questionnements quant à la responsabilité : qui sera responsable du document en cas d'erreur de transformation ?
+Le premier scénario consiste à mettre un place un outil de transformation des documents CDA vers FHIR et inversement. Cependant, ce scénario nécessite de maintenir cet alignement dans le temps. Les techniques d'alignement sont complexes et lourdes à mettre en oeuvre avec un accroissement de la complexité pour chaque nouvelle version de spécification publiée. Par exemple, des [travaux italiens sur ce sujet](https://www.hl7.it/fhir/cda2fhir/) contiennent plusieurs dizaines de milliers de lignes. Il y a également des questionnements quant à la responsabilité : qui sera responsable du document en cas d'erreur de transformation ?
 
-Pour transformer les documents CDA des volets du CI-SIS vers FHIR, il faudrait que l'ensemble des spécifications CDA soient définies au format StructureDefinition pour utiliser le FHIR Mapping Language.
+Pour transformer les documents CDA des volets du CI-SIS vers FHIR, il faudrait que l'ensemble des spécifications CDA soient définies au format `StructureDefinition` pour utiliser le FHIR Mapping Language.
 
-###### 2 Permettre une utilisation concomitante de FHIR et de CDA le temps de la transition
+###### Scénario 2 : Permettre une utilisation concomitante de FHIR et de CDA le temps de la transition
 
 Cette solution permettrait une utilisation concomitante de FHIR et de CDA, où les spécifications seront publiées selon les deux modes. Cela permettrait une transition douce avec un timing au choix de chacun pour le passage vers FHIR Document, avec une date limite de décommissionnement de l'autorisation d'écriture en CDA dans le DMP.
 
@@ -138,19 +182,17 @@ Ainsi, au même titre que les documents CDA ne sont pas automatiquement transfor
 
 La difficulté reviendrait aux consommateurs qui devront, au moins pendant un temps, être capables de traiter deux formats différents : CDA et FHIR. Ce qui ne changerait pas de la situation actuelle finalement car les spécifications CDA évoluent elles aussi.
 
-###### Solution privilégiée 
+###### Solution privilégiée
 
-La solution qui semble se dessiner pour l'ANS et pour la commission européenne est de permettre une utilisation concomitante de FHIR et de CDA pour faire une transition douce, complétée d'une preuve de concept d'un mapping CDA - FHIR, générique, sans aller jusqu'à une spécification validée et utilisable en production, pour aider les éditeurs dans leur transition.
+l'ANS et la commission européenne privilégieront la solution numéro 2, qui consiste en une utilisation concomitante de FHIR et de CDA. Cette solution sera agrémentée d'une preuve de concept d’un mapping CDA - FHIR, générique à destination de l'écosystème.
 
-#### Le paradigme "Document" du DMP à compléter par les autres paradigmes
+#### Pourquoi il est nécessaire d'aller au delà du paradigme document en France ?
 
-En France, le cas d'usage "document" est bien connu, notamment dans le cadre du DMP : un document est un compte rendu médical signé et daté d'un patient.
+En France, le paradigme document est l'un des plus utilisés par l'écosystème, notamment dans le cadre du service DMP : un document est un compte rendu médical signé et daté à propos d'un patient. Il existe d'autres paradigmes à considérer tel que le paradigme message, le paradigne REST, la souscription, ... [La documentation de FHIR](https://www.hl7.org/fhir/exchanging.html) facilite la prise de décision en proposant un arbre de décision.
 
-Il existe pourtant trois autres paradigmes : le paradigme service, message et API.
+Par exemple, les trois API FHIR de Mon Espace Santé (Mesures de santé, Agenda et document) permettent d'accéder aux données via des requêtes REST.
 
-Il y a par exemple déjà actuellement les API Mesures de santé et Agenda de Mon Espace Santé où il y a des données accessibles via des requêtes REST sans document médical.
-
-Ainsi, il ne faudra pas négliger ce paradigme API REST pour certains cas d'usages s'y prêtant bien, comme par exemple une API de vaccination, une API Cercle de Soins, une API pour la diffusion des essais cliniques ouverts au recrutement. L'intérêt tout particulier de ce type d'API réside sur l'utilisation de critères de recherches standards définis par FHIR pour accéder à l'information d'intérêt simplement, sans superflu.
+Une étude approfondie du besoin est nécessaire pour identifier le paradigme idéal par cas d'usage sans partir de facto sur le paradigme document.
 
 ### La trajectoire sémantique
 
@@ -220,7 +262,7 @@ Il existe de nombreux défis au niveau de la trajectoire sémantique française
     </ul>
 </div>
 
-La réponse à ces défis est multiple
+La réponse à ces défis est multiple :
 
 Sur le plan technique
 
@@ -268,7 +310,7 @@ Elles sont suivies par les terminologies médicales de l’OMS (CIM 11 en déplo
 Les terminologies de cyto-anapathologie, des dispositifs médicaux, des expositions professionnelles et des actes suivent ensuite.
 La SNOMED CT adoptée par la France en 2023 est disponible sur le serveur depuis novembre 2023. Environ 50 téléchargements sont opérés mensuellement.
 
-Les priorités 2025 - 2027 : 
+**Les priorités 2025 - 2027 :**
 
 Sur le plan outillage et publication
 
@@ -319,4 +361,4 @@ IHE, HL7 International, HL7 Europe
 
 #### Les acteurs en charge de l'implémentation
 
-La CNAM (DMP, Mon Espace Santé), les éditeurs de logiciels de soin
+La CNAM (DMP, Mon Espace Santé), les éditeurs de logiciels de santé.

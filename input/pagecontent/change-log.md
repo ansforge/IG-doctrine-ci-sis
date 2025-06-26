@@ -14,7 +14,7 @@
 * Modification et restructuration de la page [Doctrine](./doctrine.html) ([34](https://github.com/ansforge/IG-doctrine-ci-sis/issues/34) et [44](https://github.com/ansforge/IG-doctrine-ci-sis/issues/44))
 * Suppression de la référence aux anciennes annexes de la [gouvernance](comitologie.html#gouvernance-rénovée-du-ci-sis) ([45](https://github.com/ansforge/IG-doctrine-ci-sis/issues/45))
 * Amélioration de la section "[UP-externes](./up-externe.html)" ([23](https://github.com/ansforge/IG-doctrine-ci-sis/issues/23))
-* Corrections mineures (typo, reformulation,etc) ([57](https://github.com/ansforge/IG-doctrine-ci-sis/pull/57))
+* Corrections mineures (typos, reformulations,etc) ([57](https://github.com/ansforge/IG-doctrine-ci-sis/pull/57))
 * Actualisation des chiffres SMT et ajout des chiffres FTS ([65](https://github.com/ansforge/IG-doctrine-ci-sis/issues/65))
 
 ### version 0.1.0-ballot

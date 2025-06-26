@@ -254,7 +254,7 @@ La trajectoire de l’interopérabilité sémantique est fondée sur la constitu
     </ul>
 </div>
 
-[Le catalogue actuel du serveur multiterminologies de l’ANS](https://smt.esante.gouv.fr/) se compose de 48 terminologies dont 28 sont publiées au format interopérable rdf.
+[Le catalogue actuel du serveur multiterminologies de l’ANS](https://smt.esante.gouv.fr/) se compose, en juin 2025, de 37 terminologies dont 33 sont publiées en syntaxe OWL (standard du W3C) et 29 disponibles sous forme de CodeSystem FHIR.
 Ce catalogue est complété par les Nomenclatures des objets de santé qui sont publiées au format FHIR sur le serveur FHIR associé au [SMT](https://ontoserver.csiro.au/ui/resource/CodeSystem)  
 14 761 téléchargements ont été opéré entre octobre 2023 et septembre 2024, soit un rythme de 1315 téléchargements mensuels.
 Le graphique ci-après présente les terminologies les plus téléchargées.

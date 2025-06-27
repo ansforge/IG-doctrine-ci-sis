@@ -1,15 +1,10 @@
 {
     "package-id" : "ans.fr.doctrine",
-    "version" : "0.1.0-ballot",
-    "path" : "https://interop.esante.gouv.fr/ig/doctrine/0.1.0-ballot",
+    "version" : "0.1.0",
+    "path" : "https://interop.esante.gouv.fr/ig/doctrine/0.1.0",
     "mode" : "milestone",
-    "status" : "release",
-    "sequence" : "for-comment",
-    "desc" : "Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS).",
-    "descmd" : "@release-notes.md",
-    "ci-build" : "https://ansforge.github.io/IG-doctrine-ci-sis/main/ig/",
-    "first": true,
-    "title": "Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS).",
-    "category" : "Documents",
-    "introduction" :  "Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS)."
+    "status" : "trial-use",
+    "sequence" : "Publications",
+    "desc" : "Version intégrant le traitement de retours de [concertation](https://participez.esante.gouv.fr/project/mise-a-jour-de-la-gouvernance-et-de-la-doctrine-du-ci-sis/presentation/presentation)",
+    "changes" : "change-log.html#version-010"
 }

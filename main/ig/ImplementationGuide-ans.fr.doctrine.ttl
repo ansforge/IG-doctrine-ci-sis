@@ -14,11 +14,11 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fr.doctrine</b></p><a name=\"ans.fr.doctrine\"> </a><a name=\"hcans.fr.doctrine\"> </a><h2>DoctrineCISIS</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine</pre></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0-ballot"] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "DoctrineCISIS"] ; # 
   fhir:title [ fhir:v "Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS)"] ; # 
-  fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-06-27T14:44:33+00:00"^^xsd:dateTime] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2025-06-30T07:56:13+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -95,7 +95,7 @@
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "ci-build"
+           fhir:v "trial-implementation"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -491,7 +491,7 @@
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "ci-build"
+           fhir:v "trial-implementation"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -1009,6 +1009,20 @@
            fhir:v "up-externe.html"^^xsd:anyURI
          ] ;
          fhir:title [ fhir:v "Unité de production externe" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "change-log.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "change-log.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "Historique des versions" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;

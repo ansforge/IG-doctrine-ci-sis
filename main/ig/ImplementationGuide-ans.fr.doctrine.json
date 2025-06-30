@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fr.doctrine</b></p><a name=\"ans.fr.doctrine\"> </a><a name=\"hcans.fr.doctrine\"> </a><h2>DoctrineCISIS</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine</pre></div>"
   },
   "url" : "https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine",
-  "version" : "0.1.0-ballot",
+  "version" : "0.1.0",
   "name" : "DoctrineCISIS",
   "title" : "Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS)",
-  "status" : "draft",
-  "date" : "2025-06-27T14:44:33+00:00",
+  "status" : "active",
+  "date" : "2025-06-30T07:56:13+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -68,7 +68,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "trial-implementation"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -358,7 +358,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "trial-implementation"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -722,6 +722,15 @@
         }],
         "nameUrl" : "up-externe.html",
         "title" : "Unité de production externe",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "change-log.html"
+        }],
+        "nameUrl" : "change-log.html",
+        "title" : "Historique des versions",
         "generation" : "markdown"
       }]
     },

@@ -7,11 +7,11 @@ title: Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'inf
 publisher:
   name: ANS
   url: https://esante.gouv.fr
-status: draft
-version: 0.1.0-ballot # shall conforms to Semantic Versioning https://fr.wiktionary.org/wiki/SemVer
+status: active
+version: 0.1.0 # shall conforms to Semantic Versioning https://fr.wiktionary.org/wiki/SemVer
 fhirVersion: 4.0.1
 copyrightYear: 2020+
-releaseLabel: ci-build
+releaseLabel: trial-implementation
 jurisdiction: urn:iso:std:iso:3166#FR "FRANCE"
 
 parameters:
@@ -38,6 +38,8 @@ pages:
         title: Expression des besoins (EBE) et gestion des Change Proposals (CP)
     up-externe.md:
         title: Unité de production externe
+    change-log.md:
+        title: "Historique des versions"
 
 
 menu:
@@ -53,4 +55,5 @@ menu:
         Interactions avec l'écosystème: interactions-ecosysteme.html
         Expression des besoins et Change Proposals: ebe-cp.html
         Unité de production externe: up-externe.html
+    Historique des versions: change-log.html
     Documentation des IGs: new-tab https://interop.esante.gouv.fr/ig/documentation/

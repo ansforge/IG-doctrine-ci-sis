@@ -13,11 +13,11 @@ Ce formulaire fait partie du corpus documentaire associé à cette gouvernance. 
 Il vous est possible de visualiser vos demandes en cours traitement, mais également celles émises par les autres acteurs en accédant au [tableau de bord dédié](https://github.com/orgs/ansforge/projects/39/views/2).
 
 **Il est fortement recommandé de prendre connaissance des demandes en cours avant de nous soumettre votre propre demande.**
-
+<!--
 <p style="background-color: #ffd733; border:1px solid grey; padding: 5px; max-width: 790px;">
 Une étude est en cours, afin de définir et mettre en place un outil pour le recueil des expressions de besoins. Cet outil devra alimenter un tableau de bord pour donner de la visiblité sur le traitement des expressions de besoins.
 </p>
-
+-->
 #### Gestion des expressions de besoins
 
 L'expression des besoins s'inscrit dans le processus d’élaboration des spécifications d’interopérabilité qui sont à l’origine du développement des conditions favorables à l’interopérabilité des systèmes.
@@ -77,11 +77,11 @@ Les procédures de consultation et de concertation:
 Une demande de Change Proposal (CP) peut être réalisée via [formulaire "Change Proposal template"](https://github.com/ansforge/CISIS-doctrine-gouvernance/issues/new?template=change-proposal-template.yml).
 
 Les suivi des demandes de CP est visible grâce à ce [tableau de bord dédié](https://github.com/orgs/ansforge/projects/39/views/1).
-
+<!--
 <p style="background-color: #ffd733; border:1px solid grey; padding: 5px; max-width: 790px;">
 Une étude est en cours, afin de définir et mettre en place un outil pour le recueil des CP et pour permettre les échanges. Cet outil devra alimenter un tableau de bord pour donner de la visiblité sur les CP.
 </p>
-
+-->
 #### Description du processus de traitement des CP
 
 Les CP sont identifiées en 2 catégories par le(s) analyste(s) :

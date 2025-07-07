@@ -3,11 +3,11 @@
   "name" : "DoctrineCISIS",
   "title" : "Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS)",
   "description" : null,
-  "status" : "active",
+  "status" : "draft",
   "package-id" : "ans.fr.doctrine",
-  "ig-ver" : "0.1.0",
-  "date" : "Mon, 07 Jul, 2025 15:08:03 +0000",
-  "dateISO8601" : "2025-07-07T15:08:03+00:00",
+  "ig-ver" : "0.1.1",
+  "date" : "Mon, 07 Jul, 2025 15:29:22 +0000",
+  "dateISO8601" : "2025-07-07T15:29:22+00:00",
   "errs" : 2,
   "warnings" : 4,
   "hints" : 0,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 822086144
+  "maxMemory" : 1165376504
 }

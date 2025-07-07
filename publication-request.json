@@ -1,10 +1,10 @@
 {
     "package-id" : "ans.fr.doctrine",
-    "version" : "0.1.0",
-    "path" : "https://interop.esante.gouv.fr/ig/doctrine/0.1.0",
-    "mode" : "milestone",
-    "status" : "trial-use",
+    "version" : "0.1.1",
+    "path" : "https://interop.esante.gouv.fr/ig/doctrine/0.1.1",
+    "mode" : "working",
+    "status" : "draft",
     "sequence" : "Publications",
     "desc" : "Version intégrant le traitement de retours de [concertation](https://participez.esante.gouv.fr/project/mise-a-jour-de-la-gouvernance-et-de-la-doctrine-du-ci-sis/presentation/presentation)",
-    "changes" : "change-log.html#version-010"
+    "changes" : "change-log.html#version-011"
 }

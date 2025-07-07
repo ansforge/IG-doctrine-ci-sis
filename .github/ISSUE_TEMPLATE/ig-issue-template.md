@@ -10,7 +10,7 @@ assignees: ''
 ## Description du problème
 
 
-## Fichier•s concerné•s
+## Fichier•s concerné•s ou lien•s
 
 
 ## Solution proposée

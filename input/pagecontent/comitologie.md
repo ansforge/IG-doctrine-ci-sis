@@ -128,7 +128,7 @@ Les objectifs de cette feuille de route sont :
     </ul>
 </div>
 
-L’ANS met à disposition de l’écosystème un outil de façon à afficher et partager cette [feuille de route](https://github.com/orgs/ansforge/projects/39/views/4) avec l’écosystème.
+L’ANS met à disposition un outil de façon à afficher et partager cette [feuille de route](https://github.com/orgs/ansforge/projects/39/views/4) avec l’écosystème.
 
 Le comité de pilotage se réunit trois fois par an :
 

@@ -9,8 +9,10 @@ Un acteur de l'écosystème peut devenir UP-externe :
 * sur proposition de l'ANS
 * ou en se proposant à l'ANS. L'ANS analysera alors sa candidature.
 
-L’ANS est de fait amenée à établir des conventions de partenariat ou contrats avec ces partenaires pour les [volets du CI-SIS](Contrat_Cadre_UP_Syntaxe.zip) ou pour la [mise à disposition de terminologies](Contrat_cadre_UP_Semantique.zip).
+L’ANS est de fait amenée à établir des conventions de partenariat ou contrats avec ces partenaires pour les volets du CI-SIS ou pour la mise à disposition de terminologies.
 Ces contrats visent à décrire les principes fondamentaux de collaboration et fonctionnement avec les unités de production.
+
+Les modèles de contrat sont accessibles [ici](up-externe.html#contrats-cadres).
 
 
 <blockquote class="stu-note">
@@ -85,7 +87,7 @@ L’UP s’engage par ailleurs à répondre aux questions qui lui seront transmi
 
 ### Contrats cadres
 
-Les contrats cadres sont téléchargeables aux liens suivants :
+Les modèles de contrats cadres sont téléchargeables aux liens suivants :
 
 * pour les [volets du CI-SIS](Contrat_Cadre_UP_Syntaxe.zip) 
 * pour la [mise à disposition de terminologies](Contrat_cadre_UP_Semantique.zip)

@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : ImplementationGuide ans.fr.doctrine</b></p><a name="ans.fr.doctrine"> </a><a name="hcans.fr.doctrine"> </a><h2>DoctrineCISIS</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine</pre></div>
   </text>
   <url value="https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine"/>
-  <version value="0.1.0-ballot"/>
+  <version value="0.1.1"/>
   <name value="DoctrineCISIS"/>
   <title value="Doctrine et gouvernance du cadre d'interopérabilité des systèmes d'informations en santé (CI-SIS)"/>
   <status value="draft"/>
-  <date value="2025-07-03T09:07:57+00:00"/>
+  <date value="2025-08-01T14:01:09+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -35,7 +35,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.4.0"/>
+    <version value="6.5.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -43,7 +43,7 @@
     </extension>
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
-    <version value="5.2.0"/>
+    <version value="5.3.0-ballot"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -255,7 +255,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.5.0"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#0.7.1"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -550,6 +550,14 @@
         </extension>
         <nameUrl value="up-externe.html"/>
         <title value="Unité de production externe"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="change-log.html"/>
+        </extension>
+        <nameUrl value="change-log.html"/>
+        <title value="Historique des versions"/>
         <generation value="markdown"/>
       </page>
     </page>

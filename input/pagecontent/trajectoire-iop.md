@@ -338,7 +338,7 @@ Sur le plan du développement et de l’amélioration du catalogue de terminolog
         <li>Amélioration continue du Ruim : incorporation des disponibilités des médicaments essentiels, dispensations particulières, médicaments facturés en sus des séjours hospitaliers, médicaments de rétrocession, compatibilité IDMP, virtualisation pour le cas d’usage dispensation par automate.</li>
         <li>Initiation d’un référentiel du DM  pour les cas d’usage  :  e-prescription DM,. Traçabilité du DM implantable, information la disponibilité des DMs critiques.</li>
         <li>Normes sémantiques en lien avec le parcours cancer (normalistion des jeux de valeur OSIRIS)</li>
-        <li>Norme s sémantique du dossier santé travail en vue de l’intégration du DSMT dans mon espace santé.</li>
+        <li>Normes sémantique du dossier santé travail en vue de l’intégration du DSMT dans mon espace santé.</li>
         <li>Passerelles terminologiques entre terminologies du médico-social et celles du secteurs santé.</li>
     </ul>
 </div>

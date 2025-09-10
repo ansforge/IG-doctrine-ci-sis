@@ -1,0 +1,9 @@
+[
+  {
+    "id" : "ans.fr.doctrine",
+    "type" : "ImplementationGuide",
+    "url" : "https://interop.esante.gouv.fr/ig/doctrine/ImplementationGuide/ans.fr.doctrine",
+    "version" : "0.1.1",
+    "name" : "DoctrineCISIS"
+  }
+]

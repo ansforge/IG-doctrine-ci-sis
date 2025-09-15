@@ -6,8 +6,8 @@
   "status" : "draft",
   "package-id" : "ans.fr.doctrine",
   "ig-ver" : "0.1.1",
-  "date" : "Tue, 09 Sep, 2025 12:16:48 +0000",
-  "dateISO8601" : "2025-09-09T12:16:48+00:00",
+  "date" : "Mon, 15 Sep, 2025 11:15:05 +0000",
+  "dateISO8601" : "2025-09-15T11:15:05+00:00",
   "errs" : 2,
   "warnings" : 4,
   "hints" : 0,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 1571789592
+  "maxMemory" : 1574100376
 }

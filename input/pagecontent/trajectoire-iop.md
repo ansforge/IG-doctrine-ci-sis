@@ -14,7 +14,7 @@ L'interopérabilité fait partie des trois piliers du déploiement de la e-Sant�
 <div>
     <ul>
         <li><b>La <a href="https://interop.esante.gouv.fr/evs/home.seam">plateforme de tests gazelle</a></b> permet à chaque concepteur de logiciels de tester sa conformité aux spécifications d'interopérabilité du CI-SIS.</li>
-        <li><b>Le Serveur Multi Terminologique (SMT)</b> est un portail web permettant l'accès à l'ensemble des terminologies, jeux de valeurs et alignements à utiliser en France. Il dispose d'un site web et d'une API pour accéder informatiquement à ces informations. Le SMT est accessible à l’adresse <a href="https://smt.esante.gouv.fr/">(format rdf)</a>  ou <a href="https://smt.esante.gouv.fr/FHIR">(format FHIR)</a></li>
+        <li><b>Le Serveur Multi Terminologique (SMT)</b> est un portail web permettant l'accès à l'ensemble des terminologies, jeux de valeurs et alignements à utiliser en France. Il dispose d'un site web et d'une API pour accéder informatiquement à ces informations. Le SMT est accessible à l’adresse <a href="https://smt.esante.gouv.fr/">(format rdf)</a>  ou <a href="https://smt.esante.gouv.fr/fhir">(format FHIR)</a></li>
         <li>L'ANS prône la démarche open source et publie de plus en plus ses travaux de spécifications d'interopérabilité <b><a href="https://github.com/orgs/ansforge/dashboard">sur GitHub</a></b>. GitHub permet à n'importe qui d'accéder à notre code source et à remonter des erreurs ou de manquements dans une perspective d'amélioration continue.</li>
         <li>L'ANS organise régulièrement des <b>projectathons</b>, évènement unique permettant à tous les éditeurs de se rencontrer et de tester ses interfaces d'interopérabilité de point-à-point. Notre plateforme de tests gazelle est utilisée dans le cadre de ces évènements.</li>
         <li>L'ANS évangélise et sensibilise l'écosystème à travers de nombreux webinaires et interventions publiques ainsi qu'à travers sa page <a href="https://www.linkedin.com/company/agence-du-numerique-en-sante/">LinkedIn</a>.</li>
@@ -338,7 +338,7 @@ Sur le plan du développement et de l’amélioration du catalogue de terminolog
         <li>Amélioration continue du Ruim : incorporation des disponibilités des médicaments essentiels, dispensations particulières, médicaments facturés en sus des séjours hospitaliers, médicaments de rétrocession, compatibilité IDMP, virtualisation pour le cas d’usage dispensation par automate.</li>
         <li>Initiation d’un référentiel du DM  pour les cas d’usage  :  e-prescription DM,. Traçabilité du DM implantable, information la disponibilité des DMs critiques.</li>
         <li>Normes sémantiques en lien avec le parcours cancer (normalistion des jeux de valeur OSIRIS)</li>
-        <li>Norme s sémantique du dossier santé travail en vue de l’intégration du DSMT dans mon espace santé.</li>
+        <li>Normes sémantiques du dossier santé travail en vue de l’intégration du DSMT dans mon espace santé.</li>
         <li>Passerelles terminologiques entre terminologies du médico-social et celles du secteurs santé.</li>
     </ul>
 </div>

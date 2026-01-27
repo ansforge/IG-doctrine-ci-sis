@@ -1,5 +1,5 @@
 {
-  "date" : "Wed, 10 Sep, 2025 14:20:23 +0000",
+  "date" : "Tue, 27 Jan, 2026 10:45:53 +0000",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
@@ -8,55 +8,432 @@
       "processes" : [
         {
           "activity" : "load",
-          "start" : 25,
-          "length" : 26
+          "start" : 28,
+          "length" : 36
+        },
+        {
+          "activity" : "scan",
+          "start" : 29,
+          "length" : 1
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 26,
-          "length" : 13
+          "start" : 29,
+          "length" : 17
         },
         {
           "activity" : "generateNarratives",
-          "start" : 26,
-          "length" : 81
-        },
-        {
-          "activity" : "validate",
-          "start" : 26,
-          "length" : 4470
-        },
-        {
-          "activity" : "validate",
-          "start" : 30,
-          "length" : 1
-        },
-        {
-          "activity" : "scanForUsageStats",
-          "start" : 38,
-          "length" : 1
-        },
-        {
-          "activity" : "generate1",
-          "start" : 38,
-          "length" : 79
-        },
-        {
-          "activity" : "generate2",
-          "start" : 40,
+          "start" : 29,
           "length" : 82
         },
         {
+          "activity" : "validate",
+          "start" : 29,
+          "length" : 11099
+        },
+        {
+          "activity" : "generate1",
+          "start" : 52,
+          "length" : 80
+        },
+        {
+          "activity" : "generate2",
+          "start" : 54,
+          "length" : 62
+        },
+        {
           "activity" : "generateValidationPack",
-          "start" : 50,
+          "start" : 60,
           "length" : 3
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 53,
+          "start" : 64,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "/fsh-generated/includes/menu.xml",
+      "size" : 2417,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
           "length" : 1
         }
       ]
+    },
+    {
+      "name" : "/input/data/features.yml",
+      "size" : 166
+    },
+    {
+      "name" : "/input/pagecontent/interactions-ecosysteme.md",
+      "size" : 5004
+    },
+    {
+      "name" : "/input/pagecontent/cycle-de-vie.md",
+      "size" : 13933,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/pagecontent/up-externe.md",
+      "size" : 6610
+    },
+    {
+      "name" : "/input/pagecontent/connaissance-medicale.md",
+      "size" : 41543,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "/input/pagecontent/choix-standard.md",
+      "size" : 23391,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/pagecontent/trajectoire-iop.md",
+      "size" : 37622,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "/input/pagecontent/doctrine.md",
+      "size" : 37794,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/pagecontent/ebe-cp.md",
+      "size" : 7491
+    },
+    {
+      "name" : "/input/pagecontent/comitologie.md",
+      "size" : 66592,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 3
+        }
+      ]
+    },
+    {
+      "name" : "/input/pagecontent/elaboration.md",
+      "size" : 79634,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/pagecontent/change-log.md",
+      "size" : 3338
+    },
+    {
+      "name" : "/input/pagecontent/impacts.md",
+      "size" : 169
+    },
+    {
+      "name" : "/input/pagecontent/index.md",
+      "size" : 12373
+    },
+    {
+      "name" : "/template/config",
+      "size" : 0
+    },
+    {
+      "name" : "/template/config/_config.yml",
+      "size" : 31
+    },
+    {
+      "name" : "/input/images",
+      "size" : 0
+    },
+    {
+      "name" : "/input/images/FIGURE 3  Instanciation du modèle de Rector et al. avec l’ensemble des standards utilisés dans le chemin nominal de la doctrine du SI-CM.png",
+      "size" : 70771,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/images/fhir-adoption-rate-change.png",
+      "size" : 31861
+    },
+    {
+      "name" : "/input/images/Figure 4 Diagramme d’activité UML pour illustrer les choix du chemin nominal de la doctrine du SI-CM et les possibles chemins secondaires.svg",
+      "size" : 45177
+    },
+    {
+      "name" : "/input/images/diagramme-cds.png",
+      "size" : 262873,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/images/2024 StateofFHIRSurveyResults_final.pdf",
+      "size" : 1955687,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 2
+        }
+      ]
+    },
+    {
+      "name" : "/input/images/gouvernance-2.png",
+      "size" : 109971
+    },
+    {
+      "name" : "/input/images/collab-cds-identification-flux.png",
+      "size" : 19021
+    },
+    {
+      "name" : "/input/images/semantique.png",
+      "size" : 109735
+    },
+    {
+      "name" : "/input/images/cycle-de-vie.png",
+      "size" : 262899
+    },
+    {
+      "name" : "/input/images/enonce_cinq_etoile.png",
+      "size" : 18341
+    },
+    {
+      "name" : "/input/images/ci-sis-logo.png",
+      "size" : 61365
+    },
+    {
+      "name" : "/input/images/anslogo.jpg",
+      "size" : 10482
+    },
+    {
+      "name" : "/input/images/niveaux-interop.png",
+      "size" : 837024,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/images/doctrine.png",
+      "size" : 125299
+    },
+    {
+      "name" : "/input/images/diagramme-acteurs-transaction.png",
+      "size" : 23053
+    },
+    {
+      "name" : "/input/images/gouvernance-3.png",
+      "size" : 76458
+    },
+    {
+      "name" : "/input/images/swot.png",
+      "size" : 42747
+    },
+    {
+      "name" : "/input/images/cds-ex-2.png",
+      "size" : 26132,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/images/fhir-documents.png",
+      "size" : 185344
+    },
+    {
+      "name" : "/input/images/sous-phase-evo.png",
+      "size" : 51145
+    },
+    {
+      "name" : "/input/images/ex-cds.png",
+      "size" : 14759
+    },
+    {
+      "name" : "/input/images/FIGURE 1  ENONCE SIMPLIFIE DES PRINCIPES FIVE STARS.png",
+      "size" : 18341
+    },
+    {
+      "name" : "/input/images/noeuds-controle.png",
+      "size" : 197001,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/images/Liste_Profils_IHE_Standards.xls",
+      "size" : 68096
+    },
+    {
+      "name" : "/input/images/Noeud-activité.png",
+      "size" : 77940
+    },
+    {
+      "name" : "/input/images/diagramme activite uml.svg",
+      "size" : 45177
+    },
+    {
+      "name" : "/input/images/niveaux-interop-sf.png",
+      "size" : 55085
+    },
+    {
+      "name" : "/input/images/gouvernance-4.png",
+      "size" : 78739
+    },
+    {
+      "name" : "/input/images/CI-SIS_FORMULAIRE_EXPRESSION DE BESOINS.docx",
+      "size" : 109903
+    },
+    {
+      "name" : "/input/images/processus-ttt-ebe.png",
+      "size" : 239993,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/images/phase-gouv.png",
+      "size" : 34184
+    },
+    {
+      "name" : "/input/images/positionnement-profil-fr.jpg",
+      "size" : 55262
+    },
+    {
+      "name" : "/input/images/Figure 2  Les modèles de l’architecture tri dimensionnel de Rector et al. et leurs interfaces.png",
+      "size" : 56686
+    },
+    {
+      "name" : "/input/images/docs-volet-cisis.png",
+      "size" : 34162
+    },
+    {
+      "name" : "/input/images/flux1-creation-cds.png",
+      "size" : 112912
+    },
+    {
+      "name" : "/input/images/search.svg",
+      "size" : 444
+    },
+    {
+      "name" : "/input/images/ttt-cp.png",
+      "size" : 425931,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/images/Tableau 1 les quatre couches de formats de représentation de la connaissance médicale selon Boxwala et al.png",
+      "size" : 103875
+    },
+    {
+      "name" : "/input/images/def-ttt-ebe.png",
+      "size" : 327622
+    },
+    {
+      "name" : "/input/images/CI-SIS_FORMULAIRE_Change_Proposal.docx",
+      "size" : 70596
+    },
+    {
+      "name" : "/input/images/gouvernance-1.png",
+      "size" : 62084
+    },
+    {
+      "name" : "/input/images/Contrat_Cadre_UP_Syntaxe.zip",
+      "size" : 687038,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/images/Figure 4 Diagramme d’activité UML pour illustrer les choix du chemin nominal de la doctrine du SI-CM et les possibles chemins secondaires.png",
+      "size" : 89918
+    },
+    {
+      "name" : "/input/images/Contrat_cadre_UP_Semantique.zip",
+      "size" : 566421,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 55,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/images/processus-ebe.png",
+      "size" : 172930
+    },
+    {
+      "name" : "/temp/pages/_includes/artifacts.xml",
+      "size" : 600
     }
   ]
 }
